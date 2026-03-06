@@ -9,26 +9,65 @@ function corsHeaders() {
   };
 }
 
-function parseBool(v) {
+function normaliseHeader(h) {
+  return String(h || "").trim().toLowerCase();
+}
+
+function toBool(v) {
   return String(v || "").trim().toLowerCase() === "true";
+}
+
+function toStr(v) {
+  return String(v ?? "").trim();
+}
+
+function toNum(v, fallback = 0) {
+  const n = Number(String(v ?? "").trim());
+  return Number.isFinite(n) ? n : fallback;
 }
 
 function splitCsv(v) {
   return String(v || "")
     .split(",")
-    .map(x => x.trim())
+    .map(x => String(x || "").trim())
     .filter(Boolean);
+}
+
+function rowToFields(headers, row) {
+  const out = {};
+  for (let i = 0; i < headers.length; i++) {
+    const key = normaliseHeader(headers[i]);
+    if (!key) continue;
+    out[key] = row[i] ?? "";
+  }
+  return out;
 }
 
 export default async function handler(req, res) {
   const headers = corsHeaders();
 
+  Object.entries(headers).forEach(([k, v]) => res.setHeader(k, v));
+
   if (req.method === "OPTIONS") {
-    Object.entries(headers).forEach(([k, v]) => res.setHeader(k, v));
     return res.status(204).end();
   }
 
   try {
+    const spreadsheetId = process.env.GOOGLE_SHEET_ID;
+    const range = process.env.GOOGLE_SHEET_RANGE || "Rules!A1:Z1000";
+
+    if (!spreadsheetId) {
+      return res.status(500).json({ error: true, message: "Missing GOOGLE_SHEET_ID" });
+    }
+
+    if (!process.env.GOOGLE_CLIENT_EMAIL) {
+      return res.status(500).json({ error: true, message: "Missing GOOGLE_CLIENT_EMAIL" });
+    }
+
+    if (!process.env.GOOGLE_PRIVATE_KEY) {
+      return res.status(500).json({ error: true, message: "Missing GOOGLE_PRIVATE_KEY" });
+    }
+
     const auth = new google.auth.GoogleAuth({
       credentials: {
         client_email: process.env.GOOGLE_CLIENT_EMAIL,
@@ -39,45 +78,81 @@ export default async function handler(req, res) {
 
     const sheets = google.sheets({ version: "v4", auth });
 
-    const spreadsheetId = process.env.GOOGLE_SHEET_ID;
-    const range = process.env.GOOGLE_SHEET_RANGE || "Rules!A1:H1000";
-
-    const resp = await sheets.spreadsheets.values.get({ spreadsheetId, range });
-    const values = resp.data.values || [];
-
-    const [headerRow, ...rows] = values;
-
-    const rules = (rows || []).map(row => {
-      const obj = {};
-      (headerRow || []).forEach((h, i) => (obj[h] = row[i] ?? ""));
-      return {
-        enabled: parseBool(obj.enabled),
-        ruleId: String(obj.rule_id || "").trim(),
-        productIds: splitCsv(obj.product_ids),
-        region: String(obj.region || "").trim().toUpperCase(),
-        message: String(obj.message || "").trim(),
-        startUtc: String(obj.start_utc || "").trim(),
-        endUtc: String(obj.end_utc || "").trim(),
-        priority: Number(obj.priority || 0)
-      };
+    const resp = await sheets.spreadsheets.values.get({
+      spreadsheetId,
+      range,
+      majorDimension: "ROWS"
     });
 
-    const cleaned = rules
-      .filter(r => r.enabled && r.ruleId && r.region && r.message && r.productIds.length && r.startUtc && r.endUtc)
-      .sort((a, b) => (b.priority || 0) - (a.priority || 0));
+    const values = resp.data.values || [];
+    if (!values.length) {
+      return res.status(200).json({
+        version: 1,
+        generatedAt: new Date().toISOString(),
+        rules: []
+      });
+    }
 
-    Object.entries(headers).forEach(([k, v]) => res.setHeader(k, v));
+    const headerRow = values[0] || [];
+    const rows = values.slice(1);
+
+    const required = ["enabled", "rule_id", "product_ids", "region", "message", "start_utc", "end_utc"];
+    const headerSet = new Set(headerRow.map(normaliseHeader));
+    const missing = required.filter(k => !headerSet.has(k));
+    if (missing.length) {
+      return res.status(200).json({
+        version: 1,
+        generatedAt: new Date().toISOString(),
+        rules: [],
+        warning: `Missing required headers: ${missing.join(", ")}`
+      });
+    }
+
+    const rules = [];
+
+    rows.forEach((row, idx) => {
+      if (!row || row.length === 0) return;
+
+      const fields = rowToFields(headerRow, row);
+
+      const rule = {
+        enabled: toBool(fields.enabled),
+        ruleId: toStr(fields.rule_id),
+        productIds: splitCsv(fields.product_ids).map(x => x.toUpperCase()),
+        region: toStr(fields.region),
+        message: toStr(fields.message),
+        startUtc: toStr(fields.start_utc),
+        endUtc: toStr(fields.end_utc),
+        priority: toNum(fields.priority, 0),
+        code: toStr(fields.code),
+        showCode: toBool(fields.show_code),
+        rowNumber: idx + 2
+      };
+
+      const isValid =
+        rule.enabled &&
+        rule.ruleId &&
+        rule.productIds.length > 0 &&
+        rule.region &&
+        rule.message &&
+        rule.startUtc &&
+        rule.endUtc;
+
+      if (isValid) rules.push(rule);
+    });
+
+    rules.sort((a, b) => (b.priority || 0) - (a.priority || 0));
+
     return res.status(200).json({
       version: 1,
       generatedAt: new Date().toISOString(),
-      rules: cleaned
+      rules
     });
   } catch (e) {
-    Object.entries(headers).forEach(([k, v]) => res.setHeader(k, v));
     return res.status(500).json({
       error: true,
       message: "Failed to read Google Sheet",
-      details: e.message
+      details: String(e?.message || e)
     });
   }
 }
