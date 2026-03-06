@@ -28,7 +28,7 @@ function toNum(v, fallback = 0) {
 
 function splitCsv(v) {
   return String(v || "")
-    .split(",")
+    .split(/[\n,]+/g)
     .map(x => String(x || "").trim())
     .filter(Boolean);
 }
@@ -45,28 +45,19 @@ function rowToFields(headers, row) {
 
 export default async function handler(req, res) {
   const headers = corsHeaders();
-
   Object.entries(headers).forEach(([k, v]) => res.setHeader(k, v));
 
-  if (req.method === "OPTIONS") {
-    return res.status(204).end();
-  }
+  if (req.method === "OPTIONS") return res.status(204).end();
 
   try {
     const spreadsheetId = process.env.GOOGLE_SHEET_ID;
     const range = process.env.GOOGLE_SHEET_RANGE || "Rules!A1:Z1000";
 
-    if (!spreadsheetId) {
-      return res.status(500).json({ error: true, message: "Missing GOOGLE_SHEET_ID" });
-    }
-
-    if (!process.env.GOOGLE_CLIENT_EMAIL) {
+    if (!spreadsheetId) return res.status(500).json({ error: true, message: "Missing GOOGLE_SHEET_ID" });
+    if (!process.env.GOOGLE_CLIENT_EMAIL)
       return res.status(500).json({ error: true, message: "Missing GOOGLE_CLIENT_EMAIL" });
-    }
-
-    if (!process.env.GOOGLE_PRIVATE_KEY) {
+    if (!process.env.GOOGLE_PRIVATE_KEY)
       return res.status(500).json({ error: true, message: "Missing GOOGLE_PRIVATE_KEY" });
-    }
 
     const auth = new google.auth.GoogleAuth({
       credentials: {
@@ -99,6 +90,7 @@ export default async function handler(req, res) {
     const required = ["enabled", "rule_id", "product_ids", "region", "message", "start_utc", "end_utc"];
     const headerSet = new Set(headerRow.map(normaliseHeader));
     const missing = required.filter(k => !headerSet.has(k));
+
     if (missing.length) {
       return res.status(200).json({
         version: 1,
@@ -118,14 +110,21 @@ export default async function handler(req, res) {
       const rule = {
         enabled: toBool(fields.enabled),
         ruleId: toStr(fields.rule_id),
+
         productIds: splitCsv(fields.product_ids).map(x => x.toUpperCase()),
+        excludeProductIds: splitCsv(fields.exclude_product_ids).map(x => x.toUpperCase()),
+        categoryKeywords: splitCsv(fields.category_keywords).map(x => x.toLowerCase()),
+
         region: toStr(fields.region),
         message: toStr(fields.message),
         startUtc: toStr(fields.start_utc),
         endUtc: toStr(fields.end_utc),
+
         priority: toNum(fields.priority, 0),
+
         code: toStr(fields.code),
         showCode: toBool(fields.show_code),
+
         rowNumber: idx + 2
       };
 
