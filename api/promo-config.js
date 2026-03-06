@@ -33,6 +33,28 @@ function splitCsv(v) {
     .filter(Boolean);
 }
 
+function isAllToken(v) {
+  const s = String(v || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[_\s]+/g, "");
+  return s === "all" || s === "global";
+}
+
+function normalisePidList(values) {
+  const list = (values || []).map(x => String(x || "").trim()).filter(Boolean);
+  if (!list.length) return [];
+  if (list.some(isAllToken)) return ["__ALL__"];
+  return list.map(x => x.toUpperCase());
+}
+
+function normaliseKeywordList(values) {
+  const list = (values || []).map(x => String(x || "").trim()).filter(Boolean);
+  if (!list.length) return [];
+  if (list.some(isAllToken)) return ["__ALL__"];
+  return list.map(x => x.toLowerCase());
+}
+
 function rowToFields(headers, row) {
   const out = {};
   for (let i = 0; i < headers.length; i++) {
@@ -87,7 +109,7 @@ export default async function handler(req, res) {
     const headerRow = values[0] || [];
     const rows = values.slice(1);
 
-    const required = ["enabled", "rule_id", "product_ids", "region", "message", "start_utc", "end_utc"];
+    const required = ["enabled", "rule_id", "region", "message", "start_utc", "end_utc"];
     const headerSet = new Set(headerRow.map(normaliseHeader));
     const missing = required.filter(k => !headerSet.has(k));
 
@@ -107,13 +129,23 @@ export default async function handler(req, res) {
 
       const fields = rowToFields(headerRow, row);
 
+      const productIdsRaw = splitCsv(fields.product_ids);
+      const excludeIdsRaw = splitCsv(fields.exclude_product_ids);
+      const categoryKeywordsRaw = splitCsv(fields.category_keywords);
+
+      const productIds = normalisePidList(productIdsRaw);
+      const excludeProductIds = normalisePidList(excludeIdsRaw);
+      const categoryKeywords = normaliseKeywordList(categoryKeywordsRaw);
+
+      const effectiveProductIds = productIds.length ? productIds : ["__ALL__"];
+
       const rule = {
         enabled: toBool(fields.enabled),
         ruleId: toStr(fields.rule_id),
 
-        productIds: splitCsv(fields.product_ids).map(x => x.toUpperCase()),
-        excludeProductIds: splitCsv(fields.exclude_product_ids).map(x => x.toUpperCase()),
-        categoryKeywords: splitCsv(fields.category_keywords).map(x => x.toLowerCase()),
+        productIds: effectiveProductIds,
+        excludeProductIds,
+        categoryKeywords,
 
         region: toStr(fields.region),
         message: toStr(fields.message),
@@ -131,7 +163,6 @@ export default async function handler(req, res) {
       const isValid =
         rule.enabled &&
         rule.ruleId &&
-        rule.productIds.length > 0 &&
         rule.region &&
         rule.message &&
         rule.startUtc &&
