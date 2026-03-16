@@ -55,6 +55,13 @@ function normaliseKeywordList(values) {
   return list.map(x => x.toLowerCase());
 }
 
+function normaliseCampaignSiteList(values) {
+  const list = (values || []).map(x => String(x || "").trim()).filter(Boolean);
+  if (!list.length) return [];
+  if (list.some(isAllToken)) return ["__ALL__"];
+  return list.map(x => x.toLowerCase());
+}
+
 function rowToFields(headers, row) {
   const out = {};
   for (let i = 0; i < headers.length; i++) {
@@ -75,11 +82,17 @@ export default async function handler(req, res) {
     const spreadsheetId = process.env.GOOGLE_SHEET_ID;
     const range = process.env.GOOGLE_SHEET_RANGE || "Rules!A1:Z1000";
 
-    if (!spreadsheetId) return res.status(500).json({ error: true, message: "Missing GOOGLE_SHEET_ID" });
-    if (!process.env.GOOGLE_CLIENT_EMAIL)
+    if (!spreadsheetId) {
+      return res.status(500).json({ error: true, message: "Missing GOOGLE_SHEET_ID" });
+    }
+
+    if (!process.env.GOOGLE_CLIENT_EMAIL) {
       return res.status(500).json({ error: true, message: "Missing GOOGLE_CLIENT_EMAIL" });
-    if (!process.env.GOOGLE_PRIVATE_KEY)
+    }
+
+    if (!process.env.GOOGLE_PRIVATE_KEY) {
       return res.status(500).json({ error: true, message: "Missing GOOGLE_PRIVATE_KEY" });
+    }
 
     const auth = new google.auth.GoogleAuth({
       credentials: {
@@ -132,10 +145,12 @@ export default async function handler(req, res) {
       const productIdsRaw = splitCsv(fields.product_ids);
       const excludeIdsRaw = splitCsv(fields.exclude_product_ids);
       const categoryKeywordsRaw = splitCsv(fields.category_keywords);
+      const campaignSiteRaw = splitCsv(fields.campaign_site);
 
       const productIds = normalisePidList(productIdsRaw);
       const excludeProductIds = normalisePidList(excludeIdsRaw);
       const categoryKeywords = normaliseKeywordList(categoryKeywordsRaw);
+      const campaignSite = normaliseCampaignSiteList(campaignSiteRaw);
 
       const effectiveProductIds = productIds.length ? productIds : ["__ALL__"];
 
@@ -146,6 +161,7 @@ export default async function handler(req, res) {
         productIds: effectiveProductIds,
         excludeProductIds,
         categoryKeywords,
+        campaignSite,
 
         region: toStr(fields.region),
         message: toStr(fields.message),
