@@ -503,7 +503,7 @@ export default async function handler(req, res) {
 
   try {
     const spreadsheetId = process.env.GOOGLE_SHEET_ID;
-    const range = process.env.GOOGLE_SHEET_RANGE || "Rules!A1:KF200";
+    const range = process.env.GOOGLE_SHEET_RANGE || "Bloomreach!A1:KF200";
 
     if (!spreadsheetId) {
       return res.status(500).json({ error: true, message: "Missing GOOGLE_SHEET_ID" });
