@@ -96,28 +96,28 @@ function buildResponseFromValues(values) {
 
     const fields = rowToFields(headerRow, row);
 
-    const productIds        = normalisePidList(splitCsv(fields.product_ids));
+    const productIds = normalisePidList(splitCsv(fields.product_ids));
     const excludeProductIds = normalisePidList(splitCsv(fields.exclude_product_ids));
-    const categoryKeywords  = normaliseKeywordList(splitCsv(fields.category_keywords));
-    const campaignSite      = normaliseCampaignSiteList(splitCsv(fields.campaign_site));
+    const categoryKeywords = normaliseKeywordList(splitCsv(fields.category_keywords));
+    const campaignSite = normaliseCampaignSiteList(splitCsv(fields.campaign_site));
 
     const effectiveProductIds = productIds.length ? productIds : ["__ALL__"];
 
     const rule = {
-      enabled:          toBool(fields.enabled),
-      ruleId:           toStr(fields.rule_id),
-      productIds:       effectiveProductIds,
+      enabled: toBool(fields.enabled),
+      ruleId: toStr(fields.rule_id),
+      productIds: effectiveProductIds,
       excludeProductIds,
       categoryKeywords,
       campaignSite,
-      region:           toStr(fields.region),
-      message:          toStr(fields.message),
-      startUtc:         toStr(fields.start_utc),
-      endUtc:           toStr(fields.end_utc),
-      priority:         toNum(fields.priority, 0),
-      code:             toStr(fields.code),
-      showCode:         toBool(fields.show_code),
-      rowNumber:        idx + 2
+      region: toStr(fields.region),
+      message: toStr(fields.message),
+      startUtc: toStr(fields.start_utc),
+      endUtc: toStr(fields.end_utc),
+      priority: toNum(fields.priority, 0),
+      code: toStr(fields.code),
+      showCode: toBool(fields.show_code),
+      rowNumber: idx + 2
     };
 
     const isValid =
@@ -170,11 +170,9 @@ export default async function handler(req, res) {
   }
 
   try {
-    // Reconstruct a 2D values array from the row objects Apps Script sends,
-    // so buildResponseFromValues() runs identically to the existing proxy
-    const headers   = Object.keys(rows[0]);
+    const headers = Object.keys(rows[0]);
     const valueRows = rows.map(row => headers.map(h => row[h] ?? ""));
-    const values    = [headers, ...valueRows];
+    const values = [headers, ...valueRows];
 
     const payload = buildResponseFromValues(values);
 
@@ -182,17 +180,18 @@ export default async function handler(req, res) {
       "promos.json",
       JSON.stringify(payload, null, 2),
       {
-        access:          "public",
-        contentType:     "application/json; charset=utf-8",
-        addRandomSuffix: false
+        access: "public",
+        contentType: "application/json; charset=utf-8",
+        addRandomSuffix: false,
+        cacheControlMaxAge: 0
       }
     );
 
     console.log(`[update-promos] Wrote ${payload.rules.length} rules — ${payload.generatedAt}`);
 
     return res.status(200).json({
-      ok:          true,
-      count:       payload.rules.length,
+      ok: true,
+      count: payload.rules.length,
       generatedAt: payload.generatedAt,
       ...(payload.warning ? { warning: payload.warning } : {})
     });
