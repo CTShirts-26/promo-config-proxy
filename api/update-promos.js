@@ -1,9 +1,7 @@
 import { put } from "@vercel/blob";
 
-// ─────────────────────────────────────────────────────────────
-// All helper functions reused verbatim from promo-config.js
-// Output shape is identical — Bloomreach script needs no changes
-// ─────────────────────────────────────────────────────────────
+// Reused helper functions from promo-config.js
+// Output shape stays the same so Bloomreach does not need changes
 
 function normaliseHeader(h) {
   return String(h || "").trim().toLowerCase();
@@ -70,7 +68,11 @@ function rowToFields(headers, row) {
 
 function buildResponseFromValues(values) {
   if (!values.length) {
-    return { version: 1, generatedAt: new Date().toISOString(), rules: [] };
+    return {
+      version: 1,
+      generatedAt: new Date().toISOString(),
+      rules: []
+    };
   }
 
   const headerRow = values[0] || [];
@@ -140,12 +142,6 @@ function buildResponseFromValues(values) {
   };
 }
 
-// ─────────────────────────────────────────────────────────────
-// Webhook — receives rows POSTed by Apps Script,
-// runs them through buildResponseFromValues(),
-// writes promos.json to Vercel Blob (served as static CDN file)
-// ─────────────────────────────────────────────────────────────
-
 const SECRET = process.env.WEBHOOK_SECRET;
 
 export default async function handler(req, res) {
@@ -155,18 +151,28 @@ export default async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
   if (req.method === "OPTIONS") return res.status(204).end();
+
   if (req.method !== "POST") {
-    return res.status(405).json({ error: true, message: "Method not allowed" });
+    return res.status(405).json({
+      error: true,
+      message: "Method not allowed"
+    });
   }
 
   const { secret, rows } = req.body || {};
 
   if (!secret || secret !== SECRET) {
-    return res.status(401).json({ error: true, message: "Unauthorised" });
+    return res.status(401).json({
+      error: true,
+      message: "Unauthorised"
+    });
   }
 
   if (!Array.isArray(rows) || rows.length === 0) {
-    return res.status(400).json({ error: true, message: "rows must be a non-empty array" });
+    return res.status(400).json({
+      error: true,
+      message: "rows must be a non-empty array"
+    });
   }
 
   try {
@@ -196,9 +202,13 @@ export default async function handler(req, res) {
       generatedAt: payload.generatedAt,
       ...(payload.warning ? { warning: payload.warning } : {})
     });
-
   } catch (err) {
     console.error("[update-promos] Error:", err);
-    return res.status(500).json({ error: true, message: "Internal server error", detail: err.message });
+
+    return res.status(500).json({
+      error: true,
+      message: "Internal server error",
+      detail: err.message
+    });
   }
 }
