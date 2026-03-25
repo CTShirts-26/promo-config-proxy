@@ -228,7 +228,7 @@ export default async function handler(req, res) {
     await put(
       "promos.json",
       JSON.stringify(payload, null, 2),
-      { access: "public", contentType: "application/json; charset=utf-8", addRandomSuffix: false }
+      { access: "public", contentType: "application/json; charset=utf-8", addRandomSuffix: false, allowOverwrite:  true }
     );
 
     console.log(`[update-promos] Wrote ${rules.length} active rules — ${payload.generatedAt}`);
