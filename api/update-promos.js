@@ -225,11 +225,18 @@ export default async function handler(req, res) {
       rules,
     };
 
+
     await put(
       "promos.json",
       JSON.stringify(payload, null, 2),
-      { access: "public", contentType: "application/json; charset=utf-8", addRandomSuffix: false, allowOverwrite:  true }
-    );
+      {
+        access:             "public",
+        contentType:        "application/json; charset=utf-8",
+        addRandomSuffix:    false,
+        allowOverwrite:     true,
+        contentDisposition: "inline",
+      }
+);
 
     console.log(`[update-promos] Wrote ${rules.length} active rules — ${payload.generatedAt}`);
 
