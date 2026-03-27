@@ -1,42 +1,5 @@
 import { put } from "@vercel/blob";
 
-// ─────────────────────────────────────────────────────────────
-// AW26 Bloomreach sheet — updated column index map
-// Row 1 = group headers, Row 2 = empty, Row 3 = city/lang hints
-// Row 4 = column headers (Apps Script sends as data[3])
-// Row 5+ = campaign data rows (Apps Script sends as data.slice(4))
-//
-// NEW STRUCTURE vs previous version:
-// col 0  = PROMOTION (was TAB NAME)
-// col 1  = OVERRIDE (new)
-// col 2  = ONLINE
-// col 3  = STATUS
-// col 4  = START DATE
-// col 5  = END DATE
-// col 6  = BANNERSTRIP scope
-// col 7  = TIB TEXT scope
-// col 8  = PLP CALL OUT scope
-// col 9-18  = country enabled flags (US, CA, AU, UK, DE, FR, CH, NL, EU, XBR)
-// col 19 = MAIN CATEGORIES
-// col 20 = EXCLUDED CATEGORIES
-// col 21 = SHOW ON PDP
-// col 22 = SHOW ON PLP
-// col 23 = PRODUCT IDs (comma separated)
-// col 24-33 = HIDE PROMO BOX per country
-// col 34 = ACQ URL
-// col 35-52 = US content
-// col 53-88 = CA content (EN/FR interleaved)
-// col 89-106 = AU content
-// col 107-124 = UK content
-// col 125-142 = DE content
-// col 143-160 = FR content
-// col 161-214 = CH content (EN/FR/DE interleaved)
-// col 215-250 = NL content (EN/NL interleaved)
-// col 251-268 = EU content
-// col 269-286 = XBR content
-// col 287-306 = MULTIBUY per country
-// ─────────────────────────────────────────────────────────────
-
 const SECRET = process.env.WEBHOOK_SECRET;
 
 function v(row, i)  { return String(row[i] ?? "").trim(); }
@@ -66,11 +29,10 @@ function emptyCallout() {
   return { default: "", endsTonight: "", affiliate: "", affiliateEndsTonight: "" };
 }
 
-function contentBlock(row,
+function contentBlock(row, showPdp, showPlp,
   b1,b2,b3,b1et,b2et,b3et,b1af,b2af,b3af,b1afet,b2afet,b3afet,
   tib_d,tib_et,tib_af,tib_afet,
-  plp_d,plp_af,
-  showPdp,showPlp
+  plp_d,plp_af
 ) {
   return {
     showOnPdp:   showPdp,
@@ -94,17 +56,17 @@ function parseDate(raw) {
 }
 
 function buildRuleFromRow(row, idx) {
-  const ruleId  = v(row, 0);   // PROMOTION
-  const override = v(row, 1);  // OVERRIDE
-  const online  = tb(row, 2);  // ONLINE
-  const status  = v(row, 3);   // STATUS
+  // Read all values first — no early returns before variable declarations
+  const ruleId   = v(row, 0);
+  const override = v(row, 1);
+  const online   = tb(row, 2);
+  const status   = v(row, 3);
   const startUtc = parseDate(v(row, 4));
   const endUtc   = parseDate(v(row, 5));
+  const showPdp  = tb(row, 21);
+  const showPlp  = tb(row, 22);
 
-
-  const showPdp = tb(row, 21);
-  const showPlp = tb(row, 22);
-
+  // Skip disabled or empty rows
   if (!online || !ruleId) return null;
 
   return {
@@ -129,13 +91,13 @@ function buildRuleFromRow(row, idx) {
     },
 
     targeting: {
-      mainCategories:     v(row,19).split(/\s+/).filter(Boolean).length ? v(row,19).split(/\s+/).filter(Boolean) : ["__ALL__"],
+      mainCategories:     v(row,19).split(/\s+/).filter(Boolean).length
+                            ? v(row,19).split(/\s+/).filter(Boolean) : ["__ALL__"],
       excludedCategories: v(row,20).split(/\s+/).filter(Boolean),
-      showOnPdp,
-      showOnPlp,
+      showOnPdp:          showPdp,
+      showOnPlp:          showPlp,
       productIds:         v(row,23).split(/[,\s]+/).map(s=>s.trim()).filter(Boolean).length
-                            ? v(row,23).split(/[,\s]+/).map(s=>s.trim()).filter(Boolean)
-                            : ["__ALL__"],
+                            ? v(row,23).split(/[,\s]+/).map(s=>s.trim()).filter(Boolean) : ["__ALL__"],
     },
 
     hidePromoBox: {
@@ -147,63 +109,63 @@ function buildRuleFromRow(row, idx) {
     acq: { url: v(row,34).split(/\s+/).filter(Boolean) },
 
     content: {
-      us: contentBlock(row,
+      us: contentBlock(row, showPdp, showPlp,
         35,36,37, 38,39,40, 41,42,43, 44,45,46,
-        47,48,49,50, 51,52, showPdp,showPlp),
+        47,48,49,50, 51,52),
 
       ca: {
-        en: contentBlock(row,
+        en: contentBlock(row, showPdp, showPlp,
           53,55,57, 59,61,63, 65,67,69, 71,73,75,
-          77,79,81,83, 85,87, showPdp,showPlp),
-        fr: contentBlock(row,
+          77,79,81,83, 85,87),
+        fr: contentBlock(row, showPdp, showPlp,
           54,56,58, 60,62,64, 66,68,70, 72,74,76,
-          78,80,82,84, 86,88, showPdp,showPlp),
+          78,80,82,84, 86,88),
       },
 
-      au: contentBlock(row,
+      au: contentBlock(row, showPdp, showPlp,
         89,90,91, 92,93,94, 95,96,97, 98,99,100,
-        101,102,103,104, 105,106, showPdp,showPlp),
+        101,102,103,104, 105,106),
 
-      uk: contentBlock(row,
+      uk: contentBlock(row, showPdp, showPlp,
         107,108,109, 110,111,112, 113,114,115, 116,117,118,
-        119,120,121,122, 123,124, showPdp,showPlp),
+        119,120,121,122, 123,124),
 
-      de: contentBlock(row,
+      de: contentBlock(row, showPdp, showPlp,
         125,126,127, 128,129,130, 131,132,133, 134,135,136,
-        137,138,139,140, 141,142, showPdp,showPlp),
+        137,138,139,140, 141,142),
 
-      fr: contentBlock(row,
+      fr: contentBlock(row, showPdp, showPlp,
         143,144,145, 146,147,148, 149,150,151, 152,153,154,
-        155,156,157,158, 159,160, showPdp,showPlp),
+        155,156,157,158, 159,160),
 
       ch: {
-        en: contentBlock(row,
+        en: contentBlock(row, showPdp, showPlp,
           161,164,167, 170,173,176, 179,182,185, 188,191,194,
-          197,200,203,206, 209,212, showPdp,showPlp),
-        fr: contentBlock(row,
+          197,200,203,206, 209,212),
+        fr: contentBlock(row, showPdp, showPlp,
           162,165,168, 171,174,177, 180,183,186, 189,192,195,
-          198,201,204,207, 210,213, showPdp,showPlp),
-        de: contentBlock(row,
+          198,201,204,207, 210,213),
+        de: contentBlock(row, showPdp, showPlp,
           163,166,169, 172,175,178, 181,184,187, 190,193,196,
-          199,202,205,208, 211,214, showPdp,showPlp),
+          199,202,205,208, 211,214),
       },
 
       nl: {
-        en: contentBlock(row,
+        en: contentBlock(row, showPdp, showPlp,
           215,217,219, 221,223,225, 227,229,231, 233,235,237,
-          239,241,243,245, 247,249, showPdp,showPlp),
-        nl: contentBlock(row,
+          239,241,243,245, 247,249),
+        nl: contentBlock(row, showPdp, showPlp,
           216,218,220, 222,224,226, 228,230,232, 234,236,238,
-          240,242,244,246, 248,250, showPdp,showPlp),
+          240,242,244,246, 248,250),
       },
 
-      eu: contentBlock(row,
+      eu: contentBlock(row, showPdp, showPlp,
         251,252,253, 254,255,256, 257,258,259, 260,261,262,
-        263,264,265,266, 267,268, showPdp,showPlp),
+        263,264,265,266, 267,268),
 
-      xbr: contentBlock(row,
+      xbr: contentBlock(row, showPdp, showPlp,
         269,270,271, 272,273,274, 275,276,277, 278,279,280,
-        281,282,283,284, 285,286, showPdp,showPlp),
+        281,282,283,284, 285,286),
     },
 
     multibuy: {
@@ -256,10 +218,6 @@ export default async function handler(req, res) {
       rules,
     };
 
-
-    console.log("[debug] rows received:", rows.length);
-  console.log("[debug] first row sample:", JSON.stringify(rows[0]?.slice(0, 10)));
-
     await put(
       "promos.json",
       JSON.stringify(payload, null, 2),
@@ -285,5 +243,3 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: true, message: "Internal server error", detail: err.message });
   }
 }
-
-
