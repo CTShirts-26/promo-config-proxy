@@ -58,7 +58,7 @@ function parseDate(raw) {
 function buildRuleFromRow(row, idx) {
   // Read all values first — no early returns before variable declarations
   const ruleId   = v(row, 0);
-  const override = v(row, 1);
+  const category = v(row, 1);
   const online   = tb(row, 2);
   const status   = v(row, 3);
   const startUtc = parseDate(v(row, 4));
@@ -71,7 +71,7 @@ function buildRuleFromRow(row, idx) {
 
   return {
     ruleId,
-    override,
+    category,
     enabled:  online,
     status,
     startUtc,
