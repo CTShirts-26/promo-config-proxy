@@ -101,10 +101,11 @@ function buildRuleFromRow(row, idx) {
   const startUtc = parseDate(v(row, 4));
   const endUtc   = parseDate(v(row, 5));
 
-  if (!online || !ruleId) return null;
 
   const showPdp = tb(row, 21);
   const showPlp = tb(row, 22);
+
+  if (!online || !ruleId) return null;
 
   return {
     ruleId,
