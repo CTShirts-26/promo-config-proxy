@@ -42,7 +42,10 @@ function v(row, i)  { return String(row[i] ?? "").trim(); }
 function tb(row, i) { return v(row, i).toUpperCase() === "TRUE"; }
 
 function splitIds(raw) {
-  return String(raw || "").split(/[,\s]+/).map(s => s.trim().toUpperCase()).filter(Boolean);
+  return String(raw || "").split(/[,\s]+/)
+    .map(s => s.trim())
+    .filter(Boolean)
+    .map(s => s.toLowerCase() === "all" ? "__ALL__" : s.toUpperCase());
 }
 
 function bannerstrip(row, b1,b2,b3,b1et,b2et,b3et,b1af,b2af,b3af,b1afet,b2afet,b3afet) {
