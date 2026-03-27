@@ -132,8 +132,10 @@ function buildRuleFromRow(row, idx) {
       mainCategories:     v(row,19).split(/\s+/).filter(Boolean).length
                             ? v(row,19).split(/\s+/).filter(Boolean) : ["__ALL__"],
       excludedCategories: v(row,20).split(/\s+/).filter(Boolean),
-      showOnPdp,
-      showOnPlp,
+    //   showOnPdp,
+    //   showOnPlp,
+        showOnPdp: showPdp,
+        showOnPlp: showPlp,
       productIds:         splitIds(v(row,23)).length ? splitIds(v(row,23)) : ["__ALL__"],
       excludedProductIds: splitIds(v(row,24)),
       campaignSite:       v(row,25).split(/[,\s]+/).map(s=>s.trim().toLowerCase()).filter(Boolean),
