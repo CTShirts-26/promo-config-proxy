@@ -1,9 +1,31 @@
-import { put } from "@vercel/blob";
+import { google } from "googleapis";
 
-// ─────────────────────────────────────────────────────────────
-// All helper functions reused verbatim from promo-config.js
-// Output shape is identical — Bloomreach script needs no changes
-// ─────────────────────────────────────────────────────────────
+const CACHE_TTL_MS = Number(process.env.CACHE_TTL_MS || 60000);
+
+let cache = {
+  data: null,
+  expiresAt: 0,
+  lastSuccessAt: 0
+};
+
+function corsHeaders() {
+  return {
+    "Content-Type": "application/json; charset=utf-8",
+    "Access-Control-Allow-Origin": process.env.ALLOWED_ORIGIN || "*",
+    "Access-Control-Allow-Methods": "GET, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  };
+}
+
+function setResponseHeaders(res) {
+  const headers = corsHeaders();
+  Object.entries(headers).forEach(([k, v]) => res.setHeader(k, v));
+
+  res.setHeader(
+    "Cache-Control",
+    "public, s-maxage=60, stale-while-revalidate=300"
+  );
+}
 
 function normaliseHeader(h) {
   return String(h || "").trim().toLowerCase();
@@ -70,7 +92,11 @@ function rowToFields(headers, row) {
 
 function buildResponseFromValues(values) {
   if (!values.length) {
-    return { version: 1, generatedAt: new Date().toISOString(), rules: [] };
+    return {
+      version: 1,
+      generatedAt: new Date().toISOString(),
+      rules: []
+    };
   }
 
   const headerRow = values[0] || [];
@@ -96,28 +122,38 @@ function buildResponseFromValues(values) {
 
     const fields = rowToFields(headerRow, row);
 
-    const productIds        = normalisePidList(splitCsv(fields.product_ids));
-    const excludeProductIds = normalisePidList(splitCsv(fields.exclude_product_ids));
-    const categoryKeywords  = normaliseKeywordList(splitCsv(fields.category_keywords));
-    const campaignSite      = normaliseCampaignSiteList(splitCsv(fields.campaign_site));
+    const productIdsRaw = splitCsv(fields.product_ids);
+    const excludeIdsRaw = splitCsv(fields.exclude_product_ids);
+    const categoryKeywordsRaw = splitCsv(fields.category_keywords);
+    const campaignSiteRaw = splitCsv(fields.campaign_site);
+
+    const productIds = normalisePidList(productIdsRaw);
+    const excludeProductIds = normalisePidList(excludeIdsRaw);
+    const categoryKeywords = normaliseKeywordList(categoryKeywordsRaw);
+    const campaignSite = normaliseCampaignSiteList(campaignSiteRaw);
 
     const effectiveProductIds = productIds.length ? productIds : ["__ALL__"];
 
     const rule = {
-      enabled:          toBool(fields.enabled),
-      ruleId:           toStr(fields.rule_id),
-      productIds:       effectiveProductIds,
+      enabled: toBool(fields.enabled),
+      ruleId: toStr(fields.rule_id),
+
+      productIds: effectiveProductIds,
       excludeProductIds,
       categoryKeywords,
       campaignSite,
-      region:           toStr(fields.region),
-      message:          toStr(fields.message),
-      startUtc:         toStr(fields.start_utc),
-      endUtc:           toStr(fields.end_utc),
-      priority:         toNum(fields.priority, 0),
-      code:             toStr(fields.code),
-      showCode:         toBool(fields.show_code),
-      rowNumber:        idx + 2
+
+      region: toStr(fields.region),
+      message: toStr(fields.message),
+      startUtc: toStr(fields.start_utc),
+      endUtc: toStr(fields.end_utc),
+
+      priority: toNum(fields.priority, 0),
+
+      code: toStr(fields.code),
+      showCode: toBool(fields.show_code),
+
+      rowNumber: idx + 2
     };
 
     const isValid =
@@ -136,71 +172,114 @@ function buildResponseFromValues(values) {
   return {
     version: 1,
     generatedAt: new Date().toISOString(),
+    cacheTtlMs: CACHE_TTL_MS,
     rules
   };
 }
 
-// ─────────────────────────────────────────────────────────────
-// Webhook — receives rows POSTed by Apps Script,
-// runs them through buildResponseFromValues(),
-// writes promos.json to Vercel Blob (served as static CDN file)
-// ─────────────────────────────────────────────────────────────
+async function fetchSheetValues() {
+  const spreadsheetId = process.env.GOOGLE_SHEET_ID;
+  const range = process.env.GOOGLE_SHEET_RANGE || "Rules!A1:Z1000";
 
-const SECRET = process.env.WEBHOOK_SECRET;
+  if (!spreadsheetId) {
+    throw new Error("Missing GOOGLE_SHEET_ID");
+  }
+
+  if (!process.env.GOOGLE_CLIENT_EMAIL) {
+    throw new Error("Missing GOOGLE_CLIENT_EMAIL");
+  }
+
+  if (!process.env.GOOGLE_PRIVATE_KEY) {
+    throw new Error("Missing GOOGLE_PRIVATE_KEY");
+  }
+
+  const auth = new google.auth.GoogleAuth({
+    credentials: {
+      client_email: process.env.GOOGLE_CLIENT_EMAIL,
+      private_key: process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, "\n")
+    },
+    scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+  });
+
+  const sheets = google.sheets({ version: "v4", auth });
+
+  const resp = await sheets.spreadsheets.values.get({
+    spreadsheetId,
+    range,
+    majorDimension: "ROWS"
+  });
+
+  return resp.data.values || [];
+}
 
 export default async function handler(req, res) {
-  res.setHeader("Content-Type", "application/json; charset=utf-8");
-  res.setHeader("Access-Control-Allow-Origin", process.env.ALLOWED_ORIGIN || "*");
-  res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
-  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  setResponseHeaders(res);
 
-  if (req.method === "OPTIONS") return res.status(204).end();
-  if (req.method !== "POST") {
-    return res.status(405).json({ error: true, message: "Method not allowed" });
+  if (req.method === "OPTIONS") {
+    return res.status(204).end();
   }
 
-  const { secret, rows } = req.body || {};
-
-  if (!secret || secret !== SECRET) {
-    return res.status(401).json({ error: true, message: "Unauthorised" });
-  }
-
-  if (!Array.isArray(rows) || rows.length === 0) {
-    return res.status(400).json({ error: true, message: "rows must be a non-empty array" });
+  if (req.method !== "GET") {
+    return res.status(405).json({
+      error: true,
+      message: "Method not allowed"
+    });
   }
 
   try {
-    // Reconstruct a 2D values array from the row objects Apps Script sends,
-    // so buildResponseFromValues() runs identically to the existing proxy
-    const headers   = Object.keys(rows[0]);
-    const valueRows = rows.map(row => headers.map(h => row[h] ?? ""));
-    const values    = [headers, ...valueRows];
+    const now = Date.now();
+    const forceRefresh = String(req.query.refresh || "").trim() === "1";
+    const cacheIsFresh =
+      !!cache.data &&
+      cache.expiresAt > now;
 
+    if (!forceRefresh && cacheIsFresh) {
+      return res.status(200).json({
+        ...cache.data,
+        cached: true,
+        stale: false,
+        cacheExpiresAt: new Date(cache.expiresAt).toISOString(),
+        lastSuccessAt: cache.lastSuccessAt
+          ? new Date(cache.lastSuccessAt).toISOString()
+          : null
+      });
+    }
+
+    const values = await fetchSheetValues();
     const payload = buildResponseFromValues(values);
 
-    await put(
-      "promos.json",
-      JSON.stringify(payload, null, 2),
-      {
-        access:          "public",
-        contentType:     "application/json; charset=utf-8",
-        addRandomSuffix: false
-      }
-    );
-
-    console.log(`[update-promos] Wrote ${payload.rules.length} rules — ${payload.generatedAt}`);
+    cache = {
+      data: payload,
+      expiresAt: now + CACHE_TTL_MS,
+      lastSuccessAt: now
+    };
 
     return res.status(200).json({
-      ok:          true,
-      count:       payload.rules.length,
-      generatedAt: payload.generatedAt,
-      ...(payload.warning ? { warning: payload.warning } : {})
+      ...payload,
+      cached: false,
+      stale: false,
+      cacheExpiresAt: new Date(cache.expiresAt).toISOString(),
+      lastSuccessAt: new Date(cache.lastSuccessAt).toISOString()
     });
+  } catch (e) {
+    if (cache.data) {
+      return res.status(200).json({
+        ...cache.data,
+        cached: true,
+        stale: true,
+        warning: "Serving stale cache because Google Sheets read failed",
+        details: String(e?.message || e),
+        cacheExpiresAt: new Date(cache.expiresAt).toISOString(),
+        lastSuccessAt: cache.lastSuccessAt
+          ? new Date(cache.lastSuccessAt).toISOString()
+          : null
+      });
+    }
 
-  } catch (err) {
-    console.error("[update-promos] Error:", err);
-    return res.status(500).json({ error: true, message: "Internal server error", detail: err.message });
+    return res.status(500).json({
+      error: true,
+      message: "Failed to read Google Sheet",
+      details: String(e?.message || e)
+    });
   }
 }
-
-
