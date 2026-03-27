@@ -255,6 +255,10 @@ export default async function handler(req, res) {
       rules,
     };
 
+
+    console.log("[debug] rows received:", rows.length);
+  console.log("[debug] first row sample:", JSON.stringify(rows[0]?.slice(0, 10)));
+
     await put(
       "promos.json",
       JSON.stringify(payload, null, 2),
