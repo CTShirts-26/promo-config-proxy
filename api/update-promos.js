@@ -14,16 +14,15 @@ import { put } from "@vercel/blob";
 // col 7  = TIB TEXT scope
 // col 8  = PLP CALL OUT scope
 // col 9-18  = country enabled (US,CA,AU,UK,DE,FR,CH,NL,EU,XBR)
-// col 19 = MAIN CATEGORIES ID
-// col 20 = EXCLUDED SUB CATEGORIES ID
-// col 21 = SHOW ON PDP
-// col 22 = SHOW ON PLP
-// col 23 = PRODUCT ID
-// col 24 = EXCLUDE PRODUCT ID
-// col 25 = CAMPAIGN SITE
-// col 26 = SHOW ON ACQ
+// col 19 = CAMPAIGN SITE
+// col 20 = SHOW ON ACQ
+// col 21 = MAIN CATEGORIES ID
+// col 22 = EXCLUDED SUB CATEGORIES ID
+// col 23 = SHOW ON PDP
+// col 24 = SHOW ON PLP
+// col 25 = PRODUCT ID
+// col 26 = EXCLUDE PRODUCT ID
 // col 27-36 = HIDE PROMO BOX (US,CA,AU,UK,DE,FR,CH,NL,EU,XBR)
-// col 37 = ACQ URL
 // col 37-54  = US content (18 cols)
 // col 55-90  = CA content (EN/FR interleaved, 36 cols)
 // col 91-108 = AU content (18 cols)
@@ -106,8 +105,8 @@ function buildRuleFromRow(row, idx) {
   const status             = v(row, 3);
   const startUtc           = parseDate(v(row, 4));
   const endUtc             = parseDate(v(row, 5));
-  const showPdp            = tb(row, 21);
-  const showPlp            = tb(row, 22);
+  const showPdp            = tb(row, 23);
+  const showPlp            = tb(row, 24);
 
   if (!online || !ruleId) return null;
 
@@ -124,7 +123,7 @@ function buildRuleFromRow(row, idx) {
       tibText:     tb(row, 7),
       plpCallout:  tb(row, 8),
       pdpCallout:  false,
-      showOnAcq:   tb(row, 26),
+      showOnAcq:   tb(row, 20),
     },
 
     countryEnabled: {
@@ -134,14 +133,14 @@ function buildRuleFromRow(row, idx) {
     },
 
     targeting: {
-      mainCategories:     v(row,19).split(/\s+/).filter(Boolean).length
-                            ? v(row,19).split(/\s+/).filter(Boolean) : ["__ALL__"],
-      excludedCategories: v(row,20).split(/\s+/).filter(Boolean),
+      mainCategories:     v(row,21).split(/\s+/).filter(Boolean).length
+                            ? v(row,21).split(/\s+/).filter(Boolean) : ["__ALL__"],
+      excludedCategories: v(row,22).split(/\s+/).filter(Boolean),
       showOnPdp: showPdp,
       showOnPlp: showPlp,
-      productIds:         splitIds(v(row,23)).length ? splitIds(v(row,23)) : ["__ALL__"],
-      excludedProductIds: splitIds(v(row,24)),
-      campaignSite:       v(row,25).split(/[,\s]+/).map(s=>s.trim().toLowerCase()).filter(Boolean),
+      productIds:         splitIds(v(row,25)).length ? splitIds(v(row,25)) : ["__ALL__"],
+      excludedProductIds: splitIds(v(row,26)),
+      campaignSite:       v(row,19).split(/[,\s]+/).map(s=>s.trim().toLowerCase()).filter(Boolean),
     },
 
     hidePromoBox: {
@@ -150,7 +149,7 @@ function buildRuleFromRow(row, idx) {
       ch: tb(row,33), nl: tb(row,34), eu: tb(row,35), xbr: tb(row,36),
     },
 
-    acq: { url: v(row,37).split(/\s+/).filter(Boolean) },
+    acq: { url: [] },
 
     content: {
       // US: cols 37-54 (18 cols)
