@@ -1,240 +1,274 @@
 import { put } from "@vercel/blob";
 
-// ─────────────────────────────────────────────────────────────
-// AW26 Bloomreach sheet — column index map
-// Row 4 = headers, Row 5+ = campaign data (sent as arrays)
-//
-// col 0  = PROMOTION/TABS
-// col 1  = CATEGORY
-// col 2  = ONLINE
-// col 3  = STATUS
-// col 4  = START DATE
-// col 5  = END DATE
-// col 6  = BANNERSTRIP scope
-// col 7  = TIB TEXT scope
-// col 8  = PLP CALL OUT scope
-// col 9-18  = country enabled (US,CA,AU,UK,DE,FR,CH,NL,EU,XBR)
-// col 19 = CAMPAIGN SITE
-// col 20 = SHOW ON ACQ
-// col 21 = MAIN CATEGORIES ID
-// col 22 = EXCLUDED SUB CATEGORIES ID
-// col 23 = SHOW ON PDP
-// col 24 = SHOW ON PLP
-// col 25 = PRODUCT ID
-// col 26 = EXCLUDE PRODUCT ID
-// col 27-36 = HIDE PROMO BOX (US,CA,AU,UK,DE,FR,CH,NL,EU,XBR)
-// col 37-54  = US content (18 cols)
-// col 55-90  = CA content (EN/FR interleaved, 36 cols)
-// col 91-108 = AU content (18 cols)
-// col 109-126 = UK content (18 cols)
-// col 127-144 = DE content (18 cols)
-// col 145-162 = FR content (18 cols)
-// col 163-216 = CH content (EN/FR/DE interleaved, 54 cols)
-// col 217-252 = NL content (EN/NL interleaved, 36 cols)
-// col 253-270 = EU content (18 cols)
-// col 271-288 = XBR content (18 cols)
-// col 289-308 = MULTIBUY per country (20 cols)
-// ─────────────────────────────────────────────────────────────
-
 const SECRET = process.env.WEBHOOK_SECRET;
+const ALL = "__ALL__";
 
-function v(row, i)  { return String(row[i] ?? "").trim(); }
-function tb(row, i) { return v(row, i).toUpperCase() === "TRUE"; }
-
-function splitIds(raw) {
-  return String(raw || "").split(/[,\s]+/)
-    .map(s => s.trim())
-    .filter(Boolean)
-    .map(s => s.toLowerCase() === "all" ? "__ALL__" : s.toUpperCase());
+function v(row, i) {
+  return String(row[i] ?? "").trim();
 }
 
-function bannerstrip(row, b1,b2,b3,b1et,b2et,b3et,b1af,b2af,b3af,b1afet,b2afet,b3afet) {
+function tb(row, i) {
+  return v(row, i).toUpperCase() === "TRUE";
+}
+
+function splitList(raw, { uppercase = false, lowercase = false, mapAll = false } = {}) {
+  return String(raw || "")
+    .split(/[\s,]+/)
+    .map(s => s.trim())
+    .filter(Boolean)
+    .map(s => {
+      if (mapAll && s.toLowerCase() === "all") return ALL;
+      if (uppercase) return s.toUpperCase();
+      if (lowercase) return s.toLowerCase();
+      return s;
+    });
+}
+
+function splitCategoryIds(raw) {
+  const values = splitList(raw, { lowercase: true, mapAll: true });
+  return values.length ? values : [ALL];
+}
+
+function splitExcludedCategoryIds(raw) {
+  return splitList(raw, { lowercase: true, mapAll: true }).filter(v => v !== ALL);
+}
+
+function splitProductIds(raw) {
+  const values = splitList(raw, { uppercase: true, mapAll: true });
+  return values.length ? values : [ALL];
+}
+
+function splitExcludedProductIds(raw) {
+  return splitList(raw, { uppercase: true, mapAll: true }).filter(v => v !== ALL);
+}
+
+function splitCampaignSites(raw) {
+  return splitList(raw, { lowercase: true });
+}
+
+function parseDate(raw, { endOfDay = false } = {}) {
+  const s = String(raw || "").trim();
+  if (!s) return null;
+
+  const parts = s.split("/");
+  if (parts.length === 3) {
+    const [d, m, y] = parts;
+    const hh = endOfDay ? "23" : "00";
+    const mm = endOfDay ? "59" : "00";
+    const ss = endOfDay ? "59" : "00";
+    return `${y}-${m.padStart(2, "0")}-${d.padStart(2, "0")}T${hh}:${mm}:${ss}Z`;
+  }
+
+  return s;
+}
+
+function bannerstrip(row, b1, b2, b3, b1et, b2et, b3et, b1af, b2af, b3af, b1afet, b2afet, b3afet) {
   return {
-    line1: v(row,b1), line2: v(row,b2), line3: v(row,b3),
-    line1_endsTonight: v(row,b1et), line2_endsTonight: v(row,b2et), line3_endsTonight: v(row,b3et),
-    line1_affiliate: v(row,b1af), line2_affiliate: v(row,b2af), line3_affiliate: v(row,b3af),
-    line1_affiliateEndsTonight: v(row,b1afet),
-    line2_affiliateEndsTonight: v(row,b2afet),
-    line3_affiliateEndsTonight: v(row,b3afet),
+    line1: v(row, b1),
+    line2: v(row, b2),
+    line3: v(row, b3),
+    line1EndsTonight: v(row, b1et),
+    line2EndsTonight: v(row, b2et),
+    line3EndsTonight: v(row, b3et),
+    line1Affiliate: v(row, b1af),
+    line2Affiliate: v(row, b2af),
+    line3Affiliate: v(row, b3af),
+    line1AffiliateEndsTonight: v(row, b1afet),
+    line2AffiliateEndsTonight: v(row, b2afet),
+    line3AffiliateEndsTonight: v(row, b3afet),
   };
 }
 
 function callout(row, d, et, af, afet) {
   return {
-    default:              v(row, d),
-    endsTonight:          et   != null ? v(row, et)   : "",
-    affiliate:            af   != null ? v(row, af)   : "",
+    default: v(row, d),
+    endsTonight: et != null ? v(row, et) : "",
+    affiliate: af != null ? v(row, af) : "",
     affiliateEndsTonight: afet != null ? v(row, afet) : "",
   };
 }
 
-function emptyCallout() {
-  return { default: "", endsTonight: "", affiliate: "", affiliateEndsTonight: "" };
-}
-
-function contentBlock(row, showPdp, showPlp,
-  b1,b2,b3,b1et,b2et,b3et,b1af,b2af,b3af,b1afet,b2afet,b3afet,
-  tib_d,tib_et,tib_af,tib_afet,
-  plp_d,plp_af
-) {
+function promoCallout(row, d, af) {
   return {
-    showOnPdp:   showPdp,
-    showOnPlp:   showPlp,
-    bannerstrip: bannerstrip(row,b1,b2,b3,b1et,b2et,b3et,b1af,b2af,b3af,b1afet,b2afet,b3afet),
-    tibText:     callout(row, tib_d, tib_et, tib_af, tib_afet),
-    plpCallout:  { default: v(row,plp_d), endsTonight: "", affiliate: v(row,plp_af), affiliateEndsTonight: "" },
-    pdpCallout:  emptyCallout(),
+    default: v(row, d),
+    endsTonight: "",
+    affiliate: v(row, af),
+    affiliateEndsTonight: "",
   };
 }
 
-function parseDate(raw) {
-  const s = String(raw || "").trim();
-  if (!s) return null;
-  const parts = s.split("/");
-  if (parts.length === 3) {
-    const [d, m, y] = parts;
-    return `${y}-${m.padStart(2,"0")}-${d.padStart(2,"0")}T00:00:00Z`;
-  }
-  return s;
+function emptyCallout() {
+  return {
+    default: "",
+    endsTonight: "",
+    affiliate: "",
+    affiliateEndsTonight: "",
+  };
+}
+
+function contentBlock(
+  row,
+  showOnPdp,
+  showOnPlp,
+  b1, b2, b3, b1et, b2et, b3et, b1af, b2af, b3af, b1afet, b2afet, b3afet,
+  tibD, tibEt, tibAf, tibAfet,
+  promoD, promoAf
+) {
+  const sharedPromoCallout = promoCallout(row, promoD, promoAf);
+
+  return {
+    bannerstrip: bannerstrip(row, b1, b2, b3, b1et, b2et, b3et, b1af, b2af, b3af, b1afet, b2afet, b3afet),
+    tibText: callout(row, tibD, tibEt, tibAf, tibAfet),
+    promoCallout: sharedPromoCallout,
+    plpCallout: showOnPlp ? sharedPromoCallout : emptyCallout(),
+    pdpCallout: showOnPdp ? sharedPromoCallout : emptyCallout(),
+  };
 }
 
 function buildRuleFromRow(row, idx) {
-  const ruleId             = v(row, 0);
-  const category           = v(row, 1);
-  const online             = tb(row, 2);
-  const status             = v(row, 3);
-  const startUtc           = parseDate(v(row, 4));
-  const endUtc             = parseDate(v(row, 5));
-  const showPdp            = tb(row, 23);
-  const showPlp            = tb(row, 24);
+  const ruleId = v(row, 0);
+  const category = v(row, 1);
+  const enabled = tb(row, 2);
+  const status = v(row, 3);
+  const startUtc = parseDate(v(row, 4));
+  const endUtc = parseDate(v(row, 5), { endOfDay: true });
+  const showOnPdp = tb(row, 23);
+  const showOnPlp = tb(row, 24);
+  const campaignSites = splitCampaignSites(v(row, 19));
+  const acquisitionCampaignSites = splitCampaignSites(v(row, 20));
 
-  if (!online || !ruleId) return null;
+  if (!enabled || !ruleId) return null;
+
+  const countryEnabled = {
+    us: tb(row, 9),
+    ca: tb(row, 10),
+    au: tb(row, 11),
+    uk: tb(row, 12),
+    de: tb(row, 13),
+    fr: tb(row, 14),
+    ch: tb(row, 15),
+    nl: tb(row, 16),
+    eu: tb(row, 17),
+    xbr: tb(row, 18),
+  };
+
+  const multibuy = {
+    us: { message: v(row, 289), enabled: !!v(row, 289), excludedCategories: splitExcludedCategoryIds(v(row, 290)) },
+    ca: { message: v(row, 291), enabled: !!v(row, 291), excludedCategories: splitExcludedCategoryIds(v(row, 292)) },
+    au: { message: v(row, 293), enabled: !!v(row, 293), excludedCategories: splitExcludedCategoryIds(v(row, 294)) },
+    uk: { message: v(row, 295), enabled: !!v(row, 295), excludedCategories: splitExcludedCategoryIds(v(row, 296)) },
+    de: { message: v(row, 297), enabled: !!v(row, 297), excludedCategories: splitExcludedCategoryIds(v(row, 298)) },
+    fr: { message: v(row, 299), enabled: !!v(row, 299), excludedCategories: splitExcludedCategoryIds(v(row, 300)) },
+    ch: { message: v(row, 301), enabled: !!v(row, 301), excludedCategories: splitExcludedCategoryIds(v(row, 302)) },
+    nl: { message: v(row, 303), enabled: !!v(row, 303), excludedCategories: splitExcludedCategoryIds(v(row, 304)) },
+    eu: { message: v(row, 305), enabled: !!v(row, 305), excludedCategories: splitExcludedCategoryIds(v(row, 306)) },
+    xbr: { message: v(row, 307), enabled: !!v(row, 307), excludedCategories: splitExcludedCategoryIds(v(row, 308)) },
+  };
 
   return {
     ruleId,
     category,
-    enabled:  online,
+    enabled,
     status,
     startUtc,
     endUtc,
 
     scope: {
       bannerstrip: tb(row, 6),
-      tibText:     tb(row, 7),
-      plpCallout:  tb(row, 8),
-      pdpCallout:  false,
-      showOnAcq:   tb(row, 20),
+      tibText: tb(row, 7),
+      promoCallout: tb(row, 8),
+      plpCallout: tb(row, 8),
+      pdpCallout: tb(row, 8) && showOnPdp,
+      multibuy: Object.values(multibuy).some(item => item.enabled),
     },
 
-    countryEnabled: {
-      us:  tb(row, 9),  ca:  tb(row, 10), au:  tb(row, 11),
-      uk:  tb(row, 12), de:  tb(row, 13), fr:  tb(row, 14),
-      ch:  tb(row, 15), nl:  tb(row, 16), eu:  tb(row, 17), xbr: tb(row, 18),
-    },
+    countryEnabled,
 
     targeting: {
-      mainCategories:     v(row,21).split(/\s+/).filter(Boolean).length
-                            ? v(row,21).split(/\s+/).filter(Boolean) : ["__ALL__"],
-      excludedCategories: v(row,22).split(/\s+/).filter(Boolean),
-      showOnPdp: showPdp,
-      showOnPlp: showPlp,
-      productIds:         splitIds(v(row,25)).length ? splitIds(v(row,25)) : ["__ALL__"],
-      excludedProductIds: splitIds(v(row,26)),
-      campaignSite:       v(row,19).split(/[,\s]+/).map(s=>s.trim().toLowerCase()).filter(Boolean),
+      campaignSites,
+      acquisitionCampaignSites,
+      mainCategories: splitCategoryIds(v(row, 21)),
+      excludedCategories: splitExcludedCategoryIds(v(row, 22)),
+      showOnPdp,
+      showOnPlp,
+      productIds: splitProductIds(v(row, 25)),
+      excludedProductIds: splitExcludedProductIds(v(row, 26)),
     },
 
     hidePromoBox: {
-      us: tb(row,27), ca: tb(row,28), au: tb(row,29),
-      uk: tb(row,30), de: tb(row,31), fr: tb(row,32),
-      ch: tb(row,33), nl: tb(row,34), eu: tb(row,35), xbr: tb(row,36),
+      us: tb(row, 27),
+      ca: tb(row, 28),
+      au: tb(row, 29),
+      uk: tb(row, 30),
+      de: tb(row, 31),
+      fr: tb(row, 32),
+      ch: tb(row, 33),
+      nl: tb(row, 34),
+      eu: tb(row, 35),
+      xbr: tb(row, 36),
     },
-
-    acq: { url: [] },
 
     content: {
-      // US: cols 37-54 (18 cols)
-      us: contentBlock(row, showPdp, showPlp,
-        37,38,39, 40,41,42, 43,44,45, 46,47,48,
-        49,50,51,52, 53,54),
+      us: contentBlock(row, showOnPdp, showOnPlp,
+        37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48,
+        49, 50, 51, 52, 53, 54),
 
-      // CA: cols 55-90 (36 cols, EN/FR interleaved)
       ca: {
-        en: contentBlock(row, showPdp, showPlp,
-          55,57,59, 61,63,65, 67,69,71, 73,75,77,
-          79,81,83,85, 87,89),
-        fr: contentBlock(row, showPdp, showPlp,
-          56,58,60, 62,64,66, 68,70,72, 74,76,78,
-          80,82,84,86, 88,90),
+        en: contentBlock(row, showOnPdp, showOnPlp,
+          55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77,
+          79, 81, 83, 85, 87, 89),
+        fr: contentBlock(row, showOnPdp, showOnPlp,
+          56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78,
+          80, 82, 84, 86, 88, 90),
       },
 
-      // AU: cols 91-108 (18 cols)
-      au: contentBlock(row, showPdp, showPlp,
-        91,92,93, 94,95,96, 97,98,99, 100,101,102,
-        103,104,105,106, 107,108),
+      au: contentBlock(row, showOnPdp, showOnPlp,
+        91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102,
+        103, 104, 105, 106, 107, 108),
 
-      // UK: cols 109-126 (18 cols)
-      uk: contentBlock(row, showPdp, showPlp,
-        109,110,111, 112,113,114, 115,116,117, 118,119,120,
-        121,122,123,124, 125,126),
+      uk: contentBlock(row, showOnPdp, showOnPlp,
+        109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120,
+        121, 122, 123, 124, 125, 126),
 
-      // DE: cols 127-144 (18 cols)
-      de: contentBlock(row, showPdp, showPlp,
-        127,128,129, 130,131,132, 133,134,135, 136,137,138,
-        139,140,141,142, 143,144),
+      de: contentBlock(row, showOnPdp, showOnPlp,
+        127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138,
+        139, 140, 141, 142, 143, 144),
 
-      // FR: cols 145-162 (18 cols)
-      fr: contentBlock(row, showPdp, showPlp,
-        145,146,147, 148,149,150, 151,152,153, 154,155,156,
-        157,158,159,160, 161,162),
+      fr: contentBlock(row, showOnPdp, showOnPlp,
+        145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156,
+        157, 158, 159, 160, 161, 162),
 
-      // CH: cols 163-216 (54 cols, EN/FR/DE interleaved)
       ch: {
-        en: contentBlock(row, showPdp, showPlp,
-          163,166,169, 172,175,178, 181,184,187, 190,193,196,
-          199,202,205,208, 211,214),
-        fr: contentBlock(row, showPdp, showPlp,
-          164,167,170, 173,176,179, 182,185,188, 191,194,197,
-          200,203,206,209, 212,215),
-        de: contentBlock(row, showPdp, showPlp,
-          165,168,171, 174,177,180, 183,186,189, 192,195,198,
-          201,204,207,210, 213,216),
+        en: contentBlock(row, showOnPdp, showOnPlp,
+          163, 166, 169, 172, 175, 178, 181, 184, 187, 190, 193, 196,
+          199, 202, 205, 208, 211, 214),
+        fr: contentBlock(row, showOnPdp, showOnPlp,
+          164, 167, 170, 173, 176, 179, 182, 185, 188, 191, 194, 197,
+          200, 203, 206, 209, 212, 215),
+        de: contentBlock(row, showOnPdp, showOnPlp,
+          165, 168, 171, 174, 177, 180, 183, 186, 189, 192, 195, 198,
+          201, 204, 207, 210, 213, 216),
       },
 
-      // NL: cols 217-252 (36 cols, EN/NL interleaved)
       nl: {
-        en: contentBlock(row, showPdp, showPlp,
-          217,219,221, 223,225,227, 229,231,233, 235,237,239,
-          241,243,245,247, 249,251),
-        nl: contentBlock(row, showPdp, showPlp,
-          218,220,222, 224,226,228, 230,232,234, 236,238,240,
-          242,244,246,248, 250,252),
+        en: contentBlock(row, showOnPdp, showOnPlp,
+          217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239,
+          241, 243, 245, 247, 249, 251),
+        nl: contentBlock(row, showOnPdp, showOnPlp,
+          218, 220, 222, 224, 226, 228, 230, 232, 234, 236, 238, 240,
+          242, 244, 246, 248, 250, 252),
       },
 
-      // EU: cols 253-270 (18 cols)
-      eu: contentBlock(row, showPdp, showPlp,
-        253,254,255, 256,257,258, 259,260,261, 262,263,264,
-        265,266,267,268, 269,270),
+      eu: contentBlock(row, showOnPdp, showOnPlp,
+        253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264,
+        265, 266, 267, 268, 269, 270),
 
-      // XBR: cols 271-288 (18 cols)
-      xbr: contentBlock(row, showPdp, showPlp,
-        271,272,273, 274,275,276, 277,278,279, 280,281,282,
-        283,284,285,286, 287,288),
+      xbr: contentBlock(row, showOnPdp, showOnPlp,
+        271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282,
+        283, 284, 285, 286, 287, 288),
     },
 
-    // MULTIBUY: cols 289-308 (20 cols)
-    multibuy: {
-      us:  { enabled: tb(row,289), excludedCategories: v(row,290).split(/\s+/).filter(Boolean) },
-      ca:  { enabled: tb(row,291), excludedCategories: v(row,292).split(/\s+/).filter(Boolean) },
-      au:  { enabled: tb(row,293), excludedCategories: v(row,294).split(/\s+/).filter(Boolean) },
-      uk:  { enabled: tb(row,295), excludedCategories: v(row,296).split(/\s+/).filter(Boolean) },
-      de:  { enabled: tb(row,297), excludedCategories: v(row,298).split(/\s+/).filter(Boolean) },
-      fr:  { enabled: tb(row,299), excludedCategories: v(row,300).split(/\s+/).filter(Boolean) },
-      ch:  { enabled: tb(row,301), excludedCategories: v(row,302).split(/\s+/).filter(Boolean) },
-      nl:  { enabled: tb(row,303), excludedCategories: v(row,304).split(/\s+/).filter(Boolean) },
-      eu:  { enabled: tb(row,305), excludedCategories: v(row,306).split(/\s+/).filter(Boolean) },
-      xbr: { enabled: tb(row,307), excludedCategories: v(row,308).split(/\s+/).filter(Boolean) },
-    },
-
+    multibuy,
     rowNumber: idx + 5,
   };
 }
@@ -257,7 +291,7 @@ export default async function handler(req, res) {
   }
 
   if (!Array.isArray(rows) || rows.length === 0) {
-    return res.status(400).json({ error: true, message: "rows must be a non-empty array" });
+    return res.status(400).json({ error: true, message: "rows must be a non empty array" });
   }
 
   try {
@@ -266,9 +300,9 @@ export default async function handler(req, res) {
       .filter(Boolean);
 
     const payload = {
-      version:     1,
+      version: 2,
       generatedAt: new Date().toISOString(),
-      total:       rules.length,
+      total: rules.length,
       rules,
     };
 
@@ -276,24 +310,28 @@ export default async function handler(req, res) {
       "promos.json",
       JSON.stringify(payload, null, 2),
       {
-        access:             "public",
-        contentType:        "application/json; charset=utf-8",
+        access: "public",
+        contentType: "application/json; charset=utf-8",
         contentDisposition: "inline",
-        addRandomSuffix:    false,
-        allowOverwrite:     true,
+        addRandomSuffix: false,
+        allowOverwrite: true,
       }
     );
 
-    console.log(`[update-promos] Wrote ${rules.length} rules — ${payload.generatedAt}`);
+    console.log(`[update-promos] Wrote ${rules.length} rules at ${payload.generatedAt}`);
 
     return res.status(200).json({
-      ok:          true,
-      count:       rules.length,
+      ok: true,
+      count: rules.length,
       generatedAt: payload.generatedAt,
+      version: payload.version,
     });
-
   } catch (err) {
     console.error("[update-promos] Error:", err);
-    return res.status(500).json({ error: true, message: "Internal server error", detail: err.message });
+    return res.status(500).json({
+      error: true,
+      message: "Internal server error",
+      detail: err.message,
+    });
   }
 }
