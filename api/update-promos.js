@@ -3,6 +3,41 @@ import { put } from "@vercel/blob";
 const SECRET = process.env.WEBHOOK_SECRET;
 const ALL = "__ALL__";
 
+// Row 4 = headers
+// Row 5+ = campaign data
+//
+// col 0   = PROMOTION/TABS
+// col 1   = CATEGORY
+// col 2   = ONLINE
+// col 3   = STATUS
+// col 4   = START DATE
+// col 5   = END DATE
+// col 6   = BANNERSTRIP scope
+// col 7   = TIB TEXT scope
+// col 8   = PLP CALL OUT scope
+// col 9-18  = country enabled (US,CA,AU,UK,DE,FR,CH,NL,EU,XBR)
+// col 19  = SHOW ON DEFAULT
+// col 20  = SHOW ON AFFILIATE
+// col 21  = SHOW ON ACQ
+// col 22  = MAIN CATEGORIES ID
+// col 23  = EXCLUDED SUB CATEGORIES ID
+// col 24  = SHOW ON PDP
+// col 25  = SHOW ON PLP
+// col 26  = PRODUCT ID
+// col 27  = EXCLUDE PRODUCT ID
+// col 28-37 = HIDE PROMO BOX (US,CA,AU,UK,DE,FR,CH,NL,EU,XBR)
+// col 38-55  = US content (18 cols)
+// col 56-91  = CA content (EN/FR interleaved, 36 cols)
+// col 92-109 = AU content (18 cols)
+// col 110-127 = UK content (18 cols)
+// col 128-145 = DE content (18 cols)
+// col 146-163 = FR content (18 cols)
+// col 164-217 = CH content (EN/FR/DE interleaved, 54 cols)
+// col 218-253 = NL content (EN/NL interleaved, 36 cols)
+// col 254-271 = EU content (18 cols)
+// col 272-289 = XBR content (18 cols)
+// col 290-309 = MULTIBUY per country (20 cols)
+
 function v(row, i) {
   return String(row[i] ?? "").trim();
 }
@@ -132,10 +167,13 @@ function buildRuleFromRow(row, idx) {
   const status = v(row, 3);
   const startUtc = parseDate(v(row, 4));
   const endUtc = parseDate(v(row, 5), { endOfDay: true });
-  const showOnPdp = tb(row, 23);
-  const showOnPlp = tb(row, 24);
-  const campaignSites = splitCampaignSites(v(row, 19));
-  const acquisitionCampaignSites = splitCampaignSites(v(row, 20));
+
+  const defaultCampaignSites = splitCampaignSites(v(row, 19));
+  const affiliateCampaignSites = splitCampaignSites(v(row, 20));
+  const acquisitionCampaignSites = splitCampaignSites(v(row, 21));
+
+  const showOnPdp = tb(row, 24);
+  const showOnPlp = tb(row, 25);
 
   if (!enabled || !ruleId) return null;
 
@@ -153,16 +191,16 @@ function buildRuleFromRow(row, idx) {
   };
 
   const multibuy = {
-    us: { message: v(row, 289), enabled: !!v(row, 289), excludedCategories: splitExcludedCategoryIds(v(row, 290)) },
-    ca: { message: v(row, 291), enabled: !!v(row, 291), excludedCategories: splitExcludedCategoryIds(v(row, 292)) },
-    au: { message: v(row, 293), enabled: !!v(row, 293), excludedCategories: splitExcludedCategoryIds(v(row, 294)) },
-    uk: { message: v(row, 295), enabled: !!v(row, 295), excludedCategories: splitExcludedCategoryIds(v(row, 296)) },
-    de: { message: v(row, 297), enabled: !!v(row, 297), excludedCategories: splitExcludedCategoryIds(v(row, 298)) },
-    fr: { message: v(row, 299), enabled: !!v(row, 299), excludedCategories: splitExcludedCategoryIds(v(row, 300)) },
-    ch: { message: v(row, 301), enabled: !!v(row, 301), excludedCategories: splitExcludedCategoryIds(v(row, 302)) },
-    nl: { message: v(row, 303), enabled: !!v(row, 303), excludedCategories: splitExcludedCategoryIds(v(row, 304)) },
-    eu: { message: v(row, 305), enabled: !!v(row, 305), excludedCategories: splitExcludedCategoryIds(v(row, 306)) },
-    xbr: { message: v(row, 307), enabled: !!v(row, 307), excludedCategories: splitExcludedCategoryIds(v(row, 308)) },
+    us:  { message: v(row, 290), enabled: !!v(row, 290), excludedCategories: splitExcludedCategoryIds(v(row, 291)) },
+    ca:  { message: v(row, 292), enabled: !!v(row, 292), excludedCategories: splitExcludedCategoryIds(v(row, 293)) },
+    au:  { message: v(row, 294), enabled: !!v(row, 294), excludedCategories: splitExcludedCategoryIds(v(row, 295)) },
+    uk:  { message: v(row, 296), enabled: !!v(row, 296), excludedCategories: splitExcludedCategoryIds(v(row, 297)) },
+    de:  { message: v(row, 298), enabled: !!v(row, 298), excludedCategories: splitExcludedCategoryIds(v(row, 299)) },
+    fr:  { message: v(row, 300), enabled: !!v(row, 300), excludedCategories: splitExcludedCategoryIds(v(row, 301)) },
+    ch:  { message: v(row, 302), enabled: !!v(row, 302), excludedCategories: splitExcludedCategoryIds(v(row, 303)) },
+    nl:  { message: v(row, 304), enabled: !!v(row, 304), excludedCategories: splitExcludedCategoryIds(v(row, 305)) },
+    eu:  { message: v(row, 306), enabled: !!v(row, 306), excludedCategories: splitExcludedCategoryIds(v(row, 307)) },
+    xbr: { message: v(row, 308), enabled: !!v(row, 308), excludedCategories: splitExcludedCategoryIds(v(row, 309)) },
   };
 
   return {
@@ -185,87 +223,120 @@ function buildRuleFromRow(row, idx) {
     countryEnabled,
 
     targeting: {
-      campaignSites,
+      defaultCampaignSites,
+      affiliateCampaignSites,
       acquisitionCampaignSites,
-      mainCategories: splitCategoryIds(v(row, 21)),
-      excludedCategories: splitExcludedCategoryIds(v(row, 22)),
+
+      // Backwards compatibility while frontend is being updated
+      campaignSites: affiliateCampaignSites,
+
+      mainCategories: splitCategoryIds(v(row, 22)),
+      excludedCategories: splitExcludedCategoryIds(v(row, 23)),
       showOnPdp,
       showOnPlp,
-      productIds: splitProductIds(v(row, 25)),
-      excludedProductIds: splitExcludedProductIds(v(row, 26)),
+      productIds: splitProductIds(v(row, 26)),
+      excludedProductIds: splitExcludedProductIds(v(row, 27)),
     },
 
     hidePromoBox: {
-      us: tb(row, 27),
-      ca: tb(row, 28),
-      au: tb(row, 29),
-      uk: tb(row, 30),
-      de: tb(row, 31),
-      fr: tb(row, 32),
-      ch: tb(row, 33),
-      nl: tb(row, 34),
-      eu: tb(row, 35),
-      xbr: tb(row, 36),
+      us: tb(row, 28),
+      ca: tb(row, 29),
+      au: tb(row, 30),
+      uk: tb(row, 31),
+      de: tb(row, 32),
+      fr: tb(row, 33),
+      ch: tb(row, 34),
+      nl: tb(row, 35),
+      eu: tb(row, 36),
+      xbr: tb(row, 37),
     },
 
     content: {
-      us: contentBlock(row, showOnPdp, showOnPlp,
-        37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48,
-        49, 50, 51, 52, 53, 54),
+      us: contentBlock(
+        row, showOnPdp, showOnPlp,
+        38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
+        50, 51, 52, 53, 54, 55
+      ),
 
       ca: {
-        en: contentBlock(row, showOnPdp, showOnPlp,
-          55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77,
-          79, 81, 83, 85, 87, 89),
-        fr: contentBlock(row, showOnPdp, showOnPlp,
+        en: contentBlock(
+          row, showOnPdp, showOnPlp,
           56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78,
-          80, 82, 84, 86, 88, 90),
+          80, 82, 84, 86, 88, 90
+        ),
+        fr: contentBlock(
+          row, showOnPdp, showOnPlp,
+          57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79,
+          81, 83, 85, 87, 89, 91
+        ),
       },
 
-      au: contentBlock(row, showOnPdp, showOnPlp,
-        91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102,
-        103, 104, 105, 106, 107, 108),
+      au: contentBlock(
+        row, showOnPdp, showOnPlp,
+        92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103,
+        104, 105, 106, 107, 108, 109
+      ),
 
-      uk: contentBlock(row, showOnPdp, showOnPlp,
-        109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120,
-        121, 122, 123, 124, 125, 126),
+      uk: contentBlock(
+        row, showOnPdp, showOnPlp,
+        110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121,
+        122, 123, 124, 125, 126, 127
+      ),
 
-      de: contentBlock(row, showOnPdp, showOnPlp,
-        127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138,
-        139, 140, 141, 142, 143, 144),
+      de: contentBlock(
+        row, showOnPdp, showOnPlp,
+        128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139,
+        140, 141, 142, 143, 144, 145
+      ),
 
-      fr: contentBlock(row, showOnPdp, showOnPlp,
-        145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156,
-        157, 158, 159, 160, 161, 162),
+      fr: contentBlock(
+        row, showOnPdp, showOnPlp,
+        146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157,
+        158, 159, 160, 161, 162, 163
+      ),
 
       ch: {
-        en: contentBlock(row, showOnPdp, showOnPlp,
-          163, 166, 169, 172, 175, 178, 181, 184, 187, 190, 193, 196,
-          199, 202, 205, 208, 211, 214),
-        fr: contentBlock(row, showOnPdp, showOnPlp,
+        en: contentBlock(
+          row, showOnPdp, showOnPlp,
           164, 167, 170, 173, 176, 179, 182, 185, 188, 191, 194, 197,
-          200, 203, 206, 209, 212, 215),
-        de: contentBlock(row, showOnPdp, showOnPlp,
+          200, 203, 206, 209, 212, 215
+        ),
+        fr: contentBlock(
+          row, showOnPdp, showOnPlp,
           165, 168, 171, 174, 177, 180, 183, 186, 189, 192, 195, 198,
-          201, 204, 207, 210, 213, 216),
+          201, 204, 207, 210, 213, 216
+        ),
+        de: contentBlock(
+          row, showOnPdp, showOnPlp,
+          166, 169, 172, 175, 178, 181, 184, 187, 190, 193, 196, 199,
+          202, 205, 208, 211, 214, 217
+        ),
       },
 
       nl: {
-        en: contentBlock(row, showOnPdp, showOnPlp,
-          217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239,
-          241, 243, 245, 247, 249, 251),
-        nl: contentBlock(row, showOnPdp, showOnPlp,
+        en: contentBlock(
+          row, showOnPdp, showOnPlp,
           218, 220, 222, 224, 226, 228, 230, 232, 234, 236, 238, 240,
-          242, 244, 246, 248, 250, 252),
+          242, 244, 246, 248, 250, 252
+        ),
+        nl: contentBlock(
+          row, showOnPdp, showOnPlp,
+          219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241,
+          243, 245, 247, 249, 251, 253
+        ),
       },
 
-      eu: contentBlock(row, showOnPdp, showOnPlp,
-        253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264,
-        265, 266, 267, 268, 269, 270),
+      eu: contentBlock(
+        row, showOnPdp, showOnPlp,
+        254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265,
+        266, 267, 268, 269, 270, 271
+      ),
 
-      xbr: contentBlock(row, showOnPdp, showOnPlp,
-        271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282,
-        283, 284, 285, 286, 287, 288),
+      xbr: contentBlock(
+        row, showOnPdp, showOnPlp,
+        272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283,
+        284, 285, 286, 287, 288, 289
+      ),
     },
 
     multibuy,
@@ -280,6 +351,7 @@ export default async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
   if (req.method === "OPTIONS") return res.status(204).end();
+
   if (req.method !== "POST") {
     return res.status(405).json({ error: true, message: "Method not allowed" });
   }
@@ -300,7 +372,7 @@ export default async function handler(req, res) {
       .filter(Boolean);
 
     const payload = {
-      version: 2,
+      version: 3,
       generatedAt: new Date().toISOString(),
       total: rules.length,
       rules,
