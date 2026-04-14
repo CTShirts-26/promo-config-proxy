@@ -77,10 +77,6 @@ function splitExcludedProductIds(raw) {
   return splitList(raw, { uppercase: true, mapAll: true }).filter(v => v !== ALL);
 }
 
-function splitCampaignSites(raw) {
-  return splitList(raw, { lowercase: true });
-}
-
 function parseDate(raw, { endOfDay = false } = {}) {
   const s = String(raw || "").trim();
   if (!s) return null;
@@ -168,9 +164,9 @@ function buildRuleFromRow(row, idx) {
   const startUtc = parseDate(v(row, 4));
   const endUtc = parseDate(v(row, 5), { endOfDay: true });
 
-  const defaultCampaignSites = splitCampaignSites(v(row, 19));
-  const affiliateCampaignSites = splitCampaignSites(v(row, 20));
-  const acquisitionCampaignSites = splitCampaignSites(v(row, 21));
+  const showOnDefault = tb(row, 19);
+  const showOnAffiliate = tb(row, 20);
+  const showOnAcquisition = tb(row, 21);
 
   const showOnPdp = tb(row, 24);
   const showOnPlp = tb(row, 25);
@@ -223,12 +219,15 @@ function buildRuleFromRow(row, idx) {
     countryEnabled,
 
     targeting: {
-      defaultCampaignSites,
-      affiliateCampaignSites,
-      acquisitionCampaignSites,
+      showOnDefault,
+      showOnAffiliate,
+      showOnAcquisition,
 
-      // Backwards compatibility while frontend is being updated
-      campaignSites: affiliateCampaignSites,
+      // kept for backward compatibility, but no longer read from cols 19-21
+      defaultCampaignSites: [],
+      affiliateCampaignSites: [],
+      acquisitionCampaignSites: [],
+      campaignSites: [],
 
       mainCategories: splitCategoryIds(v(row, 22)),
       excludedCategories: splitExcludedCategoryIds(v(row, 23)),
@@ -372,7 +371,7 @@ export default async function handler(req, res) {
       .filter(Boolean);
 
     const payload = {
-      version: 3,
+      version: 4,
       generatedAt: new Date().toISOString(),
       total: rules.length,
       rules,
