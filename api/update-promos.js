@@ -82,19 +82,37 @@ function splitCampaignSites(raw) {
   return splitList(raw, { lowercase: true });
 }
 
+// FIX: supports "DD/MM/YYYY" (date only) and "DD/MM/YYYY HH:MM" (date + time).
+// When a time is present it is used as-is. When no time is present, falls back
+// to midnight (start) or end-of-day (end) as before.
+// The sheet timezone must be set to Europe/London so that Google Sheets'
+// own date serialisation does not shift the value before it reaches this function.
 function parseDate(raw, { endOfDay = false } = {}) {
   const s = String(raw || "").trim();
   if (!s) return null;
 
-  const parts = s.split("/");
-  if (parts.length === 3) {
-    const [d, m, y] = parts;
-    const hh = endOfDay ? "23" : "00";
-    const mm = endOfDay ? "59" : "00";
-    const ss = endOfDay ? "59" : "00";
+  // match "DD/MM/YYYY" optionally followed by " HH:MM"
+  const match = s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})(?:\s+(\d{1,2}):(\d{2}))?$/);
+  if (match) {
+    const [, d, m, y, th, tm] = match;
+    let hh, mm, ss;
+
+    if (th != null) {
+      // time explicitly provided in the cell — use it exactly
+      hh = th.padStart(2, "0");
+      mm = (tm || "00").padStart(2, "0");
+      ss = "00";
+    } else {
+      // no time — fall back to midnight (start) or end-of-day (end)
+      hh = endOfDay ? "23" : "00";
+      mm = endOfDay ? "59" : "00";
+      ss = endOfDay ? "59" : "00";
+    }
+
     return `${y}-${m.padStart(2, "0")}-${d.padStart(2, "0")}T${hh}:${mm}:${ss}Z`;
   }
 
+  // fallback: return raw value as-is (e.g. already an ISO string)
   return s;
 }
 
