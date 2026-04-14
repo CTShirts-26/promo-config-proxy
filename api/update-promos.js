@@ -2,7 +2,6 @@ import { put } from "@vercel/blob";
 
 const SECRET = process.env.WEBHOOK_SECRET;
 const ALL = "__ALL__";
-const TRANSFORMER_VERSION = "TIME_SUPPORT_V1";
 
 // Row 4 = headers
 // Row 5+ = campaign data
@@ -82,138 +81,18 @@ function splitCampaignSites(raw) {
   return splitList(raw, { lowercase: true });
 }
 
-function pad(n) {
-  return String(n).padStart(2, "0");
-}
-
-function formatDateTime(date) {
-  return (
-    `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())} ` +
-    `${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`
-  );
-}
-
 function parseDate(raw, { endOfDay = false } = {}) {
-  console.log(`[update-promos] ${TRANSFORMER_VERSION} parseDate input`, {
-    raw,
-    endOfDay,
-    rawType: typeof raw,
-    isDateObject: raw instanceof Date,
-  });
-
-  if (raw == null || raw === "") return null;
-
-  if (raw instanceof Date && !isNaN(raw)) {
-    const d = new Date(raw);
-
-    const hasExplicitTime =
-      d.getHours() !== 0 ||
-      d.getMinutes() !== 0 ||
-      d.getSeconds() !== 0;
-
-    if (!hasExplicitTime) {
-      if (endOfDay) {
-        d.setHours(23, 59, 59, 999);
-      } else {
-        d.setHours(0, 0, 0, 0);
-      }
-    }
-
-    const formatted = formatDateTime(d);
-
-    console.log(`[update-promos] ${TRANSFORMER_VERSION} parseDate output from Date`, {
-      input: raw,
-      output: formatted,
-      endOfDay,
-    });
-
-    return formatted;
-  }
-
-  const s = String(raw).trim();
+  const s = String(raw || "").trim();
   if (!s) return null;
 
-  const match = s.match(
-    /^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})(?:\s+(\d{1,2}):(\d{2})(?::(\d{2}))?)?$/
-  );
-
-  if (match) {
-    const [, d, m, y, hh, mm, ss] = match;
-    const hasTime = hh != null;
-
-    const date = new Date(
-      Number(y),
-      Number(m) - 1,
-      Number(d),
-      hasTime ? Number(hh) : 0,
-      hasTime ? Number(mm) : 0,
-      hasTime && ss != null ? Number(ss) : 0,
-      0
-    );
-
-    if (!hasTime) {
-      if (endOfDay) {
-        date.setHours(23, 59, 59, 999);
-      } else {
-        date.setHours(0, 0, 0, 0);
-      }
-    }
-
-    const formatted = formatDateTime(date);
-
-    console.log(`[update-promos] ${TRANSFORMER_VERSION} parseDate output from DD/MM/YYYY`, {
-      input: raw,
-      output: formatted,
-      endOfDay,
-      hasTime,
-    });
-
-    return formatted;
+  const parts = s.split("/");
+  if (parts.length === 3) {
+    const [d, m, y] = parts;
+    const hh = endOfDay ? "23" : "00";
+    const mm = endOfDay ? "59" : "00";
+    const ss = endOfDay ? "59" : "00";
+    return `${y}-${m.padStart(2, "0")}-${d.padStart(2, "0")}T${hh}:${mm}:${ss}Z`;
   }
-
-  const isoLike = s.match(
-    /^(\d{4})-(\d{2})-(\d{2})(?:[ T](\d{2}):(\d{2})(?::(\d{2}))?)?$/
-  );
-
-  if (isoLike) {
-    const [, y, m, d, hh, mm, ss] = isoLike;
-    const hasTime = hh != null;
-
-    const date = new Date(
-      Number(y),
-      Number(m) - 1,
-      Number(d),
-      hasTime ? Number(hh) : 0,
-      hasTime ? Number(mm) : 0,
-      hasTime && ss != null ? Number(ss) : 0,
-      0
-    );
-
-    if (!hasTime) {
-      if (endOfDay) {
-        date.setHours(23, 59, 59, 999);
-      } else {
-        date.setHours(0, 0, 0, 0);
-      }
-    }
-
-    const formatted = formatDateTime(date);
-
-    console.log(`[update-promos] ${TRANSFORMER_VERSION} parseDate output from ISO-like`, {
-      input: raw,
-      output: formatted,
-      endOfDay,
-      hasTime,
-    });
-
-    return formatted;
-  }
-
-  console.log(`[update-promos] ${TRANSFORMER_VERSION} parseDate fallback raw string`, {
-    input: raw,
-    output: s,
-    endOfDay,
-  });
 
   return s;
 }
@@ -286,7 +165,6 @@ function buildRuleFromRow(row, idx) {
   const category = v(row, 1);
   const enabled = tb(row, 2);
   const status = v(row, 3);
-
   const startUtc = parseDate(v(row, 4));
   const endUtc = parseDate(v(row, 5), { endOfDay: true });
 
@@ -298,15 +176,6 @@ function buildRuleFromRow(row, idx) {
   const showOnPlp = tb(row, 25);
 
   if (!enabled || !ruleId) return null;
-
-  console.log(`[update-promos] ${TRANSFORMER_VERSION} rule schedule`, {
-    ruleId,
-    rowNumber: idx + 5,
-    rawStart: v(row, 4),
-    rawEnd: v(row, 5),
-    startUtc,
-    endUtc,
-  });
 
   const countryEnabled = {
     us: tb(row, 9),
@@ -357,7 +226,10 @@ function buildRuleFromRow(row, idx) {
       defaultCampaignSites,
       affiliateCampaignSites,
       acquisitionCampaignSites,
+
+      // Backwards compatibility while frontend is being updated
       campaignSites: affiliateCampaignSites,
+
       mainCategories: splitCategoryIds(v(row, 22)),
       excludedCategories: splitExcludedCategoryIds(v(row, 23)),
       showOnPdp,
@@ -495,35 +367,16 @@ export default async function handler(req, res) {
   }
 
   try {
-    console.log(`[update-promos] ${TRANSFORMER_VERSION} request received`, {
-      rows: rows.length,
-      firstRowPreview: rows[0]?.slice?.(0, 6) || null,
-    });
-
     const rules = rows
       .map((row, idx) => buildRuleFromRow(row, idx))
       .filter(Boolean);
 
     const payload = {
-      version: 4,
-      transformerVersion: TRANSFORMER_VERSION,
+      version: 3,
       generatedAt: new Date().toISOString(),
       total: rules.length,
       rules,
     };
-
-    console.log(`[update-promos] ${TRANSFORMER_VERSION} final payload preview`, {
-      version: payload.version,
-      transformerVersion: payload.transformerVersion,
-      total: payload.total,
-      firstRuleSchedule: rules[0]
-        ? {
-            ruleId: rules[0].ruleId,
-            startUtc: rules[0].startUtc,
-            endUtc: rules[0].endUtc,
-          }
-        : null,
-    });
 
     await put(
       "promos.json",
@@ -537,17 +390,16 @@ export default async function handler(req, res) {
       }
     );
 
-    console.log(`[update-promos] ${TRANSFORMER_VERSION} wrote ${rules.length} rules at ${payload.generatedAt}`);
+    console.log(`[update-promos] Wrote ${rules.length} rules at ${payload.generatedAt}`);
 
     return res.status(200).json({
       ok: true,
       count: rules.length,
       generatedAt: payload.generatedAt,
       version: payload.version,
-      transformerVersion: payload.transformerVersion,
     });
   } catch (err) {
-    console.error(`[update-promos] ${TRANSFORMER_VERSION} error:`, err);
+    console.error("[update-promos] Error:", err);
     return res.status(500).json({
       error: true,
       message: "Internal server error",
