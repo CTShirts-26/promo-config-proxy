@@ -15,29 +15,28 @@ const ALL = "__ALL__";
 // col 6   = BANNERSTRIP scope
 // col 7   = TIB TEXT scope
 // col 8   = PLP CALL OUT scope
-// col 9   = HIDE MULTIBUY
-// col 10-19  = country enabled (US,CA,AU,UK,DE,FR,CH,NL,EU,XBR)
-// col 20  = SHOW ON DEFAULT
-// col 21  = SHOW ON AFFILIATE
-// col 22  = SHOW ON ACQ
-// col 23  = MAIN CATEGORIES ID
-// col 24  = EXCLUDED SUB CATEGORIES ID
-// col 25  = SHOW ON PDP
-// col 26  = SHOW ON PLP
-// col 27  = PRODUCT ID
-// col 28  = EXCLUDE PRODUCT ID
-// col 29-38 = HIDE PROMO BOX (US,CA,AU,UK,DE,FR,CH,NL,EU,XBR)
-// col 39-56  = US content (18 cols)
-// col 57-92  = CA content (EN/FR interleaved, 36 cols)
-// col 93-110 = AU content (18 cols)
-// col 111-128 = UK content (18 cols)
-// col 129-146 = DE content (18 cols)
-// col 147-164 = FR content (18 cols)
-// col 165-218 = CH content (EN/FR/DE interleaved, 54 cols)
-// col 219-254 = NL content (EN/NL interleaved, 36 cols)
-// col 255-272 = EU content (18 cols)
-// col 273-290 = XBR content (18 cols)
-// col 291-310 = MULTIBUY per country (20 cols)
+// col 9-18  = country enabled (US,CA,AU,UK,DE,FR,CH,NL,EU,XBR)
+// col 19  = SHOW ON DEFAULT
+// col 20  = SHOW ON AFFILIATE
+// col 21  = SHOW ON ACQ
+// col 22  = MAIN CATEGORIES ID
+// col 23  = EXCLUDED SUB CATEGORIES ID
+// col 24  = SHOW ON PDP
+// col 25  = SHOW ON PLP
+// col 26  = PRODUCT ID
+// col 27  = EXCLUDE PRODUCT ID
+// col 28-37 = HIDE PROMO BOX (US,CA,AU,UK,DE,FR,CH,NL,EU,XBR)
+// col 38-55  = US content (18 cols)
+// col 56-91  = CA content (EN/FR interleaved, 36 cols)
+// col 92-109 = AU content (18 cols)
+// col 110-127 = UK content (18 cols)
+// col 128-145 = DE content (18 cols)
+// col 146-163 = FR content (18 cols)
+// col 164-217 = CH content (EN/FR/DE interleaved, 54 cols)
+// col 218-253 = NL content (EN/NL interleaved, 36 cols)
+// col 254-271 = EU content (18 cols)
+// col 272-289 = XBR content (18 cols)
+// col 290-309 = MULTIBUY per country (20 cols)
 
 function v(row, i) {
   return String(row[i] ?? "").trim();
@@ -82,17 +81,108 @@ function splitCampaignSites(raw) {
   return splitList(raw, { lowercase: true });
 }
 
+function pad(n) {
+  return String(n).padStart(2, "0");
+}
+
+function formatDateTime(date) {
+  return (
+    `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())} ` +
+    `${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`
+  );
+}
+
 function parseDate(raw, { endOfDay = false } = {}) {
-  const s = String(raw || "").trim();
+  if (raw == null || raw === "") return null;
+
+  if (raw instanceof Date && !isNaN(raw)) {
+    const d = new Date(raw);
+
+    const hasExplicitTime =
+      d.getHours() !== 0 ||
+      d.getMinutes() !== 0 ||
+      d.getSeconds() !== 0;
+
+    if (!hasExplicitTime) {
+      if (endOfDay) {
+        d.setHours(23, 59, 59, 999);
+      } else {
+        d.setHours(0, 0, 0, 0);
+      }
+    }
+
+    return formatDateTime(d);
+  }
+
+  const s = String(raw).trim();
   if (!s) return null;
 
-  const parts = s.split("/");
-  if (parts.length === 3) {
-    const [d, m, y] = parts;
-    const hh = endOfDay ? "23" : "00";
-    const mm = endOfDay ? "59" : "00";
-    const ss = endOfDay ? "59" : "00";
-    return `${y}-${m.padStart(2, "0")}-${d.padStart(2, "0")}T${hh}:${mm}:${ss}Z`;
+  // Supports:
+  // 20/04/2026
+  // 20/04/2026 12:00
+  // 20/04/2026 12:00:30
+  // 20-04-2026
+  // 20-04-2026 12:00
+  const match = s.match(
+    /^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})(?:\s+(\d{1,2}):(\d{2})(?::(\d{2}))?)?$/
+  );
+
+  if (match) {
+    const [, d, m, y, hh, mm, ss] = match;
+    const hasTime = hh != null;
+
+    const date = new Date(
+      Number(y),
+      Number(m) - 1,
+      Number(d),
+      hasTime ? Number(hh) : 0,
+      hasTime ? Number(mm) : 0,
+      hasTime && ss != null ? Number(ss) : 0,
+      0
+    );
+
+    if (!hasTime) {
+      if (endOfDay) {
+        date.setHours(23, 59, 59, 999);
+      } else {
+        date.setHours(0, 0, 0, 0);
+      }
+    }
+
+    return formatDateTime(date);
+  }
+
+  // Fallback for already normalised values like:
+  // 2026-04-20
+  // 2026-04-20 12:00:00
+  // 2026-04-20T12:00:00
+  const isoLike = s.match(
+    /^(\d{4})-(\d{2})-(\d{2})(?:[ T](\d{2}):(\d{2})(?::(\d{2}))?)?$/
+  );
+
+  if (isoLike) {
+    const [, y, m, d, hh, mm, ss] = isoLike;
+    const hasTime = hh != null;
+
+    const date = new Date(
+      Number(y),
+      Number(m) - 1,
+      Number(d),
+      hasTime ? Number(hh) : 0,
+      hasTime ? Number(mm) : 0,
+      hasTime && ss != null ? Number(ss) : 0,
+      0
+    );
+
+    if (!hasTime) {
+      if (endOfDay) {
+        date.setHours(23, 59, 59, 999);
+      } else {
+        date.setHours(0, 0, 0, 0);
+      }
+    }
+
+    return formatDateTime(date);
   }
 
   return s;
@@ -166,44 +256,47 @@ function buildRuleFromRow(row, idx) {
   const category = v(row, 1);
   const enabled = tb(row, 2);
   const status = v(row, 3);
+
+  // Backwards compatible scheduling:
+  // Date only start  -> 00:00:00
+  // Date only end    -> 23:59:59
+  // Explicit time    -> preserved
   const startUtc = parseDate(v(row, 4));
   const endUtc = parseDate(v(row, 5), { endOfDay: true });
 
-  const hideMultibuy = tb(row, 9);
+  const defaultCampaignSites = splitCampaignSites(v(row, 19));
+  const affiliateCampaignSites = splitCampaignSites(v(row, 20));
+  const acquisitionCampaignSites = splitCampaignSites(v(row, 21));
 
-  const defaultCampaignSites = splitCampaignSites(v(row, 20));
-  const affiliateCampaignSites = splitCampaignSites(v(row, 21));
-  const acquisitionCampaignSites = splitCampaignSites(v(row, 22));
-
-  const showOnPdp = tb(row, 25);
-  const showOnPlp = tb(row, 26);
+  const showOnPdp = tb(row, 24);
+  const showOnPlp = tb(row, 25);
 
   if (!enabled || !ruleId) return null;
 
   const countryEnabled = {
-    us: tb(row, 10),
-    ca: tb(row, 11),
-    au: tb(row, 12),
-    uk: tb(row, 13),
-    de: tb(row, 14),
-    fr: tb(row, 15),
-    ch: tb(row, 16),
-    nl: tb(row, 17),
-    eu: tb(row, 18),
-    xbr: tb(row, 19),
+    us: tb(row, 9),
+    ca: tb(row, 10),
+    au: tb(row, 11),
+    uk: tb(row, 12),
+    de: tb(row, 13),
+    fr: tb(row, 14),
+    ch: tb(row, 15),
+    nl: tb(row, 16),
+    eu: tb(row, 17),
+    xbr: tb(row, 18),
   };
 
   const multibuy = {
-    us:  { message: v(row, 291), enabled: !!v(row, 291), excludedCategories: splitExcludedCategoryIds(v(row, 292)) },
-    ca:  { message: v(row, 293), enabled: !!v(row, 293), excludedCategories: splitExcludedCategoryIds(v(row, 294)) },
-    au:  { message: v(row, 295), enabled: !!v(row, 295), excludedCategories: splitExcludedCategoryIds(v(row, 296)) },
-    uk:  { message: v(row, 297), enabled: !!v(row, 297), excludedCategories: splitExcludedCategoryIds(v(row, 298)) },
-    de:  { message: v(row, 299), enabled: !!v(row, 299), excludedCategories: splitExcludedCategoryIds(v(row, 300)) },
-    fr:  { message: v(row, 301), enabled: !!v(row, 301), excludedCategories: splitExcludedCategoryIds(v(row, 302)) },
-    ch:  { message: v(row, 303), enabled: !!v(row, 303), excludedCategories: splitExcludedCategoryIds(v(row, 304)) },
-    nl:  { message: v(row, 305), enabled: !!v(row, 305), excludedCategories: splitExcludedCategoryIds(v(row, 306)) },
-    eu:  { message: v(row, 307), enabled: !!v(row, 307), excludedCategories: splitExcludedCategoryIds(v(row, 308)) },
-    xbr: { message: v(row, 309), enabled: !!v(row, 309), excludedCategories: splitExcludedCategoryIds(v(row, 310)) },
+    us:  { message: v(row, 290), enabled: !!v(row, 290), excludedCategories: splitExcludedCategoryIds(v(row, 291)) },
+    ca:  { message: v(row, 292), enabled: !!v(row, 292), excludedCategories: splitExcludedCategoryIds(v(row, 293)) },
+    au:  { message: v(row, 294), enabled: !!v(row, 294), excludedCategories: splitExcludedCategoryIds(v(row, 295)) },
+    uk:  { message: v(row, 296), enabled: !!v(row, 296), excludedCategories: splitExcludedCategoryIds(v(row, 297)) },
+    de:  { message: v(row, 298), enabled: !!v(row, 298), excludedCategories: splitExcludedCategoryIds(v(row, 299)) },
+    fr:  { message: v(row, 300), enabled: !!v(row, 300), excludedCategories: splitExcludedCategoryIds(v(row, 301)) },
+    ch:  { message: v(row, 302), enabled: !!v(row, 302), excludedCategories: splitExcludedCategoryIds(v(row, 303)) },
+    nl:  { message: v(row, 304), enabled: !!v(row, 304), excludedCategories: splitExcludedCategoryIds(v(row, 305)) },
+    eu:  { message: v(row, 306), enabled: !!v(row, 306), excludedCategories: splitExcludedCategoryIds(v(row, 307)) },
+    xbr: { message: v(row, 308), enabled: !!v(row, 308), excludedCategories: splitExcludedCategoryIds(v(row, 309)) },
   };
 
   return {
@@ -220,7 +313,6 @@ function buildRuleFromRow(row, idx) {
       promoCallout: tb(row, 8),
       plpCallout: tb(row, 8),
       pdpCallout: tb(row, 8) && showOnPdp,
-      hideMultibuy,
       multibuy: Object.values(multibuy).some(item => item.enabled),
     },
 
@@ -231,114 +323,115 @@ function buildRuleFromRow(row, idx) {
       affiliateCampaignSites,
       acquisitionCampaignSites,
 
+      // Backwards compatibility while frontend is being updated
       campaignSites: affiliateCampaignSites,
 
-      mainCategories: splitCategoryIds(v(row, 23)),
-      excludedCategories: splitExcludedCategoryIds(v(row, 24)),
+      mainCategories: splitCategoryIds(v(row, 22)),
+      excludedCategories: splitExcludedCategoryIds(v(row, 23)),
       showOnPdp,
       showOnPlp,
-      productIds: splitProductIds(v(row, 27)),
-      excludedProductIds: splitExcludedProductIds(v(row, 28)),
+      productIds: splitProductIds(v(row, 26)),
+      excludedProductIds: splitExcludedProductIds(v(row, 27)),
     },
 
     hidePromoBox: {
-      us: tb(row, 29),
-      ca: tb(row, 30),
-      au: tb(row, 31),
-      uk: tb(row, 32),
-      de: tb(row, 33),
-      fr: tb(row, 34),
-      ch: tb(row, 35),
-      nl: tb(row, 36),
-      eu: tb(row, 37),
-      xbr: tb(row, 38),
+      us: tb(row, 28),
+      ca: tb(row, 29),
+      au: tb(row, 30),
+      uk: tb(row, 31),
+      de: tb(row, 32),
+      fr: tb(row, 33),
+      ch: tb(row, 34),
+      nl: tb(row, 35),
+      eu: tb(row, 36),
+      xbr: tb(row, 37),
     },
 
     content: {
       us: contentBlock(
         row, showOnPdp, showOnPlp,
-        39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
-        51, 52, 53, 54, 55, 56
+        38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
+        50, 51, 52, 53, 54, 55
       ),
 
       ca: {
         en: contentBlock(
           row, showOnPdp, showOnPlp,
-          57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79,
-          81, 83, 85, 87, 89, 91
+          56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78,
+          80, 82, 84, 86, 88, 90
         ),
         fr: contentBlock(
           row, showOnPdp, showOnPlp,
-          58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80,
-          82, 84, 86, 88, 90, 92
+          57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79,
+          81, 83, 85, 87, 89, 91
         ),
       },
 
       au: contentBlock(
         row, showOnPdp, showOnPlp,
-        93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104,
-        105, 106, 107, 108, 109, 110
+        92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103,
+        104, 105, 106, 107, 108, 109
       ),
 
       uk: contentBlock(
         row, showOnPdp, showOnPlp,
-        111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122,
-        123, 124, 125, 126, 127, 128
+        110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121,
+        122, 123, 124, 125, 126, 127
       ),
 
       de: contentBlock(
         row, showOnPdp, showOnPlp,
-        129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140,
-        141, 142, 143, 144, 145, 146
+        128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139,
+        140, 141, 142, 143, 144, 145
       ),
 
       fr: contentBlock(
         row, showOnPdp, showOnPlp,
-        147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158,
-        159, 160, 161, 162, 163, 164
+        146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157,
+        158, 159, 160, 161, 162, 163
       ),
 
       ch: {
         en: contentBlock(
           row, showOnPdp, showOnPlp,
-          165, 168, 171, 174, 177, 180, 183, 186, 189, 192, 195, 198,
-          201, 204, 207, 210, 213, 216
+          164, 167, 170, 173, 176, 179, 182, 185, 188, 191, 194, 197,
+          200, 203, 206, 209, 212, 215
         ),
         fr: contentBlock(
           row, showOnPdp, showOnPlp,
-          166, 169, 172, 175, 178, 181, 184, 187, 190, 193, 196, 199,
-          202, 205, 208, 211, 214, 217
+          165, 168, 171, 174, 177, 180, 183, 186, 189, 192, 195, 198,
+          201, 204, 207, 210, 213, 216
         ),
         de: contentBlock(
           row, showOnPdp, showOnPlp,
-          167, 170, 173, 176, 179, 182, 185, 188, 191, 194, 197, 200,
-          203, 206, 209, 212, 215, 218
+          166, 169, 172, 175, 178, 181, 184, 187, 190, 193, 196, 199,
+          202, 205, 208, 211, 214, 217
         ),
       },
 
       nl: {
         en: contentBlock(
           row, showOnPdp, showOnPlp,
-          219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241,
-          243, 245, 247, 249, 251, 253
+          218, 220, 222, 224, 226, 228, 230, 232, 234, 236, 238, 240,
+          242, 244, 246, 248, 250, 252
         ),
         nl: contentBlock(
           row, showOnPdp, showOnPlp,
-          220, 222, 224, 226, 228, 230, 232, 234, 236, 238, 240, 242,
-          244, 246, 248, 250, 252, 254
+          219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241,
+          243, 245, 247, 249, 251, 253
         ),
       },
 
       eu: contentBlock(
         row, showOnPdp, showOnPlp,
-        255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266,
-        267, 268, 269, 270, 271, 272
+        254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265,
+        266, 267, 268, 269, 270, 271
       ),
 
       xbr: contentBlock(
         row, showOnPdp, showOnPlp,
-        273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284,
-        285, 286, 287, 288, 289, 290
+        272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283,
+        284, 285, 286, 287, 288, 289
       ),
     },
 
