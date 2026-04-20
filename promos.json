@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-20T14:57:34.261Z",
+  "generatedAt": "2026-04-20T15:00:45.411Z",
   "total": 2,
   "rules": [
     {
@@ -893,19 +893,19 @@
             "affiliateEndsTonight": "5 FOR £200 | CODE: AFFILIATE - ENDS TONIGHT"
           },
           "promoCallout": {
-            "default": "3 FOR £165",
+            "default": "3 FOR £000",
             "endsTonight": "",
             "affiliate": "5 FOR £200| CODE: AFFILIATE",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "3 FOR £165",
+            "default": "3 FOR £000",
             "endsTonight": "",
             "affiliate": "5 FOR £200| CODE: AFFILIATE",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "3 FOR £165",
+            "default": "3 FOR £000",
             "endsTonight": "",
             "affiliate": "5 FOR £200| CODE: AFFILIATE",
             "affiliateEndsTonight": ""
