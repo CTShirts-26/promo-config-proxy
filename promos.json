@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-20T15:11:24.674Z",
+  "generatedAt": "2026-04-20T15:23:05.284Z",
   "total": 2,
   "rules": [
     {
@@ -695,7 +695,7 @@
           "JEP0448OLV"
         ]
       },
-      "hideMultibuy": true,
+      "hideMultibuy": false,
       "hidePromoBox": {
         "us": false,
         "ca": false,
@@ -1386,7 +1386,7 @@
         ],
         "excludedProductIds": []
       },
-      "hideMultibuy": true,
+      "hideMultibuy": false,
       "hidePromoBox": {
         "us": false,
         "ca": false,
