@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:03:39.696Z",
+  "generatedAt": "2026-04-21T15:03:41.723Z",
   "total": 1,
   "rules": [
     {
@@ -188,7 +188,7 @@
         "au": {
           "bannerstrip": {
             "line1": "",
-            "line2": "free delivery",
+            "line2": "",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
