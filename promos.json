@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:04:23.664Z",
+  "generatedAt": "2026-04-21T15:04:25.210Z",
   "total": 1,
   "rules": [
     {
@@ -368,19 +368,19 @@
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "4 FOR CHF 265",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "4 FOR CHF 265",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "4 FOR CHF 265",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
