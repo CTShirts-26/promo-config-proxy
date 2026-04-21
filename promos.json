@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:39:12.714Z",
+  "generatedAt": "2026-04-21T15:46:15.783Z",
   "total": 1,
   "rules": [
     {
@@ -83,7 +83,7 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF Everything | Friends & Family event kkkk",
+            "default": "25% OFF Everything | Friends & Family event",
             "endsTonight": "25% Off Ends Tonight | llll",
             "affiliate": "",
             "affiliateEndsTonight": ""
