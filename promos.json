@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:04:36.277Z",
+  "generatedAt": "2026-04-21T15:04:37.138Z",
   "total": 1,
   "rules": [
     {
@@ -532,19 +532,19 @@
             "promoCallout": {
               "default": "",
               "endsTonight": "",
-              "affiliate": "$20 off | Code: XX",
+              "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
               "default": "",
               "endsTonight": "",
-              "affiliate": "$20 off | Code: XX",
+              "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
               "default": "",
               "endsTonight": "",
-              "affiliate": "$20 off | Code: XX",
+              "affiliate": "",
               "affiliateEndsTonight": ""
             }
           }
