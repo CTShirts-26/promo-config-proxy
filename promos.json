@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:04:04.585Z",
+  "generatedAt": "2026-04-21T15:04:08.956Z",
   "total": 1,
   "rules": [
     {
@@ -281,9 +281,9 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "5 FOR 200 €",
+            "default": "",
             "endsTonight": "",
-            "affiliate": "5 FOR 200 € | CODE: AFFILIATE",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
