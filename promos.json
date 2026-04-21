@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T16:19:18.130Z",
+  "generatedAt": "2026-04-21T16:19:26.197Z",
   "total": 1,
   "rules": [
     {
@@ -164,7 +164,7 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "–25% sur tout",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
