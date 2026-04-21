@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:03:37.453Z",
+  "generatedAt": "2026-04-21T15:03:39.696Z",
   "total": 1,
   "rules": [
     {
@@ -121,7 +121,7 @@
             },
             "tibText": {
               "default": "",
-              "endsTonight": "hkhkhj",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
@@ -187,7 +187,7 @@
         },
         "au": {
           "bannerstrip": {
-            "line1": "5 for $265",
+            "line1": "",
             "line2": "free delivery",
             "line3": "",
             "line1EndsTonight": "",
