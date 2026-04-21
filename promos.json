@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:03:58.969Z",
+  "generatedAt": "2026-04-21T15:03:59.980Z",
   "total": 1,
   "rules": [
     {
@@ -244,7 +244,7 @@
             "default": "",
             "endsTonight": "",
             "affiliate": "",
-            "affiliateEndsTonight": "5 FOR £200 | CODE: AFFILIATE - ENDS TONIGHT"
+            "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "3 FOR £000",
