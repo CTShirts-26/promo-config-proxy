@@ -1,4 +1,4 @@
-import { put } from "@vercel/blob";
+import { put } from "";
 
 const SECRET = process.env.WEBHOOK_SECRET;
 const ALL = "__ALL__";
