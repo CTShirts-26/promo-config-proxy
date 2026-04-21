@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T16:21:26.757Z",
+  "generatedAt": "2026-04-21T16:21:37.906Z",
   "total": 1,
   "rules": [
     {
@@ -165,7 +165,7 @@
             },
             "tibText": {
               "default": "–25% sur tout | CODE: CTFF25",
-              "endsTonight": "",
+              "endsTonight": "–25% sur tout | CODE: CTFF25",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
