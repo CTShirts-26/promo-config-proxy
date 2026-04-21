@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:04:26.463Z",
+  "generatedAt": "2026-04-21T15:04:27.578Z",
   "total": 1,
   "rules": [
     {
@@ -448,19 +448,19 @@
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "4 HENDEM CHF 265",
+              "default": "",
               "endsTonight": "",
               "affiliate": "$20 off | Code: XX",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "4 HENDEM CHF 265",
+              "default": "",
               "endsTonight": "",
               "affiliate": "$20 off | Code: XX",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "4 HENDEM CHF 265",
+              "default": "",
               "endsTonight": "",
               "affiliate": "$20 off | Code: XX",
               "affiliateEndsTonight": ""
