@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:04:17.910Z",
+  "generatedAt": "2026-04-21T15:04:22.804Z",
   "total": 1,
   "rules": [
     {
@@ -362,7 +362,7 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "4 FOR CHF 265",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -402,7 +402,7 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "4 POUR CHF 265",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -442,7 +442,7 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "4 HENDEM CHF 265",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
