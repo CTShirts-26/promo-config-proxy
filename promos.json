@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T16:26:08.810Z",
+  "generatedAt": "2026-04-21T16:28:26.332Z",
   "total": 1,
   "rules": [
     {
@@ -111,7 +111,7 @@
           "en": {
             "bannerstrip": {
               "line1": "25% off everything | CODE: CTFF25",
-              "line2": "",
+              "line2": "Free Delivery",
               "line3": "",
               "line1EndsTonight": "25% off ends tonight | CODE: CTFF25",
               "line2EndsTonight": "",
