@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:04:31.983Z",
+  "generatedAt": "2026-04-21T15:04:34.474Z",
   "total": 1,
   "rules": [
     {
@@ -490,19 +490,19 @@
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "$20 off trousers ends tonight | Code: XX",
+              "default": "",
               "endsTonight": "",
               "affiliate": "$20 off",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "$20 off trousers ends tonight | Code: XX",
+              "default": "",
               "endsTonight": "",
               "affiliate": "$20 off",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "$20 off trousers ends tonight | Code: XX",
+              "default": "",
               "endsTonight": "",
               "affiliate": "$20 off",
               "affiliateEndsTonight": ""
@@ -530,19 +530,19 @@
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "$20 off trousers ends tonight | Code: XX",
+              "default": "",
               "endsTonight": "",
               "affiliate": "$20 off | Code: XX",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "$20 off trousers ends tonight | Code: XX",
+              "default": "",
               "endsTonight": "",
               "affiliate": "$20 off | Code: XX",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "$20 off trousers ends tonight | Code: XX",
+              "default": "",
               "endsTonight": "",
               "affiliate": "$20 off | Code: XX",
               "affiliateEndsTonight": ""
