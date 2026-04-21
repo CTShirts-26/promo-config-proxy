@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T14:50:48.194Z",
+  "generatedAt": "2026-04-21T15:03:27.099Z",
   "total": 1,
   "rules": [
     {
@@ -35,15 +35,9 @@
           "usddefault",
           "caddefault"
         ],
-        "affiliateCampaignSites": [
-          "us39t3",
-          "usdgr"
-        ],
+        "affiliateCampaignSites": [],
         "acquisitionCampaignSites": [],
-        "campaignSites": [
-          "us39t3",
-          "usdgr"
-        ],
+        "campaignSites": [],
         "mainCategories": [
           "__ALL__"
         ],
