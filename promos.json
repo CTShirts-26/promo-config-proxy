@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:03:43.032Z",
+  "generatedAt": "2026-04-21T15:03:44.940Z",
   "total": 1,
   "rules": [
     {
@@ -201,25 +201,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "5 for $275 - I love chickens",
+            "default": "",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "5 for $275",
+            "default": "",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "5 for $275",
+            "default": "",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "5 for $275",
+            "default": "",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
