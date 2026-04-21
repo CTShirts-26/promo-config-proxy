@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:03:48.811Z",
+  "generatedAt": "2026-04-21T15:03:50.328Z",
   "total": 1,
   "rules": [
     {
@@ -230,8 +230,8 @@
             "line1": "",
             "line2": "",
             "line3": "",
-            "line1EndsTonight": "50% Offer ends tonight",
-            "line2EndsTonight": "Free Delivery ends tonight",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "Bannerstrip 1 Affliate",
             "line2Affiliate": "Banner 2 AFFILIATE",
