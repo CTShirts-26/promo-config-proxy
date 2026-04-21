@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:03:55.682Z",
+  "generatedAt": "2026-04-21T15:03:57.598Z",
   "total": 1,
   "rules": [
     {
@@ -242,8 +242,8 @@
           },
           "tibText": {
             "default": "",
-            "endsTonight": "5 FOR £165 - TESTING",
-            "affiliate": "5 FOR £200 | CODE: AFFILIATE",
+            "endsTonight": "",
+            "affiliate": "",
             "affiliateEndsTonight": "5 FOR £200 | CODE: AFFILIATE - ENDS TONIGHT"
           },
           "promoCallout": {
