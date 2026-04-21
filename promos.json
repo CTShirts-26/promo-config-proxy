@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-21T15:03:46.074Z",
+  "generatedAt": "2026-04-21T15:03:48.811Z",
   "total": 1,
   "rules": [
     {
@@ -227,8 +227,8 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "50% Offer",
-            "line2": "Free Delivery 55",
+            "line1": "",
+            "line2": "",
             "line3": "",
             "line1EndsTonight": "50% Offer ends tonight",
             "line2EndsTonight": "Free Delivery ends tonight",
