@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T08:51:37.355Z",
+  "generatedAt": "2026-04-22T08:51:39.577Z",
   "total": 2,
   "rules": [
     {
@@ -690,7 +690,7 @@
     },
     {
       "ruleId": "US+CA F&F",
-      "category": "",
+      "category": "ALL",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-04-26T00:01:00Z",
