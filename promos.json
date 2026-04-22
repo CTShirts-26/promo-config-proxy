@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T08:56:28.389Z",
+  "generatedAt": "2026-04-22T08:56:31.199Z",
   "total": 2,
   "rules": [
     {
@@ -760,7 +760,7 @@
             "line2Affiliate": "Limited time only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "25% Off Everything | CODE FNF25",
-            "line2AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "Ends tonight",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
