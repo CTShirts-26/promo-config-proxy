@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T08:51:18.574Z",
+  "generatedAt": "2026-04-22T08:51:28.828Z",
   "total": 2,
   "rules": [
     {
@@ -704,8 +704,8 @@
         "multibuy": false
       },
       "countryEnabled": {
-        "us": false,
-        "ca": false,
+        "us": true,
+        "ca": true,
         "au": false,
         "uk": false,
         "de": false,
