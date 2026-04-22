@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T08:44:56.327Z",
+  "generatedAt": "2026-04-22T08:45:12.934Z",
   "total": 2,
   "rules": [
     {
@@ -692,9 +692,9 @@
       "ruleId": "US+CA F&F",
       "category": "",
       "enabled": true,
-      "status": "EXPIRED",
-      "startUtc": null,
-      "endUtc": null,
+      "status": "SCHEDULED",
+      "startUtc": "2026-04-26T00:00:00Z",
+      "endUtc": "2026-04-29T00:00:00Z",
       "scope": {
         "bannerstrip": false,
         "tibText": false,
