@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T14:10:04.052Z",
+  "generatedAt": "2026-04-22T14:10:12.800Z",
   "total": 2,
   "rules": [
     {
@@ -763,7 +763,7 @@
             "line1Affiliate": "20% OFF | CODE: TEST20",
             "line2Affiliate": "20% OFF | CODE: TEST20",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "XX",
+            "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "Ends tonight",
             "line3AffiliateEndsTonight": ""
           },
