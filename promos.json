@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T08:57:50.541Z",
+  "generatedAt": "2026-04-22T08:57:52.255Z",
   "total": 2,
   "rules": [
     {
@@ -767,7 +767,7 @@
             "default": "25% OFF | USE CODE: FF25",
             "endsTonight": "25% OFF | USE CODE: FF25",
             "affiliate": "25% OFF | USE CODE: FNF25",
-            "affiliateEndsTonight": ""
+            "affiliateEndsTonight": "25% OFF | USE CODE: FNF25"
           },
           "promoCallout": {
             "default": "",
