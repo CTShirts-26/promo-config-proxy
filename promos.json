@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T12:22:32.392Z",
+  "generatedAt": "2026-04-22T12:34:02.331Z",
   "total": 1,
   "rules": [
     {
@@ -51,9 +51,7 @@
         "productIds": [
           "__ALL__"
         ],
-        "excludedProductIds": [
-          "FON0409WHT"
-        ]
+        "excludedProductIds": []
       },
       "hideMultibuy": false,
       "hidePromoBox": {
