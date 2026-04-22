@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T08:52:49.510Z",
+  "generatedAt": "2026-04-22T08:53:24.331Z",
   "total": 2,
   "rules": [
     {
@@ -750,7 +750,7 @@
       "content": {
         "us": {
           "bannerstrip": {
-            "line1": "",
+            "line1": "25% Off Everything",
             "line2": "",
             "line3": "",
             "line1EndsTonight": "",
