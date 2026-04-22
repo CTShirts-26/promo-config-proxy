@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T13:51:26.536Z",
+  "generatedAt": "2026-04-22T13:51:29.920Z",
   "total": 2,
   "rules": [
     {
@@ -755,9 +755,9 @@
         "us": {
           "bannerstrip": {
             "line1": "XX",
-            "line2": "",
+            "line2": "XX",
             "line3": "",
-            "line1EndsTonight": "25% Off Everything | CODE: FF25",
+            "line1EndsTonight": "XX",
             "line2EndsTonight": "Ends tonight",
             "line3EndsTonight": "",
             "line1Affiliate": "25% Off Everything | CODE: FNF25",
