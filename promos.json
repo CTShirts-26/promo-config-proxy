@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T08:49:14.044Z",
+  "generatedAt": "2026-04-22T08:51:18.574Z",
   "total": 2,
   "rules": [
     {
@@ -716,10 +716,17 @@
         "xbr": false
       },
       "targeting": {
-        "defaultCampaignSites": [],
-        "affiliateCampaignSites": [],
+        "defaultCampaignSites": [
+          "usddefault",
+          "caddefault"
+        ],
+        "affiliateCampaignSites": [
+          "uscjdl"
+        ],
         "acquisitionCampaignSites": [],
-        "campaignSites": [],
+        "campaignSites": [
+          "uscjdl"
+        ],
         "mainCategories": [
           "__ALL__"
         ],
