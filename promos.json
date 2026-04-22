@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T14:10:34.600Z",
+  "generatedAt": "2026-04-22T14:10:49.968Z",
   "total": 2,
   "rules": [
     {
@@ -769,7 +769,7 @@
           },
           "tibText": {
             "default": "20% OFF | CODE: TEST20",
-            "endsTonight": "20% OFF | CODE: TEST20",
+            "endsTonight": "20% OFF | ENDS TONIGHT",
             "affiliate": "XX",
             "affiliateEndsTonight": "XX"
           },
