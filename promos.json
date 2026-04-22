@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T13:58:07.076Z",
+  "generatedAt": "2026-04-22T14:09:35.046Z",
   "total": 2,
   "rules": [
     {
@@ -754,8 +754,8 @@
       "content": {
         "us": {
           "bannerstrip": {
-            "line1": "XX",
-            "line2": "XX",
+            "line1": "20% OFF | CODE: TEST20",
+            "line2": "",
             "line3": "",
             "line1EndsTonight": "XX",
             "line2EndsTonight": "Ends tonight",
