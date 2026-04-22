@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T09:08:58.720Z",
+  "generatedAt": "2026-04-22T09:09:02.245Z",
   "total": 1,
   "rules": [
     {
@@ -153,7 +153,7 @@
               "line1": "25% De Réduction Sur Tout | CODE: CTFF25",
               "line2": "Offre à durée limitée",
               "line3": "",
-              "line1EndsTonight": "",
+              "line1EndsTonight": "25% De Réduction Sur Tout | CODE: CTFF25",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "",
