@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T08:51:52.306Z",
+  "generatedAt": "2026-04-22T08:51:57.743Z",
   "total": 2,
   "rules": [
     {
@@ -696,7 +696,7 @@
         "tibText": true,
         "promoCallout": true,
         "plpCallout": true,
-        "pdpCallout": false,
+        "pdpCallout": true,
         "multibuy": false
       },
       "countryEnabled": {
@@ -727,8 +727,8 @@
           "__ALL__"
         ],
         "excludedCategories": [],
-        "showOnPdp": false,
-        "showOnPlp": false,
+        "showOnPdp": true,
+        "showOnPlp": true,
         "productIds": [
           "__ALL__"
         ],
