@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T12:34:04.069Z",
+  "generatedAt": "2026-04-22T13:37:54.676Z",
   "total": 1,
   "rules": [
     {
@@ -8,7 +8,7 @@
       "category": "ALL",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2026-04-26T00:01:00Z",
+      "startUtc": "2026-04-26T00:00:00Z",
       "endUtc": "2026-04-29T23:59:00Z",
       "scope": {
         "bannerstrip": true,
