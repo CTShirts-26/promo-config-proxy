@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T08:57:36.377Z",
+  "generatedAt": "2026-04-22T08:57:46.417Z",
   "total": 2,
   "rules": [
     {
@@ -764,7 +764,7 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "25% OFF | USE CODE: FF25",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
