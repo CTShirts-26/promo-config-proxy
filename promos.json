@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T14:10:57.055Z",
+  "generatedAt": "2026-04-22T14:11:00.090Z",
   "total": 2,
   "rules": [
     {
@@ -774,21 +774,21 @@
             "affiliateEndsTonight": "20% OFF | CODE: TEST20"
           },
           "promoCallout": {
-            "default": "XX",
+            "default": "20% OFF | CODE: TEST20",
             "endsTonight": "",
-            "affiliate": "XX",
+            "affiliate": "20% OFF | CODE: TEST20",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "XX",
+            "default": "20% OFF | CODE: TEST20",
             "endsTonight": "",
-            "affiliate": "XX",
+            "affiliate": "20% OFF | CODE: TEST20",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "XX",
+            "default": "20% OFF | CODE: TEST20",
             "endsTonight": "",
-            "affiliate": "XX",
+            "affiliate": "20% OFF | CODE: TEST20",
             "affiliateEndsTonight": ""
           }
         },
