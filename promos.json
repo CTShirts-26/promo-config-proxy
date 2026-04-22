@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-22T09:14:02.455Z",
+  "generatedAt": "2026-04-22T09:14:11.703Z",
   "total": 1,
   "rules": [
     {
@@ -130,19 +130,19 @@
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "25% OFF | CODE: FF25",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "25% OFF | CODE: FF25",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "25% OFF | CODE: FF25",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
