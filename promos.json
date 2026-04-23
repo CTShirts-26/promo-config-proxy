@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-23T14:26:27.914Z",
+  "generatedAt": "2026-04-23T14:26:30.282Z",
   "total": 2,
   "rules": [
     {
@@ -697,10 +697,10 @@
       "endUtc": "2026-04-29T23:59:00Z",
       "scope": {
         "bannerstrip": true,
-        "tibText": true,
-        "promoCallout": true,
-        "plpCallout": true,
-        "pdpCallout": true,
+        "tibText": false,
+        "promoCallout": false,
+        "plpCallout": false,
+        "pdpCallout": false,
         "multibuy": false
       },
       "countryEnabled": {
