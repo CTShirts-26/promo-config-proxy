@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-23T15:21:23.796Z",
+  "generatedAt": "2026-04-24T08:25:53.125Z",
   "total": 1,
   "rules": [
     {
@@ -36,11 +36,11 @@
           "caddefault"
         ],
         "affiliateCampaignSites": [
-          "uscjdl"
+          "usafcj"
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
-          "uscjdl"
+          "usafcj"
         ],
         "mainCategories": [
           "__ALL__"
