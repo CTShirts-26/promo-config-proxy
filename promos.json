@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-27T08:53:47.268Z",
+  "generatedAt": "2026-04-27T08:54:30.077Z",
   "total": 2,
   "rules": [
     {
@@ -717,7 +717,7 @@
       },
       "targeting": {
         "defaultCampaignSites": [
-          "gpbdefault"
+          "gbpdefault"
         ],
         "affiliateCampaignSites": [],
         "acquisitionCampaignSites": [],
