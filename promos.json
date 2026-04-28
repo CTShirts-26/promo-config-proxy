@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-28T15:02:08.053Z",
+  "generatedAt": "2026-04-28T15:03:19.539Z",
   "total": 10,
   "rules": [
     {
@@ -10974,7 +10974,8 @@
         ],
         "campaignSites": [],
         "mainCategories": [
-          "shirts-linen"
+          "linen",
+          "shirts"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
