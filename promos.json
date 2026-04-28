@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-28T09:12:06.809Z",
+  "generatedAt": "2026-04-28T09:16:14.650Z",
   "total": 3,
   "rules": [
     {
@@ -2435,8 +2435,8 @@
       "category": "Promo",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2026-04-29T00:00:00Z",
-      "endUtc": "2026-05-03T23:59:00Z",
+      "startUtc": "2026-04-29",
+      "endUtc": "2026-05-03",
       "scope": {
         "bannerstrip": false,
         "tibText": false,
