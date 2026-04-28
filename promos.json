@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-28T14:15:41.215Z",
+  "generatedAt": "2026-04-28T14:24:16.068Z",
   "total": 8,
   "rules": [
     {
@@ -2447,19 +2447,19 @@
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "50% OFF",
+              "default": "50% KORTING",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "50% OFF",
+              "default": "50% KORTING",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "50% OFF",
+              "default": "50% KORTING",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -4293,19 +4293,19 @@
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "10% OFF",
+              "default": "10% KORTING",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "10% OFF",
+              "default": "10% KORTING",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "10% OFF",
+              "default": "10% KORTING",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
