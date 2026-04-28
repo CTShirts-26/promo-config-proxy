@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-27T16:34:15.617Z",
+  "generatedAt": "2026-04-28T08:30:42.732Z",
   "total": 3,
   "rules": [
     {
@@ -9,7 +9,7 @@
       "enabled": true,
       "status": "LIVE",
       "startUtc": "2026-04-26T00:00:00Z",
-      "endUtc": "2026-04-29T23:59:00Z",
+      "endUtc": "2026-04-30T06:59:00Z",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
