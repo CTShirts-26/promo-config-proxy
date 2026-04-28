@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-28T11:02:15.992Z",
+  "generatedAt": "2026-04-28T11:05:24.460Z",
   "total": 3,
   "rules": [
     {
@@ -3647,12 +3647,12 @@
         "ca": false,
         "au": false,
         "uk": false,
-        "de": false,
-        "fr": false,
-        "ch": false,
-        "nl": false,
-        "eu": false,
-        "xbr": false
+        "de": true,
+        "fr": true,
+        "ch": true,
+        "nl": true,
+        "eu": true,
+        "xbr": true
       },
       "content": {
         "us": {
