@@ -1,13 +1,13 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-28T08:30:42.732Z",
+  "generatedAt": "2026-04-28T09:00:43.857Z",
   "total": 3,
   "rules": [
     {
       "ruleId": "US+CA F&F",
       "category": "ALL",
       "enabled": true,
-      "status": "LIVE",
+      "status": "SCHEDULED",
       "startUtc": "2026-04-26T00:00:00Z",
       "endUtc": "2026-04-30T06:59:00Z",
       "scope": {
