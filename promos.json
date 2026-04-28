@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-28T14:49:21.637Z",
+  "generatedAt": "2026-04-28T14:55:12.424Z",
   "total": 9,
   "rules": [
     {
@@ -10273,24 +10273,7 @@
         ],
         "campaignSites": [],
         "mainCategories": [
-          "shirts-formal-shirts",
-          "shirts-business-casual-shirts",
-          "shirts-casual-shirts",
-          "shirts-linen",
-          "the-shirt-of-the-season",
-          "shirts-non-iron-shirts",
-          "shirts-short-sleeve-shirts",
-          "shirts-luxury-shirts",
-          "new-collections",
-          "shirts-polo-shirts",
-          "shirts-polos-new-season",
-          "shirts-new-season",
-          "pique-polo-shirts",
-          "smart-polo-shirts",
-          "knitted-polos",
-          "long-sleeve-polos",
-          "linen-polo-shirts",
-          "performance-polo-shirts"
+          "shirts"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
