@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-28T16:00:07.708Z",
+  "generatedAt": "2026-04-28T16:04:31.043Z",
   "total": 9,
   "rules": [
     {
@@ -10275,7 +10275,8 @@
         "mainCategories": [
           "shirts-linen",
           "shirts-formal-shirts",
-          "shirts"
+          "shirts",
+          "shirts-luxury-shirts"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
