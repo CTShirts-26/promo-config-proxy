@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-28T16:25:36.869Z",
+  "generatedAt": "2026-04-30T09:40:05.738Z",
   "total": 8,
   "rules": [
     {
@@ -692,7 +692,7 @@
       "ruleId": "Early May BH",
       "category": "Promo",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-04-29",
       "endUtc": "2026-05-03",
       "scope": {
@@ -4451,7 +4451,7 @@
       "ruleId": "Early May BH UK",
       "category": "Promo",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-04-30",
       "endUtc": "2026-05-04",
       "scope": {
@@ -8162,7 +8162,7 @@
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-05-17",
-      "endUtc": "2026-05-21",
+      "endUtc": "2026-05-20",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
@@ -8198,9 +8198,12 @@
           "shareau1"
         ],
         "mainCategories": [
-          "__ALL__"
+          "knitwear"
         ],
-        "excludedCategories": [],
+        "excludedCategories": [
+          "knj0321nav",
+          "knt0014idg"
+        ],
         "showOnPdp": true,
         "showOnPlp": true,
         "productIds": [
@@ -8848,7 +8851,7 @@
       "category": "Promo",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2026-05-22",
+      "startUtc": "2026-05-21",
       "endUtc": "2026-05-24",
       "scope": {
         "bannerstrip": true,
