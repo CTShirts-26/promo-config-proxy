@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-30T09:40:05.738Z",
+  "generatedAt": "2026-04-30T09:41:58.071Z",
   "total": 8,
   "rules": [
     {
@@ -8200,14 +8200,12 @@
         "mainCategories": [
           "knitwear"
         ],
-        "excludedCategories": [
-          "knj0321nav",
-          "knt0014idg"
-        ],
+        "excludedCategories": [],
         "showOnPdp": true,
         "showOnPlp": true,
         "productIds": [
-          "__ALL__"
+          "KNJ0321NAV",
+          "KNT0014IDG"
         ],
         "excludedProductIds": []
       },
