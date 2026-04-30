@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-30T09:41:58.071Z",
+  "generatedAt": "2026-04-30T09:48:01.188Z",
   "total": 8,
   "rules": [
     {
@@ -8198,7 +8198,7 @@
           "shareau1"
         ],
         "mainCategories": [
-          "knitwear"
+          "knitwear-jumpers"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
