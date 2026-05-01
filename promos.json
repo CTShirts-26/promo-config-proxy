@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-04-30T09:48:01.188Z",
+  "generatedAt": "2026-05-01T01:25:00.059Z",
   "total": 8,
   "rules": [
     {
@@ -3823,7 +3823,7 @@
         "ch": true,
         "nl": true,
         "eu": true,
-        "xbr": true
+        "xbr": false
       },
       "content": {
         "us": {
