@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-01T01:25:00.059Z",
+  "generatedAt": "2026-05-01T15:57:14.860Z",
   "total": 8,
   "rules": [
     {
@@ -717,34 +717,52 @@
       },
       "targeting": {
         "defaultCampaignSites": [
-          "dmdefault",
+          "devip",
+          "defbsale",
+          "debng",
           "gegob",
+          "deac1",
+          "dmdefault",
+          "deon1",
+          "critdede",
+          "fbdede",
+          "frvip",
+          "frac1",
           "frdefault",
+          "fron1",
           "frbrbg",
-          "frbr",
+          "frbr99",
           "chbren",
           "chbrde",
           "chbrfr",
-          "chvip",
           "chdefault",
           "nlbrdu",
           "nldefault",
+          "nlvip",
           "nlbren",
+          "netbr",
           "eurdefault",
           "eugob",
-          "netbr",
+          "eufbsale",
+          "euvip",
           "irebr",
           "deeubr",
-          "xbrdefault",
-          "xbrgb",
           "xbrfb25",
           "xbrbr25",
           "xbrnb25",
           "xbpxb25",
-          "xbrvip",
+          "xbrdefault",
+          "xbrgb",
+          "xbnbai",
+          "xbnbam",
           "xbrfb30",
           "xbrbr30",
-          "drtxbr"
+          "drtxbr",
+          "xbr50",
+          "xbnbon",
+          "xbrnp",
+          "xbrnb30",
+          "xbpxb30"
         ],
         "affiliateCampaignSites": [
           "affide1",
@@ -2528,21 +2546,21 @@
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "50% OFF | CODE: HAVE20",
+            "default": "20% OFF | CODE: HAVE20",
             "endsTonight": "",
-            "affiliate": "50% OFF | CODE: HURRY20",
+            "affiliate": "20% OFF | CODE: HURRY20",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "50% OFF | CODE: HAVE20",
+            "default": "20% OFF | CODE: HAVE20",
             "endsTonight": "",
-            "affiliate": "50% OFF | CODE: HURRY20",
+            "affiliate": "20% OFF | CODE: HURRY20",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "50% OFF | CODE: HAVE20",
+            "default": "20% OFF | CODE: HAVE20",
             "endsTonight": "",
-            "affiliate": "50% OFF | CODE: HURRY20",
+            "affiliate": "20% OFF | CODE: HURRY20",
             "affiliateEndsTonight": ""
           }
         }
@@ -4483,8 +4501,15 @@
           "gbpdefault",
           "uksgpm",
           "ukcv39",
+          "ukept1",
           "uksrbr",
-          "ukdgli"
+          "ukdgli",
+          "ukinap",
+          "ukbng",
+          "ukdgfli",
+          "lifter",
+          "ukfbdf",
+          "ukpint"
         ],
         "affiliateCampaignSites": [
           "shareuk1"
@@ -8188,7 +8213,9 @@
           "auddefault",
           "augb",
           "velocity",
-          "qantas"
+          "qantas",
+          "aubrbg",
+          "aufbsale"
         ],
         "affiliateCampaignSites": [
           "shareau1"
@@ -8876,7 +8903,9 @@
           "auddefault",
           "augb",
           "velocity",
-          "qantas"
+          "qantas",
+          "aubrbg",
+          "aufbsale"
         ],
         "affiliateCampaignSites": [
           "shareau1"
