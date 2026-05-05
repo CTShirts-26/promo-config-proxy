@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-05T13:39:05.597Z",
+  "generatedAt": "2026-05-05T13:56:03.469Z",
   "total": 4,
   "rules": [
     {
@@ -2077,7 +2077,7 @@
       "startUtc": "2026-05-12",
       "endUtc": "2026-05-15",
       "scope": {
-        "bannerstrip": false,
+        "bannerstrip": true,
         "tibText": true,
         "promoCallout": true,
         "plpCallout": true,
@@ -3457,17 +3457,17 @@
         },
         "au": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
+            "line1": "20% Off Everything | Code: FF20",
+            "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
+            "line1EndsTonight": "20% Off Everything | Code: FF20",
+            "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "20% Off Everything | Code: FNF20",
+            "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
+            "line1AffiliateEndsTonight": "20% Off Everything | Code: FNF20",
+            "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
