@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-05T14:21:13.472Z",
+  "generatedAt": "2026-05-05T14:26:50.429Z",
   "total": 4,
   "rules": [
     {
@@ -11,7 +11,7 @@
       "startUtc": "2026-05-17",
       "endUtc": "2026-05-20",
       "scope": {
-        "bannerstrip": false,
+        "bannerstrip": true,
         "tibText": true,
         "promoCallout": true,
         "plpCallout": true,
@@ -196,14 +196,14 @@
         },
         "au": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
+            "line1": "$30 Off Knitwear | Code: KNITUP",
+            "line2": "Limited Time Only",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "$30 Off Knitwear | Code: LAYER",
+            "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
