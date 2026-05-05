@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-05T14:26:50.429Z",
+  "generatedAt": "2026-05-05T15:25:53.077Z",
   "total": 4,
   "rules": [
     {
@@ -58,7 +58,7 @@
         ],
         "excludedProductIds": []
       },
-      "hideMultibuy": false,
+      "hideMultibuy": true,
       "hidePromoBox": {
         "us": false,
         "ca": false,
