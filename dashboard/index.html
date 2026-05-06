@@ -222,6 +222,7 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
 /* divider */
 .divider{border:none;border-top:1px solid var(--border);margin:16px 0}
 
+.draft-badge{display:inline-flex;align-items:center;padding:2px 7px;border-radius:3px;font-size:9px;font-weight:700;letter-spacing:0.08em;background:var(--amber-bg);border:1px solid var(--amber-border);color:var(--amber)}
 .loading{display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column;gap:12px;color:var(--text3)}
 .spinner{width:24px;height:24px;border:2px solid var(--border2);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
@@ -253,6 +254,7 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
       <button class="filter-btn" data-filter="scheduled" onclick="setFilter('scheduled',this)">Scheduled</button>
       <button class="filter-btn" data-filter="expired" onclick="setFilter('expired',this)">Expired</button>
       <button class="filter-btn" data-filter="disabled" onclick="setFilter('disabled',this)">Disabled</button>
+      <button class="filter-btn" data-filter="draft" onclick="setFilter('draft',this)">Drafts</button>
     </div>
     <div class="sb-list" id="rule-list">
       <div class="loading"><div class="spinner"></div><span>Loading…</span></div>
@@ -274,10 +276,11 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);fon
 
 <!-- SAVE BAR -->
 <div id="save-bar">
-  <div class="save-info">Unsaved changes — <strong id="save-rule-name"></strong></div>
+  <div class="save-info"><span class="draft-badge" style="margin-right:6px">DRAFT</span> <strong id="save-rule-name"></strong> — saved locally, not yet published</div>
   <button class="btn-sm btn-ghost" onclick="discardChanges()">Discard</button>
   <button class="btn-sm btn-danger" onclick="deleteRule()">Delete Rule</button>
-  <button class="btn-sm btn-accent" onclick="saveRule()">Save & Publish</button>
+  <button class="btn-sm btn-ghost" onclick="saveDraftOnly()" style="border-color:var(--amber-border);color:var(--amber)">Save Draft</button>
+  <button class="btn-sm btn-accent" onclick="saveRule()">Publish to GitHub</button>
 </div>
 
 <!-- TOAST -->
@@ -328,6 +331,45 @@ let currentRule = null;
 let isDirty = false;
 let currentFilter = 'all';
 
+// ── DRAFT STORAGE ────────────────────────────────────────────────────────────
+const DRAFT_KEY = 'ct_promo_drafts';
+
+function getDrafts() {
+  try { return JSON.parse(localStorage.getItem(DRAFT_KEY) || '{}'); } catch { return {}; }
+}
+
+function saveDraft(rule) {
+  const drafts = getDrafts();
+  drafts[rule.ruleId] = JSON.parse(JSON.stringify(rule));
+  localStorage.setItem(DRAFT_KEY, JSON.stringify(drafts));
+}
+
+function deleteDraft(ruleId) {
+  const drafts = getDrafts();
+  delete drafts[ruleId];
+  localStorage.setItem(DRAFT_KEY, JSON.stringify(drafts));
+}
+
+function isDraft(ruleId) {
+  return !!getDrafts()[ruleId];
+}
+
+function getDraft(ruleId) {
+  return getDrafts()[ruleId] || null;
+}
+
+function getAllRulesWithDrafts() {
+  // Merge live rules with drafts — drafts take precedence
+  const drafts = getDrafts();
+  const liveIds = allRules.map(r => r.ruleId);
+  const result = allRules.map(r => drafts[r.ruleId] ? { ...drafts[r.ruleId], _isDraft: true } : r);
+  // Add draft-only rules (new rules not yet published)
+  Object.values(drafts).forEach(d => {
+    if (!liveIds.includes(d.ruleId)) result.push({ ...d, _isDraft: true });
+  });
+  return result;
+}
+
 // ── INIT ─────────────────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   if (!localStorage.getItem('ct_pat')) openSettings();
@@ -375,11 +417,13 @@ const STATUS_CLASS = { active:'pill-green', scheduled:'pill-blue', expired:'pill
 function updateStats() {
   const counts = { active:0, scheduled:0, expired:0, disabled:0 };
   allRules.forEach(r => counts[getRuleStatus(r)]++);
+  const draftCount = Object.keys(getDrafts()).length;
   document.getElementById('stats-pills').innerHTML = `
     <div class="pill pill-green"><span class="pill-dot"></span>${counts.active} active</div>
     <div class="pill pill-blue"><span class="pill-dot"></span>${counts.scheduled} scheduled</div>
     <div class="pill pill-red"><span class="pill-dot"></span>${counts.disabled} disabled</div>
     <div class="pill pill-grey"><span class="pill-dot"></span>${counts.expired} expired</div>
+    ${draftCount ? `<div class="pill" style="background:var(--amber-bg);border-color:var(--amber-border);color:var(--amber)"><span class="pill-dot"></span>${draftCount} draft${draftCount>1?'s':''}</div>` : ''}
   `;
 }
 
@@ -393,10 +437,10 @@ function setFilter(f, btn) {
 
 function renderList() {
   const q = document.getElementById('search-input').value.toLowerCase();
-  const filtered = allRules.filter(r => {
+  const filtered = getAllRulesWithDrafts().filter(r => {
     const matchQ = !q || r.ruleId.toLowerCase().includes(q) || (r.category||'').toLowerCase().includes(q);
     const status = getRuleStatus(r);
-    const matchF = currentFilter === 'all' || status === currentFilter;
+    const matchF = currentFilter === 'all' || status === currentFilter || (currentFilter === 'draft' && r._isDraft);
     return matchQ && matchF;
   });
 
@@ -415,6 +459,7 @@ function renderList() {
         <div class="ri-header">
           <span class="ri-dot" style="background:${STATUS_DOT[status]}"></span>
           <span class="ri-id">${r.ruleId}</span>
+          ${r._isDraft ? '<span class="draft-badge">DRAFT</span>' : ''}
         </div>
         <div class="ri-markets">
           ${MARKETS.map(m => `<span class="ri-market ${r.countryEnabled?.[m]?'on':''}">${m}</span>`).join('')}
@@ -427,12 +472,16 @@ function renderList() {
 
 // ── SELECT / EDIT ─────────────────────────────────────────────────────────────
 function selectRule(ruleId) {
-  const rule = allRules.find(r => r.ruleId === ruleId);
+  // Load draft version if one exists, otherwise load live rule
+  const draft = getDraft(ruleId);
+  const liveRule = allRules.find(r => r.ruleId === ruleId);
+  const rule = draft || liveRule;
   if (!rule) return;
-  currentRule = JSON.parse(JSON.stringify(rule)); // deep clone
-  isDirty = false;
+  currentRule = JSON.parse(JSON.stringify(rule));
+  isDirty = !!draft;
   renderList();
   renderEditor();
+  if (draft) showSaveBar();
 }
 
 function newRule() {
@@ -1049,8 +1098,13 @@ function setMultibuy(m, field, val) {
 // ── DIRTY STATE ───────────────────────────────────────────────────────────────
 function markDirty() {
   isDirty = true;
+  // Auto-save to draft whenever a change is made
+  if (currentRule) {
+    saveDraft(currentRule);
+    document.getElementById('save-rule-name').textContent = currentRule.ruleId;
+  }
   showSaveBar();
-  if (currentRule) document.getElementById('save-rule-name').textContent = currentRule.ruleId;
+  renderList(); // update draft badge in sidebar
 }
 
 function showSaveBar() {
@@ -1063,6 +1117,7 @@ function hideSaveBar() {
 
 function discardChanges() {
   if (currentRule) {
+    deleteDraft(currentRule.ruleId);
     const orig = allRules.find(r => r.ruleId === currentRule.ruleId);
     if (orig) {
       currentRule = JSON.parse(JSON.stringify(orig));
@@ -1081,6 +1136,14 @@ function discardChanges() {
 }
 
 // ── SAVE ──────────────────────────────────────────────────────────────────────
+function saveDraftOnly() {
+  if (!currentRule) return;
+  saveDraft(currentRule);
+  isDirty = true;
+  toast('Draft saved locally — not yet published', 'ok');
+  renderList();
+}
+
 async function saveRule() {
   const pat = localStorage.getItem('ct_pat');
   if (!pat) { openSettings(); return; }
@@ -1115,6 +1178,8 @@ async function saveRule() {
     const data = await res.json();
     fileSha = data.content?.sha;
 
+    // Remove draft now it's been published
+    deleteDraft(currentRule.ruleId);
     isDirty = false;
     hideSaveBar();
     toast('✓ Published to GitHub', 'ok');
@@ -1151,6 +1216,7 @@ async function confirmDelete() {
     if (!res.ok) throw new Error((await res.json()).message || res.status);
     const data = await res.json();
     fileSha = data.content?.sha;
+    deleteDraft(currentRule.ruleId);
     currentRule = null;
     isDirty = false;
     hideSaveBar();
