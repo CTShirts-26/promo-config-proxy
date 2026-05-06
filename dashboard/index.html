@@ -667,6 +667,8 @@ function toggleScope(key) {
   currentRule.scope[key] = !currentRule.scope[key];
   const el = document.getElementById('scope-' + key);
   el.classList.toggle('on', currentRule.scope[key]);
+  // Re-render content section so fields appear/disappear immediately
+  renderContentTabs();
   markDirty();
 }
 
@@ -793,11 +795,11 @@ function renderSingleMarketContent(m, content, lang) {
   const plp = content.plpCallout || {};
   const pdp = content.pdpCallout || {};
 
-  const scopeOn = (s) => currentRule.scope[s];
-
+  // Always show all content fields so team can fill in data
+  // regardless of which scope toggles are on
   let html = '';
 
-  if (scopeOn('bannerstrip')) {
+  if (true) { // Banner Strip
     html += `
       <div class="content-block">
         <div class="cb-title">
@@ -834,7 +836,7 @@ function renderSingleMarketContent(m, content, lang) {
     `;
   }
 
-  if (scopeOn('tibText')) {
+  if (true) { // TIB Text
     html += `
       <div class="content-block">
         <div class="cb-title">TIB Text (Top-of-page text on PLP)</div>
@@ -860,7 +862,7 @@ function renderSingleMarketContent(m, content, lang) {
     `;
   }
 
-  if (scopeOn('promoCallout') || scopeOn('plpCallout')) {
+  if (true) { // PLP Callout
     html += `
       <div class="content-block">
         <div class="cb-title">PLP Callout (Red box on product tiles)</div>
@@ -880,7 +882,7 @@ function renderSingleMarketContent(m, content, lang) {
     `;
   }
 
-  if (scopeOn('pdpCallout')) {
+  if (true) { // PDP Callout
     html += `
       <div class="content-block">
         <div class="cb-title">PDP Callout (Red box on product detail page)</div>
@@ -900,7 +902,7 @@ function renderSingleMarketContent(m, content, lang) {
     `;
   }
 
-  return html || '<p style="color:var(--text3);font-size:12px;">Enable surfaces in Scope section above to enter content.</p>';
+  return html;
 }
 
 function bsField(key, field, label, val) {
