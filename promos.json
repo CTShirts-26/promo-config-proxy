@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-08T11:31:00.777Z",
+  "generatedAt": "2026-05-08T11:55:04.642Z",
   "total": 4,
   "rules": [
     {
@@ -916,17 +916,17 @@
         },
         "au": {
           "bannerstrip": {
-            "line1": "$30 Off Knitwear",
-            "line2": "+ 50% Off Shirts | Code: KNITUP",
+            "line1": "$30 Off Knitwear & 50% Off Shirts",
+            "line2": "Code: KNITUP",
             "line3": "Limited Time Only",
-            "line1EndsTonight": "$30 Off Knitwear",
-            "line2EndsTonight": "+ 50% Off Shirts | Code: KNITUP",
+            "line1EndsTonight": "$30 Off Knitwear & 50% Off Shirts",
+            "line2EndsTonight": "Code: KNITUP",
             "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "$30 Off Knitwear",
-            "line2Affiliate": "+ 50% Off Shirts | Code: LAYER",
+            "line1Affiliate": "$30 Off Knitwear & 50% Off Shirts",
+            "line2Affiliate": "Code: LAYER",
             "line3Affiliate": "Limited Time Only",
-            "line1AffiliateEndsTonight": "$30 Off Knitwear",
-            "line2AffiliateEndsTonight": "+ 50% Off Shirts | Code: LAYER",
+            "line1AffiliateEndsTonight": "$30 Off Knitwear & 50% Off Shirts",
+            "line2AffiliateEndsTonight": "Code: LAYER",
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
@@ -1415,7 +1415,7 @@
     },
     {
       "ruleId": "AUS Knitwear Overlay 1",
-      "category": "Promo",
+      "category": "Manual",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-05-21",
