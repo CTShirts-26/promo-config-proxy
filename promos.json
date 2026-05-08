@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-08T11:16:57.035Z",
+  "generatedAt": "2026-05-08T11:31:00.777Z",
   "total": 4,
   "rules": [
     {
@@ -1422,7 +1422,7 @@
       "endUtc": "2026-05-24",
       "scope": {
         "bannerstrip": false,
-        "tibText": false,
+        "tibText": true,
         "promoCallout": true,
         "plpCallout": true,
         "pdpCallout": true,
@@ -1676,10 +1676,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "50% OFF | CODE: KNITUP",
+            "endsTonight": "50% OFF | CODE: KNITUP",
+            "affiliate": "50% OFF | CODE: LAYER",
+            "affiliateEndsTonight": "50% OFF | CODE: LAYER"
           },
           "promoCallout": {
             "default": "50% OFF | CODE: KNITUP",
