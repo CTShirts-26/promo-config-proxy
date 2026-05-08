@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-08T11:55:04.642Z",
+  "generatedAt": "2026-05-08T13:10:30.910Z",
   "total": 4,
   "rules": [
     {
@@ -1455,6 +1455,7 @@
           "shareau1"
         ],
         "mainCategories": [
+          "shirts",
           "shirts-t-shirts",
           "shirts-formal-shirts",
           "shirts-business-casual-shirts",
