@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-11T16:44:24.880Z",
+  "generatedAt": "2026-05-11T16:52:27.109Z",
   "total": 5,
   "rules": [
     {
@@ -3306,21 +3306,21 @@
             "affiliateEndsTonight": "4 POUR 150 € | CODE : LIBRE"
           },
           "promoCallout": {
-            "default": "-180 € | Code : FERIE",
+            "default": "4 POUR 150 € | CODE : FERIE",
             "endsTonight": "",
-            "affiliate": "-180 € | Code : LIBRE",
+            "affiliate": "4 POUR 150 € | CODE : LIBRE",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "-180 € | Code : FERIE",
+            "default": "4 POUR 150 € | CODE : FERIE",
             "endsTonight": "",
-            "affiliate": "-180 € | Code : LIBRE",
+            "affiliate": "4 POUR 150 € | CODE : LIBRE",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "-180 € | Code : FERIE",
+            "default": "4 POUR 150 € | CODE : FERIE",
             "endsTonight": "",
-            "affiliate": "-180 € | Code : LIBRE",
+            "affiliate": "4 POUR 150 € | CODE : LIBRE",
             "affiliateEndsTonight": ""
           }
         },
