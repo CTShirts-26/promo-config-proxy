@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-11T08:18:29.422Z",
+  "generatedAt": "2026-05-11T08:20:53.330Z",
   "total": 4,
   "rules": [
     {
@@ -225,9 +225,9 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "$30 OFF | USE CODE: KNITUP",
+            "default": "$30 OFF | CODE: KNITUP",
             "endsTonight": "",
-            "affiliate": "$30 OFF | USE CODE: LAYER",
+            "affiliate": "$30 OFF | CODE: LAYER",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
@@ -2366,10 +2366,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20% OFF | CODE: FF20",
-            "endsTonight": "20% OFF | CODE: FF20",
-            "affiliate": "20% OFF | CODE: FNF20",
-            "affiliateEndsTonight": "20% OFF | CODE: FNF20"
+            "default": "20% OFF | USE CODE: FF20",
+            "endsTonight": "20% OFF | USE CODE: FF20",
+            "affiliate": "20% OFF | USE CODE: FNF20",
+            "affiliateEndsTonight": "20% OFF | USE CODE: FNF20"
           },
           "promoCallout": {
             "default": "20% OFF | CODE: FF20",
