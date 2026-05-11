@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-11T08:20:53.330Z",
+  "generatedAt": "2026-05-11T08:23:32.301Z",
   "total": 4,
   "rules": [
     {
@@ -2352,16 +2352,16 @@
         },
         "au": {
           "bannerstrip": {
-            "line1": "20% Off Everything | Code: FF20",
+            "line1": "20% Off Everything | Use Code: FF20",
             "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "20% Off Everything | Code: FF20",
+            "line1EndsTonight": "20% Off Everything | Use Code: FF20",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "20% Off Everything | Code: FNF20",
+            "line1Affiliate": "20% Off Everything | Use Code: FNF20",
             "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "20% Off Everything | Code: FNF20",
+            "line1AffiliateEndsTonight": "20% Off Everything | Use Code: FNF20",
             "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
