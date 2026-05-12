@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-12T12:15:46.043Z",
+  "generatedAt": "2026-05-12T12:19:36.945Z",
   "total": 7,
   "rules": [
     {
@@ -5033,19 +5033,19 @@
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "4 for ̶£̶1̶4̶9̶ £129",
+            "default": "<span class=\"offer-text\">4 for <s>£149</s> £129</span>\r\n\r\n<style>\r\n  .offer-text {\r\n    font-size: clamp(16px, 2.5vw, 24px);\r\n    line-height: 1.2;\r\n    white-space: nowrap;\r\n  }\r\n</style>",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 for ̶£̶1̶4̶9̶ £129",
+            "default": "<span class=\"offer-text\">4 for <s>£149</s> £129</span>\r\n\r\n<style>\r\n  .offer-text {\r\n    font-size: clamp(16px, 2.5vw, 24px);\r\n    line-height: 1.2;\r\n    white-space: nowrap;\r\n  }\r\n</style>",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 for ̶£̶1̶4̶9̶ £129",
+            "default": "<span class=\"offer-text\">4 for <s>£149</s> £129</span>\r\n\r\n<style>\r\n  .offer-text {\r\n    font-size: clamp(16px, 2.5vw, 24px);\r\n    line-height: 1.2;\r\n    white-space: nowrap;\r\n  }\r\n</style>",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
