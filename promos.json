@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-12T15:39:09.621Z",
+  "generatedAt": "2026-05-12T16:24:34.169Z",
   "total": 6,
   "rules": [
     {
@@ -5945,41 +5945,41 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "4 Pour 150 € Chemises Ou Polos",
+            "line1": "4 Pour 159 € Chemises Ou Polos",
             "line2": "+ 15 % Sur Le Reste | Code : FERIE",
             "line3": "Offre à durée limitée",
-            "line1EndsTonight": "4 Pour 150 € Chemises Ou Polos",
+            "line1EndsTonight": "4 Pour 159 € Chemises Ou Polos",
             "line2EndsTonight": "+ 15 % Sur Le Reste | Code : FERIE",
             "line3EndsTonight": "Jusqu’à ce soir",
-            "line1Affiliate": "4 Pour 150 € Chemises Ou Polos",
+            "line1Affiliate": "4 Pour 159 € Chemises Ou Polos",
             "line2Affiliate": "+ 15 % Sur Le Reste | Code : LIBRE",
             "line3Affiliate": "Offre à durée limitée",
-            "line1AffiliateEndsTonight": "4 Pour 150 € Chemises Ou Polos",
+            "line1AffiliateEndsTonight": "4 Pour 159 € Chemises Ou Polos",
             "line2AffiliateEndsTonight": "+ 15 % Sur Le Reste | Code : LIBRE",
             "line3AffiliateEndsTonight": "Jusqu’à ce soir"
           },
           "tibText": {
-            "default": "4 POUR 150 € | CODE : FERIE",
-            "endsTonight": "4 POUR 150 € | CODE : FERIE",
-            "affiliate": "4 POUR 150 € | CODE : LIBRE",
-            "affiliateEndsTonight": "4 POUR 150 € | CODE : LIBRE"
+            "default": "4 POUR 159 € | CODE : FERIE",
+            "endsTonight": "4 POUR 159 € | CODE : FERIE",
+            "affiliate": "4 POUR 159 € | CODE : LIBRE",
+            "affiliateEndsTonight": "4 POUR 159 € | CODE : LIBRE"
           },
           "promoCallout": {
-            "default": "4 POUR 150 € | CODE : FERIE",
+            "default": "4 POUR 159 € | CODE : FERIE",
             "endsTonight": "",
-            "affiliate": "4 POUR 150 € | CODE : LIBRE",
+            "affiliate": "4 POUR 159 € | CODE : LIBRE",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 POUR 150 € | CODE : FERIE",
+            "default": "4 POUR 159 € | CODE : FERIE",
             "endsTonight": "",
-            "affiliate": "4 POUR 150 € | CODE : LIBRE",
+            "affiliate": "4 POUR 159 € | CODE : LIBRE",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 POUR 150 € | CODE : FERIE",
+            "default": "4 POUR 159 € | CODE : FERIE",
             "endsTonight": "",
-            "affiliate": "4 POUR 150 € | CODE : LIBRE",
+            "affiliate": "4 POUR 159 € | CODE : LIBRE",
             "affiliateEndsTonight": ""
           }
         },
@@ -6108,10 +6108,10 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "4 For €150 Shirts Or Polos",
+              "line1": "4 For €159 Shirts Or Polos",
               "line2": "+ 15% Off Everything Else | Code: NL159",
               "line3": "Limited Time Only",
-              "line1EndsTonight": "4 For €150 Shirts Or Polos",
+              "line1EndsTonight": "4 For €159 Shirts Or Polos",
               "line2EndsTonight": "+ 15% Off Everything Else | Code: NL159",
               "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
@@ -6122,25 +6122,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "4 FOR €150 | CODE: NL159",
-              "endsTonight": "4 FOR €150 | CODE: NL159",
+              "default": "4 FOR €159 | CODE: NL159",
+              "endsTonight": "4 FOR €159 | CODE: NL159",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "4 FOR €150 | CODE: NL159",
+              "default": "4 FOR €159 | CODE: NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "4 FOR €150 | CODE: NL159",
+              "default": "4 FOR €159 | CODE: NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "4 FOR €150 | CODE: NL159",
+              "default": "4 FOR €159 | CODE: NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -6189,41 +6189,41 @@
         },
         "eu": {
           "bannerstrip": {
-            "line1": "4 For €150 Shirts Or Polos",
+            "line1": "4 For €159 Shirts Or Polos",
             "line2": "+ 15% Off Everything Else | Code: BREAK",
             "line3": "Limited Time Only",
-            "line1EndsTonight": "4 For €150 Shirts Or Polos",
+            "line1EndsTonight": "4 For €159 Shirts Or Polos",
             "line2EndsTonight": "+ 15% Off Everything Else | Code: BREAK",
             "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "4 For €150 Shirts Or Polos",
+            "line1Affiliate": "4 For €159 Shirts Or Polos",
             "line2Affiliate": "+ 15% Off Everything Else | Code: BHSAVE",
             "line3Affiliate": "Limited Time Only",
-            "line1AffiliateEndsTonight": "4 For €150 Shirts Or Polos",
+            "line1AffiliateEndsTonight": "4 For €159 Shirts Or Polos",
             "line2AffiliateEndsTonight": "+ 15% Off Everything Else | Code: BHSAVE",
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
-            "default": "4 FOR €150 | CODE: BREAK",
-            "endsTonight": "4 FOR €150 | CODE: BREAK",
-            "affiliate": "4 FOR €150 | CODE: BHSAVE",
-            "affiliateEndsTonight": "4 FOR €150 | CODE: BHSAVE"
+            "default": "4 FOR €159 | CODE: BREAK",
+            "endsTonight": "4 FOR €159 | CODE: BREAK",
+            "affiliate": "4 FOR €159 | CODE: BHSAVE",
+            "affiliateEndsTonight": "4 FOR €159 | CODE: BHSAVE"
           },
           "promoCallout": {
-            "default": "4 FOR €150 | CODE: BREAK",
+            "default": "4 FOR €159 | CODE: BREAK",
             "endsTonight": "",
-            "affiliate": "4 FOR €150 | CODE: BHSAVE",
+            "affiliate": "4 FOR €159 | CODE: BHSAVE",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 FOR €150 | CODE: BREAK",
+            "default": "4 FOR €159 | CODE: BREAK",
             "endsTonight": "",
-            "affiliate": "4 FOR €150 | CODE: BHSAVE",
+            "affiliate": "4 FOR €159 | CODE: BHSAVE",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 FOR €150 | CODE: BREAK",
+            "default": "4 FOR €159 | CODE: BREAK",
             "endsTonight": "",
-            "affiliate": "4 FOR €150 | CODE: BHSAVE",
+            "affiliate": "4 FOR €159 | CODE: BHSAVE",
             "affiliateEndsTonight": ""
           }
         },
