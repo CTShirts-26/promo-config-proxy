@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-12T12:21:27.250Z",
+  "generatedAt": "2026-05-12T12:23:40.292Z",
   "total": 7,
   "rules": [
     {
@@ -5033,19 +5033,19 @@
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "<span class=\"offer-text\">4 for <s>£149</s> £129</span>",
+            "default": "4 for £149 £129",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "<span class=\"offer-text\">4 for <s>£149</s> £129</span>",
+            "default": "4 for £149 £129",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "<span class=\"offer-text\">4 for <s>£149</s> £129</span>",
+            "default": "4 for £149 £129",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
