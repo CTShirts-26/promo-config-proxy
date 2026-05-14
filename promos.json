@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-14T08:24:39.266Z",
+  "generatedAt": "2026-05-14T08:30:08.486Z",
   "total": 6,
   "rules": [
     {
@@ -5905,41 +5905,41 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "4 Für €159 Hemden Oder Polos",
+            "line1": "4 Für 159 € Hemden Oder Polos",
             "line2": "+ 15 % Auf Alles Andere | Code: FREI",
             "line3": "Nur Für Kurze Zeit",
-            "line1EndsTonight": "4 Für €159 Hemden Oder Polos",
+            "line1EndsTonight": "4 Für 159 € Hemden Oder Polos",
             "line2EndsTonight": "+ 15 % Auf Alles Andere | Code: FREI",
             "line3EndsTonight": "Endet Heute Abend",
-            "line1Affiliate": "4 Für €159 Hemden Oder Polos",
+            "line1Affiliate": "4 Für 159 € Hemden Oder Polos",
             "line2Affiliate": "+ 15 % Auf Alles Andere | Code: RUHET",
             "line3Affiliate": "Nur Für Kurze Zeit",
-            "line1AffiliateEndsTonight": "4 Für €159 Hemden Oder Polos",
+            "line1AffiliateEndsTonight": "4 Für 159 € Hemden Oder Polos",
             "line2AffiliateEndsTonight": "+ 15 % Auf Alles Andere | Code: RUHET",
             "line3AffiliateEndsTonight": "Endet Heute Abend"
           },
           "tibText": {
-            "default": "4 FÜR €159 | CODE: FREI",
-            "endsTonight": "4 FÜR €159 | CODE: FREI",
-            "affiliate": "4 FÜR €159 | CODE: RUHET",
-            "affiliateEndsTonight": "4 FÜR €159 | CODE: RUHET"
+            "default": "4 FÜR 159 € | CODE: FREI",
+            "endsTonight": "4 FÜR 159 € | CODE: FREI",
+            "affiliate": "4 FÜR 159 € | CODE: RUHET",
+            "affiliateEndsTonight": "4 FÜR 159 € | CODE: RUHET"
           },
           "promoCallout": {
-            "default": "4 FÜR €159 | CODE: FREI",
+            "default": "4 FÜR 159 € | CODE: FREI",
             "endsTonight": "",
-            "affiliate": "4 FÜR €159 | CODE: RUHET",
+            "affiliate": "4 FÜR 159 € | CODE: RUHET",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 FÜR €159 | CODE: FREI",
+            "default": "4 FÜR 159 € | CODE: FREI",
             "endsTonight": "",
-            "affiliate": "4 FÜR €159 | CODE: RUHET",
+            "affiliate": "4 FÜR 159 € | CODE: RUHET",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 FÜR €159 | CODE: FREI",
+            "default": "4 FÜR 159 € | CODE: FREI",
             "endsTonight": "",
-            "affiliate": "4 FÜR €159 | CODE: RUHET",
+            "affiliate": "4 FÜR 159 € | CODE: RUHET",
             "affiliateEndsTonight": ""
           }
         },
