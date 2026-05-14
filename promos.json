@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-12T16:24:34.169Z",
+  "generatedAt": "2026-05-14T08:24:39.266Z",
   "total": 6,
   "rules": [
     {
@@ -1096,13 +1096,13 @@
         },
         "au": {
           "bannerstrip": {
-            "line1": "$30 Off Knitwear & 50% Off Shirts",
+            "line1": "$30 Off Knitwear + 50% Off Shirts",
             "line2": "Code: KNITUP",
             "line3": "Limited Time Only",
             "line1EndsTonight": "$30 Off Knitwear & 50% Off Shirts",
             "line2EndsTonight": "Code: KNITUP",
             "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "$30 Off Knitwear & 50% Off Shirts",
+            "line1Affiliate": "$30 Off Knitwear + 50% Off Shirts",
             "line2Affiliate": "Code: LAYER",
             "line3Affiliate": "Limited Time Only",
             "line1AffiliateEndsTonight": "$30 Off Knitwear & 50% Off Shirts",
@@ -3638,7 +3638,7 @@
       "ruleId": "AUS F&F",
       "category": "",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-05-14",
       "endUtc": "2026-05-17",
       "scope": {
