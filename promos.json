@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-19T10:27:47.579Z",
+  "generatedAt": "2026-05-19T10:35:07.232Z",
   "total": 8,
   "rules": [
     {
@@ -8142,9 +8142,9 @@
       "ruleId": "US Memorial Day",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
-      "startUtc": "2026-06-18",
-      "endUtc": "2026-06-25",
+      "status": "LIVE",
+      "startUtc": "2026-05-18",
+      "endUtc": "2026-05-25",
       "scope": {
         "bannerstrip": false,
         "tibText": false,
@@ -10037,9 +10037,9 @@
       "ruleId": "US Memorial Day + 20%",
       "category": "DONE - Manual",
       "enabled": true,
-      "status": "SCHEDULED",
-      "startUtc": "2026-06-18",
-      "endUtc": "2026-06-25",
+      "status": "LIVE",
+      "startUtc": "2026-05-18",
+      "endUtc": "2026-05-25",
       "scope": {
         "bannerstrip": false,
         "tibText": false,
