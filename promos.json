@@ -1,13 +1,13 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-14T08:49:41.280Z",
+  "generatedAt": "2026-05-19T08:05:38.142Z",
   "total": 7,
   "rules": [
     {
       "ruleId": "AUS Knitwear",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-05-18",
       "endUtc": "2026-05-20",
       "scope": {
@@ -3638,7 +3638,7 @@
       "ruleId": "AUS F&F",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-14",
       "endUtc": "2026-05-17",
       "scope": {
@@ -4328,7 +4328,7 @@
       "category": "DONE",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2026-05-22",
+      "startUtc": "2026-05-21",
       "endUtc": "2026-05-25",
       "scope": {
         "bannerstrip": true,
@@ -6327,7 +6327,7 @@
       "category": "DONE - Manual",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2026-05-22",
+      "startUtc": "2026-05-21",
       "endUtc": "2026-05-25",
       "scope": {
         "bannerstrip": false,
@@ -8143,8 +8143,8 @@
       "category": "",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2026-06-07",
-      "endUtc": "2026-06-07",
+      "startUtc": "2026-06-14",
+      "endUtc": "2026-06-14",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
