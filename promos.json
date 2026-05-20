@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-20T10:02:57.707Z",
+  "generatedAt": "2026-05-20T10:04:38.436Z",
   "total": 18,
   "rules": [
     {
@@ -18617,8 +18617,8 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
+              "line1": "Introductory Offer - 3 Shirts or Polos for €99",
+              "line2": "Free delivery",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
