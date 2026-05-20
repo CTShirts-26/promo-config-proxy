@@ -767,7 +767,7 @@ let tt;
 function toast(msg,type='ok'){const el=document.getElementById('toast');el.textContent=msg;el.className='show toast-'+type;clearTimeout(tt);tt=setTimeout(()=>el.className='',3000);}
 
 // ── NAVIGATION ────────────────────────────────────────────────────────────────
-function goHome(){const app=document.getElementById('app');if(app){app.style.transition='opacity 0.25s ease';app.style.opacity='0';setTimeout(()=>{window.location.href='index.html';},280);}else window.location.href='index.html';}
+function goHome(){const app=document.getElementById('app');if(app){app.style.transition='opacity 0.25s ease';app.style.opacity='0';setTimeout(()=>{window.location.href='https://ctrewardsdash-app.gwhi94.workers.dev/';},280);}else window.location.href='https://ctrewardsdash-app.gwhi94.workers.dev/';}
 function toggleSidebar(){const sb=document.getElementById('sb');const ov=document.getElementById('sb-overlay');sb.classList.contains('open')?closeSidebar():(sb.classList.add('open'),ov.classList.add('open'),document.body.style.overflow='hidden');}
 function closeSidebar(){document.getElementById('sb').classList.remove('open');document.getElementById('sb-overlay').classList.remove('open');document.body.style.overflow='';}
 
