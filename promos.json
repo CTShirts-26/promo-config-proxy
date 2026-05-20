@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-20T10:01:13.192Z",
+  "generatedAt": "2026-05-20T10:02:57.707Z",
   "total": 18,
   "rules": [
     {
@@ -17765,7 +17765,7 @@
           "en": {
             "bannerstrip": {
               "line1": "Introductory Offer - Shirts or Polos CHF 39",
-              "line2": "",
+              "line2": "Einführungsangebot - Hemden oder Polos Ab Nur CHF 39",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -17804,7 +17804,7 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "Einführungsangebot - Hemden oder Polos Ab Nur CHF 39",
+              "line1": "Offre de Lancement - Chemises à partir de CHF 39",
               "line2": "",
               "line3": "",
               "line1EndsTonight": "",
@@ -17844,7 +17844,7 @@
           },
           "de": {
             "bannerstrip": {
-              "line1": "Offre de Lancement - Chemises à partir de CHF 39",
+              "line1": "Einführungsangebot - Hemden oder Polos Ab Nur CHF 39",
               "line2": "",
               "line3": "",
               "line1EndsTonight": "",
