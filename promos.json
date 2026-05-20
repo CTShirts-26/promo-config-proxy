@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-20T15:45:58.465Z",
+  "generatedAt": "2026-05-20T15:52:20.381Z",
   "total": 22,
   "rules": [
     {
@@ -17489,12 +17489,12 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
-              "line3EndsTonight": "",
+              "line1": "4 For €159 Shirts Or Polos",
+              "line2": "15% Off Everything Else",
+              "line3": "Limited Time Only | Code: NL159",
+              "line1EndsTonight": "4 For €159 Shirts Or Polos",
+              "line2EndsTonight": "15% Off Everything Else",
+              "line3EndsTonight": "Ends Tonight | Code: NL159",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -17503,25 +17503,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "4 FOR €159 | CODE: NL159",
+              "endsTonight": "4 FOR €159 | CODE: NL159",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "4 FOR €159 | CODE: NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "4 FOR €159 | CODE: NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "4 FOR €159 | CODE: NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -18256,25 +18256,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "15% OFF | CODE: NL159",
+              "endsTonight": "15% OFF | CODE: NL159",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
