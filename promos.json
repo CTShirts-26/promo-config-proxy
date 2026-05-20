@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-20T15:52:20.381Z",
+  "generatedAt": "2026-05-20T16:06:12.256Z",
   "total": 22,
   "rules": [
     {
@@ -17688,7 +17688,7 @@
         "ch": true,
         "nl": true,
         "eu": true,
-        "xbr": false
+        "xbr": true
       },
       "targeting": {
         "defaultCampaignSites": [
@@ -18337,10 +18337,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
+            "default": "15% OFF | CODE: SHIRT15",
+            "endsTonight": "15% OFF | CODE: SHIRT15",
             "affiliate": "15% OFF | CODE: HOL15",
-            "affiliateEndsTonight": ""
+            "affiliateEndsTonight": "15% OFF | CODE: HOL15"
           },
           "promoCallout": {
             "default": "15% OFF | CODE: SHIRT15",
