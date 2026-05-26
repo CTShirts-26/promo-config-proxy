@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-26T16:28:53.554Z",
+  "generatedAt": "2026-05-26T16:32:23.037Z",
   "total": 18,
   "rules": [
     {
@@ -13290,7 +13290,7 @@
         "us": true,
         "ca": false,
         "au": false,
-        "uk": false,
+        "uk": true,
         "de": false,
         "fr": false,
         "ch": false,
@@ -13494,10 +13494,10 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
+            "line1": "TEST 1",
+            "line2": "TEST 2",
             "line3": "",
-            "line1EndsTonight": "",
+            "line1EndsTonight": "Ends tonight 1",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "",
@@ -13508,25 +13508,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
+            "default": "TEST 1",
+            "endsTonight": "TEST 2",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "TEST PLP/PDP",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "TEST PLP/PDP",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "TEST PLP/PDP",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
