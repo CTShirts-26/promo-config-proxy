@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-26T09:15:53.798Z",
+  "generatedAt": "2026-05-26T10:56:54.052Z",
   "total": 16,
   "rules": [
     {
@@ -8472,14 +8472,14 @@
             "line1": "25% Off  | Code: SUNNY",
             "line2": "Today Only",
             "line3": "",
-            "line1EndsTonight": "25% Off  | Code: SUNNY",
-            "line2EndsTonight": "Today Only",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "25% Off  | Code: SUN",
-            "line2Affiliate": "Today Only",
+            "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "25% Off  | Code: SUN",
-            "line2AffiliateEndsTonight": "Today Only",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -8513,8 +8513,8 @@
               "line1": "25% Off  | Code: SUMMER",
               "line2": "Today Only",
               "line3": "",
-              "line1EndsTonight": "25% Off  | Code: SUMMER",
-              "line2EndsTonight": "Today Only",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -8551,10 +8551,10 @@
           "fr": {
             "bannerstrip": {
               "line1": "25 % De Réduction  | Code : SUMMER",
-              "line2": "Aujourd'hui seulement",
-              "line3": "Aujourd'hui seulement",
-              "line1EndsTonight": "25 % De Réduction  | Code : SUMMER",
-              "line2EndsTonight": "Aujourd'hui seulement",
+              "line2": "Aujourd'hui Seulement",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
