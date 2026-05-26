@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-26T13:10:06.390Z",
-  "total": 16,
+  "generatedAt": "2026-05-26T13:51:15.914Z",
+  "total": 17,
   "rules": [
     {
       "ruleId": "UK_29.95_FD50",
@@ -8384,7 +8384,7 @@
     },
     {
       "ruleId": "US+CA SUMMER EVENT 1",
-      "category": "WIP",
+      "category": "DONE",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-06-10",
@@ -9090,7 +9090,7 @@
     },
     {
       "ruleId": "US+CA SUMMER EVENT 2",
-      "category": "WIP",
+      "category": "DONE",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-06-11",
@@ -11060,7 +11060,7 @@
     },
     {
       "ruleId": "US+CA SUMMER EVENT 2.1",
-      "category": "WIP",
+      "category": "DONE",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-06-11",
@@ -12452,6 +12452,824 @@
         }
       },
       "rowNumber": 31
+    },
+    {
+      "ruleId": "SHIRT TAKEOVER",
+      "category": "WIP",
+      "enabled": true,
+      "status": "SCHEDULED",
+      "startUtc": "2026-06-11",
+      "endUtc": "2026-06-21",
+      "scope": {
+        "bannerstrip": true,
+        "tibText": true,
+        "promoCallout": true,
+        "plpCallout": true,
+        "pdpCallout": true,
+        "multibuy": false
+      },
+      "countryEnabled": {
+        "us": false,
+        "ca": false,
+        "au": false,
+        "uk": true,
+        "de": true,
+        "fr": true,
+        "ch": true,
+        "nl": true,
+        "eu": true,
+        "xbr": true
+      },
+      "targeting": {
+        "defaultCampaignSites": [
+          "liferw",
+          "uktok",
+          "ukfbdf",
+          "ukgob",
+          "gbpdefault",
+          "uksgpm",
+          "ukcv39",
+          "ukept1",
+          "uksrbr",
+          "ukdgli",
+          "ukinap",
+          "ukbng",
+          "ukdgfli",
+          "lifter",
+          "ukfbdf",
+          "ukpint",
+          "devip",
+          "defbsale",
+          "debng",
+          "gegob",
+          "deac1",
+          "dmdefault",
+          "deon1",
+          "critdede",
+          "fbdede",
+          "frvip",
+          "frac1",
+          "frdefault",
+          "fron1",
+          "frbrbg",
+          "frbr99",
+          "chbren",
+          "chbrde",
+          "chbrfr",
+          "chdefault",
+          "nlbrdu",
+          "nldefault",
+          "nlvip",
+          "nlbren",
+          "netbr",
+          "eurdefault",
+          "eugob",
+          "eufbsale",
+          "euvip",
+          "irebr",
+          "deeubr",
+          "xbrfb25",
+          "xbrbr25",
+          "xbrnb25",
+          "xbpxb25",
+          "xbrdefault",
+          "xbrgb",
+          "xbnbai",
+          "xbnbam",
+          "xbrfb30",
+          "xbrbr30",
+          "drtxbr",
+          "xbr50",
+          "xbnbon",
+          "xbrnp",
+          "xbrnb30",
+          "xbpxb30"
+        ],
+        "affiliateCampaignSites": [
+          "shareuk1",
+          "affide1",
+          "sharefr1",
+          "eushare1",
+          "xbraff1"
+        ],
+        "acquisitionCampaignSites": [],
+        "campaignSites": [
+          "shareuk1",
+          "affide1",
+          "sharefr1",
+          "eushare1",
+          "xbraff1"
+        ],
+        "mainCategories": [
+          "shirts",
+          "shirts-formal-shirts",
+          "shirts-business-casual-shirts",
+          "shirts-casual-shirts",
+          "shirts-polo-shirts",
+          "countryside-polo-shirts",
+          "golf-polo-shirts",
+          "holiday-polo-shirts",
+          "linen-polo-shirts",
+          "long-sleeve-polos",
+          "pique-polo-shirts",
+          "smart-polo-shirts",
+          "summer-in-the-city-1",
+          "cotton-polo-shirts",
+          "shirts-t-shirts",
+          "shirts-luxury-shirts",
+          "black-friday-shirts-deals",
+          "custom-shirts",
+          "shirts-collections",
+          "shirt-finder",
+          "shirts-new-season",
+          "shirts-for-$89",
+          "denim-chambray-shirts",
+          "for-evenings-out",
+          "shirts-bengal-stripe-shirts",
+          "shirts-brushed-cotton",
+          "shirts-button-down-shirts",
+          "shirts-casual-short-sleeve",
+          "shirts-casual-washed-oxford",
+          "shirts-check-casual-shirts",
+          "shirts-check-shirts",
+          "shirts-collarless-shirts",
+          "shirts-cotton-stretch",
+          "shirts-egyptian-cotton-shirts",
+          "shirts-evening-shirts",
+          "shirts-flannels-shirt",
+          "shirts-four-way-stretch",
+          "shirts-french-cuff-shirts",
+          "shirts-gingham-shirts",
+          "shirts-liberty",
+          "shirts-linen",
+          "shirts-non-iron-buttondown-shirts",
+          "shirts-non-iron-oxford-shirts",
+          "shirts-non-iron-poplin-shirts",
+          "shirts-non-iron-shirts",
+          "shirts-non-iron-twill-shirts",
+          "shirts-performance-shirts",
+          "shirts-polos-new-season",
+          "shirts-prince-of-wales-shirts",
+          "shirts-printed-shirts",
+          "shirts-short-sleeve-shirts",
+          "shirts-stretch-shirts",
+          "shirts-stripe-shirts",
+          "shirts-summer-shirts",
+          "shirts-tyrwhitt-cool",
+          "shirts-weave-dobby",
+          "shirts-weave-end-on-end",
+          "shirts-weave-herringbone",
+          "shirts-weave-oxford",
+          "shirts-weave-pinpoint",
+          "shirts-weave-poplin",
+          "shirts-weave-twill",
+          "shirts-zip-neck-polos",
+          "the-shirt-of-the-season",
+          "work-shirts",
+          "shirts-new-casual-shirts"
+        ],
+        "excludedCategories": [],
+        "showOnPdp": true,
+        "showOnPlp": true,
+        "productIds": [
+          "__ALL__"
+        ],
+        "excludedProductIds": []
+      },
+      "hideMultibuy": false,
+      "hidePromoBox": {
+        "us": false,
+        "ca": false,
+        "au": false,
+        "uk": false,
+        "de": false,
+        "fr": false,
+        "ch": false,
+        "nl": false,
+        "eu": false,
+        "xbr": false
+      },
+      "content": {
+        "us": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "ca": {
+          "en": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "fr": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          }
+        },
+        "au": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "uk": {
+          "bannerstrip": {
+            "line1": "5 For £165 Shirts Or Polos For | Code: SHIRTY",
+            "line2": "Limited Time Only",
+            "line3": "",
+            "line1EndsTonight": "5 For £165 Shirts Or Polos For | Code: SHIRTY",
+            "line2EndsTonight": "Ends Tonight",
+            "line3EndsTonight": "",
+            "line1Affiliate": "5 For £165 Shirts Or Polos For | Code: 5SHIRTS",
+            "line2Affiliate": "Limited Time Only",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "5 For £165 Shirts Or Polos For | Code: 5SHIRTS",
+            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "5 FOR £165 | CODE: SHIRTY",
+            "endsTonight": "5 FOR £165 | CODE: SHIRTY",
+            "affiliate": "5 FOR £165 | CODE: 5SHIRTS",
+            "affiliateEndsTonight": "5 FOR £165 | CODE: 5SHIRTS"
+          },
+          "promoCallout": {
+            "default": "5 FOR £165 | CODE: SHIRTY",
+            "endsTonight": "",
+            "affiliate": "5 FOR £165 | CODE: 5SHIRTS",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "5 FOR £165 | CODE: SHIRTY",
+            "endsTonight": "",
+            "affiliate": "5 FOR £165 | CODE: 5SHIRTS",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "5 FOR £165 | CODE: SHIRTY",
+            "endsTonight": "",
+            "affiliate": "5 FOR £165 | CODE: 5SHIRTS",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "de": {
+          "bannerstrip": {
+            "line1": "5 Für €175 Hemden Oder Polos Für | Code: NEUESHEMD",
+            "line2": "Nur Für Kurze Zeit",
+            "line3": "",
+            "line1EndsTonight": "5 Für €175 Hemden Oder Polos Für | Code: NEUESHEMD",
+            "line2EndsTonight": "Endet Heute Abend",
+            "line3EndsTonight": "",
+            "line1Affiliate": "5 Für €175 Hemden Oder Polos Für | Code: HEMD5",
+            "line2Affiliate": "Nur Für Kurze Zeit",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "5 Für €175 Hemden Oder Polos Für | Code: HEMD5",
+            "line2AffiliateEndsTonight": "Endet Heute Abend",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "5 FÜR €175 | CODE: NEUESHEMD",
+            "endsTonight": "5 FÜR €175 | CODE: NEUESHEMD",
+            "affiliate": "5 FÜR €175 | CODE: HEMD5",
+            "affiliateEndsTonight": "5 FÜR €175 | CODE: HEMD5"
+          },
+          "promoCallout": {
+            "default": "5 FÜR €175 | CODE: NEUESHEMD",
+            "endsTonight": "",
+            "affiliate": "5 FÜR €175 | CODE: HEMD5",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "5 FÜR €175 | CODE: NEUESHEMD",
+            "endsTonight": "",
+            "affiliate": "5 FÜR €175 | CODE: HEMD5",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "5 FÜR €175 | CODE: NEUESHEMD",
+            "endsTonight": "",
+            "affiliate": "5 FÜR €175 | CODE: HEMD5",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "fr": {
+          "bannerstrip": {
+            "line1": "5 Pour 175 € Chemises Ou Polos | Code : ETE175",
+            "line2": "Offre à durée limitée",
+            "line3": "",
+            "line1EndsTonight": "5 Pour 175 € Chemises Ou Polos | Code : ETE175",
+            "line2EndsTonight": "Jusqu’à ce soir",
+            "line3EndsTonight": "",
+            "line1Affiliate": "5 Pour 175 € Chemises Ou Polos | Code : CHEMISE",
+            "line2Affiliate": "Offre à durée limitée",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "5 Pour 175 € Chemises Ou Polos | Code : CHEMISE",
+            "line2AffiliateEndsTonight": "Jusqu’à ce soir",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "5 POUR 175 € | CODE : ETE175",
+            "endsTonight": "5 POUR 175 € | CODE : ETE175",
+            "affiliate": "5 POUR 175 € | CODE : CHEMISE",
+            "affiliateEndsTonight": "5 POUR 175 € | CODE : CHEMISE"
+          },
+          "promoCallout": {
+            "default": "-245 € | Code : ETE175",
+            "endsTonight": "",
+            "affiliate": "-245 € | Code : CHEMISE",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "-245 € | Code : ETE175",
+            "endsTonight": "",
+            "affiliate": "-245 € | Code : CHEMISE",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "-245 € | Code : ETE175",
+            "endsTonight": "",
+            "affiliate": "-245 € | Code : CHEMISE",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "ch": {
+          "en": {
+            "bannerstrip": {
+              "line1": "5 For Chf 245 Shirts Or Polos | Code: CH245",
+              "line2": "Limited Time Only",
+              "line3": "",
+              "line1EndsTonight": "5 For Chf 245 Shirts Or Polos | Code: CH245",
+              "line2EndsTonight": "Ends Tonight",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "5 FOR CHF 245 | CODE: CH245",
+              "endsTonight": "5 FOR CHF 245 | CODE: CH245",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "5 FOR CHF 245 | CODE: CH245",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "5 FOR CHF 245 | CODE: CH245",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "5 FOR CHF 245 | CODE: CH245",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "fr": {
+            "bannerstrip": {
+              "line1": "5 For CHF 245 Chemises Ou Polos | Code: CH245",
+              "line2": "Offre à durée limitée",
+              "line3": "",
+              "line1EndsTonight": "5 For CHF 245 Chemises Ou Polos | Code : CH245",
+              "line2EndsTonight": "Jusqu’à ce soir",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "5 FOR CHF 245 | CODE : CH245",
+              "endsTonight": "5 FOR CHF 245 | CODE : CH245",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "5 FOR CHF 245 | CODE: CH245",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "5 FOR CHF 245 | CODE: CH245",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "5 FOR CHF 245 | CODE: CH245",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "de": {
+            "bannerstrip": {
+              "line1": "5 Für CHF 245 Hemden Oder Polos Für | Code: CH245",
+              "line2": "Nur Für Kurze Zeit",
+              "line3": "",
+              "line1EndsTonight": "5 Für CHF 245 Hemden Oder Polos Für | Code: CH245",
+              "line2EndsTonight": "Endet Heute Abend",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "5 FÜR CHF 245 | CODE: CH245",
+              "endsTonight": "5 FÜR CHF 245 | CODE: CH245",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "5 FÜR CHF 245 | CODE: CH245",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "5 FÜR CHF 245 | CODE: CH245",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "5 FÜR CHF 245 | CODE: CH245",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          }
+        },
+        "nl": {
+          "en": {
+            "bannerstrip": {
+              "line1": "5 For €175 Shirts Or Polos | Code: NL175",
+              "line2": "Limited Time Only",
+              "line3": "",
+              "line1EndsTonight": "5 For €175 Shirts Or Polos | Code: NL175",
+              "line2EndsTonight": "Ends Tonight",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "5 FOR €175 | CODE: NL175",
+              "endsTonight": "5 FOR €175 | CODE: NL175",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "5 FOR €175 | CODE: NL175",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "5 FOR €175 | CODE: NL175",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "5 FOR €175 | CODE: NL175",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "nl": {
+            "bannerstrip": {
+              "line1": "5 For €175 Shirts Or Polos | Code: NL175",
+              "line2": "Limited Time Only",
+              "line3": "",
+              "line1EndsTonight": "5 For €175 Shirts Or Polos | Code: NL175",
+              "line2EndsTonight": "Ends Tonight",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "5 FOR €175 | CODE: NL175",
+              "endsTonight": "5 FOR €175 | CODE: NL175",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "5 FOR €175 | CODE: NL175",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "5 FOR €175 | CODE: NL175",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "5 FOR €175 | CODE: NL175",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          }
+        },
+        "eu": {
+          "bannerstrip": {
+            "line1": "5 For €175 Shirts Or Polos | Code: SHIRTS175",
+            "line2": "Limited Time Only",
+            "line3": "",
+            "line1EndsTonight": "5 For €175 Shirts Or Polos | Code: SHIRTS175",
+            "line2EndsTonight": "Ends Tonight",
+            "line3EndsTonight": "",
+            "line1Affiliate": "5 For €175 Shirts Or Polos | Code: SHIRTED",
+            "line2Affiliate": "Limited Time Only",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "5 For €175 Shirts Or Polos | Code: SHIRTED",
+            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "5 FOR €175 | CODE: SHIRTS175",
+            "endsTonight": "5 FOR €175 | CODE: SHIRTS175",
+            "affiliate": "5 FOR €175 | CODE: SHIRTED",
+            "affiliateEndsTonight": "5 FOR €175 | CODE: SHIRTED"
+          },
+          "promoCallout": {
+            "default": "5 FOR €175 | CODE: SHIRTS175",
+            "endsTonight": "",
+            "affiliate": "5 FOR €175 | CODE: SHIRTED",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "5 FOR €175 | CODE: SHIRTS175",
+            "endsTonight": "",
+            "affiliate": "5 FOR €175 | CODE: SHIRTED",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "5 FOR €175 | CODE: SHIRTS175",
+            "endsTonight": "",
+            "affiliate": "5 FOR €175 | CODE: SHIRTED",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "xbr": {
+          "bannerstrip": {
+            "line1": "20% Off Shirts & Polos | Code: 20SAVE",
+            "line2": "Limited Time Only",
+            "line3": "",
+            "line1EndsTonight": "20% Off Shirts & Polos | Code: 20SAVE",
+            "line2EndsTonight": "Ends Tonight",
+            "line3EndsTonight": "",
+            "line1Affiliate": "20% Off Shirts & Polos | Code: SHIRTS20",
+            "line2Affiliate": "Limited Time Only",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "20% Off Shirts & Polos | Code: SHIRTS20",
+            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "20% OFF | CODE: 20SAVE",
+            "endsTonight": "20% OFF | CODE: 20SAVE",
+            "affiliate": "20% OFF | CODE: SHIRTS20",
+            "affiliateEndsTonight": "20% OFF | CODE: SHIRTS20"
+          },
+          "promoCallout": {
+            "default": "20% OFF | CODE: 20SAVE",
+            "endsTonight": "",
+            "affiliate": "20% OFF | CODE: SHIRTS20",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "20% OFF | CODE: 20SAVE",
+            "endsTonight": "",
+            "affiliate": "20% OFF | CODE: SHIRTS20",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "20% OFF | CODE: 20SAVE",
+            "endsTonight": "",
+            "affiliate": "20% OFF | CODE: SHIRTS20",
+            "affiliateEndsTonight": ""
+          }
+        }
+      },
+      "multibuy": {
+        "us": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "ca": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "au": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "uk": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "de": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "fr": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "ch": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "nl": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "eu": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "xbr": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        }
+      },
+      "rowNumber": 32
     }
   ]
 }
