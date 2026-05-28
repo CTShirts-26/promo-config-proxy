@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-05-26T16:35:36.377Z",
+  "generatedAt": "2026-05-28T08:09:18.005Z",
   "total": 18,
   "rules": [
     {
@@ -12131,35 +12131,35 @@
             "line1EndsTonight": "5 For £165 Shirts Or Polos For | Code: SHIRTY",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "5 For £165 Shirts Or Polos For | Code: 5SHIRTS",
+            "line1Affiliate": "5 For £165 Shirts Or Polos For | Code: FIVESHIRTS",
             "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "5 For £165 Shirts Or Polos For | Code: 5SHIRTS",
+            "line1AffiliateEndsTonight": "5 For £165 Shirts Or Polos For | Code: FIVESHIRTS",
             "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "5 FOR £165 | CODE: SHIRTY",
             "endsTonight": "5 FOR £165 | CODE: SHIRTY",
-            "affiliate": "5 FOR £165 | CODE: 5SHIRTS",
-            "affiliateEndsTonight": "5 FOR £165 | CODE: 5SHIRTS"
+            "affiliate": "5 FOR £165 | CODE: FIVESHIRTS",
+            "affiliateEndsTonight": "5 FOR £165 | CODE: FIVESHIRTS"
           },
           "promoCallout": {
             "default": "5 FOR £165 | CODE: SHIRTY",
             "endsTonight": "",
-            "affiliate": "5 FOR £165 | CODE: 5SHIRTS",
+            "affiliate": "5 FOR £165 | CODE: FIVESHIRTS",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
             "default": "5 FOR £165 | CODE: SHIRTY",
             "endsTonight": "",
-            "affiliate": "5 FOR £165 | CODE: 5SHIRTS",
+            "affiliate": "5 FOR £165 | CODE: FIVESHIRTS",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
             "default": "5 FOR £165 | CODE: SHIRTY",
             "endsTonight": "",
-            "affiliate": "5 FOR £165 | CODE: 5SHIRTS",
+            "affiliate": "5 FOR £165 | CODE: FIVESHIRTS",
             "affiliateEndsTonight": ""
           }
         },
@@ -12171,35 +12171,35 @@
             "line1EndsTonight": "5 Für €175 Hemden Oder Polos Für | Code: NEUESHEMD",
             "line2EndsTonight": "Endet Heute Abend",
             "line3EndsTonight": "",
-            "line1Affiliate": "5 Für €175 Hemden Oder Polos Für | Code: HEMD5",
+            "line1Affiliate": "5 Für €175 Hemden Oder Polos Für | Code: HEMD",
             "line2Affiliate": "Nur Für Kurze Zeit",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "5 Für €175 Hemden Oder Polos Für | Code: HEMD5",
+            "line1AffiliateEndsTonight": "5 Für €175 Hemden Oder Polos Für | Code: HEMD",
             "line2AffiliateEndsTonight": "Endet Heute Abend",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "5 FÜR €175 | CODE: NEUESHEMD",
             "endsTonight": "5 FÜR €175 | CODE: NEUESHEMD",
-            "affiliate": "5 FÜR €175 | CODE: HEMD5",
-            "affiliateEndsTonight": "5 FÜR €175 | CODE: HEMD5"
+            "affiliate": "5 FÜR €175 | CODE: HEMD",
+            "affiliateEndsTonight": "5 FÜR €175 | CODE: HEMD"
           },
           "promoCallout": {
             "default": "5 FÜR €175 | CODE: NEUESHEMD",
             "endsTonight": "",
-            "affiliate": "5 FÜR €175 | CODE: HEMD5",
+            "affiliate": "5 FÜR €175 | CODE: HEMD",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
             "default": "5 FÜR €175 | CODE: NEUESHEMD",
             "endsTonight": "",
-            "affiliate": "5 FÜR €175 | CODE: HEMD5",
+            "affiliate": "5 FÜR €175 | CODE: HEMD",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
             "default": "5 FÜR €175 | CODE: NEUESHEMD",
             "endsTonight": "",
-            "affiliate": "5 FÜR €175 | CODE: HEMD5",
+            "affiliate": "5 FÜR €175 | CODE: HEMD",
             "affiliateEndsTonight": ""
           }
         },
@@ -12489,41 +12489,41 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "20% Off Shirts & Polos | Code: 20SAVE",
+            "line1": "20% Off Shirts & Polos | Code: SAVETWENTY",
             "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "20% Off Shirts & Polos | Code: 20SAVE",
+            "line1EndsTonight": "20% Off Shirts & Polos | Code: SAVETWENTY",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "20% Off Shirts & Polos | Code: SHIRTS20",
+            "line1Affiliate": "20% Off Shirts & Polos | Code: TWENTYOFF",
             "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "20% Off Shirts & Polos | Code: SHIRTS20",
+            "line1AffiliateEndsTonight": "20% Off Shirts & Polos | Code: TWENTYOFF",
             "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20% OFF | CODE: 20SAVE",
-            "endsTonight": "20% OFF | CODE: 20SAVE",
-            "affiliate": "20% OFF | CODE: SHIRTS20",
-            "affiliateEndsTonight": "20% OFF | CODE: SHIRTS20"
+            "default": "20% OFF | CODE: SAVETWENTY",
+            "endsTonight": "20% OFF | CODE: SAVETWENTY",
+            "affiliate": "20% OFF | CODE: TWENTYOFF",
+            "affiliateEndsTonight": "20% OFF | CODE: TWENTYOFF"
           },
           "promoCallout": {
-            "default": "20% OFF | CODE: 20SAVE",
+            "default": "20% OFF | CODE: SAVETWENTY",
             "endsTonight": "",
-            "affiliate": "20% OFF | CODE: SHIRTS20",
+            "affiliate": "20% OFF | CODE: TWENTYOFF",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "20% OFF | CODE: 20SAVE",
+            "default": "20% OFF | CODE: SAVETWENTY",
             "endsTonight": "",
-            "affiliate": "20% OFF | CODE: SHIRTS20",
+            "affiliate": "20% OFF | CODE: TWENTYOFF",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "20% OFF | CODE: 20SAVE",
+            "default": "20% OFF | CODE: SAVETWENTY",
             "endsTonight": "",
-            "affiliate": "20% OFF | CODE: SHIRTS20",
+            "affiliate": "20% OFF | CODE: TWENTYOFF",
             "affiliateEndsTonight": ""
           }
         }
