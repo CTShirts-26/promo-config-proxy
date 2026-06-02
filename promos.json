@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-02T12:59:01.897Z",
+  "generatedAt": "2026-06-02T13:21:33.114Z",
   "total": 20,
   "rules": [
     {
@@ -8388,7 +8388,7 @@
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-06-10",
-      "endUtc": "2026-06-11",
+      "endUtc": "2026-06-10",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
@@ -8476,7 +8476,7 @@
             "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "25% Off  | Code: SUN",
-            "line2Affiliate": "Limited Time Only",
+            "line2Affiliate": "Today Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
@@ -8484,9 +8484,9 @@
           },
           "tibText": {
             "default": "25% OFF | CODE: SUNNY",
-            "endsTonight": "25% OFF | CODE: SUNNY",
+            "endsTonight": "",
             "affiliate": "25% OFF | CODE: SUN",
-            "affiliateEndsTonight": "25% OFF | CODE: SUN"
+            "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "25% OFF | CODE: SUNNY",
@@ -8525,7 +8525,7 @@
             },
             "tibText": {
               "default": "25% OFF | CODE: SUMMER",
-              "endsTonight": "25% OFF | CODE: SUMMER",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
@@ -8565,7 +8565,7 @@
             },
             "tibText": {
               "default": "25 % DE RÉDUCTION | CODE : SUMMER",
-              "endsTonight": "25 % DE RÉDUCTION | CODE : SUMMER",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
