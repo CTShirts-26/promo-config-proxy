@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-04T13:29:59.002Z",
+  "generatedAt": "2026-06-04T13:49:11.717Z",
   "total": 21,
   "rules": [
     {
@@ -16408,10 +16408,10 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "Hello test",
+              "line1": "5 shirts or polos for 175",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "hello banner",
+              "line1EndsTonight": "5 shirts or polos for 175 limited time only",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "",
@@ -16422,25 +16422,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Hello TIB",
+              "default": "5 shirts | CODE: shirts5",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "Hello PLP",
+              "default": "5 shirts | CODE: shirts5",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "Hello PLP",
+              "default": "5 shirts | CODE: shirts5",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "Hello PLP",
+              "default": "5 shirts | CODE: shirts5",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -17088,10 +17088,10 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "Hello test",
+              "line1": "5 shirts or polos for 175",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "hello banner",
+              "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "",
