@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-02T13:21:33.114Z",
+  "generatedAt": "2026-06-04T09:41:22.126Z",
   "total": 20,
   "rules": [
     {
@@ -15958,21 +15958,20 @@
         "multibuy": false
       },
       "countryEnabled": {
-        "us": true,
+        "us": false,
         "ca": false,
         "au": false,
-        "uk": true,
+        "uk": false,
         "de": false,
         "fr": false,
         "ch": false,
         "nl": false,
-        "eu": false,
+        "eu": true,
         "xbr": false
       },
       "targeting": {
         "defaultCampaignSites": [
-          "usddefault",
-          "gbpdefault"
+          "nldefault"
         ],
         "affiliateCampaignSites": [],
         "acquisitionCampaignSites": [],
@@ -16166,10 +16165,10 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "TEST 1",
-            "line2": "TEST 2",
+            "line1": "",
+            "line2": "",
             "line3": "",
-            "line1EndsTonight": "Ends tonight 1",
+            "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "",
@@ -16180,25 +16179,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "TEST 1",
-            "endsTonight": "TEST 2",
+            "default": "",
+            "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "TEST PLP/PDP",
+            "default": "",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "TEST PLP/PDP",
+            "default": "",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "TEST PLP/PDP",
+            "default": "",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -16409,10 +16408,10 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "",
+              "line1": "Hello test",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "",
+              "line1EndsTonight": "hello banner",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "",
@@ -16423,25 +16422,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "Hello TIB",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "Hello PLP",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "Hello PLP",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "Hello PLP",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
