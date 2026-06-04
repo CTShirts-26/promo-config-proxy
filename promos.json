@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-04T14:22:29.784Z",
+  "generatedAt": "2026-06-04T14:57:14.837Z",
   "total": 21,
   "rules": [
     {
@@ -13602,11 +13602,11 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "5 For €175 Shirts Or Polos | Code: NL175",
-              "line2": "Limited Time Only",
+              "line1": "",
+              "line2": "",
               "line3": "",
-              "line1EndsTonight": "5 For €175 Shirts Or Polos | Code: NL175",
-              "line2EndsTonight": "Ends Tonight",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
