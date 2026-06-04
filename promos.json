@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-04T13:49:11.717Z",
+  "generatedAt": "2026-06-04T14:22:29.784Z",
   "total": 21,
   "rules": [
     {
@@ -13616,25 +13616,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "5 FOR €175 | CODE: NL175",
-              "endsTonight": "5 FOR €175 | CODE: NL175",
+              "default": "",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "5 FOR €175 | CODE: NL175",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "5 FOR €175 | CODE: NL175",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "5 FOR €175 | CODE: NL175",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
