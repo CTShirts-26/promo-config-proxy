@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-06T09:58:34.894Z",
+  "generatedAt": "2026-06-08T13:52:34.082Z",
   "total": 22,
   "rules": [
     {
@@ -9094,7 +9094,7 @@
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-06-11",
-      "endUtc": "2026-06-15",
+      "endUtc": "2026-06-14",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
@@ -11064,7 +11064,7 @@
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-06-11",
-      "endUtc": "2026-06-15",
+      "endUtc": "2026-06-14",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
@@ -14467,7 +14467,7 @@
     },
     {
       "ruleId": "CA 4th July",
-      "category": "WIP",
+      "category": "DONE",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-06-24",
@@ -16437,7 +16437,7 @@
     },
     {
       "ruleId": "CA 4th July 20%",
-      "category": "WIP",
+      "category": "DONE",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-06-24",
@@ -17143,7 +17143,7 @@
     },
     {
       "ruleId": "US 4th July 20%",
-      "category": "WIP",
+      "category": "DONE",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-06-29",
@@ -17849,7 +17849,7 @@
     },
     {
       "ruleId": "US 4th July 20%",
-      "category": "WIP",
+      "category": "DONE",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-06-29",
