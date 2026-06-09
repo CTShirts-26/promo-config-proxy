@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-08T13:52:34.082Z",
+  "generatedAt": "2026-06-09T10:49:46.085Z",
   "total": 22,
   "rules": [
     {
@@ -1532,8 +1532,8 @@
         "us": {
           "bannerstrip": {
             "line1": "SHIRTS OR POLOS FROM $44.75",
-            "line2": "20% OFF EVERYTHING ELSE",
-            "line3": "FREE SHIPPING",
+            "line2": "FREE SHIPPING",
+            "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
