@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-11T08:33:59.896Z",
+  "generatedAt": "2026-06-11T12:06:46.994Z",
   "total": 21,
   "rules": [
     {
@@ -12653,16 +12653,16 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "5 Für 175 € Hemden Oder Polos Für | Code: NEUESHEMD",
+            "line1": "5 Für 175 € Hemden Oder Polos | Code: NEUESHEMD",
             "line2": "Nur Für Kurze Zeit",
             "line3": "",
-            "line1EndsTonight": "5 Für 175 € Hemden Oder Polos Für | Code: NEUESHEMD",
+            "line1EndsTonight": "5 Für 175 € Hemden Oder Polos | Code: NEUESHEMD",
             "line2EndsTonight": "Endet Heute Abend",
             "line3EndsTonight": "",
-            "line1Affiliate": "5 Für 175 € Hemden Oder Polos Für | Code: HEMD",
+            "line1Affiliate": "5 Für 175 € Hemden Oder Polos | Code: HEMD",
             "line2Affiliate": "Nur Für Kurze Zeit",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "5 Für 175 € Hemden Oder Polos Für | Code: HEMD",
+            "line1AffiliateEndsTonight": "5 Für 175 € Hemden Oder Polos | Code: HEMD",
             "line2AffiliateEndsTonight": "Endet Heute Abend",
             "line3AffiliateEndsTonight": ""
           },
