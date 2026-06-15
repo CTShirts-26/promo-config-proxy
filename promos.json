@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-11T12:06:46.994Z",
+  "generatedAt": "2026-06-15T08:22:36.742Z",
   "total": 21,
   "rules": [
     {
@@ -8386,7 +8386,7 @@
       "ruleId": "US+CA SUMMER EVENT 2",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-11",
       "endUtc": "2026-06-14",
       "scope": {
@@ -10356,7 +10356,7 @@
       "ruleId": "US+CA SUMMER EVENT 2.1",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-11",
       "endUtc": "2026-06-14",
       "scope": {
@@ -13074,7 +13074,7 @@
       "ruleId": "AUS One Day",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "EXPIRED",
       "startUtc": "2026-06-14",
       "endUtc": "2026-06-14",
       "scope": {
@@ -15205,7 +15205,7 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "4 POUR 299 C$ | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "4 POUR 299 C$ | JUSQU’À CE SOIR",
               "affiliate": "",
               "affiliateEndsTonight": ""
