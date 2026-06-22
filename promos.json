@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-22T13:12:58.130Z",
+  "generatedAt": "2026-06-22T13:14:08.598Z",
   "total": 27,
   "rules": [
     {
@@ -14057,18 +14057,18 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "Soldes jusqu'à -60% – Chemises à partir de 29,95 €",
-            "line2": "",
+            "line1": "Soldes jusqu'à -60%",
+            "line2": "Chemises à partir de 29,95 €",
             "line3": "",
-            "line1EndsTonight": "Soldes jusqu'à -60% – Chemises à partir de 29,95 €",
-            "line2EndsTonight": "Jusqu’à ce soir",
-            "line3EndsTonight": "",
-            "line1Affiliate": "Soldes jusqu'à -60% – Chemises à partir de 29,95 €",
-            "line2Affiliate": "",
+            "line1EndsTonight": "Soldes jusqu'à -60%",
+            "line2EndsTonight": "Chemises à partir de 29,95 €",
+            "line3EndsTonight": "Jusqu’à ce soir",
+            "line1Affiliate": "Soldes jusqu'à -60%",
+            "line2Affiliate": "Chemises à partir de 29,95 €",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "Soldes jusqu'à -60% – Chemises à partir de 29,95 €",
-            "line2AffiliateEndsTonight": "Jusqu’à ce soir",
-            "line3AffiliateEndsTonight": ""
+            "line1AffiliateEndsTonight": "Soldes jusqu'à -60%",
+            "line2AffiliateEndsTonight": "Chemises à partir de 29,95 €",
+            "line3AffiliateEndsTonight": "Jusqu’à ce soir"
           },
           "tibText": {
             "default": "Jusqu'à -60% | Chemises à partir de 29,95 €",
