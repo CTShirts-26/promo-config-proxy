@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-22T09:15:07.689Z",
+  "generatedAt": "2026-06-22T11:24:11.127Z",
   "total": 27,
   "rules": [
     {
@@ -14000,10 +14000,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Shirts from $49 | Up to 60% off",
-            "endsTonight": "Shirts from $49 | Up to 60% off",
-            "affiliate": "Shirts from $49 | Up to 60% off",
-            "affiliateEndsTonight": "Shirts from $49 | Up to 60% off"
+            "default": "Up to 60% off Sale - Shirts from $49",
+            "endsTonight": "Up to 60% off Sale - Shirts from $49",
+            "affiliate": "Up to 60% off Sale - Shirts from $49",
+            "affiliateEndsTonight": "Up to 60% off Sale - Shirts from $49"
           },
           "promoCallout": {
             "default": "",
@@ -14120,10 +14120,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Chemises à partir de 29,95 € | Jusqu'à -60%",
-            "endsTonight": "Chemises à partir de 29,95 € | Jusqu'à -60%",
-            "affiliate": "Chemises à partir de 29,95 € | Jusqu'à -60%",
-            "affiliateEndsTonight": "Chemises à partir de 29,95 € | Jusqu'à -60%"
+            "default": "Jusqu'à -60% en Soldes | Chemises à partir de 29,95 €",
+            "endsTonight": "Jusqu'à -60% en Soldes | Chemises à partir de 29,95 €",
+            "affiliate": "Jusqu'à -60% en Soldes | Chemises à partir de 29,95 €",
+            "affiliateEndsTonight": "Jusqu'à -60% en Soldes | Chemises à partir de 29,95 €"
           },
           "promoCallout": {
             "default": "",
