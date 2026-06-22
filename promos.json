@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-22T11:24:11.127Z",
+  "generatedAt": "2026-06-22T11:44:07.470Z",
   "total": 27,
   "rules": [
     {
@@ -13786,59 +13786,10 @@
           "sharefr1"
         ],
         "mainCategories": [
-          "shirts",
-          "shirts-formal-shirts",
-          "shirts-business-casual-shirts",
-          "shirts-casual-shirts",
-          "shirts-t-shirts",
-          "shirts-luxury-shirts",
-          "custom-shirts",
-          "shirts-collections",
-          "shirt-finder",
-          "shirts-new-season",
-          "shirts-for-$89",
-          "denim-chambray-shirts",
-          "for-evenings-out",
-          "shirts-bengal-stripe-shirts",
-          "shirts-brushed-cotton",
-          "shirts-button-down-shirts",
-          "shirts-casual-short-sleeve",
-          "shirts-casual-washed-oxford",
-          "shirts-check-casual-shirts",
-          "shirts-check-shirts",
-          "shirts-collarless-shirts",
-          "shirts-cotton-stretch",
-          "shirts-egyptian-cotton-shirts",
-          "shirts-evening-shirts",
-          "shirts-flannels-shirt",
-          "shirts-four-way-stretch",
-          "shirts-french-cuff-shirts",
-          "shirts-gingham-shirts",
-          "shirts-liberty",
-          "shirts-linen",
-          "shirts-non-iron-buttondown-shirts",
-          "shirts-non-iron-oxford-shirts",
-          "shirts-non-iron-poplin-shirts",
-          "shirts-non-iron-shirts",
-          "shirts-non-iron-twill-shirts",
-          "shirts-performance-shirts",
-          "shirts-prince-of-wales-shirts",
-          "shirts-printed-shirts",
-          "shirts-short-sleeve-shirts",
-          "shirts-stretch-shirts",
-          "shirts-stripe-shirts",
-          "shirts-summer-shirts",
-          "shirts-tyrwhitt-cool",
-          "shirts-weave-dobby",
-          "shirts-weave-end-on-end",
-          "shirts-weave-herringbone",
-          "shirts-weave-oxford",
-          "shirts-weave-pinpoint",
-          "shirts-weave-poplin",
-          "shirts-weave-twill",
-          "the-shirt-of-the-season",
-          "work-shirts",
-          "shirts-new-casual-shirts"
+          "clr_shirts",
+          "clr_shirts-formal-shirts",
+          "clr_shirts-casual-shirts",
+          "clearance"
         ],
         "excludedCategories": [],
         "showOnPdp": false,
@@ -14120,10 +14071,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Jusqu'à -60% en Soldes | Chemises à partir de 29,95 €",
-            "endsTonight": "Jusqu'à -60% en Soldes | Chemises à partir de 29,95 €",
-            "affiliate": "Jusqu'à -60% en Soldes | Chemises à partir de 29,95 €",
-            "affiliateEndsTonight": "Jusqu'à -60% en Soldes | Chemises à partir de 29,95 €"
+            "default": "Jusqu'à -60% | Chemises à partir de 29,95 €",
+            "endsTonight": "Jusqu'à -60% | Chemises à partir de 29,95 €",
+            "affiliate": "Jusqu'à -60% | Chemises à partir de 29,95 €",
+            "affiliateEndsTonight": "Jusqu'à -60% | Chemises à partir de 29,95 €"
           },
           "promoCallout": {
             "default": "",
@@ -14535,18 +14486,7 @@
           "sharefr1"
         ],
         "mainCategories": [
-          "shirts-polo-shirts",
-          "countryside-polo-shirts",
-          "golf-polo-shirts",
-          "holiday-polo-shirts",
-          "linen-polo-shirts",
-          "long-sleeve-polos",
-          "pique-polo-shirts",
-          "smart-polo-shirts",
-          "summer-in-the-city-1",
-          "cotton-polo-shirts",
-          "shirts-zip-neck-polos",
-          "shirts-polos-new-season"
+          "clr_polo_shirts"
         ],
         "excludedCategories": [],
         "showOnPdp": false,
@@ -14708,10 +14648,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Polos from $49 | Up to 55% off",
-            "endsTonight": "Polos from $49 | Up to 55% off",
-            "affiliate": "Polos from $49 | Up to 55% off",
-            "affiliateEndsTonight": "Polos from $49 | Up to 55% off"
+            "default": "Up to 55% off Sale - Polos from $49",
+            "endsTonight": "Up to 55% off Sale - Polos from $49",
+            "affiliate": "Up to 55% off Sale - Polos from $49",
+            "affiliateEndsTonight": "Up to 55% off Sale - Polos from $49"
           },
           "promoCallout": {
             "default": "",
@@ -14828,10 +14768,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Polos à partir de 29,95 € | Jusqu'à -55%",
-            "endsTonight": "Polos à partir de 29,95 € | Jusqu'à -55%",
-            "affiliate": "Polos à partir de 29,95 € | Jusqu'à -55%",
-            "affiliateEndsTonight": "Polos à partir de 29,95 € | Jusqu'à -55%"
+            "default": "Jusqu'à -55% | Polos à partir de 29,95 €",
+            "endsTonight": "Jusqu'à -55% | Polos à partir de 29,95 €",
+            "affiliate": "Jusqu'à -55% | Polos à partir de 29,95 €",
+            "affiliateEndsTonight": "Jusqu'à -55% | Polos à partir de 29,95 €"
           },
           "promoCallout": {
             "default": "",
@@ -15243,42 +15183,7 @@
           "sharefr1"
         ],
         "mainCategories": [
-          "suits",
-          "suits-business",
-          "suits-occasion",
-          "suits-tuxedos",
-          "suits-collections",
-          "blazers-new-season",
-          "suits-summer-suits",
-          "suits-morning-suits",
-          "suits-new-season",
-          "suits-separates-jackets",
-          "suits-separates-trousers",
-          "suits-separates-waistcoats",
-          "linen-suits",
-          "suits-20",
-          "suits-black",
-          "suits-blazers",
-          "suits-blue",
-          "suits-brown",
-          "suits-business-twill",
-          "suits-dinner-jackets",
-          "suits-double-breasted",
-          "suits-green",
-          "suits-grey",
-          "suits-italian-suits",
-          "suits-lounge",
-          "suits-luxury-suits",
-          "suits-navy",
-          "suits-three-piece",
-          "suits-travel-suits",
-          "suits-two-piece",
-          "suits-weave-birdseye",
-          "suits-weave-hopsack",
-          "suits-weave-sharkskin",
-          "suits-weave-twill",
-          "suits-summer-suits",
-          "suits-ultimate"
+          "clr_suits"
         ],
         "excludedCategories": [],
         "showOnPdp": false,
@@ -15440,10 +15345,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Suits from $299 | Up to 50% off",
-            "endsTonight": "Suits from $299 | Up to 50% off",
-            "affiliate": "Suits from $299 | Up to 50% off",
-            "affiliateEndsTonight": "Suits from $299 | Up to 50% off"
+            "default": "Up to 50% off",
+            "endsTonight": "Up to 50% off - Ends Tonight",
+            "affiliate": "Up to 50% off",
+            "affiliateEndsTonight": "Up to 50% off - Ends Tonight"
           },
           "promoCallout": {
             "default": "",
@@ -15560,10 +15465,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Costumes à partir de 249 € | Jusqu'à -40%",
-            "endsTonight": "Costumes à partir de 249 € | Jusqu'à -40%",
-            "affiliate": "Costumes à partir de 249 € | Jusqu'à -40%",
-            "affiliateEndsTonight": "Costumes à partir de 249 € | Jusqu'à -40%"
+            "default": "Jusqu'à -40%",
+            "endsTonight": "Jusqu'à -40% | Se Termine ce Soir",
+            "affiliate": "Jusqu'à -40%",
+            "affiliateEndsTonight": "Jusqu'à -40% | Se Termine ce Soir"
           },
           "promoCallout": {
             "default": "",
@@ -15975,13 +15880,9 @@
           "sharefr1"
         ],
         "mainCategories": [
-          "outerwear-jackets",
-          "outerwear-gilets",
-          "outerwear-corduroy-jackets",
-          "outerwear-linen-jackets",
-          "outerwear-velvet-jackets",
-          "outerwear-wool-jackets",
-          "outerwear-wool-jackets-and-coats"
+          "clr_blazers",
+          "outlet-suit-jackets",
+          "outlet-waistcoats"
         ],
         "excludedCategories": [],
         "showOnPdp": false,
@@ -16143,10 +16044,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Blazers from $249 | Up to 35% off",
-            "endsTonight": "Blazers from $249 | Up to 35% off",
-            "affiliate": "Blazers from $249 | Up to 35% off",
-            "affiliateEndsTonight": "Blazers from $249 | Up to 35% off"
+            "default": "Up to 35% off",
+            "endsTonight": "Up to 35% off - Ends Tonight",
+            "affiliate": "Up to 35% off",
+            "affiliateEndsTonight": "Up to 35% off - Ends Tonight"
           },
           "promoCallout": {
             "default": "",
@@ -16263,10 +16164,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Blazers à partir de 199 € | Jusqu'à -40%",
-            "endsTonight": "Blazers à partir de 199 € | Jusqu'à -40%",
-            "affiliate": "Blazers à partir de 199 € | Jusqu'à -40%",
-            "affiliateEndsTonight": "Blazers à partir de 199 € | Jusqu'à -40%"
+            "default": "Jusqu'à -40%",
+            "endsTonight": "Jusqu'à -40% | Se Termine ce Soir",
+            "affiliate": "Jusqu'à -40%",
+            "affiliateEndsTonight": "Jusqu'à -40% | Se Termine ce Soir"
           },
           "promoCallout": {
             "default": "",
@@ -16678,13 +16579,7 @@
           "sharefr1"
         ],
         "mainCategories": [
-          "outerwear",
-          "outerwear-raincoats",
-          "outerwear-coats",
-          "outerwear-collections",
-          "outerwear-new-season",
-          "outerwear-overcoats",
-          "outerwear-wool-coats"
+          "clr_outerwear"
         ],
         "excludedCategories": [],
         "showOnPdp": false,
@@ -16846,10 +16741,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Coats from $129 | Up to 50% off",
-            "endsTonight": "Coats from $129 | Up to 50% off",
-            "affiliate": "Coats from $129 | Up to 50% off",
-            "affiliateEndsTonight": "Coats from $129 | Up to 50% off"
+            "default": "Up to 50% off",
+            "endsTonight": "Up to 50% off - Ends tonight",
+            "affiliate": "Up to 50% off",
+            "affiliateEndsTonight": "Up to 50% off - Ends tonight"
           },
           "promoCallout": {
             "default": "",
@@ -16966,10 +16861,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Manteaux à partir de 119 € | Jusqu'à -40%",
-            "endsTonight": "Manteaux à partir de 119 € | Jusqu'à -40%",
-            "affiliate": "Manteaux à partir de 119 € | Jusqu'à -40%",
-            "affiliateEndsTonight": "Manteaux à partir de 119 € | Jusqu'à -40%"
+            "default": "Jusqu'à -40%",
+            "endsTonight": "Jusqu'à -40% | Se Termine ce Soir",
+            "affiliate": "Jusqu'à -40%",
+            "affiliateEndsTonight": "Jusqu'à -40% | Se Termine ce Soir"
           },
           "promoCallout": {
             "default": "",
@@ -17381,23 +17276,7 @@
           "sharefr1"
         ],
         "mainCategories": [
-          "knitwear",
-          "knitwear-blazers",
-          "knitwear-hoodies",
-          "knitwear-jumpers",
-          "knitwear-cardigans",
-          "knitwear-waistcoats",
-          "knitwear-collections",
-          "knitwear-cotton",
-          "knitwear-roll-neck",
-          "knitwear-new-season",
-          "knitwear-cashmere",
-          "knitwear-chunky-knits",
-          "knitwear-crew-neck",
-          "knitwear-merino",
-          "knitwear-merino-cashmere",
-          "knitwear-v-neck",
-          "knitwear-zip-neck"
+          "clr_knitwear"
         ],
         "excludedCategories": [],
         "showOnPdp": false,
@@ -17559,10 +17438,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Knitwear from $79 | Up to 35% off",
-            "endsTonight": "Knitwear from $79 | Up to 35% off",
-            "affiliate": "Knitwear from $79 | Up to 35% off",
-            "affiliateEndsTonight": "Knitwear from $79 | Up to 35% off"
+            "default": "Up to 35% off",
+            "endsTonight": "Up to 35% off - Ends Tonight",
+            "affiliate": "Up to 35% off",
+            "affiliateEndsTonight": "Up to 35% off - Ends Tonight"
           },
           "promoCallout": {
             "default": "",
@@ -17679,10 +17558,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Pulls à partir de 49,95 € | Jusqu'à -40%",
-            "endsTonight": "Pulls à partir de 49,95 € | Jusqu'à -40%",
-            "affiliate": "Pulls à partir de 49,95 € | Jusqu'à -40%",
-            "affiliateEndsTonight": "Pulls à partir de 49,95 € | Jusqu'à -40%"
+            "default": "Jusqu'à -40%",
+            "endsTonight": "Jusqu'à -40% | Se Termine ce Soir",
+            "affiliate": "Jusqu'à -40%",
+            "affiliateEndsTonight": "Jusqu'à -40% | Se Termine ce Soir"
           },
           "promoCallout": {
             "default": "",
@@ -18094,17 +17973,8 @@
           "sharefr1"
         ],
         "mainCategories": [
-          "trousers",
-          "trousers-casual-trousers",
-          "trousers-chinos",
-          "shorts",
-          "trousers-smart-trousers",
-          "trousers-joggers",
-          "trousers-collections",
-          "trousers-new-season",
-          "trousers-corduroy-trousers",
-          "trousers-linen-trousers",
-          "trousers-suits"
+          "clr_trousers",
+          "outlet-suit-trousers"
         ],
         "excludedCategories": [],
         "showOnPdp": false,
@@ -18266,10 +18136,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Trousers from $79 | Up to 35% off",
-            "endsTonight": "Trousers from $79 | Up to 35% off",
-            "affiliate": "Trousers from $79 | Up to 35% off",
-            "affiliateEndsTonight": "Trousers from $79 | Up to 35% off"
+            "default": "Up to 35% off",
+            "endsTonight": "Up to 35% off - Ends Tonight",
+            "affiliate": "Up to 35% off",
+            "affiliateEndsTonight": "Up to 35% off - Ends Tonight"
           },
           "promoCallout": {
             "default": "",
@@ -18386,10 +18256,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Pantalons à partir de 59,95 € | Jusqu'à -40%",
-            "endsTonight": "Pantalons à partir de 59,95 € | Jusqu'à -40%",
-            "affiliate": "Pantalons à partir de 59,95 € | Jusqu'à -40%",
-            "affiliateEndsTonight": "Pantalons à partir de 59,95 € | Jusqu'à -40%"
+            "default": "Jusqu'à -40%",
+            "endsTonight": "Jusqu'à -40% | Se Termine ce Soir",
+            "affiliate": "Jusqu'à -40%",
+            "affiliateEndsTonight": "Jusqu'à -40% | Se Termine ce Soir"
           },
           "promoCallout": {
             "default": "",
@@ -18801,33 +18671,7 @@
           "sharefr1"
         ],
         "mainCategories": [
-          "shoes",
-          "shoes-lace-up",
-          "shoes-slippers",
-          "shoes-new-season",
-          "shoes-boots",
-          "shoes-collections",
-          "shoes-extra-lightweight-soles",
-          "shoes-flex-sole",
-          "shoes-goodyear-performance",
-          "shoes-business-shoes",
-          "shoes-business-casual-shoes",
-          "shoes-casual-shoes",
-          "shoes-black-shoes",
-          "shoes-boat-shoes",
-          "shoes-brogues",
-          "shoes-brown-shoes",
-          "shoes-chelsea-boots",
-          "shoes-derby-shoes",
-          "shoes-goodyear-welted-shoes",
-          "shoes-loafers-suede",
-          "shoes-made-in-england-shoes",
-          "shoes-oxford-shoes",
-          "shoes-rubber-soled-shoes",
-          "shoes-wide-fit-shoes",
-          "summer-shoes",
-          "shoes-loafers",
-          "shoes-sneakers-shoes"
+          "clr_shoes"
         ],
         "excludedCategories": [],
         "showOnPdp": false,
@@ -18989,10 +18833,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "From $99 | Up to 30% off",
-            "endsTonight": "From $99 | Up to 30% off",
-            "affiliate": "From $99 | Up to 30% off",
-            "affiliateEndsTonight": "From $99 | Up to 30% off"
+            "default": "Up to 30% off",
+            "endsTonight": "Up to 30% off - Ends Tonight",
+            "affiliate": "Up to 30% off",
+            "affiliateEndsTonight": "Up to 30% off - Ends Tonight"
           },
           "promoCallout": {
             "default": "",
@@ -19109,10 +18953,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "À partir de 89,95 € | Jusqu'à -30%",
-            "endsTonight": "À partir de 89,95 € | Jusqu'à -30%",
-            "affiliate": "À partir de 89,95 € | Jusqu'à -30%",
-            "affiliateEndsTonight": "À partir de 89,95 € | Jusqu'à -30%"
+            "default": "Jusqu'à -30%",
+            "endsTonight": "Jusqu'à -30% | Se Termine ce Soir",
+            "affiliate": "Jusqu'à -30%",
+            "affiliateEndsTonight": "Jusqu'à -30% | Se Termine ce Soir"
           },
           "promoCallout": {
             "default": "",
@@ -19524,21 +19368,7 @@
           "sharefr1"
         ],
         "mainCategories": [
-          "stain-resistant-ties",
-          "ties-animal-ties",
-          "ties-floral-ties",
-          "ties-grenadine-ties",
-          "ties-linen-ties",
-          "ties-luxury-english-ties",
-          "ties-paisley-ties",
-          "ties-plain-ties",
-          "ties-silk-ties",
-          "ties-slim-ties",
-          "ties-stripe-ties",
-          "accessories-tie-bars",
-          "accessories-ties",
-          "ties-luxury-ties",
-          "accessories-bow-ties"
+          "clr_ties"
         ],
         "excludedCategories": [],
         "showOnPdp": false,
@@ -19700,10 +19530,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "From $29 | Up to 45% off",
-            "endsTonight": "From $29 | Up to 45% off",
-            "affiliate": "From $29 | Up to 45% off",
-            "affiliateEndsTonight": "From $29 | Up to 45% off"
+            "default": "Up to 45% off",
+            "endsTonight": "Up to 45% off - Ends Tonight",
+            "affiliate": "Up to 45% off",
+            "affiliateEndsTonight": "Up to 45% off - Ends Tonight"
           },
           "promoCallout": {
             "default": "",
@@ -19820,10 +19650,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "À partir de 19,95 € | Jusqu'à -50%",
-            "endsTonight": "À partir de 19,95 € | Jusqu'à -50%",
-            "affiliate": "À partir de 19,95 € | Jusqu'à -50%",
-            "affiliateEndsTonight": "À partir de 19,95 € | Jusqu'à -50%"
+            "default": "Jusqu'à -50%",
+            "endsTonight": "Jusqu'à -50% | Se Termine ce Soir",
+            "affiliate": "Jusqu'à -50%",
+            "affiliateEndsTonight": "Jusqu'à -50% | Se Termine ce Soir"
           },
           "promoCallout": {
             "default": "",
@@ -20235,7 +20065,7 @@
           "sharefr1"
         ],
         "mainCategories": [
-          "accessories-socks"
+          "clr_accessories"
         ],
         "excludedCategories": [],
         "showOnPdp": false,
@@ -20397,10 +20227,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "From $10 | Up to 50% off",
-            "endsTonight": "From $10 | Up to 50% off",
-            "affiliate": "From $10 | Up to 50% off",
-            "affiliateEndsTonight": "From $10 | Up to 50% off"
+            "default": "Up to 50% off",
+            "endsTonight": "Up to 50% off - Ends Tonight",
+            "affiliate": "Up to 50% off",
+            "affiliateEndsTonight": "Up to 50% off - Ends Tonight"
           },
           "promoCallout": {
             "default": "",
@@ -20517,10 +20347,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "À partir de 9,95 € | Jusqu'à -40%",
-            "endsTonight": "À partir de 9,95 € | Jusqu'à -40%",
-            "affiliate": "À partir de 9,95 € | Jusqu'à -40%",
-            "affiliateEndsTonight": "À partir de 9,95 € | Jusqu'à -40%"
+            "default": "Jusqu'à -50%",
+            "endsTonight": "Jusqu'à -50% | Se Termine ce Soir",
+            "affiliate": "Jusqu'à -50%",
+            "affiliateEndsTonight": "Jusqu'à -50% | Se Termine ce Soir"
           },
           "promoCallout": {
             "default": "",
