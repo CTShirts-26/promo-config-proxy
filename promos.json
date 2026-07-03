@@ -1,13 +1,13 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-23T10:52:12.759Z",
+  "generatedAt": "2026-07-03T13:27:07.532Z",
   "total": 39,
   "rules": [
     {
       "ruleId": "UK_29.95_FD50",
       "category": "ACQ - UK",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-29",
       "scope": {
@@ -697,7 +697,7 @@
       "ruleId": "UK_FB_29.95_FD50",
       "category": "ACQ - UK",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-29",
       "scope": {
@@ -1420,7 +1420,7 @@
       "ruleId": "39.95_price_file_FD",
       "category": "ACQ - US",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-29",
       "scope": {
@@ -2154,7 +2154,7 @@
       "ruleId": "DE_online_3for99_fd75",
       "category": "ACQ - DE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-29",
       "scope": {
@@ -2855,7 +2855,7 @@
       "ruleId": "shirts_39.95_FD75",
       "category": "ACQ - DE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-29",
       "scope": {
@@ -3540,7 +3540,7 @@
       "ruleId": "AU_3_FOR_135",
       "category": "ACQ - AU",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-24",
       "scope": {
@@ -4243,7 +4243,7 @@
       "ruleId": "SHIRTS_49.95_AU",
       "category": "ACQ - AU",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-24",
       "scope": {
@@ -4927,7 +4927,7 @@
       "ruleId": "CA_Shirts_$69.95",
       "category": "ACQ - CA",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-29",
       "scope": {
@@ -5625,7 +5625,7 @@
       "ruleId": "CH-ACQ_59",
       "category": "ACQ - CH",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-29",
       "scope": {
@@ -6318,7 +6318,7 @@
       "ruleId": "NL_Acquisition_39.95",
       "category": "ACQ - NL",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-29",
       "scope": {
@@ -7009,7 +7009,7 @@
       "ruleId": "EU_online_3for99_fd75",
       "category": "ACQ - EU",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-29",
       "scope": {
@@ -7703,7 +7703,7 @@
       "ruleId": "EU_39.95_FD",
       "category": "ACQ - EU",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-29",
       "scope": {
@@ -8397,7 +8397,7 @@
       "ruleId": "FR_3for99",
       "category": "ACQ - FR",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-24",
       "scope": {
@@ -9092,7 +9092,7 @@
       "ruleId": "FR_39.95_shirts",
       "category": "ACQ - FR",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-05-01",
       "endUtc": "2026-06-24",
       "scope": {
@@ -9774,7 +9774,7 @@
       "ruleId": "CA 4th July",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-01",
       "scope": {
@@ -11744,7 +11744,7 @@
       "ruleId": "CA 4th July 20%",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-01",
       "scope": {
@@ -12450,7 +12450,7 @@
       "ruleId": "US 4th July",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-29",
       "endUtc": "2026-07-05",
       "scope": {
@@ -14420,7 +14420,7 @@
       "ruleId": "US 4th July 20%",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-29",
       "endUtc": "2026-07-05",
       "scope": {
@@ -15126,7 +15126,7 @@
       "ruleId": "EOSS FR/AU Shirts",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -15875,7 +15875,7 @@
       "ruleId": "EOSS FR/AU Polos",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -16621,7 +16621,7 @@
       "ruleId": "EOSS FR/AU Suits",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -17367,7 +17367,7 @@
       "ruleId": "EOSS FR/AU Jackets",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -18115,7 +18115,7 @@
       "ruleId": "EOSS FR/AU Coats",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -18861,7 +18861,7 @@
       "ruleId": "EOSS FR/AU Knitwear",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -19607,7 +19607,7 @@
       "ruleId": "EOSS FR/AU Trousers",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -20354,7 +20354,7 @@
       "ruleId": "EOSS FR/AU Shoes",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -21100,7 +21100,7 @@
       "ruleId": "EOSS FR/AU Ties",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -21846,7 +21846,7 @@
       "ruleId": "EOSS FR/AU Socks",
       "category": "DONE",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -22972,10 +22972,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Up to 70% off Sale - Shirts from $39.75",
-            "endsTonight": "Up to 70% off Sale - Shirts from $39.75",
-            "affiliate": "Up to 70% off Sale - Shirts from $39.75",
-            "affiliateEndsTonight": "Up to 70% off Sale - Shirts from $39.75"
+            "default": "Up to 70% off - Shirts from $39.75",
+            "endsTonight": "Up to 70% off - Shirts from $39.75",
+            "affiliate": "Up to 70% off - Shirts from $39.75",
+            "affiliateEndsTonight": "Up to 70% off - Shirts from $39.75"
           },
           "promoCallout": {
             "default": "",
@@ -23013,10 +23013,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Up to 65% off Sale - Shirts from C$59.75",
-              "endsTonight": "Up to 65% off Sale - Shirts from C$59.75",
-              "affiliate": "Up to 65% off Sale - Shirts from C$59.75",
-              "affiliateEndsTonight": "Up to 65% off Sale - Shirts from C$59.75"
+              "default": "Up to 65% off - Shirts from C$59.75",
+              "endsTonight": "Up to 65% off - Shirts from C$59.75",
+              "affiliate": "Up to 65% off - Shirts from C$59.75",
+              "affiliateEndsTonight": "Up to 65% off - Shirts from C$59.75"
             },
             "promoCallout": {
               "default": "",
@@ -23134,10 +23134,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Up to 65% off Sale - Shirts from £24.95",
-            "endsTonight": "Up to 65% off Sale - Shirts from £24.95",
-            "affiliate": "Up to 65% off Sale - Shirts from £24.95",
-            "affiliateEndsTonight": "Up to 65% off Sale - Shirts from £24.95"
+            "default": "Up to 65% off - Shirts from £24.95",
+            "endsTonight": "Up to 65% off - Shirts from £24.95",
+            "affiliate": "Up to 65% off - Shirts from £24.95",
+            "affiliateEndsTonight": "Up to 65% off - Shirts from £24.95"
           },
           "promoCallout": {
             "default": "",
@@ -23174,10 +23174,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Bis zu 60% Rabatt im Sale - Hemden ab 29.95 €",
-            "endsTonight": "Bis zu 60% Rabatt im Sale - Hemden ab 29.95 €",
-            "affiliate": "Bis zu 60% Rabatt im Sale - Hemden ab 29.95 €",
-            "affiliateEndsTonight": "Bis zu 60% Rabatt im Sale - Hemden ab 29.95 €"
+            "default": "Bis zu 60% Rabatt - Hemden ab 29.95 €",
+            "endsTonight": "Bis zu 60% Rabatt - Hemden ab 29.95 €",
+            "affiliate": "Bis zu 60% Rabatt - Hemden ab 29.95 €",
+            "affiliateEndsTonight": "Bis zu 60% Rabatt - Hemden ab 29.95 €"
           },
           "promoCallout": {
             "default": "",
@@ -23255,10 +23255,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Up to 65% off Sale - Shirts from CHF 39",
-              "endsTonight": "Up to 65% off Sale - Shirts from CHF 39",
-              "affiliate": "Up to 65% off Sale - Shirts from CHF 39",
-              "affiliateEndsTonight": "Up to 65% off Sale - Shirts from CHF 39"
+              "default": "Up to 65% off - Shirts from CHF 39",
+              "endsTonight": "Up to 65% off - Shirts from CHF 39",
+              "affiliate": "Up to 65% off - Shirts from CHF 39",
+              "affiliateEndsTonight": "Up to 65% off - Shirts from CHF 39"
             },
             "promoCallout": {
               "default": "",
@@ -23335,10 +23335,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Bis zu 65% Rabatt im Sale - Hemden ab CHF 39",
-              "endsTonight": "Bis zu 65% Rabatt im Sale - Hemden ab CHF 39",
-              "affiliate": "Bis zu 65% Rabatt im Sale - Hemden ab CHF 39",
-              "affiliateEndsTonight": "Bis zu 65% Rabatt im Sale - Hemden ab CHF 39"
+              "default": "Bis zu 65% Rabatt - Hemden ab CHF 39",
+              "endsTonight": "Bis zu 65% Rabatt - Hemden ab CHF 39",
+              "affiliate": "Bis zu 65% Rabatt - Hemden ab CHF 39",
+              "affiliateEndsTonight": "Bis zu 65% Rabatt - Hemden ab CHF 39"
             },
             "promoCallout": {
               "default": "",
@@ -23377,10 +23377,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Up to 60% off Sale - Shirts from 29.95€",
-              "endsTonight": "Up to 60% off Sale - Shirts from 29.95€",
-              "affiliate": "Up to 60% off Sale - Shirts from 29.95€",
-              "affiliateEndsTonight": "Up to 60% off Sale - Shirts from 29.95€"
+              "default": "Up to 60% off - Shirts from 29.95€",
+              "endsTonight": "Up to 60% off - Shirts from 29.95€",
+              "affiliate": "Up to 60% off - Shirts from 29.95€",
+              "affiliateEndsTonight": "Up to 60% off - Shirts from 29.95€"
             },
             "promoCallout": {
               "default": "",
@@ -23417,10 +23417,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Up to 60% off Sale - Shirts from 29.95€",
-              "endsTonight": "Up to 60% off Sale - Shirts from 29.95€",
-              "affiliate": "Up to 60% off Sale - Shirts from 29.95€",
-              "affiliateEndsTonight": "Up to 60% off Sale - Shirts from 29.95€"
+              "default": "Up to 60% off - Shirts from 29.95€",
+              "endsTonight": "Up to 60% off - Shirts from 29.95€",
+              "affiliate": "Up to 60% off - Shirts from 29.95€",
+              "affiliateEndsTonight": "Up to 60% off - Shirts from 29.95€"
             },
             "promoCallout": {
               "default": "",
@@ -23458,10 +23458,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Up to 60% off Sale - Shirts from 29.95€",
-            "endsTonight": "Up to 60% off Sale - Shirts from 29.95€",
-            "affiliate": "Up to 60% off Sale - Shirts from 29.95€",
-            "affiliateEndsTonight": "Up to 60% off Sale - Shirts from 29.95€"
+            "default": "Up to 60% off - Shirts from 29.95€",
+            "endsTonight": "Up to 60% off - Shirts from 29.95€",
+            "affiliate": "Up to 60% off - Shirts from 29.95€",
+            "affiliateEndsTonight": "Up to 60% off - Shirts from 29.95€"
           },
           "promoCallout": {
             "default": "",
@@ -23498,10 +23498,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Up to 65% off Sale - Shirts from £24.95",
-            "endsTonight": "Up to 65% off Sale - Shirts from £24.95",
-            "affiliate": "Up to 65% off Sale - Shirts from £24.95",
-            "affiliateEndsTonight": "Up to 65% off Sale - Shirts from £24.95"
+            "default": "Up to 65% off - Shirts from £24.95",
+            "endsTonight": "Up to 65% off - Shirts from £24.95",
+            "affiliate": "Up to 65% off - Shirts from £24.95",
+            "affiliateEndsTonight": "Up to 65% off - Shirts from £24.95"
           },
           "promoCallout": {
             "default": "",
@@ -23958,10 +23958,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Up to 60% off Sale - Polos from $39.75",
-            "endsTonight": "Up to 60% off Sale - Polos from $39.75",
-            "affiliate": "Up to 60% off Sale - Polos from $39.75",
-            "affiliateEndsTonight": "Up to 60% off Sale - Polos from $39.75"
+            "default": "Up to 60% off - Polos from $39.75",
+            "endsTonight": "Up to 60% off - Polos from $39.75",
+            "affiliate": "Up to 60% off - Polos from $39.75",
+            "affiliateEndsTonight": "Up to 60% off - Polos from $39.75"
           },
           "promoCallout": {
             "default": "",
@@ -23999,10 +23999,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Up to 55% off Sale - Polos from C$59.75",
-              "endsTonight": "Up to 55% off Sale - Polos from C$59.75",
-              "affiliate": "Up to 55% off Sale - Polos from C$59.75",
-              "affiliateEndsTonight": "Up to 55% off Sale - Polos from C$59.75"
+              "default": "Up to 55% off - Polos from C$59.75",
+              "endsTonight": "Up to 55% off - Polos from C$59.75",
+              "affiliate": "Up to 55% off - Polos from C$59.75",
+              "affiliateEndsTonight": "Up to 55% off - Polos from C$59.75"
             },
             "promoCallout": {
               "default": "",
@@ -24120,10 +24120,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Up to 60% off Sale - Polos from £24.95",
-            "endsTonight": "Up to 60% off Sale - Polos from £24.95",
-            "affiliate": "Up to 60% off Sale - Polos from £24.95",
-            "affiliateEndsTonight": "Up to 60% off Sale - Polos from £24.95"
+            "default": "Up to 60% off - Polos from £24.95",
+            "endsTonight": "Up to 60% off - Polos from £24.95",
+            "affiliate": "Up to 60% off - Polos from £24.95",
+            "affiliateEndsTonight": "Up to 60% off - Polos from £24.95"
           },
           "promoCallout": {
             "default": "",
@@ -24160,10 +24160,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Bis zu 55% Rabatt im Sale - Polos ab 29.95 €",
-            "endsTonight": "Bis zu 55% Rabatt im Sale - Polos ab 29.95 €",
-            "affiliate": "Bis zu 55% Rabatt im Sale - Polos ab 29.95 €",
-            "affiliateEndsTonight": "Bis zu 55% Rabatt im Sale - Polos ab 29.95 €"
+            "default": "Bis zu 55% Rabatt - Polos ab 29.95 €",
+            "endsTonight": "Bis zu 55% Rabatt - Polos ab 29.95 €",
+            "affiliate": "Bis zu 55% Rabatt - Polos ab 29.95 €",
+            "affiliateEndsTonight": "Bis zu 55% Rabatt - Polos ab 29.95 €"
           },
           "promoCallout": {
             "default": "",
@@ -24241,10 +24241,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Up to 50% off Sale - Polos from CHF 49",
-              "endsTonight": "Up to 50% off Sale - Polos from CHF 49",
-              "affiliate": "Up to 50% off Sale - Polos from CHF 49",
-              "affiliateEndsTonight": "Up to 50% off Sale - Polos from CHF 49"
+              "default": "Up to 50% off - Polos from CHF 49",
+              "endsTonight": "Up to 50% off - Polos from CHF 49",
+              "affiliate": "Up to 50% off - Polos from CHF 49",
+              "affiliateEndsTonight": "Up to 50% off - Polos from CHF 49"
             },
             "promoCallout": {
               "default": "",
@@ -24321,10 +24321,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Bis zu 50% Rabatt im Sale - Polos ab CHF 49",
-              "endsTonight": "Bis zu 50% Rabatt im Sale - Polos ab CHF 49",
-              "affiliate": "Bis zu 50% Rabatt im Sale - Polos ab CHF 49",
-              "affiliateEndsTonight": "Bis zu 50% Rabatt im Sale - Polos ab CHF 49"
+              "default": "Bis zu 50% Rabatt - Polos ab CHF 49",
+              "endsTonight": "Bis zu 50% Rabatt - Polos ab CHF 49",
+              "affiliate": "Bis zu 50% Rabatt - Polos ab CHF 49",
+              "affiliateEndsTonight": "Bis zu 50% Rabatt - Polos ab CHF 49"
             },
             "promoCallout": {
               "default": "",
@@ -24363,10 +24363,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Up to 55% off Sale - Polos from 29.95€",
-              "endsTonight": "Up to 55% off Sale - Polos from 29.95€",
-              "affiliate": "Up to 55% off Sale - Polos from 29.95€",
-              "affiliateEndsTonight": "Up to 55% off Sale - Polos from 29.95€"
+              "default": "Up to 55% off - Polos from 29.95€",
+              "endsTonight": "Up to 55% off - Polos from 29.95€",
+              "affiliate": "Up to 55% off - Polos from 29.95€",
+              "affiliateEndsTonight": "Up to 55% off - Polos from 29.95€"
             },
             "promoCallout": {
               "default": "",
@@ -24403,10 +24403,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Up to 55% off Sale - Polos from 29.95€",
-              "endsTonight": "Up to 55% off Sale - Polos from 29.95€",
-              "affiliate": "Up to 55% off Sale - Polos from 29.95€",
-              "affiliateEndsTonight": "Up to 55% off Sale - Polos from 29.95€"
+              "default": "Up to 55% off - Polos from 29.95€",
+              "endsTonight": "Up to 55% off - Polos from 29.95€",
+              "affiliate": "Up to 55% off - Polos from 29.95€",
+              "affiliateEndsTonight": "Up to 55% off - Polos from 29.95€"
             },
             "promoCallout": {
               "default": "",
@@ -24444,10 +24444,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Up to 55% off Sale - Polos from 29.95€",
-            "endsTonight": "Up to 55% off Sale - Polos from 29.95€",
-            "affiliate": "Up to 55% off Sale - Polos from 29.95€",
-            "affiliateEndsTonight": "Up to 55% off Sale - Polos from 29.95€"
+            "default": "Up to 55% off - Polos from 29.95€",
+            "endsTonight": "Up to 55% off - Polos from 29.95€",
+            "affiliate": "Up to 55% off - Polos from 29.95€",
+            "affiliateEndsTonight": "Up to 55% off - Polos from 29.95€"
           },
           "promoCallout": {
             "default": "",
@@ -24484,10 +24484,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Up to 60% off Sale - Polos from £24.95",
-            "endsTonight": "Up to 60% off Sale - Polos from £24.95",
-            "affiliate": "Up to 60% off Sale - Polos from £24.95",
-            "affiliateEndsTonight": "Up to 60% off Sale - Polos from £24.95"
+            "default": "Up to 60% off - Polos from £24.95",
+            "endsTonight": "Up to 60% off - Polos from £24.95",
+            "affiliate": "Up to 60% off - Polos from £24.95",
+            "affiliateEndsTonight": "Up to 60% off - Polos from £24.95"
           },
           "promoCallout": {
             "default": "",
