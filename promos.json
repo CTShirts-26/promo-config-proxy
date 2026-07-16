@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-16T10:31:50.694Z",
+  "generatedAt": "2026-07-16T10:42:10.560Z",
   "total": 49,
   "rules": [
     {
@@ -30424,18 +30424,18 @@
       "content": {
         "us": {
           "bannerstrip": {
-            "line1": "Up to 70% off Sale - Shirts from $39.75",
-            "line2": "",
-            "line3": "",
-            "line1EndsTonight": "Up to 70% off Sale - Shirts from $39.75",
-            "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "",
-            "line1Affiliate": "Up to 70% off Sale - Shirts from $39.75",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "Up to 70% off Sale - Shirts from $39.75",
-            "line2AffiliateEndsTonight": "Ends Tonight",
-            "line3AffiliateEndsTonight": ""
+            "line1": "Up to 70% off Sale + Extra 10% Off",
+            "line2": "Use Code: EXTRA10",
+            "line3": "Limited Time Only",
+            "line1EndsTonight": "Up to 70% off Sale + Extra 10% Off",
+            "line2EndsTonight": "Use Code: EXTRA10",
+            "line3EndsTonight": "Ends Tonight",
+            "line1Affiliate": "Up to 70% off Sale + Extra 10% Off",
+            "line2Affiliate": "Use Code: ADDED10",
+            "line3Affiliate": "Limited Time Only",
+            "line1AffiliateEndsTonight": "Up to 70% off Sale + Extra 10% Off",
+            "line2AffiliateEndsTonight": "Use Code: ADDED10",
+            "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
             "default": "Up to 70% off - Shirts from $39.75",
