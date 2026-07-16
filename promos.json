@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-16T11:11:04.692Z",
+  "generatedAt": "2026-07-16T11:33:15.924Z",
   "total": 49,
   "rules": [
     {
@@ -30666,18 +30666,18 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "Soldes jusqu'à -60%",
-            "line2": "Chemises à partir de 29,95 €",
-            "line3": "",
-            "line1EndsTonight": "Soldes jusqu'à -60%",
-            "line2EndsTonight": "Chemises à partir de 29,95 €",
-            "line3EndsTonight": "",
-            "line1Affiliate": "Soldes jusqu'à -60%",
-            "line2Affiliate": "Chemises à partir de 29,95 €",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "Soldes jusqu'à -60%",
-            "line2AffiliateEndsTonight": "Chemises à partir de 29,95 €",
-            "line3AffiliateEndsTonight": ""
+            "line1": "Soldes jusqu'à -60% + 10 % supplémentaires",
+            "line2": "code : ENPLUS10",
+            "line3": "Offre à durée limitée",
+            "line1EndsTonight": "Soldes jusqu'à -60% + 10 % supplémentaires",
+            "line2EndsTonight": "code : ENPLUS10",
+            "line3EndsTonight": "Jusqu’à ce soir",
+            "line1Affiliate": "Soldes jusqu'à -60% + 10 % supplémentaires",
+            "line2Affiliate": "code : PLUS10",
+            "line3Affiliate": "Offre à durée limitée",
+            "line1AffiliateEndsTonight": "Soldes jusqu'à -60% + 10 % supplémentaires",
+            "line2AffiliateEndsTonight": "code : PLUS10",
+            "line3AffiliateEndsTonight": "Jusqu’à ce soir"
           },
           "tibText": {
             "default": "Jusqu'à -60% | Chemises à partir de 29,95 €",
