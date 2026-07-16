@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-16T11:00:05.932Z",
+  "generatedAt": "2026-07-16T11:11:04.692Z",
   "total": 49,
   "rules": [
     {
@@ -30626,18 +30626,18 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "Bis zu 60% Rabatt im Sale - Hemden ab 29.95 €",
-            "line2": "",
-            "line3": "",
-            "line1EndsTonight": "Bis zu 60% Rabatt im Sale - Hemden ab 29.95 €",
-            "line2EndsTonight": "Endet Heute Abend",
-            "line3EndsTonight": "",
-            "line1Affiliate": "Bis zu 60% Rabatt im Sale - Hemden ab 29.95 €",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "Bis zu 60% Rabatt im Sale - Hemden ab 29.95 €",
-            "line2AffiliateEndsTonight": "Endet Heute Abend",
-            "line3AffiliateEndsTonight": ""
+            "line1": "Bis zu 60% Rabatt im Sale + 10% Rabatt",
+            "line2": "Mit dem Code: SPAR10",
+            "line3": "Nur Für Kurze Zeit",
+            "line1EndsTonight": "Bis zu 60% Rabatt im Sale + 10% Rabatt",
+            "line2EndsTonight": "Mit dem Code: SPAR10",
+            "line3EndsTonight": "Endet Heute Abend",
+            "line1Affiliate": "Bis zu 60% Rabatt im Sale + 10% Rabatt",
+            "line2Affiliate": "Mit dem Code: MEHR10",
+            "line3Affiliate": "Nur Für Kurze Zeit",
+            "line1AffiliateEndsTonight": "Bis zu 60% Rabatt im Sale + 10% Rabatt",
+            "line2AffiliateEndsTonight": "Mit dem Code: MEHR10",
+            "line3AffiliateEndsTonight": "Endet Heute Abend"
           },
           "tibText": {
             "default": "Bis zu 60% Rabatt - Hemden ab 29.95 €",
