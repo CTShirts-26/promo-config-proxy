@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-21T10:28:45.988Z",
+  "generatedAt": "2026-07-21T10:30:03.303Z",
   "total": 50,
   "rules": [
     {
@@ -39767,7 +39767,7 @@
       "content": {
         "us": {
           "bannerstrip": {
-            "line1": "Free Delivery on $200+",
+            "line1": "",
             "line2": "",
             "line3": "",
             "line1EndsTonight": "",
@@ -39889,7 +39889,7 @@
         },
         "au": {
           "bannerstrip": {
-            "line1": "",
+            "line1": "Free Delivery on $200+",
             "line2": "",
             "line3": "",
             "line1EndsTonight": "",
