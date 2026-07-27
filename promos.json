@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-27T10:07:47.958Z",
+  "generatedAt": "2026-07-27T10:11:27.347Z",
   "total": 50,
   "rules": [
     {
@@ -697,9 +697,9 @@
       "ruleId": "UK_FB_29.95_FD50",
       "category": "ACQ - UK",
       "enabled": true,
-      "status": "EXPIRED",
+      "status": "LIVE",
       "startUtc": "2026-05-01",
-      "endUtc": "2026-06-29",
+      "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
         "tibText": false,
@@ -1420,9 +1420,9 @@
       "ruleId": "39.95_price_file_FD",
       "category": "ACQ - US",
       "enabled": true,
-      "status": "EXPIRED",
+      "status": "LIVE",
       "startUtc": "2026-05-01",
-      "endUtc": "2026-06-29",
+      "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
@@ -2167,9 +2167,9 @@
       "ruleId": "DE_online_3for99_fd75",
       "category": "ACQ - DE",
       "enabled": true,
-      "status": "EXPIRED",
+      "status": "LIVE",
       "startUtc": "2026-05-01",
-      "endUtc": "2026-06-29",
+      "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
         "tibText": false,
