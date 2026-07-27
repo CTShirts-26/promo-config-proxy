@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-27T10:35:27.897Z",
+  "generatedAt": "2026-07-27T11:12:33.324Z",
   "total": 50,
   "rules": [
     {
@@ -1425,7 +1425,7 @@
       "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
-        "tibText": false,
+        "tibText": true,
         "promoCallout": false,
         "plpCallout": false,
         "pdpCallout": false,
