@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-21T10:30:03.303Z",
+  "generatedAt": "2026-07-27T10:02:40.199Z",
   "total": 50,
   "rules": [
     {
@@ -1531,7 +1531,7 @@
       "content": {
         "us": {
           "bannerstrip": {
-            "line1": "SHIRTS OR POLOS FROM $44.75",
+            "line1": "SHIRTS OR POLOS FROM $44.95",
             "line2": "FREE SHIPPING",
             "line3": "",
             "line1EndsTonight": "",
@@ -1545,7 +1545,7 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "INTRODUCTORY OFFER - SHIRTS FOR $44.95",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -15126,7 +15126,7 @@
       "ruleId": "EOSS FR/AU Shirts",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -16624,7 +16624,7 @@
       "ruleId": "EOSS FR/AU Polos",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -18116,7 +18116,7 @@
       "ruleId": "EOSS FR/AU Suits",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -19608,7 +19608,7 @@
       "ruleId": "EOSS FR/AU Jackets",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -21104,7 +21104,7 @@
       "ruleId": "EOSS FR/AU Coats",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -22596,7 +22596,7 @@
       "ruleId": "EOSS FR/AU Knitwear",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -24088,7 +24088,7 @@
       "ruleId": "EOSS FR/AU Trousers",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -25582,7 +25582,7 @@
       "ruleId": "EOSS FR/AU Shoes",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -27074,7 +27074,7 @@
       "ruleId": "EOSS FR/AU Ties",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -28566,7 +28566,7 @@
       "ruleId": "EOSS FR/AU Socks",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-06-24",
       "endUtc": "2026-07-21",
       "scope": {
@@ -30058,7 +30058,7 @@
       "ruleId": "EOSS ROW Shirts",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-07-06",
       "endUtc": "2026-07-26",
       "scope": {
@@ -30833,7 +30833,7 @@
       "ruleId": "EOSS ROW Polos",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-07-06",
       "endUtc": "2026-07-26",
       "scope": {
@@ -31819,7 +31819,7 @@
       "ruleId": "EOSS ROW Suits",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-07-06",
       "endUtc": "2026-07-26",
       "scope": {
@@ -32805,7 +32805,7 @@
       "ruleId": "EOSS ROW Jackets",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-07-06",
       "endUtc": "2026-07-26",
       "scope": {
@@ -33793,7 +33793,7 @@
       "ruleId": "EOSS ROW Coats",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-07-06",
       "endUtc": "2026-07-26",
       "scope": {
@@ -34779,7 +34779,7 @@
       "ruleId": "EOSS ROW Knitwear",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-07-06",
       "endUtc": "2026-07-26",
       "scope": {
@@ -35765,7 +35765,7 @@
       "ruleId": "EOSS ROW Trousers",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-07-06",
       "endUtc": "2026-07-26",
       "scope": {
@@ -36752,7 +36752,7 @@
       "ruleId": "EOSS ROW Shoes",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-07-06",
       "endUtc": "2026-07-26",
       "scope": {
@@ -37738,7 +37738,7 @@
       "ruleId": "EOSS ROW Ties",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-07-06",
       "endUtc": "2026-07-26",
       "scope": {
@@ -38724,7 +38724,7 @@
       "ruleId": "EOSS ROW Socks",
       "category": "DONE",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-07-06",
       "endUtc": "2026-07-26",
       "scope": {
