@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-27T10:11:27.347Z",
+  "generatedAt": "2026-07-27T10:15:50.624Z",
   "total": 50,
   "rules": [
     {
@@ -2868,9 +2868,9 @@
       "ruleId": "shirts_39.95_FD75",
       "category": "ACQ - DE",
       "enabled": true,
-      "status": "EXPIRED",
+      "status": "LIVE",
       "startUtc": "2026-05-01",
-      "endUtc": "2026-06-29",
+      "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
         "tibText": false,
@@ -3553,9 +3553,9 @@
       "ruleId": "AU_3_FOR_135",
       "category": "ACQ - AU",
       "enabled": true,
-      "status": "EXPIRED",
+      "status": "LIVE",
       "startUtc": "2026-05-01",
-      "endUtc": "2026-06-24",
+      "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
         "tibText": false,
@@ -4256,9 +4256,9 @@
       "ruleId": "SHIRTS_49.95_AU",
       "category": "ACQ - AU",
       "enabled": true,
-      "status": "EXPIRED",
+      "status": "LIVE",
       "startUtc": "2026-05-01",
-      "endUtc": "2026-06-24",
+      "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
         "tibText": false,
