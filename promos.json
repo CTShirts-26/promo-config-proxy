@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-03T11:22:52.563Z",
+  "generatedAt": "2026-08-03T11:27:46.697Z",
   "total": 17,
   "rules": [
     {
@@ -11514,13 +11514,13 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "25 % RABATT AUF ALLES",
+            "line1": "25 % RABATT BIS 17 UHR",
             "line2": "Code: SCHNELL",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "25 % RABATT AUF ALLES",
+            "line1Affiliate": "25 % RABATT BIS 17 UHR",
             "line2Affiliate": "Code: KAUFEN",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
@@ -11528,9 +11528,9 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25 % RABATT | CODE: SCHNELL",
+            "default": "25 % RABATT BIS 17 UHR | CODE: SCHNELL",
             "endsTonight": "",
-            "affiliate": "25 % RABATT | CODE: KAUFEN",
+            "affiliate": "25 % RABATT BIS 17 UHR | CODE: KAUFEN",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
