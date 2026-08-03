@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-03T11:59:06.748Z",
+  "generatedAt": "2026-08-03T12:24:20.707Z",
   "total": 17,
   "rules": [
     {
@@ -11554,7 +11554,7 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "20 % De Réduction  Jusqu'à 17h",
+            "line1": "20 % De Réduction Jusqu'à 17h",
             "line2": "Code : PROMPT",
             "line3": "",
             "line1EndsTonight": "",
@@ -11596,7 +11596,7 @@
           "en": {
             "bannerstrip": {
               "line1": "20% Off Everything Until 5pm",
-              "line2": "",
+              "line2": "Code: CTGO",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -11609,8 +11609,8 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20% OFF | LIMITED TIME ONLY",
-              "endsTonight": "20% OFF | ENDS TONIGHT",
+              "default": "20% OFF | CODE: CTGO",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
@@ -11635,11 +11635,11 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "Offre à durée limitée",
+              "line1": "20 % De Réduction Jusqu'à 17h",
+              "line2": "Code: CTGO",
               "line3": "",
               "line1EndsTonight": "",
-              "line2EndsTonight": "Jusqu’à ce soir",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -11649,8 +11649,8 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
-              "endsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR",
+              "default": "20 % DE RÉDUCTION | CODE : CTGO",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
@@ -11675,11 +11675,11 @@
           },
           "de": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "Nur Für Kurze Zeit",
+              "line1": "20 % Rabatt Bis 17 uhr",
+              "line2": "Code: CTGO",
               "line3": "",
               "line1EndsTonight": "",
-              "line2EndsTonight": "Endet Heute Abend",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -11689,8 +11689,8 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20 % RABATT | NUR FÜR KURZE ZEIT",
-              "endsTonight": "20 % RABATT | ENDET HEUTE ABEND",
+              "default": "20 % RABATT | CODE: CTGO",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
