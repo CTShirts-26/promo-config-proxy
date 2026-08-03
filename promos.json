@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-03T11:09:08.755Z",
+  "generatedAt": "2026-08-03T11:12:38.483Z",
   "total": 17,
   "rules": [
     {
@@ -11477,21 +11477,21 @@
             "line1": "20% Off Everything Until 5pm",
             "line2": "Use Code: ACTQUICK",
             "line3": "",
-            "line1EndsTonight": "20% Off Everything Until 5Pm Until 5Pm | Code: ACTQUICK",
-            "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "Ends Tonight",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
             "line1Affiliate": "20% Off Everything Until 5pm",
             "line2Affiliate": "Use Code: SHOPTODAY",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "20% Off Everything Until 5Pm Until 5Pm | Code: SHOPTODAY",
-            "line2AffiliateEndsTonight": "Ends Tonight",
-            "line3AffiliateEndsTonight": "Ends Tonight"
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "20% Off | Use Code: ACTQUICK",
-            "endsTonight": "20% OFF EVERYTHING UNTIL 5PM | CODE: ACTQUICK",
+            "endsTonight": "",
             "affiliate": "20% Off | Use Code: SHOPTDAY",
-            "affiliateEndsTonight": "20% OFF EVERYTHING UNTIL 5PM | CODE: SHOPTODAY"
+            "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "",
