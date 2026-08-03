@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-03T11:13:03.704Z",
+  "generatedAt": "2026-08-03T11:22:52.563Z",
   "total": 17,
   "rules": [
     {
@@ -11514,24 +11514,24 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "Nur Für Kurze Zeit",
+            "line1": "25 % RABATT AUF ALLES",
+            "line2": "Code: SCHNELL",
             "line3": "",
             "line1EndsTonight": "",
-            "line2EndsTonight": "Endet Heute Abend",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "Nur Für Kurze Zeit",
+            "line1Affiliate": "25 % RABATT AUF ALLES",
+            "line2Affiliate": "Code: KAUFEN",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "Endet Heute Abend",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
-            "endsTonight": "25 % RABATT | ENDET HEUTE ABEND",
-            "affiliate": "25 % RABATT | NUR FÜR KURZE ZEIT",
-            "affiliateEndsTonight": "25 % RABATT | ENDET HEUTE ABEND"
+            "default": "25 % RABATT | CODE: SCHNELL",
+            "endsTonight": "",
+            "affiliate": "25 % RABATT | CODE: KAUFEN",
+            "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "",
