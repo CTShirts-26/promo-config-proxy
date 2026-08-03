@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-03T11:47:46.693Z",
+  "generatedAt": "2026-08-03T11:59:06.748Z",
   "total": 17,
   "rules": [
     {
@@ -11528,9 +11528,9 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25 % RABATT BIS 17 UHR | CODE: SCHNELL",
+            "default": "25 % RABATT | CODE: SCHNELL",
             "endsTonight": "",
-            "affiliate": "25 % RABATT BIS 17 UHR | CODE: KAUFEN",
+            "affiliate": "25 % RABATT | CODE: KAUFEN",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
@@ -11554,14 +11554,14 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "20 % De Réduction  | Code : PROMPT",
-            "line2": "",
+            "line1": "20 % De Réduction  Jusqu'à 17h",
+            "line2": "Code : PROMPT",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "20 % De Réduction  | Code : ALLER",
-            "line2Affiliate": "Offre à durée limitée",
+            "line1Affiliate": "20 % De Réduction  Jusqu'à 17h",
+            "line2Affiliate": "Code : ALLER",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
@@ -11595,12 +11595,12 @@
         "ch": {
           "en": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "Until 5pm",
-              "line3": "Limited Time Only",
+              "line1": "20% Off Everything Until 5pm",
+              "line2": "",
+              "line3": "",
               "line1EndsTonight": "",
-              "line2EndsTonight": "Ends Tonight",
-              "line3EndsTonight": "Ends Tonight",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
