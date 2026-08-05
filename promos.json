@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-05T09:18:38.790Z",
+  "generatedAt": "2026-08-05T10:06:21.499Z",
   "total": 17,
   "rules": [
     {
@@ -11211,13 +11211,6 @@
           "nldefault",
           "nlvip",
           "nlbren",
-          "netbr",
-          "eurdefault",
-          "eugob",
-          "eufbsale",
-          "euvip",
-          "irebr",
-          "deeubr",
           "xbrfb25",
           "xbrbr25",
           "xbrnb25",
@@ -11239,7 +11232,6 @@
           "shareuk1",
           "affide1",
           "sharefr1",
-          "eushare1",
           "xbraff1"
         ],
         "acquisitionCampaignSites": [],
@@ -11247,7 +11239,6 @@
           "shareuk1",
           "affide1",
           "sharefr1",
-          "eushare1",
           "xbraff1"
         ],
         "mainCategories": [
@@ -11799,23 +11790,23 @@
         "eu": {
           "bannerstrip": {
             "line1": "",
-            "line2": "Limited Time Only",
+            "line2": "",
             "line3": "",
             "line1EndsTonight": "",
-            "line2EndsTonight": "Ends Tonight",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "",
-            "line2Affiliate": "Limited Time Only",
+            "line2Affiliate": "",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20% OFF | LIMITED TIME ONLY",
-            "endsTonight": "20% OFF | ENDS TONIGHT",
-            "affiliate": "20% OFF | LIMITED TIME ONLY",
-            "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "",
