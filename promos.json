@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-09T20:06:51.337Z",
+  "generatedAt": "2026-08-09T20:54:48.792Z",
   "total": 18,
   "rules": [
     {
@@ -13842,7 +13842,7 @@
         "tibText": true,
         "promoCallout": true,
         "plpCallout": true,
-        "pdpCallout": false,
+        "pdpCallout": true,
         "multibuy": false
       },
       "countryEnabled": {
@@ -13877,8 +13877,8 @@
           "__ALL__"
         ],
         "excludedCategories": [],
-        "showOnPdp": false,
-        "showOnPlp": false,
+        "showOnPdp": true,
+        "showOnPlp": true,
         "productIds": [
           "ACB0222BLK",
           "ACB0223BLK",
@@ -15999,15 +15999,15 @@
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "20% OFF | CODE: WKND20",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "20% OFF | CODE: 20OFF",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "20% OFF | CODE: WKND20",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "20% OFF | CODE: 20OFF",
             "affiliateEndsTonight": ""
           }
         },
