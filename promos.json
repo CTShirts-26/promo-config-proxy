@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-09T20:54:48.792Z",
+  "generatedAt": "2026-08-13T09:26:58.672Z",
   "total": 18,
   "rules": [
     {
@@ -11147,7 +11147,7 @@
       "ruleId": "US One Day Promo",
       "category": "US One Day Promo",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-08-09",
       "endUtc": "2026-08-09",
       "scope": {
@@ -13834,7 +13834,7 @@
       "ruleId": "AUS After Pay Promo",
       "category": "AUS After Pay Promo",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-08-13",
       "endUtc": "2026-08-16",
       "scope": {
