@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-13T14:03:21.374Z",
+  "generatedAt": "2026-08-13T14:13:12.166Z",
   "total": 21,
   "rules": [
     {
@@ -17764,11 +17764,11 @@
             "line1EndsTonight": "3 For £99 Shirts Or Polos",
             "line2EndsTonight": "Plus 25% Off Suits & Blazers",
             "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "",
-            "line2Affiliate": "Limited Time Only",
+            "line1Affiliate": "3 For £99 Shirts Or Polos",
+            "line2Affiliate": "Plus 25% Off Suits & Blazers",
             "line3Affiliate": "Limited Time Only",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line1AffiliateEndsTonight": "3 For £99 Shirts Or Polos",
+            "line2AffiliateEndsTonight": "Plus 25% Off Suits & Blazers",
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
@@ -18084,39 +18084,39 @@
           "bannerstrip": {
             "line1": "3 For €99 Shirts Or Polos",
             "line2": "Plus 25% Off Suits & Blazers",
-            "line3": "Limited Time Only",
+            "line3": "Limited Time Only | Use Code: EUR99",
             "line1EndsTonight": "3 For €99 Shirts Or Polos",
             "line2EndsTonight": "Plus 25% Off Suits & Blazers",
-            "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
-            "line3AffiliateEndsTonight": ""
+            "line3EndsTonight": "Ends Tonight | Use Code: EUR99",
+            "line1Affiliate": "3 For €99 Shirts Or Polos",
+            "line2Affiliate": "Plus 25% Off Suits & Blazers",
+            "line3Affiliate": "Limited Time Only | Use Code: EU99",
+            "line1AffiliateEndsTonight": "3 For €99 Shirts Or Polos",
+            "line2AffiliateEndsTonight": "Plus 25% Off Suits & Blazers",
+            "line3AffiliateEndsTonight": "Ends Tonight | Use Code: EU99"
           },
           "tibText": {
-            "default": "3 FOR €99 | LIMITED TIME ONLY",
-            "endsTonight": "3 FOR €99 | ENDS TONIGHT",
-            "affiliate": "3 FOR €99 | LIMITED TIME ONLY",
-            "affiliateEndsTonight": "3 FOR €99 | ENDS TONIGHT"
+            "default": "3 FOR €99 | CODE: EUR99",
+            "endsTonight": "3 FOR €99 | CODE: EUR99",
+            "affiliate": "3 FOR €99 | CODE: EU99",
+            "affiliateEndsTonight": "3 FOR €99 | CODE: EU99"
           },
           "promoCallout": {
-            "default": "3 FOR €99",
+            "default": "3 FOR €99 | CODE: EUR99",
             "endsTonight": "",
-            "affiliate": "3 FOR €99",
+            "affiliate": "3 FOR €99 | CODE: EU99",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "3 FOR €99",
+            "default": "3 FOR €99 | CODE: EUR99",
             "endsTonight": "",
-            "affiliate": "3 FOR €99",
+            "affiliate": "3 FOR €99 | CODE: EU99",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "3 FOR €99",
+            "default": "3 FOR €99 | CODE: EUR99",
             "endsTonight": "",
-            "affiliate": "3 FOR €99",
+            "affiliate": "3 FOR €99 | CODE: EU99",
             "affiliateEndsTonight": ""
           }
         },
