@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-13T11:42:03.984Z",
+  "generatedAt": "2026-08-13T11:55:19.936Z",
   "total": 21,
   "rules": [
     {
@@ -20281,9 +20281,9 @@
         "ca": false,
         "au": false,
         "uk": false,
-        "de": false,
-        "fr": false,
-        "ch": false,
+        "de": true,
+        "fr": true,
+        "ch": true,
         "nl": false,
         "eu": false,
         "xbr": false
@@ -20456,15 +20456,15 @@
             "line1": "3 For £99 Shirts Or Polos",
             "line2": "Plus 25% Off Suits & Blazers",
             "line3": "Limited Time Only",
-            "line1EndsTonight": "",
+            "line1EndsTonight": "3 For £99 Shirts Or Polos",
             "line2EndsTonight": "Plus 25% Off Suits & Blazers",
-            "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
-            "line3AffiliateEndsTonight": ""
+            "line3EndsTonight": "Limited Time Only",
+            "line1Affiliate": "3 For £99 Shirts Or Polos",
+            "line2Affiliate": "Plus 25% Off Suits & Blazers",
+            "line3Affiliate": "Limited Time Only",
+            "line1AffiliateEndsTonight": "3 For £99 Shirts Or Polos",
+            "line2AffiliateEndsTonight": "Plus 25% Off Suits & Blazers",
+            "line3AffiliateEndsTonight": "Limited Time Only"
           },
           "tibText": {
             "default": "",
@@ -20493,17 +20493,17 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "Nur Für Kurze Zeit",
-            "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "Endet Heute Abend",
-            "line3EndsTonight": "",
+            "line1": "3 Für 99 € Hemden Oder Polos",
+            "line2": "PLUS 25 % RABATT AUF ANZÜGE UND BLAZER",
+            "line3": "Nur Für Kurze Zeit",
+            "line1EndsTonight": "3 Für 99 € Hemden Oder Polos",
+            "line2EndsTonight": "PLUS 25 % RABATT AUF ANZÜGE UND BLAZER",
+            "line3EndsTonight": "Endet Heute Abend",
             "line1Affiliate": "3 Für 99 € Hemden Oder Polos",
             "line2Affiliate": "PLUS 25 % RABATT AUF ANZÜGE UND BLAZER",
             "line3Affiliate": "Nur Für Kurze Zeit",
-            "line1AffiliateEndsTonight": "PLUS 25 % RABATT AUF ANZÜGE UND BLAZER",
-            "line2AffiliateEndsTonight": "Endet Heute Abend",
+            "line1AffiliateEndsTonight": "3 Für 99 € Hemden Oder Polos",
+            "line2AffiliateEndsTonight": "PLUS 25 % RABATT AUF ANZÜGE UND BLAZER",
             "line3AffiliateEndsTonight": "Endet Heute Abend"
           },
           "tibText": {
@@ -20539,11 +20539,11 @@
             "line1EndsTonight": "3 Pour 99 € Chemises Ou Polos",
             "line2EndsTonight": "Plus 25% sur les costumes et blazers",
             "line3EndsTonight": "Jusqu’à ce soir",
-            "line1Affiliate": "",
-            "line2Affiliate": "Offre à durée limitée",
+            "line1Affiliate": "3 Pour 99 € Chemises Ou Polos",
+            "line2Affiliate": "Plus 25% sur les costumes et blazers",
             "line3Affiliate": "Offre à durée limitée",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "Jusqu’à ce soir",
+            "line1AffiliateEndsTonight": "3 Pour 99 € Chemises Ou Polos",
+            "line2AffiliateEndsTonight": "Plus 25% sur les costumes et blazers",
             "line3AffiliateEndsTonight": "Jusqu’à ce soir"
           },
           "tibText": {
@@ -20574,52 +20574,52 @@
         "ch": {
           "en": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "Limited Time Only",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "Ends Tonight",
-              "line3EndsTonight": "",
-              "line1Affiliate": "",
-              "line2Affiliate": "Limited Time Only",
-              "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "",
-              "line2AffiliateEndsTonight": "Ends Tonight",
-              "line3AffiliateEndsTonight": ""
+              "line1": "3 For Chf 150 Shirts Or Polos",
+              "line2": "PLUS 25% Off Suits & Blazers",
+              "line3": "Limited Time Only",
+              "line1EndsTonight": "3 For Chf 150 Shirts Or Polos",
+              "line2EndsTonight": "PLUS 25% Off Suits & Blazers",
+              "line3EndsTonight": "Limited Time Only",
+              "line1Affiliate": "3 For Chf 150 Shirts Or Polos",
+              "line2Affiliate": "PLUS 25% Off Suits & Blazers",
+              "line3Affiliate": "Limited Time Only",
+              "line1AffiliateEndsTonight": "3 For Chf 150 Shirts Or Polos",
+              "line2AffiliateEndsTonight": "PLUS 25% Off Suits & Blazers",
+              "line3AffiliateEndsTonight": "Limited Time Only"
             },
             "tibText": {
-              "default": "| LIMITED TIME ONLY",
-              "endsTonight": "| ENDS TONIGHT",
-              "affiliate": "| LIMITED TIME ONLY",
-              "affiliateEndsTonight": "| ENDS TONIGHT"
+              "default": "3 FOR CHF 150 | LIMITED TIME ONLY",
+              "endsTonight": "3 FOR CHF 150 | ENDS TONIGHT",
+              "affiliate": "3 FOR CHF 150 | LIMITED TIME ONLY",
+              "affiliateEndsTonight": "3 FOR CHF 150 | ENDS TONIGHT"
             },
             "promoCallout": {
-              "default": "",
+              "default": "3 FOR CHF 150",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "3 FOR CHF 150",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "3 FOR CHF 150",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "3 FOR CHF 150",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "3 FOR CHF 150",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "3 FOR CHF 150",
               "affiliateEndsTonight": ""
             }
           },
           "fr": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "Offre à durée limitée",
-              "line3": "",
+              "line1": "3 Pour CHF 150 Chemises Ou Polos",
+              "line2": "Plus 25% sur les costumes et blazers",
+              "line3": "Offre à durée limitée",
               "line1EndsTonight": "",
               "line2EndsTonight": "Jusqu’à ce soir",
-              "line3EndsTonight": "",
+              "line3EndsTonight": "Jusqu’à ce soir",
               "line1Affiliate": "",
               "line2Affiliate": "Offre à durée limitée",
               "line3Affiliate": "Offre à durée limitée",
@@ -20628,25 +20628,25 @@
               "line3AffiliateEndsTonight": "Jusqu’à ce soir"
             },
             "tibText": {
-              "default": "| OFFRE À DURÉE LIMITÉE",
-              "endsTonight": "| JUSQU’À CE SOIR",
-              "affiliate": "| OFFRE À DURÉE LIMITÉE",
-              "affiliateEndsTonight": "| JUSQU’À CE SOIR"
+              "default": "3 POUR CHF 150 | OFFRE À DURÉE LIMITÉE",
+              "endsTonight": "3 POUR CHF 150 | JUSQU’À CE SOIR",
+              "affiliate": "3 POUR CHF 150 | OFFRE À DURÉE LIMITÉE",
+              "affiliateEndsTonight": "3 POUR CHF 150 | JUSQU’À CE SOIR"
             },
             "promoCallout": {
-              "default": "",
+              "default": "3 POUR CHF 150",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "3 POUR CHF 150",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "3 POUR CHF 150",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -20654,41 +20654,41 @@
           },
           "de": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "Nur Für Kurze Zeit",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "Endet Heute Abend",
-              "line3EndsTonight": "",
-              "line1Affiliate": "",
-              "line2Affiliate": "Nur Für Kurze Zeit",
+              "line1": "3 Für CHF 150 Hemden Oder Polos",
+              "line2": "PLUS 25 % RABATT AUF ANZÜGE UND BLAZER",
+              "line3": "Nur Für Kurze Zeit",
+              "line1EndsTonight": "3 Für CHF 150 Hemden Oder Polos",
+              "line2EndsTonight": "PLUS 25 % RABATT AUF ANZÜGE UND BLAZER",
+              "line3EndsTonight": "Nur Für Kurze Zeit",
+              "line1Affiliate": "3 Für CHF 150 Hemden Oder Polos",
+              "line2Affiliate": "PLUS 25 % RABATT AUF ANZÜGE UND BLAZER",
               "line3Affiliate": "Nur Für Kurze Zeit",
-              "line1AffiliateEndsTonight": "",
-              "line2AffiliateEndsTonight": "Endet Heute Abend",
-              "line3AffiliateEndsTonight": "Endet Heute Abend"
+              "line1AffiliateEndsTonight": "3 Für CHF 150 Hemden Oder Polos",
+              "line2AffiliateEndsTonight": "PLUS 25 % RABATT AUF ANZÜGE UND BLAZER",
+              "line3AffiliateEndsTonight": "Nur Für Kurze Zeit"
             },
             "tibText": {
-              "default": "| NUR FÜR KURZE ZEIT",
-              "endsTonight": "| ENDET HEUTE ABEND",
-              "affiliate": "| NUR FÜR KURZE ZEIT",
-              "affiliateEndsTonight": "| ENDET HEUTE ABEND"
+              "default": "3 FÜR CHF 150 | NUR FÜR KURZE ZEIT",
+              "endsTonight": "3 FÜR CHF 150 | ENDET HEUTE ABEND",
+              "affiliate": "3 FÜR CHF 150 | NUR FÜR KURZE ZEIT",
+              "affiliateEndsTonight": "3 FÜR CHF 150 | ENDET HEUTE ABEND"
             },
             "promoCallout": {
-              "default": "",
+              "default": "3 FÜR CHF 150",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "3 FÜR CHF 150",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "3 FÜR CHF 150",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "3 FÜR CHF 150",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "3 FÜR CHF 150",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "3 FÜR CHF 150",
               "affiliateEndsTonight": ""
             }
           }
