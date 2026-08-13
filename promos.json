@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-13T10:15:42.703Z",
+  "generatedAt": "2026-08-13T10:22:17.972Z",
   "total": 20,
   "rules": [
     {
@@ -17759,17 +17759,17 @@
         "uk": {
           "bannerstrip": {
             "line1": "3 For £99 Shirts Or Polos",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "Plus 25% off suits & blazers",
+            "line3": "Limited Time Only",
             "line1EndsTonight": "3 For £99 Shirts Or Polos",
-            "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "",
+            "line2EndsTonight": "Plus 25% off suits & blazers",
+            "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "",
             "line2Affiliate": "Limited Time Only",
-            "line3Affiliate": "",
+            "line3Affiliate": "Limited Time Only",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "Ends Tonight",
-            "line3AffiliateEndsTonight": ""
+            "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
             "default": "3 FOR £99 | LIMITED TIME ONLY",
@@ -18083,11 +18083,11 @@
         "eu": {
           "bannerstrip": {
             "line1": "3 For €99 Shirts Or Polos",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "Plus 25% off suits & blazers",
+            "line3": "Limited Time Only",
             "line1EndsTonight": "3 For €99 Shirts Or Polos",
-            "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "",
+            "line2EndsTonight": "Plus 25% off suits & blazers",
+            "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "",
             "line2Affiliate": "",
             "line3Affiliate": "",
