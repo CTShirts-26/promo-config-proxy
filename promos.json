@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-13T14:27:30.757Z",
+  "generatedAt": "2026-08-13T14:29:23.293Z",
   "total": 21,
   "rules": [
     {
@@ -19050,27 +19050,27 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | LIMITED TIME ONLY",
-            "endsTonight": "25% OFF | ENDS TONIGHT",
-            "affiliate": "25% OFF | LIMITED TIME ONLY",
-            "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
+            "default": "25% OFF | CODE: EUR99",
+            "endsTonight": "25% OFF | CODE: EUR99",
+            "affiliate": "25% OFF | CODE: EU99",
+            "affiliateEndsTonight": "25% OFF | CODE: EU99"
           },
           "promoCallout": {
-            "default": "25% OFF",
+            "default": "25% OFF | CODE: EUR99",
             "endsTonight": "",
-            "affiliate": "25% OFF",
+            "affiliate": "25% OFF | CODE: EU99",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25% OFF",
+            "default": "25% OFF | CODE: EUR99",
             "endsTonight": "",
-            "affiliate": "25% OFF",
+            "affiliate": "25% OFF | CODE: EU99",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25% OFF",
+            "default": "25% OFF | CODE: EUR99",
             "endsTonight": "",
-            "affiliate": "25% OFF",
+            "affiliate": "25% OFF | CODE: EU99",
             "affiliateEndsTonight": ""
           }
         },
