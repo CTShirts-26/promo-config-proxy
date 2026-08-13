@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-13T14:17:57.058Z",
+  "generatedAt": "2026-08-13T14:27:30.757Z",
   "total": 21,
   "rules": [
     {
@@ -18084,16 +18084,16 @@
           "bannerstrip": {
             "line1": "3 For €99 Shirts Or Polos",
             "line2": "Plus 25% Off Suits & Blazers",
-            "line3": "Limited Time Only | Use Code: EUR99",
+            "line3": "Use Code: EUR99 | Limited Time Only",
             "line1EndsTonight": "3 For €99 Shirts Or Polos",
             "line2EndsTonight": "Plus 25% Off Suits & Blazers",
-            "line3EndsTonight": "Ends Tonight | Use Code: EUR99",
+            "line3EndsTonight": "Use Code: EUR99 | Ends Tonight",
             "line1Affiliate": "3 For €99 Shirts Or Polos",
             "line2Affiliate": "Plus 25% Off Suits & Blazers",
-            "line3Affiliate": "Limited Time Only | Use Code: EU99",
+            "line3Affiliate": "Use Code: EU99 | Limited Time Only",
             "line1AffiliateEndsTonight": "3 For €99 Shirts Or Polos",
             "line2AffiliateEndsTonight": "Plus 25% Off Suits & Blazers",
-            "line3AffiliateEndsTonight": "Ends Tonight | Use Code: EU99"
+            "line3AffiliateEndsTonight": "Use Code: EU99 | Ends Tonight"
           },
           "tibText": {
             "default": "3 FOR €99 | CODE: EUR99",
