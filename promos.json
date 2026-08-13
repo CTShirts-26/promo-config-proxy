@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-13T09:41:31.387Z",
+  "generatedAt": "2026-08-13T09:52:37.526Z",
   "total": 19,
   "rules": [
     {
@@ -17758,10 +17758,10 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "",
+            "line1": "3 For £99 Shirts Or Polos",
             "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "",
+            "line1EndsTonight": "3 For £99 Shirts Or Polos",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
             "line1Affiliate": "",
@@ -18082,10 +18082,10 @@
         },
         "eu": {
           "bannerstrip": {
-            "line1": "",
+            "line1": "3 For €99 Shirts Or Polos",
             "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "",
+            "line1EndsTonight": "3 For €99 Shirts Or Polos",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
             "line1Affiliate": "",
