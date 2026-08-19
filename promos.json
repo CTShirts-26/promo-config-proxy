@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-19T10:14:26.150Z",
+  "generatedAt": "2026-08-19T14:45:16.229Z",
   "total": 24,
   "rules": [
     {
@@ -1706,7 +1706,7 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Introductory Offer - Shirts from £29.95",
+            "default": "Introductory Offer - Shirts or Polos from £29.95",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -22017,10 +22017,10 @@
           "en": {
             "bannerstrip": {
               "line1": "3 For Chf 150 Shirts Or Polos",
-              "line2": "+ 25% OFF SUITS & BLAZERS",
+              "line2": "+ 25% Off Suits And Blazers",
               "line3": "Limited Time Only",
               "line1EndsTonight": "3 For Chf 150 Shirts Or Polos",
-              "line2EndsTonight": "+ 25% OFF SUITS & BLAZERS",
+              "line2EndsTonight": "+ 25% Off Suits And Blazers",
               "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -22057,10 +22057,10 @@
           "fr": {
             "bannerstrip": {
               "line1": "3 Pour CHF 150 Chemises Ou Polos",
-              "line2": "+ 25 % RABATT AUF ANZÜGE UND BLAZER",
+              "line2": "+ 25 % Sur Les Costumes Ou Blazers",
               "line3": "Offre à durée limitée",
               "line1EndsTonight": "3 Pour CHF 150 Chemises Ou Polos",
-              "line2EndsTonight": "+ 25 % RABATT AUF ANZÜGE UND BLAZER",
+              "line2EndsTonight": "+ 25 % Sur Les Costumes Ou Blazers",
               "line3EndsTonight": "Jusqu’à ce soir",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -22097,10 +22097,10 @@
           "de": {
             "bannerstrip": {
               "line1": "3 Für CHF 150 Hemden Oder Polos",
-              "line2": "+ 25% sur les costumes et blazers",
+              "line2": "+ 25 % Rabatt Auf Anzüge Und Blazer",
               "line3": "Nur Für Kurze Zeit",
               "line1EndsTonight": "3 Für CHF 150 Hemden Oder Polos",
-              "line2EndsTonight": "+ 25% sur les costumes et blazers",
+              "line2EndsTonight": "+ 25 % Rabatt Auf Anzüge Und Blazer",
               "line3EndsTonight": "Endet Heute Abend",
               "line1Affiliate": "",
               "line2Affiliate": "",
