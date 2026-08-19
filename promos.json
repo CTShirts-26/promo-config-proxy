@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-19T10:11:06.557Z",
+  "generatedAt": "2026-08-19T10:14:26.150Z",
   "total": 24,
   "rules": [
     {
@@ -1706,7 +1706,7 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Introductory Offer - Shirts or Polos from £29.95",
+            "default": "Introductory Offer - Shirts from £29.95",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
