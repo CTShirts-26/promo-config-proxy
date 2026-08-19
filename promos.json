@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-18T18:21:54.614Z",
-  "total": 22,
+  "generatedAt": "2026-08-19T09:50:07.367Z",
+  "total": 23,
   "rules": [
     {
       "ruleId": "UK_29.95_FD50",
@@ -1417,6 +1417,699 @@
       "rowNumber": 6
     },
     {
+      "ruleId": "UK_Shirts29.95_FreeDel_NoMin",
+      "category": "ACQ - UK",
+      "enabled": true,
+      "status": "LIVE",
+      "startUtc": "2026-08-19",
+      "endUtc": "2026-08-23",
+      "scope": {
+        "bannerstrip": true,
+        "tibText": true,
+        "promoCallout": false,
+        "plpCallout": false,
+        "pdpCallout": false,
+        "multibuy": false
+      },
+      "countryEnabled": {
+        "us": false,
+        "ca": false,
+        "au": false,
+        "uk": true,
+        "de": false,
+        "fr": false,
+        "ch": false,
+        "nl": false,
+        "eu": false,
+        "xbr": false
+      },
+      "targeting": {
+        "defaultCampaignSites": [],
+        "affiliateCampaignSites": [],
+        "acquisitionCampaignSites": [
+          "reacts99"
+        ],
+        "campaignSites": [],
+        "mainCategories": [
+          "shirts",
+          "shirts-formal-shirts",
+          "shirts-business-casual-shirts",
+          "shirts-casual-shirts",
+          "shirts-linen",
+          "the-shirt-of-the-season",
+          "shirts-non-iron-shirts",
+          "new-collections",
+          "shirts-polo-shirts",
+          "shirts-polos-new-season",
+          "shirts-new-season",
+          "pique-polo-shirts",
+          "smart-polo-shirts",
+          "knitted-polos"
+        ],
+        "excludedCategories": [],
+        "showOnPdp": true,
+        "showOnPlp": true,
+        "productIds": [
+          "__ALL__"
+        ],
+        "excludedProductIds": []
+      },
+      "hideMultibuy": false,
+      "hidePromoBox": {
+        "us": false,
+        "ca": false,
+        "au": false,
+        "uk": false,
+        "de": false,
+        "fr": false,
+        "ch": false,
+        "nl": false,
+        "eu": false,
+        "xbr": false
+      },
+      "content": {
+        "us": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "ca": {
+          "en": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "fr": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          }
+        },
+        "au": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "uk": {
+          "bannerstrip": {
+            "line1": "Introductory Offer - Shirts Or Polos £29.95",
+            "line2": "Free Delivery",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "Introductory Offer - Shirts from £29.95",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "de": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "fr": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "ch": {
+          "en": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "fr": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "de": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          }
+        },
+        "nl": {
+          "en": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "nl": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          }
+        },
+        "eu": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "xbr": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        }
+      },
+      "multibuy": {
+        "us": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "ca": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "au": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "uk": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "de": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "fr": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "ch": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "nl": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "eu": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "xbr": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        }
+      },
+      "rowNumber": 7
+    },
+    {
       "ruleId": "39.95_price_file_FD",
       "category": "ACQ - US",
       "enabled": true,
@@ -2161,7 +2854,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 7
+      "rowNumber": 8
     },
     {
       "ruleId": "DE_online_3for99_fd75",
@@ -2862,7 +3555,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 8
+      "rowNumber": 9
     },
     {
       "ruleId": "shirts_39.95_FD75",
@@ -3547,7 +4240,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 9
+      "rowNumber": 10
     },
     {
       "ruleId": "AU_3_FOR_135",
@@ -4250,7 +4943,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 10
+      "rowNumber": 11
     },
     {
       "ruleId": "SHIRTS_49.95_AU",
@@ -4934,7 +5627,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 11
+      "rowNumber": 12
     },
     {
       "ruleId": "CA_Shirts_$69.95",
@@ -5632,7 +6325,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 12
+      "rowNumber": 13
     },
     {
       "ruleId": "CH-ACQ_59",
@@ -6325,7 +7018,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 13
+      "rowNumber": 14
     },
     {
       "ruleId": "NL_Acquisition_39.95",
@@ -7016,7 +7709,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 14
+      "rowNumber": 15
     },
     {
       "ruleId": "EU_online_3for99_fd75",
@@ -7710,7 +8403,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 15
+      "rowNumber": 16
     },
     {
       "ruleId": "EU_39.95_FD",
@@ -8404,7 +9097,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 16
+      "rowNumber": 17
     },
     {
       "ruleId": "FR_3for99",
@@ -9099,7 +9792,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 17
+      "rowNumber": 18
     },
     {
       "ruleId": "FR_39.95_shirts",
@@ -9781,7 +10474,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 18
+      "rowNumber": 19
     },
     {
       "ruleId": "AUFS Bannerstrip",
@@ -10461,7 +11154,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 19
+      "rowNumber": 20
     },
     {
       "ruleId": "Patricia Test",
@@ -11141,7 +11834,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 21
+      "rowNumber": 22
     },
     {
       "ruleId": "US One Day Promo",
@@ -13828,7 +14521,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 24
+      "rowNumber": 25
     },
     {
       "ruleId": "AUS After Pay Promo",
@@ -16468,7 +17161,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 25
+      "rowNumber": 26
     },
     {
       "ruleId": "Aug BH Promo UK EU",
@@ -18213,7 +18906,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 26
+      "rowNumber": 27
     },
     {
       "ruleId": "Aug BH Promo UK EU 2",
@@ -19167,7 +19860,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 27
+      "rowNumber": 28
     },
     {
       "ruleId": "Aug BH Promo NON UK EU",
@@ -20928,7 +21621,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 29
+      "rowNumber": 30
     },
     {
       "ruleId": "Aug BH Promo NON UK EU 2",
@@ -21898,7 +22591,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 30
+      "rowNumber": 31
     }
   ]
 }
