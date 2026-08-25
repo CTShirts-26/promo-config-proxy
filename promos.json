@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-19T14:49:28.952Z",
+  "generatedAt": "2026-08-25T16:11:40.768Z",
   "total": 24,
   "rules": [
     {
@@ -1420,7 +1420,7 @@
       "ruleId": "UK_Shirts29.95_FreeDel_NoMin",
       "category": "ACQ - UK",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-08-19",
       "endUtc": "2026-08-23",
       "scope": {
@@ -2153,7 +2153,7 @@
       "ruleId": "UK_Shirts29.95_FreeDel_NoMin",
       "category": "ACQ - UK",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-08-19",
       "endUtc": "2026-08-23",
       "scope": {
@@ -21936,16 +21936,16 @@
         "de": {
           "bannerstrip": {
             "line1": "3 Für 99 € Hemden Oder Polos",
-            "line2": "+  25 % RABATT AUF ANZÜGE UND BLAZER",
+            "line2": "+ 25 % Rabatt Auf Anzüge Und Blazer",
             "line3": "Nur Für Kurze Zeit",
             "line1EndsTonight": "3 Für 99 € Hemden Oder Polos",
-            "line2EndsTonight": "+  25 % RABATT AUF ANZÜGE UND BLAZER",
+            "line2EndsTonight": "+ 25 % Rabatt Auf Anzüge Und Blazer",
             "line3EndsTonight": "Endet Heute Abend",
             "line1Affiliate": "3 Für 99 € Hemden Oder Polos",
-            "line2Affiliate": "+  25 % RABATT AUF ANZÜGE UND BLAZER",
+            "line2Affiliate": "+ 25 % Rabatt Auf Anzüge Und Blazer",
             "line3Affiliate": "Nur Für Kurze Zeit",
             "line1AffiliateEndsTonight": "3 Für 99 € Hemden Oder Polos",
-            "line2AffiliateEndsTonight": "+  25 % RABATT AUF ANZÜGE UND BLAZER",
+            "line2AffiliateEndsTonight": "+ 25 % Rabatt Auf Anzüge Und Blazer",
             "line3AffiliateEndsTonight": "Endet Heute Abend"
           },
           "tibText": {
