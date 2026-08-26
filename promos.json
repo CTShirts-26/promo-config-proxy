@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-25T16:11:40.768Z",
+  "generatedAt": "2026-08-26T08:01:43.154Z",
   "total": 24,
   "rules": [
     {
@@ -20595,7 +20595,7 @@
       "ruleId": "Aug BH Promo NON UK EU",
       "category": "ROW TO COPY",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-08-26",
       "endUtc": "2026-08-30",
       "scope": {
@@ -21995,21 +21995,21 @@
             "affiliateEndsTonight": "3 POUR 99 € | JUSQU’À CE SOIR"
           },
           "promoCallout": {
-            "default": "",
+            "default": "3 POUR 99 €",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "3 POUR 99 €",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "3 POUR 99 €",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "3 POUR 99 €",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "3 POUR 99 €",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "3 POUR 99 €",
             "affiliateEndsTonight": ""
           }
         },
@@ -22356,7 +22356,7 @@
       "ruleId": "Aug BH Promo NON UK EU 2",
       "category": "ROW TO COPY",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-08-26",
       "endUtc": "2026-08-30",
       "scope": {
