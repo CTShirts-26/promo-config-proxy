@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-26T22:44:10.147Z",
+  "generatedAt": "2026-08-26T23:08:44.378Z",
   "total": 28,
   "rules": [
     {
@@ -17895,7 +17895,7 @@
       "ruleId": "Aug BH Promo UK EU",
       "category": "Aug BH Promo UK EU",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-08-27",
       "endUtc": "2026-08-31",
       "scope": {
@@ -19640,7 +19640,7 @@
       "ruleId": "Aug BH Promo UK EU 2",
       "category": "Aug BH Promo UK EU 2",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-08-27",
       "endUtc": "2026-08-31",
       "scope": {
@@ -23338,7 +23338,7 @@
       },
       "countryEnabled": {
         "us": true,
-        "ca": false,
+        "ca": true,
         "au": false,
         "uk": false,
         "de": false,
@@ -25053,7 +25053,7 @@
       },
       "countryEnabled": {
         "us": true,
-        "ca": false,
+        "ca": true,
         "au": false,
         "uk": false,
         "de": false,
