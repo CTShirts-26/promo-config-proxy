@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-26T22:16:18.514Z",
+  "generatedAt": "2026-08-26T22:44:10.147Z",
   "total": 28,
   "rules": [
     {
@@ -23374,12 +23374,14 @@
         ],
         "affiliateCampaignSites": [
           "usancj",
-          "usafcj"
+          "usafcj",
+          "calsa"
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
           "usancj",
-          "usafcj"
+          "usafcj",
+          "calsa"
         ],
         "mainCategories": [
           "shirts",
@@ -24462,35 +24464,35 @@
               "line1EndsTonight": "4 For C$299 Shirts Or Polos",
               "line2EndsTonight": "+ 25% Off Everything Else",
               "line3EndsTonight": "Ends Tonight",
-              "line1Affiliate": "",
-              "line2Affiliate": "",
-              "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "",
-              "line2AffiliateEndsTonight": "",
-              "line3AffiliateEndsTonight": ""
+              "line1Affiliate": "4 For C$299 Shirts Or Polos",
+              "line2Affiliate": "+ 25% Off Everything Else",
+              "line3Affiliate": "Limited Time Only",
+              "line1AffiliateEndsTonight": "4 For C$299 Shirts Or Polos",
+              "line2AffiliateEndsTonight": "+ 25% Off Everything Else",
+              "line3AffiliateEndsTonight": "Ends Tonight"
             },
             "tibText": {
               "default": "4 FOR C$299 | LIMITED TIME ONLY",
               "endsTonight": "4 FOR C$299 | ENDS TONIGHT",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "affiliate": "4 FOR C$299 | LIMITED TIME ONLY",
+              "affiliateEndsTonight": "4 FOR C$299 | ENDS TONIGHT"
             },
             "promoCallout": {
               "default": "4 FOR C$299",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "4 FOR C$299",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
               "default": "4 FOR C$299",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "4 FOR C$299",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
               "default": "4 FOR C$299",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "4 FOR C$299",
               "affiliateEndsTonight": ""
             }
           },
@@ -24502,35 +24504,35 @@
               "line1EndsTonight": "4 Pour 299 C$ Chemises Ou Polos",
               "line2EndsTonight": "+ 25 % Sur Tout Le Reste !",
               "line3EndsTonight": "Jusqu’à ce soir",
-              "line1Affiliate": "",
-              "line2Affiliate": "",
-              "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "",
-              "line2AffiliateEndsTonight": "",
-              "line3AffiliateEndsTonight": ""
+              "line1Affiliate": "4 Pour 299 C$ Chemises Ou Polos",
+              "line2Affiliate": "+ 25 % Sur Tout Le Reste !",
+              "line3Affiliate": "Offre à durée limitée",
+              "line1AffiliateEndsTonight": "4 Pour 299 C$ Chemises Ou Polos",
+              "line2AffiliateEndsTonight": "+ 25 % Sur Tout Le Reste !",
+              "line3AffiliateEndsTonight": "Jusqu’à ce soir"
             },
             "tibText": {
               "default": "4 POUR 299 C$ | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "4 POUR 299 C$ | JUSQU’À CE SOIR",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "affiliate": "4 POUR 299 C$ | OFFRE À DURÉE LIMITÉE",
+              "affiliateEndsTonight": "4 POUR 299 C$ | JUSQU’À CE SOIR"
             },
             "promoCallout": {
               "default": "4 POUR 299 C$",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "4 POUR 299 C$",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
               "default": "4 POUR 299 C$",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "4 POUR 299 C$",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
               "default": "4 POUR 299 C$",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "4 POUR 299 C$",
               "affiliateEndsTonight": ""
             }
           }
