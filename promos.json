@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-27T14:51:16.868Z",
+  "generatedAt": "2026-08-27T15:45:17.974Z",
   "total": 28,
   "rules": [
     {
@@ -19937,10 +19937,7 @@
           "SUW0034SND",
           "SUW0035DNY",
           "SUW0041CHC",
-          "SUW0042CHC",
-          "CSC0073NAV",
-          "CSC0073TPE",
-          "CSC0073KHA"
+          "SUW0042CHC"
         ],
         "excludedProductIds": []
       },
@@ -22657,10 +22654,7 @@
           "SUW0034SND",
           "SUW0035DNY",
           "SUW0041CHC",
-          "SUW0042CHC",
-          "CSC0073NAV",
-          "CSC0073TPE",
-          "CSC0073KHA"
+          "SUW0042CHC"
         ],
         "excludedProductIds": []
       },
