@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-27T10:02:11.122Z",
+  "generatedAt": "2026-08-27T14:09:47.309Z",
   "total": 28,
   "rules": [
     {
@@ -19199,21 +19199,21 @@
             "affiliateEndsTonight": "3 FOR £99 | ENDS TONIGHT"
           },
           "promoCallout": {
-            "default": "3 FOR £99",
+            "default": "LIMITED TIME - 3 FOR £99",
             "endsTonight": "",
-            "affiliate": "3 FOR £99",
+            "affiliate": "LIMITED TIME - 3 FOR £99",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "3 FOR £99",
+            "default": "LIMITED TIME - 3 FOR £99",
             "endsTonight": "",
-            "affiliate": "3 FOR £99",
+            "affiliate": "LIMITED TIME - 3 FOR £99",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "3 FOR £99",
+            "default": "LIMITED TIME - 3 FOR £99",
             "endsTonight": "",
-            "affiliate": "3 FOR £99",
+            "affiliate": "LIMITED TIME - 3 FOR £99",
             "affiliateEndsTonight": ""
           }
         },
@@ -20139,21 +20139,21 @@
             "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
           },
           "promoCallout": {
-            "default": "25% OFF",
+            "default": "LIMITED TIME - 25% OFF",
             "endsTonight": "",
-            "affiliate": "25% OFF",
+            "affiliate": "LIMITED TIME - 25% OFF",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25% OFF",
+            "default": "LIMITED TIME - 25% OFF",
             "endsTonight": "",
-            "affiliate": "25% OFF",
+            "affiliate": "LIMITED TIME - 25% OFF",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25% OFF",
+            "default": "LIMITED TIME - 25% OFF",
             "endsTonight": "",
-            "affiliate": "25% OFF",
+            "affiliate": "LIMITED TIME - 25% OFF",
             "affiliateEndsTonight": ""
           }
         },
