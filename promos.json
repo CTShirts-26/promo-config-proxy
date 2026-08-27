@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-27T15:45:17.974Z",
+  "generatedAt": "2026-08-27T15:52:32.567Z",
   "total": 28,
   "rules": [
     {
@@ -25923,7 +25923,10 @@
           "SUW24BLK",
           "SUW31DNY",
           "SUW35DNY",
-          "SUW41CHC"
+          "SUW41CHC",
+          "CSC0073NAV",
+          "CSC0073TPE",
+          "CSC0073KHA"
         ],
         "excludedProductIds": []
       },
