@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-01T13:20:30.756Z",
+  "generatedAt": "2026-09-01T13:36:48.447Z",
   "total": 31,
   "rules": [
     {
@@ -32031,40 +32031,40 @@
         "uk": {
           "bannerstrip": {
             "line1": "4 For £129 Shirts Or Polos",
-            "line2": "+ 15% Off Everything Else",
+            "line2": "+ 15% Off Everything Else  | Code: SHIRTS129",
             "line3": "Limited Time Only",
             "line1EndsTonight": "4 For £129 Shirts Or Polos",
-            "line2EndsTonight": "+ 15% Off Everything Else",
+            "line2EndsTonight": "+ 15% Off Everything Else  | Code: SHIRTS129",
             "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "4 For £129 Shirts Or Polos",
-            "line2Affiliate": "+ 15% Off Everything Else",
+            "line2Affiliate": "+ 15% Off Everything Else  | Code: 4YOU",
             "line3Affiliate": "Limited Time Only",
             "line1AffiliateEndsTonight": "4 For £129 Shirts Or Polos",
-            "line2AffiliateEndsTonight": "+ 15% Off Everything Else",
+            "line2AffiliateEndsTonight": "+ 15% Off Everything Else  | Code: 4YOU",
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
-            "default": "4 FOR £129 | LIMITED TIME ONLY",
-            "endsTonight": "4 FOR £129 | ENDS TONIGHT",
-            "affiliate": "4 FOR £129 | LIMITED TIME ONLY",
-            "affiliateEndsTonight": "4 FOR £129 | ENDS TONIGHT"
+            "default": "4 FOR £129 | CODE: SHIRTS129",
+            "endsTonight": "4 FOR £129 | CODE: SHIRTS129",
+            "affiliate": "4 FOR £129 | CODE: 4YOU",
+            "affiliateEndsTonight": "4 FOR £129 | CODE: 4YOU"
           },
           "promoCallout": {
-            "default": "4 FOR £129",
+            "default": "4 FOR £129 | CODE: SHIRTS129",
             "endsTonight": "",
-            "affiliate": "4 FOR £129",
+            "affiliate": "4 FOR £129 | CODE: 4YOU",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 FOR £129",
+            "default": "4 FOR £129 | CODE: SHIRTS129",
             "endsTonight": "",
-            "affiliate": "4 FOR £129",
+            "affiliate": "4 FOR £129 | CODE: 4YOU",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 FOR £129",
+            "default": "4 FOR £129 | CODE: SHIRTS129",
             "endsTonight": "",
-            "affiliate": "4 FOR £129",
+            "affiliate": "4 FOR £129 | CODE: 4YOU",
             "affiliateEndsTonight": ""
           }
         },
@@ -33580,41 +33580,41 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "",
+            "line1": "15% Off Everythig Else | Code: SHIRTS129",
             "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "",
+            "line1EndsTonight": "15% Off Everythig Else | Code: SHIRTS129",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
+            "line1Affiliate": "15% Off Everythig Else | Code: 4YOU",
             "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
+            "line1AffiliateEndsTonight": "15% Off Everythig Else | Code: 4YOU",
             "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "15% OFF | LIMITED TIME ONLY",
-            "endsTonight": "15% OFF | ENDS TONIGHT",
-            "affiliate": "15% OFF | LIMITED TIME ONLY",
-            "affiliateEndsTonight": "15% OFF | ENDS TONIGHT"
+            "default": "15% OFF | CODE: SHIRTS129",
+            "endsTonight": "15% OFF | CODE: SHIRTS129",
+            "affiliate": "15% OFF | CODE: 4YOU",
+            "affiliateEndsTonight": "15% OFF | CODE: 4YOU"
           },
           "promoCallout": {
-            "default": "15% OFF",
+            "default": "15% OFF | CODE: SHIRTS129",
             "endsTonight": "",
-            "affiliate": "15% OFF",
+            "affiliate": "15% OFF | CODE: 4YOU",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "15% OFF",
+            "default": "15% OFF | CODE: SHIRTS129",
             "endsTonight": "",
-            "affiliate": "15% OFF",
+            "affiliate": "15% OFF | CODE: 4YOU",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "15% OFF",
+            "default": "15% OFF | CODE: SHIRTS129",
             "endsTonight": "",
-            "affiliate": "15% OFF",
+            "affiliate": "15% OFF | CODE: 4YOU",
             "affiliateEndsTonight": ""
           }
         },
