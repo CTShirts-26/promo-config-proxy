@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-01T09:49:45.442Z",
+  "generatedAt": "2026-09-01T09:53:24.486Z",
   "total": 29,
   "rules": [
     {
@@ -29800,7 +29800,7 @@
     },
     {
       "ruleId": "US AUS Suit Event",
-      "category": "ROW TO COPY",
+      "category": "US AUS Suit Event",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-09-24",
@@ -29822,7 +29822,7 @@
         "fr": false,
         "ch": false,
         "nl": false,
-        "eu": true,
+        "eu": false,
         "xbr": false
       },
       "targeting": {
