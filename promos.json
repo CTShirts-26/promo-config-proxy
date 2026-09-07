@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-07T13:45:55.375Z",
+  "generatedAt": "2026-09-07T15:29:24.657Z",
   "total": 31,
   "rules": [
     {
@@ -30772,7 +30772,7 @@
         "au": false,
         "uk": true,
         "de": true,
-        "fr": false,
+        "fr": true,
         "ch": false,
         "nl": false,
         "eu": false,
@@ -30804,16 +30804,24 @@
           "dmdefault",
           "deon1",
           "critdede",
-          "fbdede"
+          "fbdede",
+          "frvip",
+          "frac1",
+          "frdefault",
+          "fron1",
+          "frbrbg",
+          "frbr99"
         ],
         "affiliateCampaignSites": [
           "shareuk1",
-          "affide1"
+          "affide1",
+          "sharefr1"
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
           "shareuk1",
-          "affide1"
+          "affide1",
+          "sharefr1"
         ],
         "mainCategories": [
           "shirts",
@@ -32121,41 +32129,41 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
-            "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
-            "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
-            "line3AffiliateEndsTonight": ""
+            "line1": "4 Pour 159 € Chemises Ou Polos",
+            "line2": "+ 15 % DE RÉDUCTION SUR   | Code : CHEMISE159",
+            "line3": "Offre à durée limitée",
+            "line1EndsTonight": "4 Pour 159 € Chemises Ou Polos",
+            "line2EndsTonight": "+ 15 % DE RÉDUCTION SUR   | Code : CHEMISE159",
+            "line3EndsTonight": "Jusqu’à ce soir",
+            "line1Affiliate": "4 Pour 159 € Chemises Ou Polos",
+            "line2Affiliate": "+ 15 % DE RÉDUCTION SUR   | Code : 4FAVORI",
+            "line3Affiliate": "Offre à durée limitée",
+            "line1AffiliateEndsTonight": "4 Pour 159 € Chemises Ou Polos",
+            "line2AffiliateEndsTonight": "+ 15 % DE RÉDUCTION SUR   | Code : 4FAVORI",
+            "line3AffiliateEndsTonight": "Jusqu’à ce soir"
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "4 POUR 159 € | CODE : CHEMISE159",
+            "endsTonight": "4 POUR 159 € | CODE : CHEMISE159",
+            "affiliate": "4 POUR 159 € | CODE : 4FAVORI",
+            "affiliateEndsTonight": "4 POUR 159 € | CODE : 4FAVORI"
           },
           "promoCallout": {
-            "default": "",
+            "default": "-180 € | Code : CHEMISE159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-180 € | Code : 4FAVORI",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "-180 € | Code : CHEMISE159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-180 € | Code : 4FAVORI",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "-180 € | Code : CHEMISE159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-180 € | Code : 4FAVORI",
             "affiliateEndsTonight": ""
           }
         },
@@ -32519,7 +32527,7 @@
         "au": false,
         "uk": true,
         "de": true,
-        "fr": false,
+        "fr": true,
         "ch": false,
         "nl": false,
         "eu": false,
@@ -32551,16 +32559,24 @@
           "dmdefault",
           "deon1",
           "critdede",
-          "fbdede"
+          "fbdede",
+          "frvip",
+          "frac1",
+          "frdefault",
+          "fron1",
+          "frbrbg",
+          "frbr99"
         ],
         "affiliateCampaignSites": [
           "shareuk1",
-          "affide1"
+          "affide1",
+          "sharefr1"
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
           "shareuk1",
-          "affide1"
+          "affide1",
+          "sharefr1"
         ],
         "mainCategories": [
           "suits",
@@ -33682,41 +33698,41 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
+            "line1": "15 % De Réduction Sur Tout Le Reste | Code : CHEMISE159",
+            "line2": "Offre à durée limitée",
             "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
+            "line1EndsTonight": "15 % De Réduction Sur Tout Le Reste | Code : CHEMISE159",
+            "line2EndsTonight": "Jusqu’à ce soir",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "15 % De Réduction Sur Tout Le Reste | Code : 4FAVORI",
+            "line2Affiliate": "Offre à durée limitée",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
+            "line1AffiliateEndsTonight": "15 % De Réduction Sur Tout Le Reste | Code : 4FAVORI",
+            "line2AffiliateEndsTonight": "Jusqu’à ce soir",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "15 % DE RÉDUCTION | CODE : CHEMISE159",
+            "endsTonight": "15 % DE RÉDUCTION | CODE : CHEMISE159",
+            "affiliate": "15 % DE RÉDUCTION | CODE : 4FAVORI",
+            "affiliateEndsTonight": "15 % DE RÉDUCTION | CODE : 4FAVORI"
           },
           "promoCallout": {
-            "default": "",
+            "default": "-15 % | Code : CHEMISE159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-15 % | Code : 4FAVORI",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "-15 % | Code : CHEMISE159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-15 % | Code : 4FAVORI",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "-15 % | Code : CHEMISE159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-15 % | Code : 4FAVORI",
             "affiliateEndsTonight": ""
           }
         },
