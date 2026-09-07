@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-07T15:29:24.657Z",
+  "generatedAt": "2026-09-07T15:54:56.496Z",
   "total": 31,
   "rules": [
     {
@@ -30773,10 +30773,10 @@
         "uk": true,
         "de": true,
         "fr": true,
-        "ch": false,
-        "nl": false,
+        "ch": true,
+        "nl": true,
         "eu": false,
-        "xbr": false
+        "xbr": true
       },
       "targeting": {
         "defaultCampaignSites": [
@@ -30810,18 +30810,51 @@
           "frdefault",
           "fron1",
           "frbrbg",
-          "frbr99"
+          "frbr99",
+          "chbren",
+          "chbrde",
+          "chbrfr",
+          "chdefault",
+          "nlbrdu",
+          "nldefault",
+          "nlvip",
+          "nlbren",
+          "netbr",
+          "eurdefault",
+          "eugob",
+          "eufbsale",
+          "euvip",
+          "irebr",
+          "deeubr",
+          "xbrfb25",
+          "xbrbr25",
+          "xbrnb25",
+          "xbpxb25",
+          "xbrdefault",
+          "xbrgb",
+          "xbnbai",
+          "xbnbam",
+          "xbrfb30",
+          "xbrbr30",
+          "drtxbr",
+          "xbr50",
+          "xbnbon",
+          "xbrnp",
+          "xbrnb30",
+          "xbpxb30"
         ],
         "affiliateCampaignSites": [
           "shareuk1",
           "affide1",
-          "sharefr1"
+          "sharefr1",
+          "eushare1"
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
           "shareuk1",
           "affide1",
-          "sharefr1"
+          "sharefr1",
+          "eushare1"
         ],
         "mainCategories": [
           "shirts",
@@ -32090,16 +32123,16 @@
         "de": {
           "bannerstrip": {
             "line1": "4 Für 159 € Hemden Oder Polos",
-            "line2": "+ 15 % RABATT AUF ALLES   | Code: HEMDEN159",
+            "line2": "+  15 % RABATT AUF ALLES ANDERE   | Code: HEMDEN159",
             "line3": "Nur Für Kurze Zeit",
             "line1EndsTonight": "4 Für 159 € Hemden Oder Polos",
-            "line2EndsTonight": "+ 15 % RABATT AUF ALLES   | Code: HEMDEN159",
+            "line2EndsTonight": "+  15 % RABATT AUF ALLES ANDERE   | Code: HEMDEN159",
             "line3EndsTonight": "Endet Heute Abend",
             "line1Affiliate": "4 Für 159 € Hemden Oder Polos",
-            "line2Affiliate": "+ 15 % RABATT AUF ALLES   | Code: 4MEHR",
+            "line2Affiliate": "+  15 % RABATT AUF ALLES ANDERE   | Code: 4MEHR",
             "line3Affiliate": "Nur Für Kurze Zeit",
             "line1AffiliateEndsTonight": "4 Für 159 € Hemden Oder Polos",
-            "line2AffiliateEndsTonight": "+ 15 % RABATT AUF ALLES   | Code: 4MEHR",
+            "line2AffiliateEndsTonight": "+  15 % RABATT AUF ALLES ANDERE   | Code: 4MEHR",
             "line3AffiliateEndsTonight": "Endet Heute Abend"
           },
           "tibText": {
@@ -32170,12 +32203,12 @@
         "ch": {
           "en": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
-              "line3EndsTonight": "",
+              "line1": "4 For Chf 199 4 Shirts Or Polos",
+              "line2": "+ 15% OFF EVERYTHING ELSE  | Code: CH199",
+              "line3": "Limited Time Only",
+              "line1EndsTonight": "4 For Chf 199 4 Shirts Or Polos",
+              "line2EndsTonight": "+ 15% OFF EVERYTHING ELSE  | Code: CH199",
+              "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -32184,25 +32217,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "4 FOR CHF 199 | CODE: CH199",
+              "endsTonight": "4 FOR CHF 199 | CODE: CH199",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "4 FOR CHF 199 | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "4 FOR CHF 199 | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "4 FOR CHF 199 | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -32210,12 +32243,12 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
-              "line3EndsTonight": "",
+              "line1": "4 Pour CHF 199 Chemises Ou Polos",
+              "line2": "+ 15% OFF EVERYTHING ELSE   | Code : CH199",
+              "line3": "Offre à durée limitée",
+              "line1EndsTonight": "4 Pour CHF 199 Chemises Ou Polos",
+              "line2EndsTonight": "+ 15% OFF EVERYTHING ELSE   | Code : CH199",
+              "line3EndsTonight": "Jusqu’à ce soir",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -32224,25 +32257,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "4 POUR CHF 199 | CODE : CH199",
+              "endsTonight": "4 POUR CHF 199 | CODE : CH199",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "4 POUR CHF 199 | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "4 POUR CHF 199 | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "4 POUR CHF 199 | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -32250,12 +32283,12 @@
           },
           "de": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
-              "line3EndsTonight": "",
+              "line1": "4 Für CHF 199 Hemden Oder Polos",
+              "line2": "+ 15% OFF EVERYTHING ELSE   | Code: CH199",
+              "line3": "Nur Für Kurze Zeit",
+              "line1EndsTonight": "4 Für CHF 199 Hemden Oder Polos",
+              "line2EndsTonight": "+ 15% OFF EVERYTHING ELSE   | Code: CH199",
+              "line3EndsTonight": "Endet Heute Abend",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -32264,25 +32297,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "4 FÜR CHF 199 | CODE: CH199",
+              "endsTonight": "4 FÜR CHF 199 | CODE: CH199",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "4 FÜR CHF 199 | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "4 FÜR CHF 199 | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "4 FÜR CHF 199 | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -32292,12 +32325,12 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
-              "line3EndsTonight": "",
+              "line1": "4 For €159  Shirts Or Polos",
+              "line2": "+ 15% OFF EVERYTHING ELSE  | Code: 4NL159",
+              "line3": "Limited Time Only",
+              "line1EndsTonight": "4 For €159  Shirts Or Polos",
+              "line2EndsTonight": "+ 15% OFF EVERYTHING ELSE  | Code: 4NL159",
+              "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -32306,25 +32339,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "4 FOR €159 | CODE: 4NL159",
+              "endsTonight": "4 FOR €159 | CODE: 4NL159",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "4 FOR €159 | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "4 FOR €159 | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "4 FOR €159 | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -32332,12 +32365,12 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
-              "line3EndsTonight": "",
+              "line1": "4 For €159  Shirts Or Polos",
+              "line2": "+ 15% OFF EVERYTHING ELSE  | Code: 4NL159",
+              "line3": "Limited Time Only",
+              "line1EndsTonight": "4 For €159  Shirts Or Polos",
+              "line2EndsTonight": "+ 15% OFF EVERYTHING ELSE  | Code: 4NL159",
+              "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -32346,25 +32379,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "4 FOR €159 | CODE: 4NL159",
+              "endsTonight": "4 FOR €159 | CODE: 4NL159",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "4 FOR €159 | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "4 FOR €159 | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "4 FOR €159 | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -32373,12 +32406,12 @@
         },
         "eu": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
-            "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
-            "line3EndsTonight": "",
+            "line1": "4 For €159  Shirts Or Polos",
+            "line2": "+ 15% OFF EVERYTHING ELSE  | Code: EUR159",
+            "line3": "Limited Time Only",
+            "line1EndsTonight": "4 For €159  Shirts Or Polos",
+            "line2EndsTonight": "+ 15% OFF EVERYTHING ELSE  | Code: EUR159",
+            "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "",
             "line2Affiliate": "",
             "line3Affiliate": "",
@@ -32387,37 +32420,37 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "4 FOR €159 | CODE: EUR159",
+            "endsTonight": "4 FOR €159 | CODE: EUR159",
+            "affiliate": "4 FOR €159 | CODE: 4FAVES",
+            "affiliateEndsTonight": "4 FOR €159 | CODE: 4FAVES"
           },
           "promoCallout": {
-            "default": "",
+            "default": "4 FOR €159 | CODE: EUR159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "4 FOR €159 | CODE: 4FAVES",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "4 FOR €159 | CODE: EUR159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "4 FOR €159 | CODE: 4FAVES",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "4 FOR €159 | CODE: EUR159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "4 FOR €159 | CODE: 4FAVES",
             "affiliateEndsTonight": ""
           }
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
+            "line1": "15% Off Everything | Code: XBR15",
+            "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
+            "line1EndsTonight": "15% Off Everything | Code: XBR15",
+            "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
             "line1Affiliate": "",
             "line2Affiliate": "",
@@ -32427,25 +32460,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
+            "default": "15% OFF | CODE: XBR15",
+            "endsTonight": "15% OFF | CODE: XBR15",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "15% OFF | CODE: XBR15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "15% OFF | CODE: XBR15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "15% OFF | CODE: XBR15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -32514,7 +32547,7 @@
       "startUtc": "2026-09-17",
       "endUtc": "2026-09-20",
       "scope": {
-        "bannerstrip": true,
+        "bannerstrip": false,
         "tibText": true,
         "promoCallout": true,
         "plpCallout": true,
@@ -32528,10 +32561,10 @@
         "uk": true,
         "de": true,
         "fr": true,
-        "ch": false,
-        "nl": false,
+        "ch": true,
+        "nl": true,
         "eu": false,
-        "xbr": false
+        "xbr": true
       },
       "targeting": {
         "defaultCampaignSites": [
@@ -32565,18 +32598,51 @@
           "frdefault",
           "fron1",
           "frbrbg",
-          "frbr99"
+          "frbr99",
+          "chbren",
+          "chbrde",
+          "chbrfr",
+          "chdefault",
+          "nlbrdu",
+          "nldefault",
+          "nlvip",
+          "nlbren",
+          "netbr",
+          "eurdefault",
+          "eugob",
+          "eufbsale",
+          "euvip",
+          "irebr",
+          "deeubr",
+          "xbrfb25",
+          "xbrbr25",
+          "xbrnb25",
+          "xbpxb25",
+          "xbrdefault",
+          "xbrgb",
+          "xbnbai",
+          "xbnbam",
+          "xbrfb30",
+          "xbrbr30",
+          "drtxbr",
+          "xbr50",
+          "xbnbon",
+          "xbrnp",
+          "xbrnb30",
+          "xbpxb30"
         ],
         "affiliateCampaignSites": [
           "shareuk1",
           "affide1",
-          "sharefr1"
+          "sharefr1",
+          "eushare1"
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
           "shareuk1",
           "affide1",
-          "sharefr1"
+          "sharefr1",
+          "eushare1"
         ],
         "mainCategories": [
           "suits",
@@ -33618,17 +33684,17 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "15% Off Everythig Else | Code: SHIRTS129",
-            "line2": "Limited Time Only",
+            "line1": "",
+            "line2": "",
             "line3": "",
-            "line1EndsTonight": "15% Off Everythig Else | Code: SHIRTS129",
-            "line2EndsTonight": "Ends Tonight",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "15% Off Everythig Else | Code: 4YOU",
-            "line2Affiliate": "Limited Time Only",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "15% Off Everythig Else | Code: 4YOU",
-            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -33658,17 +33724,17 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "15 % Rabatt Auf Alles | Code: HEMDEN159",
-            "line2": "Nur Für Kurze Zeit",
+            "line1": "",
+            "line2": "",
             "line3": "",
-            "line1EndsTonight": "15 % Rabatt Auf Alles | Code: HEMDEN159",
-            "line2EndsTonight": "Endet Heute Abend",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "15 % Rabatt Auf Alles | Code: 4MEHR",
-            "line2Affiliate": "Nur Für Kurze Zeit",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "15 % Rabatt Auf Alles | Code: 4MEHR",
-            "line2AffiliateEndsTonight": "Endet Heute Abend",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -33698,17 +33764,17 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "15 % De Réduction Sur Tout Le Reste | Code : CHEMISE159",
-            "line2": "Offre à durée limitée",
+            "line1": "",
+            "line2": "",
             "line3": "",
-            "line1EndsTonight": "15 % De Réduction Sur Tout Le Reste | Code : CHEMISE159",
-            "line2EndsTonight": "Jusqu’à ce soir",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "15 % De Réduction Sur Tout Le Reste | Code : 4FAVORI",
-            "line2Affiliate": "Offre à durée limitée",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "15 % De Réduction Sur Tout Le Reste | Code : 4FAVORI",
-            "line2AffiliateEndsTonight": "Jusqu’à ce soir",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -33753,25 +33819,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "15% OFF | CODE: CH199",
+              "endsTonight": "15% OFF | CODE: CH199",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -33793,25 +33859,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "15 % DE RÉDUCTION | CODE : CH199",
+              "endsTonight": "15 % DE RÉDUCTION | CODE : CH199",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "15 % DE RÉDUCTION | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "15 % DE RÉDUCTION | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "15 % DE RÉDUCTION | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -33833,25 +33899,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "15 % RABATT | CODE: CH199",
+              "endsTonight": "15 % RABATT | CODE: CH199",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "15 % RABATT | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "15 % RABATT | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "15 % RABATT | CODE: CH199",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -33875,25 +33941,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "15% OFF | CODE: 4NL159",
+              "endsTonight": "15% OFF | CODE: 4NL159",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -33915,25 +33981,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "15% OFF | CODE: 4NL159",
+              "endsTonight": "15% OFF | CODE: 4NL159",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "15% OFF | CODE: 4NL159",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -33956,27 +34022,27 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "15% OFF | CODE: EUR159",
+            "endsTonight": "15% OFF | CODE: EUR159",
+            "affiliate": "15% OFF | CODE: 4FAVES",
+            "affiliateEndsTonight": "15% OFF | CODE: 4FAVES"
           },
           "promoCallout": {
-            "default": "",
+            "default": "15% OFF | CODE: EUR159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF | CODE: 4FAVES",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "15% OFF | CODE: EUR159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF | CODE: 4FAVES",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "15% OFF | CODE: EUR159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF | CODE: 4FAVES",
             "affiliateEndsTonight": ""
           }
         },
@@ -33996,25 +34062,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
+            "default": "15% OFF | CODE: XBR15",
+            "endsTonight": "15% OFF | CODE: XBR15",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "15% OFF | CODE: XBR15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "15% OFF | CODE: XBR15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "15% OFF | CODE: XBR15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
