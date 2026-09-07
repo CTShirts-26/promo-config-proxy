@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-01T13:36:48.447Z",
+  "generatedAt": "2026-09-07T13:45:55.375Z",
   "total": 31,
   "rules": [
     {
@@ -26569,7 +26569,7 @@
       "ruleId": "AUS New Season Special",
       "category": "AUS New Season Special",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-08-31",
       "endUtc": "2026-09-06",
       "scope": {
@@ -28265,7 +28265,7 @@
       "ruleId": "AUS New Season Special 2",
       "category": "AUS New Season Special 2",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-08-31",
       "endUtc": "2026-09-06",
       "scope": {
@@ -30771,7 +30771,7 @@
         "ca": false,
         "au": false,
         "uk": true,
-        "de": false,
+        "de": true,
         "fr": false,
         "ch": false,
         "nl": false,
@@ -30795,14 +30795,25 @@
           "ukdgfli",
           "lifter",
           "ukfbdf",
-          "ukpint"
+          "ukpint",
+          "devip",
+          "defbsale",
+          "debng",
+          "gegob",
+          "deac1",
+          "dmdefault",
+          "deon1",
+          "critdede",
+          "fbdede"
         ],
         "affiliateCampaignSites": [
-          "shareuk1"
+          "shareuk1",
+          "affide1"
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
-          "shareuk1"
+          "shareuk1",
+          "affide1"
         ],
         "mainCategories": [
           "shirts",
@@ -31857,7 +31868,7 @@
         "us": false,
         "ca": false,
         "au": false,
-        "uk": true,
+        "uk": false,
         "de": false,
         "fr": false,
         "ch": false,
@@ -32070,41 +32081,41 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
-            "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
-            "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
-            "line3AffiliateEndsTonight": ""
+            "line1": "4 Für 159 € Hemden Oder Polos",
+            "line2": "+ 15 % RABATT AUF ALLES   | Code: HEMDEN159",
+            "line3": "Nur Für Kurze Zeit",
+            "line1EndsTonight": "4 Für 159 € Hemden Oder Polos",
+            "line2EndsTonight": "+ 15 % RABATT AUF ALLES   | Code: HEMDEN159",
+            "line3EndsTonight": "Endet Heute Abend",
+            "line1Affiliate": "4 Für 159 € Hemden Oder Polos",
+            "line2Affiliate": "+ 15 % RABATT AUF ALLES   | Code: 4MEHR",
+            "line3Affiliate": "Nur Für Kurze Zeit",
+            "line1AffiliateEndsTonight": "4 Für 159 € Hemden Oder Polos",
+            "line2AffiliateEndsTonight": "+ 15 % RABATT AUF ALLES   | Code: 4MEHR",
+            "line3AffiliateEndsTonight": "Endet Heute Abend"
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "4 FÜR 159 € | CODE: HEMDEN159",
+            "endsTonight": "4 FÜR 159 € | CODE: HEMDEN159",
+            "affiliate": "4 FÜR 159 € | CODE: 4MEHR",
+            "affiliateEndsTonight": "4 FÜR 159 € | CODE: 4MEHR"
           },
           "promoCallout": {
-            "default": "",
+            "default": "4 FÜR 159 € | CODE: HEMDEN159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "4 FÜR 159 € | CODE: 4MEHR",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "4 FÜR 159 € | CODE: HEMDEN159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "4 FÜR 159 € | CODE: 4MEHR",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "4 FÜR 159 € | CODE: HEMDEN159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "4 FÜR 159 € | CODE: 4MEHR",
             "affiliateEndsTonight": ""
           }
         },
@@ -32507,7 +32518,7 @@
         "ca": false,
         "au": false,
         "uk": true,
-        "de": false,
+        "de": true,
         "fr": false,
         "ch": false,
         "nl": false,
@@ -32531,14 +32542,25 @@
           "ukdgfli",
           "lifter",
           "ukfbdf",
-          "ukpint"
+          "ukpint",
+          "devip",
+          "defbsale",
+          "debng",
+          "gegob",
+          "deac1",
+          "dmdefault",
+          "deon1",
+          "critdede",
+          "fbdede"
         ],
         "affiliateCampaignSites": [
-          "shareuk1"
+          "shareuk1",
+          "affide1"
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
-          "shareuk1"
+          "shareuk1",
+          "affide1"
         ],
         "mainCategories": [
           "suits",
@@ -33407,7 +33429,7 @@
         "us": false,
         "ca": false,
         "au": false,
-        "uk": true,
+        "uk": false,
         "de": false,
         "fr": false,
         "ch": false,
@@ -33620,41 +33642,41 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
+            "line1": "15 % Rabatt Auf Alles | Code: HEMDEN159",
+            "line2": "Nur Für Kurze Zeit",
             "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
+            "line1EndsTonight": "15 % Rabatt Auf Alles | Code: HEMDEN159",
+            "line2EndsTonight": "Endet Heute Abend",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "15 % Rabatt Auf Alles | Code: 4MEHR",
+            "line2Affiliate": "Nur Für Kurze Zeit",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
+            "line1AffiliateEndsTonight": "15 % Rabatt Auf Alles | Code: 4MEHR",
+            "line2AffiliateEndsTonight": "Endet Heute Abend",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "15 % RABATT | CODE: HEMDEN159",
+            "endsTonight": "15 % RABATT | CODE: HEMDEN159",
+            "affiliate": "15 % RABATT | CODE: 4MEHR",
+            "affiliateEndsTonight": "15 % RABATT | CODE: 4MEHR"
           },
           "promoCallout": {
-            "default": "",
+            "default": "15 % RABATT | CODE: HEMDEN159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15 % RABATT | CODE: 4MEHR",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "15 % RABATT | CODE: HEMDEN159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15 % RABATT | CODE: 4MEHR",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "15 % RABATT | CODE: HEMDEN159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15 % RABATT | CODE: 4MEHR",
             "affiliateEndsTonight": ""
           }
         },
