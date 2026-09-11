@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-07T21:42:51.734Z",
+  "generatedAt": "2026-09-11T15:17:36.364Z",
   "total": 33,
   "rules": [
     {
@@ -23297,7 +23297,7 @@
       "ruleId": "US CA Labour Day",
       "category": "US CA Labour Day",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-08-30",
       "endUtc": "2026-09-07",
       "scope": {
@@ -25012,7 +25012,7 @@
       "ruleId": "US CA Labour Day 2",
       "category": "US CA Labour Day 2",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-08-30",
       "endUtc": "2026-09-07",
       "scope": {
@@ -29843,6 +29843,11 @@
           "usnbdef",
           "usddefault",
           "rtbdfb",
+          "cabrbg",
+          "cabren",
+          "caddefault",
+          "cabrfr",
+          "cartbd",
           "auddefault",
           "augb",
           "velocity",
@@ -30173,11 +30178,11 @@
         "ca": {
           "en": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
+              "line1": "20% Off Suits & Blazers | Code: SUITNOW",
+              "line2": "Limited Time Only",
               "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
+              "line1EndsTonight": "20% Off Suits & Blazers | Code: SUITNOW",
+              "line2EndsTonight": "Ends Tonight",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -30187,25 +30192,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "20% OFF | CODE: SUITNOW",
+              "endsTonight": "20% OFF | CODE: SUITNOW",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: SUITNOW",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: SUITNOW",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: SUITNOW",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -30213,11 +30218,11 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
+              "line1": "20 % De Réduction  | Code : SUITNOW",
+              "line2": "Offre à durée limitée",
+              "line3": "Offre à durée limitée",
+              "line1EndsTonight": "20 % De Réduction  | Code : SUITNOW",
+              "line2EndsTonight": "Jusqu’à ce soir",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -30227,25 +30232,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "20 % DE RÉDUCTION | CODE : SUITNOW",
+              "endsTonight": "20 % DE RÉDUCTION | CODE : SUITNOW",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "20 % DE RÉDUCTION | CODE: SUITNOW",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "20 % DE RÉDUCTION | CODE: SUITNOW",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "20 % DE RÉDUCTION | CODE: SUITNOW",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
