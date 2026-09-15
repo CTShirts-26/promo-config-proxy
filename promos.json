@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-15T22:30:14.266Z",
+  "generatedAt": "2026-09-15T22:35:15.823Z",
   "total": 34,
   "rules": [
     {
@@ -32406,10 +32406,10 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "15% Off Everything | Code: XBR15",
+            "line1": "15% Off Everything | Code: SAVE15",
             "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "15% Off Everything | Code: XBR15",
+            "line1EndsTonight": "15% Off Everything | Code: SAVE15",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
             "line1Affiliate": "",
@@ -32420,25 +32420,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "15% OFF | CODE: XBR15",
-            "endsTonight": "15% OFF | CODE: XBR15",
+            "default": "15% OFF | CODE: SAVE15",
+            "endsTonight": "15% OFF | CODE: SAVE15",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "15% OFF | CODE: XBR15",
+            "default": "15% OFF | CODE: SAVE15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "15% OFF | CODE: XBR15",
+            "default": "15% OFF | CODE: SAVE15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "15% OFF | CODE: XBR15",
+            "default": "15% OFF | CODE: SAVE15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -33985,25 +33985,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "15% OFF | CODE: XBR15",
-            "endsTonight": "15% OFF | CODE: XBR15",
+            "default": "15% OFF | CODE: SAVE15",
+            "endsTonight": "15% OFF | CODE: SAVE15",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "15% OFF | CODE: XBR15",
+            "default": "15% OFF | CODE: SAVE15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "15% OFF | CODE: XBR15",
+            "default": "15% OFF | CODE: SAVE15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "15% OFF | CODE: XBR15",
+            "default": "15% OFF | CODE: SAVE15",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
