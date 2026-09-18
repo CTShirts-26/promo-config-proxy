@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-16T20:45:57.854Z",
+  "generatedAt": "2026-09-18T12:57:38.815Z",
   "total": 34,
   "rules": [
     {
@@ -30752,7 +30752,7 @@
       "ruleId": "W7 Weekend Promo Shirts",
       "category": "W7 Weekend Promo Shirts",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-09-17",
       "endUtc": "2026-09-20",
       "scope": {
@@ -32503,7 +32503,7 @@
       "ruleId": "W7 Weekend Promo Non Shirts",
       "category": "W7 Weekend Promo Non Shirts",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-09-17",
       "endUtc": "2026-09-20",
       "scope": {
@@ -37344,9 +37344,13 @@
           "aubrbg",
           "aufbsale"
         ],
-        "affiliateCampaignSites": [],
+        "affiliateCampaignSites": [
+          "shareau1"
+        ],
         "acquisitionCampaignSites": [],
-        "campaignSites": [],
+        "campaignSites": [
+          "shareau1"
+        ],
         "mainCategories": [
           "black-tie",
           "blazers",
@@ -37747,34 +37751,34 @@
             "line2EndsTonight": "+  Free Shipping On $200+ | Code: VIPSUITS",
             "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "20% Off Suits & Blazers",
-            "line2Affiliate": "+  Free Shipping On $200+",
+            "line2Affiliate": "+  Free Shipping On $200+ | Code: SUITS20",
             "line3Affiliate": "Limited Time Only",
             "line1AffiliateEndsTonight": "20% Off Suits & Blazers",
-            "line2AffiliateEndsTonight": "+  Free Shipping On $200+",
+            "line2AffiliateEndsTonight": "+  Free Shipping On $200+ | Code: SUITS20",
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
             "default": "20% OFF | USE CODE: VIPSUITS",
             "endsTonight": "20% OFF | USE CODE: VIPSUITS",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "affiliate": "20% OFF | USE CODE: SUITS20",
+            "affiliateEndsTonight": "20% OFF | USE CODE: SUITS20"
           },
           "promoCallout": {
             "default": "20% OFF | CODE: VIPSUITS",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "20% OFF | CODE: SUITS20",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
             "default": "20% OFF | CODE: VIPSUITS",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "20% OFF | CODE: SUITS20",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
             "default": "20% OFF | CODE: VIPSUITS",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "20% OFF | CODE: SUITS20",
             "affiliateEndsTonight": ""
           }
         },
