@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-24T23:02:02.296Z",
+  "generatedAt": "2026-09-24T23:03:48.096Z",
   "total": 41,
   "rules": [
     {
@@ -46738,7 +46738,7 @@
       },
       "countryEnabled": {
         "us": true,
-        "ca": false,
+        "ca": true,
         "au": false,
         "uk": false,
         "de": false,
@@ -48297,7 +48297,7 @@
       },
       "countryEnabled": {
         "us": true,
-        "ca": false,
+        "ca": true,
         "au": false,
         "uk": false,
         "de": false,
