@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-24T22:31:53.177Z",
+  "generatedAt": "2026-09-24T22:36:39.733Z",
   "total": 41,
   "rules": [
     {
@@ -44563,21 +44563,21 @@
             "affiliateEndsTonight": "5 FOR $225 | LIMITED TIME ONLY"
           },
           "promoCallout": {
-            "default": "5 FOR $225",
+            "default": "5 FOR $225 | LIMITED TIME ONLY",
             "endsTonight": "",
-            "affiliate": "5 FOR $225",
+            "affiliate": "5 FOR $225 | LIMITED TIME ONLY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "5 FOR $225",
+            "default": "5 FOR $225 | LIMITED TIME ONLY",
             "endsTonight": "",
-            "affiliate": "5 FOR $225",
+            "affiliate": "5 FOR $225 | LIMITED TIME ONLY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "5 FOR $225",
+            "default": "5 FOR $225 | LIMITED TIME ONLY",
             "endsTonight": "",
-            "affiliate": "5 FOR $225",
+            "affiliate": "5 FOR $225 | LIMITED TIME ONLY",
             "affiliateEndsTonight": ""
           }
         },
@@ -44604,21 +44604,21 @@
               "affiliateEndsTonight": "5 FOR C$349 | LIMITED TIME ONLY"
             },
             "promoCallout": {
-              "default": "5 FOR C$349",
+              "default": "5 FOR C$349 | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "5 FOR C$349",
+              "affiliate": "5 FOR C$349 | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "5 FOR C$349",
+              "default": "5 FOR C$349 | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "5 FOR C$349",
+              "affiliate": "5 FOR C$349 | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "5 FOR C$349",
+              "default": "5 FOR C$349 | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "5 FOR C$349",
+              "affiliate": "5 FOR C$349 | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             }
           },
@@ -44644,19 +44644,19 @@
               "affiliateEndsTonight": "5 POUR 349 C$ | OFFRE À DURÉE LIMITÉE"
             },
             "promoCallout": {
-              "default": "5 POUR 349 C$",
+              "default": "5 POUR 349 C$ | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
               "affiliate": "-545 C$",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "5 POUR 349 C$",
+              "default": "5 POUR 349 C$ | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
               "affiliate": "-545 C$",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "5 POUR 349 C$",
+              "default": "5 POUR 349 C$ | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
               "affiliate": "-545 C$",
               "affiliateEndsTonight": ""
