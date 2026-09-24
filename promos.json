@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-23T21:43:18.333Z",
+  "generatedAt": "2026-09-24T07:55:32.955Z",
   "total": 41,
   "rules": [
     {
@@ -29802,7 +29802,7 @@
       "ruleId": "US CA Suit Event",
       "category": "US AUS Suit Event",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-09-24",
       "endUtc": "2026-09-28",
       "scope": {
@@ -30109,7 +30109,8 @@
           "SUW0034SND",
           "SUW0035DNY",
           "SUW0041CHC",
-          "SUW0042CHC"
+          "SUW0042CHC",
+          "SUT50DNY"
         ],
         "excludedProductIds": []
       },
@@ -34068,7 +34069,7 @@
       "ruleId": "France W7 Weekend Promo Shirts",
       "category": "France W7 Weekend Promo Shirts",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-09-24",
       "endUtc": "2026-09-29",
       "scope": {
@@ -35783,7 +35784,7 @@
       "ruleId": "France W7 Weekend Promo Non Shirts",
       "category": "France W7 Weekend Promo Non Shirts",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-09-24",
       "endUtc": "2026-09-27",
       "scope": {
