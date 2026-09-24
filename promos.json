@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-24T22:36:39.733Z",
+  "generatedAt": "2026-09-24T23:02:02.296Z",
   "total": 41,
   "rules": [
     {
@@ -37477,7 +37477,7 @@
       "ruleId": "AUS Suit Event",
       "category": "AUS Suit Event",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-09-20",
       "endUtc": "2026-09-24",
       "scope": {
@@ -45163,12 +45163,12 @@
       "rowNumber": 48
     },
     {
-      "ruleId": "US CA Long Weekend Non Shirts",
+      "ruleId": "US CA Long Weekend Non Shirts LTO",
       "category": "US CA Long Weekend Non Shirts",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-10-07",
-      "endUtc": "2026-10-12",
+      "endUtc": "2026-10-11",
       "scope": {
         "bannerstrip": false,
         "tibText": true,
@@ -46122,21 +46122,21 @@
             "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
           },
           "promoCallout": {
-            "default": "20% OFF",
+            "default": "20% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
-            "affiliate": "20% OFF",
+            "affiliate": "20% OFF | LIMITED TIME ONLY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "20% OFF",
+            "default": "20% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
-            "affiliate": "20% OFF",
+            "affiliate": "20% OFF | LIMITED TIME ONLY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "20% OFF",
+            "default": "20% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
-            "affiliate": "20% OFF",
+            "affiliate": "20% OFF | LIMITED TIME ONLY",
             "affiliateEndsTonight": ""
           }
         },
@@ -46158,26 +46158,26 @@
             },
             "tibText": {
               "default": "20% OFF | LIMITED TIME ONLY",
-              "endsTonight": "20% OFF | ENDS TONIGHT",
+              "endsTonight": "20% OFF | LIMITED TIME ONLY",
               "affiliate": "20% OFF | LIMITED TIME ONLY",
-              "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+              "affiliateEndsTonight": "20% OFF | LIMITED TIME ONLY"
             },
             "promoCallout": {
-              "default": "20% OFF",
+              "default": "20% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "20% OFF",
+              "affiliate": "20% OFF | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20% OFF",
+              "default": "20% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "20% OFF",
+              "affiliate": "20% OFF | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20% OFF",
+              "default": "20% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "20% OFF",
+              "affiliate": "20% OFF | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             }
           },
@@ -46197,27 +46197,27 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
-              "endsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR",
-              "affiliate": "20 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
-              "affiliateEndsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR"
+              "default": "−20 % | DURÉE LIMITÉE",
+              "endsTonight": "−20 % | DURÉE LIMITÉE",
+              "affiliate": "−20 % | DURÉE LIMITÉE",
+              "affiliateEndsTonight": "−20 % | DURÉE LIMITÉE"
             },
             "promoCallout": {
-              "default": "20 % DE RÉDUCTION",
+              "default": "−20 % | DURÉE LIMITÉE",
               "endsTonight": "",
-              "affiliate": "-20 %",
+              "affiliate": "−20 % | DURÉE LIMITÉE",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20 % DE RÉDUCTION",
+              "default": "−20 % | DURÉE LIMITÉE",
               "endsTonight": "",
-              "affiliate": "-20 %",
+              "affiliate": "−20 % | DURÉE LIMITÉE",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20 % DE RÉDUCTION",
+              "default": "−20 % | DURÉE LIMITÉE",
               "endsTonight": "",
-              "affiliate": "-20 %",
+              "affiliate": "−20 % | DURÉE LIMITÉE",
               "affiliateEndsTonight": ""
             }
           }
@@ -46722,11 +46722,11 @@
       "rowNumber": 49
     },
     {
-      "ruleId": "US CA Long Weekend Non Shirts",
+      "ruleId": "US CA Long Weekend Non Shirts EN",
       "category": "US CA Long Weekend Non Shirts",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2026-10-07",
+      "startUtc": "2026-10-12",
       "endUtc": "2026-10-12",
       "scope": {
         "bannerstrip": false,
@@ -47675,27 +47675,27 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20% OFF | LIMITED TIME ONLY",
-            "endsTonight": "20% OFF | ENDS TONIGHT",
-            "affiliate": "20% OFF | LIMITED TIME ONLY",
-            "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+            "default": "20% OFF | ENDS TONIGHT",
+            "endsTonight": "",
+            "affiliate": "20% OFF | ENDS TONIGHT",
+            "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "20% OFF",
+            "default": "20% OFF | ENDS TONIGHT",
             "endsTonight": "",
-            "affiliate": "20% OFF",
+            "affiliate": "20% OFF | ENDS TONIGHT",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "20% OFF",
+            "default": "20% OFF | ENDS TONIGHT",
             "endsTonight": "",
-            "affiliate": "20% OFF",
+            "affiliate": "20% OFF | ENDS TONIGHT",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "20% OFF",
+            "default": "20% OFF | ENDS TONIGHT",
             "endsTonight": "",
-            "affiliate": "20% OFF",
+            "affiliate": "20% OFF | ENDS TONIGHT",
             "affiliateEndsTonight": ""
           }
         },
@@ -47716,27 +47716,27 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20% OFF | LIMITED TIME ONLY",
-              "endsTonight": "20% OFF | ENDS TONIGHT",
-              "affiliate": "20% OFF | LIMITED TIME ONLY",
-              "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+              "default": "20% OFF | ENDS TONIGHT",
+              "endsTonight": "",
+              "affiliate": "20% OFF | ENDS TONIGHT",
+              "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "20% OFF",
+              "default": "20% OFF | ENDS TONIGHT",
               "endsTonight": "",
-              "affiliate": "20% OFF",
+              "affiliate": "20% OFF | ENDS TONIGHT",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20% OFF",
+              "default": "20% OFF | ENDS TONIGHT",
               "endsTonight": "",
-              "affiliate": "20% OFF",
+              "affiliate": "20% OFF | ENDS TONIGHT",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20% OFF",
+              "default": "20% OFF | ENDS TONIGHT",
               "endsTonight": "",
-              "affiliate": "20% OFF",
+              "affiliate": "20% OFF | ENDS TONIGHT",
               "affiliateEndsTonight": ""
             }
           },
@@ -47756,27 +47756,27 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
-              "endsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR",
-              "affiliate": "20 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
-              "affiliateEndsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR"
+              "default": "−20 % | JUSQU’À CE SOIR",
+              "endsTonight": "",
+              "affiliate": "−20 % | JUSQU’À CE SOIR",
+              "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "20 % DE RÉDUCTION",
+              "default": "−20 % | JUSQU’À CE SOIR",
               "endsTonight": "",
-              "affiliate": "-20 %",
+              "affiliate": "−20 % | JUSQU’À CE SOIR",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20 % DE RÉDUCTION",
+              "default": "−20 % | JUSQU’À CE SOIR",
               "endsTonight": "",
-              "affiliate": "-20 %",
+              "affiliate": "−20 % | JUSQU’À CE SOIR",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20 % DE RÉDUCTION",
+              "default": "−20 % | JUSQU’À CE SOIR",
               "endsTonight": "",
-              "affiliate": "-20 %",
+              "affiliate": "−20 % | JUSQU’À CE SOIR",
               "affiliateEndsTonight": ""
             }
           }
