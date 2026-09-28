@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-24T23:06:01.293Z",
+  "generatedAt": "2026-09-28T21:23:42.881Z",
   "total": 41,
   "rules": [
     {
@@ -35948,7 +35948,7 @@
       "ruleId": "France W7 Weekend Promo Non Shirts",
       "category": "France W7 Weekend Promo Non Shirts",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-09-24",
       "endUtc": "2026-09-27",
       "scope": {
@@ -38410,7 +38410,7 @@
       "ruleId": "AUS labour day 1",
       "category": "AUS Labour Day Shirts",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-09-28",
       "endUtc": "2026-10-05",
       "scope": {
@@ -40106,7 +40106,7 @@
       "ruleId": "AUS labour day 2",
       "category": "AUS Labour Day Non Shirts",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-09-28",
       "endUtc": "2026-10-05",
       "scope": {
@@ -41731,9 +41731,13 @@
           "xbrnb30",
           "xbpxb30"
         ],
-        "affiliateCampaignSites": [],
+        "affiliateCampaignSites": [
+          "sharefr1"
+        ],
         "acquisitionCampaignSites": [],
-        "campaignSites": [],
+        "campaignSites": [
+          "sharefr1"
+        ],
         "mainCategories": [
           "shirts",
           "shirts-formal-shirts",
@@ -43046,35 +43050,35 @@
             "line1EndsTonight": "5 Pour 175 € Chemises Ou Polos | Code : CHEMISE175",
             "line2EndsTonight": "Jusqu’à ce soir",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "5 Pour 175 € Chemises Ou Polos | Code : BONJOUR5",
+            "line2Affiliate": "Offre à durée limitée",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
+            "line1AffiliateEndsTonight": "5 Pour 175 € Chemises Ou Polos | Code : BONJOUR5",
+            "line2AffiliateEndsTonight": "Jusqu’à ce soir",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "5 POUR 175 € | CODE : CHEMISE175",
             "endsTonight": "5 POUR 175 € | CODE : CHEMISE175",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "affiliate": "5 POUR 175 € | CODE : BONJOUR5",
+            "affiliateEndsTonight": "5 POUR 175 € | CODE : BONJOUR5"
           },
           "promoCallout": {
-            "default": "-235 € | Code : CHEMISE175",
+            "default": "5 POUR 175 € | CODE : CHEMISE175",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "5 POUR 175 € | CODE : BONJOUR5",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "-235 € | Code : CHEMISE175",
+            "default": "5 POUR 175 € | CODE : CHEMISE175",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "5 POUR 175 € | CODE : BONJOUR5",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "-235 € | Code : CHEMISE175",
+            "default": "5 POUR 175 € | CODE : CHEMISE175",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "5 POUR 175 € | CODE : BONJOUR5",
             "affiliateEndsTonight": ""
           }
         },
