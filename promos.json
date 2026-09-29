@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-29T05:17:12.039Z",
+  "generatedAt": "2026-09-29T05:20:48.567Z",
   "total": 43,
   "rules": [
     {
@@ -51308,15 +51308,15 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "4 For £119.2 Shirts Or Polos | Code: TREATS",
-            "line2": "Today Only",
-            "line3": "",
+            "line1": "4 For £119.2 Shirts Or Polos",
+            "line2": "+ 20% Everything Else | Code: TREATS",
+            "line3": "Today Only",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "4 For £119.2 Shirts Or Polos | Code: COZY",
-            "line2Affiliate": "Today Only",
-            "line3Affiliate": "",
+            "line1Affiliate": "4 For £119.2 Shirts Or Polos",
+            "line2Affiliate": "+ 20% Everything Else | Code: COZY",
+            "line3Affiliate": "Today Only",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
