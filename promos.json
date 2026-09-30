@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-30T04:36:32.637Z",
+  "generatedAt": "2026-09-30T04:39:09.752Z",
   "total": 42,
   "rules": [
     {
@@ -44561,27 +44561,27 @@
             "line3AffiliateEndsTonight": "Limited Time Only"
           },
           "tibText": {
-            "default": "5 FOR $225 | LIMITED TIME",
-            "endsTonight": "5 FOR $225 | LIMITED TIME",
-            "affiliate": "5 FOR $225 | LIMITED TIME",
-            "affiliateEndsTonight": "5 FOR $225 | LIMITED TIME"
+            "default": "5 FOR $225 | LIMITED TIME ONLY",
+            "endsTonight": "5 FOR $225 | LIMITED TIME ONLY",
+            "affiliate": "5 FOR $225 | LIMITED TIME ONLY",
+            "affiliateEndsTonight": "5 FOR $225 | LIMITED TIME ONLY"
           },
           "promoCallout": {
-            "default": "5 FOR $225 | LIMITED TIME ONLY",
+            "default": "5 FOR $225 | LIMITED TIME",
             "endsTonight": "",
-            "affiliate": "5 FOR $225 | LIMITED TIME ONLY",
+            "affiliate": "5 FOR $225 | LIMITED TIME",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "5 FOR $225 | LIMITED TIME ONLY",
+            "default": "5 FOR $225 | LIMITED TIME",
             "endsTonight": "",
-            "affiliate": "5 FOR $225 | LIMITED TIME ONLY",
+            "affiliate": "5 FOR $225 | LIMITED TIME",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "5 FOR $225 | LIMITED TIME ONLY",
+            "default": "5 FOR $225 | LIMITED TIME",
             "endsTonight": "",
-            "affiliate": "5 FOR $225 | LIMITED TIME ONLY",
+            "affiliate": "5 FOR $225 | LIMITED TIME",
             "affiliateEndsTonight": ""
           }
         },
@@ -44602,27 +44602,27 @@
               "line3AffiliateEndsTonight": "Limited Time Only"
             },
             "tibText": {
-              "default": "5 FOR C$349 | LIMITED TIME",
-              "endsTonight": "5 FOR C$349 | LIMITED TIME",
-              "affiliate": "5 FOR C$349 | LIMITED TIME",
-              "affiliateEndsTonight": "5 FOR C$349 | LIMITED TIME"
+              "default": "5 FOR C$349 | LIMITED TIME ONLY",
+              "endsTonight": "5 FOR C$349 | LIMITED TIME ONLY",
+              "affiliate": "5 FOR C$349 | LIMITED TIME ONLY",
+              "affiliateEndsTonight": "5 FOR C$349 | LIMITED TIME ONLY"
             },
             "promoCallout": {
-              "default": "5 FOR C$349 | LIMITED TIME ONLY",
+              "default": "5 FOR C$349 | LIMITED TIME",
               "endsTonight": "",
-              "affiliate": "5 FOR C$349 | LIMITED TIME ONLY",
+              "affiliate": "5 FOR C$349 | LIMITED TIME",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "5 FOR C$349 | LIMITED TIME ONLY",
+              "default": "5 FOR C$349 | LIMITED TIME",
               "endsTonight": "",
-              "affiliate": "5 FOR C$349 | LIMITED TIME ONLY",
+              "affiliate": "5 FOR C$349 | LIMITED TIME",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "5 FOR C$349 | LIMITED TIME ONLY",
+              "default": "5 FOR C$349 | LIMITED TIME",
               "endsTonight": "",
-              "affiliate": "5 FOR C$349 | LIMITED TIME ONLY",
+              "affiliate": "5 FOR C$349 | LIMITED TIME",
               "affiliateEndsTonight": ""
             }
           },
