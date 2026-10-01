@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-01T19:11:09.296Z",
+  "generatedAt": "2026-10-01T19:12:38.169Z",
   "total": 42,
   "rules": [
     {
@@ -41663,7 +41663,7 @@
         "fr": true,
         "ch": true,
         "nl": true,
-        "eu": false,
+        "eu": true,
         "xbr": true
       },
       "targeting": {
