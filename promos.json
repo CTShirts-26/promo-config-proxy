@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-05T23:37:18.598Z",
+  "generatedAt": "2026-10-05T23:39:11.128Z",
   "total": 47,
   "rules": [
     {
@@ -56047,11 +56047,13 @@
           "xbpxb30"
         ],
         "affiliateCampaignSites": [
-          "sharefr1"
+          "sharefr1",
+          "eushare1"
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
-          "sharefr1"
+          "sharefr1",
+          "eushare1"
         ],
         "mainCategories": [
           "shirts",
