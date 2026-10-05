@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-01T19:12:38.169Z",
+  "generatedAt": "2026-10-05T07:02:06.278Z",
   "total": 42,
   "rules": [
     {
@@ -41643,7 +41643,7 @@
       "ruleId": "W10 5 for Shirts Promo",
       "category": "W10 5 for Shirts Promo",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-10-04",
       "endUtc": "2026-10-11",
       "scope": {
@@ -43012,41 +43012,41 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "5 Für 170 € Hemden Oder Polos | Code: HEMDEN",
+            "line1": "5 Für 175 € Hemden Oder Polos | Code: HEMDEN",
             "line2": "Nur Für Kurze Zeit",
             "line3": "",
-            "line1EndsTonight": "5 Für 170 € Hemden Oder Polos | Code: HEMDEN",
+            "line1EndsTonight": "5 Für 175 € Hemden Oder Polos | Code: HEMDEN",
             "line2EndsTonight": "Endet Heute Abend",
             "line3EndsTonight": "",
-            "line1Affiliate": "5 Für 170 € Hemden Oder Polos | Code: HALLO5",
+            "line1Affiliate": "5 Für 175 € Hemden Oder Polos | Code: HALLO5",
             "line2Affiliate": "Nur Für Kurze Zeit",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "5 Für 170 € Hemden Oder Polos | Code: HALLO5",
+            "line1AffiliateEndsTonight": "5 Für 175 € Hemden Oder Polos | Code: HALLO5",
             "line2AffiliateEndsTonight": "Endet Heute Abend",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "5 FÜR 170 € | CODE: HEMDEN",
-            "endsTonight": "5 FÜR 170 € | CODE: HEMDEN",
-            "affiliate": "5 FÜR 170 € | CODE: HALLO5",
-            "affiliateEndsTonight": "5 FÜR 170 € | CODE: HALLO5"
+            "default": "5 FÜR 175 € | CODE: HEMDEN",
+            "endsTonight": "5 FÜR 175 € | CODE: HEMDEN",
+            "affiliate": "5 FÜR 175 € | CODE: HALLO5",
+            "affiliateEndsTonight": "5 FÜR 175 € | CODE: HALLO5"
           },
           "promoCallout": {
-            "default": "5 FÜR 170 € | CODE: HEMDEN",
+            "default": "5 FÜR 175 € | CODE: HEMDEN",
             "endsTonight": "",
-            "affiliate": "5 FÜR 170 € | CODE: HALLO5",
+            "affiliate": "5 FÜR 175 € | CODE: HALLO5",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "5 FÜR 170 € | CODE: HEMDEN",
+            "default": "5 FÜR 175 € | CODE: HEMDEN",
             "endsTonight": "",
-            "affiliate": "5 FÜR 170 € | CODE: HALLO5",
+            "affiliate": "5 FÜR 175 € | CODE: HALLO5",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "5 FÜR 170 € | CODE: HEMDEN",
+            "default": "5 FÜR 175 € | CODE: HEMDEN",
             "endsTonight": "",
-            "affiliate": "5 FÜR 170 € | CODE: HALLO5",
+            "affiliate": "5 FÜR 175 € | CODE: HALLO5",
             "affiliateEndsTonight": ""
           }
         },
