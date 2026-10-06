@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-05T23:46:26.015Z",
+  "generatedAt": "2026-10-06T09:22:26.868Z",
   "total": 47,
   "rules": [
     {
@@ -55528,10 +55528,10 @@
             "line1EndsTonight": "Buy 2 Knitwear, Save £40",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "Buy 2, Save £40",
+            "line1Affiliate": "Buy 2 Knitwear, Save £40",
             "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "Buy 2, Save £40",
+            "line1AffiliateEndsTonight": "Buy 2 Knitwear, Save £40",
             "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
@@ -55602,52 +55602,52 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
+            "line1": "2 Achetés, Économisez 40 €",
+            "line2": "Offre à durée limitée",
             "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
+            "line1EndsTonight": "2 Achetés, Économisez 40 €",
+            "line2EndsTonight": "Jusqu’à ce soir",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "2 Achetés, Économisez 40 €",
+            "line2Affiliate": "Offre à durée limitée",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
+            "line1AffiliateEndsTonight": "2 Achetés, Économisez 40 €",
+            "line2AffiliateEndsTonight": "Jusqu’à ce soir",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "2 ACHETÉS, 40 € D'ÉCONOMIE",
-            "endsTonight": "2 ACHETÉS, 40 € D'ÉCONOMIE",
-            "affiliate": "2 ACHETÉS, 40 € D'ÉCONOMIE",
-            "affiliateEndsTonight": "2 ACHETÉS, 40 € D'ÉCONOMIE"
+            "default": "2 ACHETÉS, ÉCONOMISEZ 40 €",
+            "endsTonight": "2 ACHETÉS, ÉCONOMISEZ 40 €",
+            "affiliate": "2 ACHETÉS, ÉCONOMISEZ 40 €",
+            "affiliateEndsTonight": "2 ACHETÉS, ÉCONOMISEZ 40 €"
           },
           "promoCallout": {
-            "default": "2 ACHETÉS, 40 € D'ÉCONOMIE",
+            "default": "2 ACHETÉS, ÉCONOMISEZ 40 €",
             "endsTonight": "",
-            "affiliate": "2 ACHETÉS, 40 € D'ÉCONOMIE",
+            "affiliate": "2 ACHETÉS, ÉCONOMISEZ 40 €",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "2 ACHETÉS, 40 € D'ÉCONOMIE",
+            "default": "2 ACHETÉS, ÉCONOMISEZ 40 €",
             "endsTonight": "",
-            "affiliate": "2 ACHETÉS, 40 € D'ÉCONOMIE",
+            "affiliate": "2 ACHETÉS, ÉCONOMISEZ 40 €",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "2 ACHETÉS, 40 € D'ÉCONOMIE",
+            "default": "2 ACHETÉS, ÉCONOMISEZ 40 €",
             "endsTonight": "",
-            "affiliate": "2 ACHETÉS, 40 € D'ÉCONOMIE",
+            "affiliate": "2 ACHETÉS, ÉCONOMISEZ 40 €",
             "affiliateEndsTonight": ""
           }
         },
         "ch": {
           "en": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
+              "line1": "Buy 2 Knitwear, Save CHF 60",
+              "line2": "Limited Time Only",
               "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
+              "line1EndsTonight": "Buy 2 Knitwear, Save CHF 60",
+              "line2EndsTonight": "Ends Tonight",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -55683,11 +55683,11 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
+              "line1": "2 Achetés, Économisez CHF 60",
+              "line2": "Offre à durée limitée",
               "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
+              "line1EndsTonight": "2 Achetés, Économisez CHF 60",
+              "line2EndsTonight": "Jusqu’à ce soir",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -55697,25 +55697,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "2 ACHETÉS, CHF 60 D'ÉCONOMIE",
-              "endsTonight": "2 ACHETÉS, CHF 60 D'ÉCONOMIE",
+              "default": "2 ACHETÉS, ÉCONOMISEZ CHF 60",
+              "endsTonight": "2 ACHETÉS, ÉCONOMISEZ CHF 60",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "2 ACHETÉS, CHF 60 D'ÉCONOMIE",
+              "default": "2 ACHETÉS, ÉCONOMISEZ CHF 60",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "2 ACHETÉS, CHF 60 D'ÉCONOMIE",
+              "default": "2 ACHETÉS, ÉCONOMISEZ CHF 60",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "2 ACHETÉS, CHF 60 D'ÉCONOMIE",
+              "default": "2 ACHETÉS, ÉCONOMISEZ CHF 60",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -55723,11 +55723,11 @@
           },
           "de": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
+              "line1": "2 Kaufen, CHF 60 Sparen",
+              "line2": "Nur Für Kurze Zeit",
               "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
+              "line1EndsTonight": "2 Kaufen, CHF 60 Sparen",
+              "line2EndsTonight": "Endet Heute Abend",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -55765,11 +55765,11 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
+              "line1": "Buy 2 Knitwear, Save €40",
+              "line2": "Limited Time Only",
               "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
+              "line1EndsTonight": "Buy 2 Knitwear, Save €40",
+              "line2EndsTonight": "Ends Tonight",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -55805,11 +55805,11 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
+              "line1": "Buy 2 Knitwear, Save €40",
+              "line2": "Limited Time Only",
               "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
+              "line1EndsTonight": "Buy 2 Knitwear, Save €40",
+              "line2EndsTonight": "Ends Tonight",
               "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -55846,17 +55846,17 @@
         },
         "eu": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
+            "line1": "Buy 2 Knitwear, Save €40",
+            "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
+            "line1EndsTonight": "Buy 2 Knitwear, Save €40",
+            "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "Buy 2 Knitwear, Save €40",
+            "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
+            "line1AffiliateEndsTonight": "Buy 2 Knitwear, Save €40",
+            "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -55886,17 +55886,17 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
+            "line1": "Buy 2 Knitwear, Save €40",
+            "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
+            "line1EndsTonight": "Buy 2 Knitwear, Save €40",
+            "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "Buy 2 Knitwear, Save €40",
+            "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
+            "line1AffiliateEndsTonight": "Buy 2 Knitwear, Save €40",
+            "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
