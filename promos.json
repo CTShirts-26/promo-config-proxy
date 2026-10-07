@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-07T14:02:22.531Z",
+  "generatedAt": "2026-10-07T14:48:03.020Z",
   "total": 47,
   "rules": [
     {
@@ -5249,19 +5249,19 @@
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "Introductory Offer - 3 for $135",
+            "default": "3 for $135",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "Introductory Offer - 3 for $135",
+            "default": "3 for $135",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "Introductory Offer - 3 for $135",
+            "default": "3 for $135",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
