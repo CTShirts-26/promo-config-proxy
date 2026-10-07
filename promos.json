@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-07T07:45:33.339Z",
+  "generatedAt": "2026-10-07T11:31:23.761Z",
   "total": 47,
   "rules": [
     {
@@ -4979,10 +4979,10 @@
       "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
-        "tibText": false,
-        "promoCallout": false,
-        "plpCallout": false,
-        "pdpCallout": false,
+        "tibText": true,
+        "promoCallout": true,
+        "plpCallout": true,
+        "pdpCallout": true,
         "multibuy": false
       },
       "countryEnabled": {
@@ -5001,30 +5001,28 @@
         "defaultCampaignSites": [],
         "affiliateCampaignSites": [],
         "acquisitionCampaignSites": [
-          "aubsts",
-          "aubsts",
-          "aubscr",
-          "aubscr",
+          "ausfbm",
+          "autscr",
+          "aupmbg",
+          "augs39",
+          "ausfb1",
+          "auytaw",
           "augnbtc",
           "augnbt",
           "aunbbg",
-          "aufbm2",
-          "aunbmb",
-          "audgfe",
-          "ausfbm",
-          "autsdc",
-          "aunb17",
-          "ausfb1",
-          "augs39",
-          "autsfb",
-          "autscr",
-          "aupmbg",
-          "aunbai",
-          "aunbam",
-          "auytaw",
-          "audgaw",
+          "audgbl",
           "audgfa",
-          "ausfbn"
+          "aunbam",
+          "audgaw",
+          "aunb17",
+          "aunbai",
+          "aubscr",
+          "audgfe",
+          "aubsts",
+          "aunbmb",
+          "ausfbn",
+          "aufbm2",
+          "autsdc"
         ],
         "campaignSites": [],
         "mainCategories": [
@@ -5190,25 +5188,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "Introductory Offer - 3 for $135",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "Introductory Offer - 3 for $135",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "Introductory Offer - 3 for $135",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "Introductory Offer - 3 for $135",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -5682,7 +5680,7 @@
       "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
-        "tibText": false,
+        "tibText": true,
         "promoCallout": false,
         "plpCallout": false,
         "pdpCallout": false,
@@ -5704,10 +5702,12 @@
         "defaultCampaignSites": [],
         "affiliateCampaignSites": [],
         "acquisitionCampaignSites": [
-          "audisp",
-          "aufbs2",
-          "aucrit",
+          "aupmxt",
           "ausfbs",
+          "aufb1",
+          "aucrit",
+          "aufbs2",
+          "audisp",
           "auyoutube"
         ],
         "campaignSites": [],
