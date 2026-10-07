@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-06T14:14:36.790Z",
+  "generatedAt": "2026-10-07T07:45:33.339Z",
   "total": 47,
   "rules": [
     {
@@ -43433,7 +43433,7 @@
       "ruleId": "US CA Long Weekend Shirts LTO",
       "category": "US CA Long Weekend Shirts",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-10-07",
       "endUtc": "2026-10-11",
       "scope": {
@@ -45178,7 +45178,7 @@
       "ruleId": "US CA Long Weekend Non Shirts LTO",
       "category": "US CA Long Weekend Non Shirts",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-10-07",
       "endUtc": "2026-10-11",
       "scope": {
@@ -46134,21 +46134,21 @@
             "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
           },
           "promoCallout": {
-            "default": "20% OFF | LIMITED TIME ONLY",
+            "default": "20% OFF | LIMITED TIME",
             "endsTonight": "",
-            "affiliate": "20% OFF | LIMITED TIME ONLY",
+            "affiliate": "20% OFF | LIMITED TIME",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "20% OFF | LIMITED TIME ONLY",
+            "default": "20% OFF | LIMITED TIME",
             "endsTonight": "",
-            "affiliate": "20% OFF | LIMITED TIME ONLY",
+            "affiliate": "20% OFF | LIMITED TIME",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "20% OFF | LIMITED TIME ONLY",
+            "default": "20% OFF | LIMITED TIME",
             "endsTonight": "",
-            "affiliate": "20% OFF | LIMITED TIME ONLY",
+            "affiliate": "20% OFF | LIMITED TIME",
             "affiliateEndsTonight": ""
           }
         },
@@ -46175,21 +46175,21 @@
               "affiliateEndsTonight": "20% OFF | LIMITED TIME ONLY"
             },
             "promoCallout": {
-              "default": "20% OFF | LIMITED TIME ONLY",
+              "default": "20% OFF | LIMITED TIME",
               "endsTonight": "",
-              "affiliate": "20% OFF | LIMITED TIME ONLY",
+              "affiliate": "20% OFF | LIMITED TIME",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20% OFF | LIMITED TIME ONLY",
+              "default": "20% OFF | LIMITED TIME",
               "endsTonight": "",
-              "affiliate": "20% OFF | LIMITED TIME ONLY",
+              "affiliate": "20% OFF | LIMITED TIME",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20% OFF | LIMITED TIME ONLY",
+              "default": "20% OFF | LIMITED TIME",
               "endsTonight": "",
-              "affiliate": "20% OFF | LIMITED TIME ONLY",
+              "affiliate": "20% OFF | LIMITED TIME",
               "affiliateEndsTonight": ""
             }
           },
