@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-07T11:46:46.481Z",
+  "generatedAt": "2026-10-07T12:33:02.565Z",
   "total": 47,
   "rules": [
     {
@@ -4979,10 +4979,10 @@
       "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
-        "tibText": false,
-        "promoCallout": false,
-        "plpCallout": false,
-        "pdpCallout": false,
+        "tibText": true,
+        "promoCallout": true,
+        "plpCallout": true,
+        "pdpCallout": true,
         "multibuy": false
       },
       "countryEnabled": {
@@ -5680,7 +5680,7 @@
       "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
-        "tibText": false,
+        "tibText": true,
         "promoCallout": false,
         "plpCallout": false,
         "pdpCallout": false,
