@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-08T14:50:48.937Z",
+  "generatedAt": "2026-10-08T16:01:07.612Z",
   "total": 47,
   "rules": [
     {
@@ -8743,10 +8743,10 @@
       "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
-        "tibText": false,
-        "promoCallout": false,
-        "plpCallout": false,
-        "pdpCallout": false,
+        "tibText": true,
+        "promoCallout": true,
+        "plpCallout": true,
+        "pdpCallout": true,
         "multibuy": false
       },
       "countryEnabled": {
@@ -8790,7 +8790,19 @@
         ],
         "campaignSites": [],
         "mainCategories": [
-          "__ALL__"
+          "shirts",
+          "shirts-formal-shirts",
+          "shirts-business-casual-shirts",
+          "shirts-casual-shirts",
+          "the-shirt-of-the-season",
+          "shirts-non-iron-shirts",
+          "new-collections",
+          "shirts-polo-shirts",
+          "shirts-polos-new-season",
+          "shirts-new-season",
+          "pique-polo-shirts",
+          "smart-polo-shirts",
+          "knitted-polos"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
@@ -10054,25 +10066,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "3 für 99 €",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "3 für 99 €",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "3 für 99 €",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "3 für 99 €",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -10497,7 +10509,19 @@
         ],
         "campaignSites": [],
         "mainCategories": [
-          "__ALL__"
+          "shirts",
+          "shirts-formal-shirts",
+          "shirts-business-casual-shirts",
+          "shirts-casual-shirts",
+          "the-shirt-of-the-season",
+          "shirts-non-iron-shirts",
+          "new-collections",
+          "shirts-polo-shirts",
+          "shirts-polos-new-season",
+          "shirts-new-season",
+          "pique-polo-shirts",
+          "smart-polo-shirts",
+          "knitted-polos"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
