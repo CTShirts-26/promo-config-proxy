@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-08T13:47:19.131Z",
+  "generatedAt": "2026-10-08T14:50:48.937Z",
   "total": 47,
   "rules": [
     {
@@ -52,7 +52,7 @@
         ],
         "excludedCategories": [],
         "showOnPdp": true,
-        "showOnPlp": true,
+        "showOnPlp": false,
         "productIds": [
           "CSA0002BWT",
           "CSA0002WHT",
@@ -1837,7 +1837,7 @@
         ],
         "excludedCategories": [],
         "showOnPdp": true,
-        "showOnPlp": true,
+        "showOnPlp": false,
         "productIds": [
           "CSA0002BWT",
           "CSA0002WHT",
@@ -3592,7 +3592,7 @@
         ],
         "excludedCategories": [],
         "showOnPdp": true,
-        "showOnPlp": true,
+        "showOnPlp": false,
         "productIds": [
           "CSA0002BWT",
           "CSA0002WHT",
@@ -5303,7 +5303,7 @@
         ],
         "excludedCategories": [],
         "showOnPdp": true,
-        "showOnPlp": true,
+        "showOnPlp": false,
         "productIds": [
           "CSA0002BWT",
           "CSA0002WHT",
@@ -7071,7 +7071,7 @@
         ],
         "excludedCategories": [],
         "showOnPdp": true,
-        "showOnPlp": true,
+        "showOnPlp": false,
         "productIds": [
           "CSA0002BWT",
           "CSA0002WHT",
@@ -62143,81 +62143,81 @@
         "ca": {
           "en": {
             "bannerstrip": {
-              "line1": "C$50 Off Knitwear",
+              "line1": "C$70 Off Knitwear",
               "line2": "Limited Time Only",
               "line3": "",
-              "line1EndsTonight": "C$50 Off Knitwear",
+              "line1EndsTonight": "C$70 Off Knitwear",
               "line2EndsTonight": "Limited Time Only",
               "line3EndsTonight": "",
-              "line1Affiliate": "C$50 Off Knitwear",
+              "line1Affiliate": "C$70 Off Knitwear",
               "line2Affiliate": "Limited Time Only",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "C$50 Off Knitwear",
+              "line1AffiliateEndsTonight": "C$70 Off Knitwear",
               "line2AffiliateEndsTonight": "Limited Time Only",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "C$50 OFF | LIMITED TIME ONLY",
-              "endsTonight": "C$50 OFF | LIMITED TIME ONLY",
-              "affiliate": "C$50 OFF | LIMITED TIME ONLY",
-              "affiliateEndsTonight": "C$50 OFF | LIMITED TIME ONLY"
+              "default": "C$70 OFF | LIMITED TIME ONLY",
+              "endsTonight": "C$70 OFF | LIMITED TIME ONLY",
+              "affiliate": "C$70 OFF | LIMITED TIME ONLY",
+              "affiliateEndsTonight": "C$70 OFF | LIMITED TIME ONLY"
             },
             "promoCallout": {
-              "default": "C$50 OFF | LIMITED TIME ONLY",
+              "default": "C$70 OFF | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "C$50 OFF | LIMITED TIME ONLY",
+              "affiliate": "C$70 OFF | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "C$50 OFF | LIMITED TIME ONLY",
+              "default": "C$70 OFF | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "C$50 OFF | LIMITED TIME ONLY",
+              "affiliate": "C$70 OFF | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "C$50 OFF | LIMITED TIME ONLY",
+              "default": "C$70 OFF | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "C$50 OFF | LIMITED TIME ONLY",
+              "affiliate": "C$70 OFF | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             }
           },
           "fr": {
             "bannerstrip": {
-              "line1": "50 C$ De Réduction Knitwear",
+              "line1": "70 C$ De Réduction Knitwear",
               "line2": "Offre à durée limitée",
               "line3": "",
-              "line1EndsTonight": "50 C$ De Réduction Knitwear",
+              "line1EndsTonight": "70 C$ De Réduction Knitwear",
               "line2EndsTonight": "Offre à durée limitée",
               "line3EndsTonight": "",
-              "line1Affiliate": "50 C$ De Réduction Knitwear",
+              "line1Affiliate": "70 C$ De Réduction Knitwear",
               "line2Affiliate": "Offre à durée limitée",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "50 C$ De Réduction Knitwear",
+              "line1AffiliateEndsTonight": "70 C$ De Réduction Knitwear",
               "line2AffiliateEndsTonight": "Jusqu’à ce soir",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
-              "endsTonight": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
-              "affiliate": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
-              "affiliateEndsTonight": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE"
+              "default": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "endsTonight": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "affiliate": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "affiliateEndsTonight": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE"
             },
             "promoCallout": {
-              "default": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
-              "affiliate": "-50 C$",
+              "affiliate": "-70 C$",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
-              "affiliate": "-50 C$",
+              "affiliate": "-70 C$",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
-              "affiliate": "-50 C$",
+              "affiliate": "-70 C$",
               "affiliateEndsTonight": ""
             }
           }
@@ -62970,81 +62970,81 @@
         "ca": {
           "en": {
             "bannerstrip": {
-              "line1": "C$50 Off Knitwear",
+              "line1": "C$70 Off Knitwear",
               "line2": "Limited Time Only",
               "line3": "",
-              "line1EndsTonight": "C$50 Off Knitwear",
+              "line1EndsTonight": "C$70 Off Knitwear",
               "line2EndsTonight": "Limited Time Only",
               "line3EndsTonight": "",
-              "line1Affiliate": "C$50 Off Knitwear",
+              "line1Affiliate": "C$70 Off Knitwear",
               "line2Affiliate": "Limited Time Only",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "C$50 Off Knitwear",
+              "line1AffiliateEndsTonight": "C$70 Off Knitwear",
               "line2AffiliateEndsTonight": "Limited Time Only",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "C$50 OFF | LIMITED TIME ONLY",
-              "endsTonight": "C$50 OFF | LIMITED TIME ONLY",
-              "affiliate": "C$50 OFF | LIMITED TIME ONLY",
-              "affiliateEndsTonight": "C$50 OFF | LIMITED TIME ONLY"
+              "default": "C$70 OFF | LIMITED TIME ONLY",
+              "endsTonight": "C$70 OFF | LIMITED TIME ONLY",
+              "affiliate": "C$70 OFF | LIMITED TIME ONLY",
+              "affiliateEndsTonight": "C$70 OFF | LIMITED TIME ONLY"
             },
             "promoCallout": {
-              "default": "C$50 OFF | LIMITED TIME ONLY",
+              "default": "C$70 OFF | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "C$50 OFF | LIMITED TIME ONLY",
+              "affiliate": "C$70 OFF | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "C$50 OFF | LIMITED TIME ONLY",
+              "default": "C$70 OFF | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "C$50 OFF | LIMITED TIME ONLY",
+              "affiliate": "C$70 OFF | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "C$50 OFF | LIMITED TIME ONLY",
+              "default": "C$70 OFF | LIMITED TIME ONLY",
               "endsTonight": "",
-              "affiliate": "C$50 OFF | LIMITED TIME ONLY",
+              "affiliate": "C$70 OFF | LIMITED TIME ONLY",
               "affiliateEndsTonight": ""
             }
           },
           "fr": {
             "bannerstrip": {
-              "line1": "50 C$ De Réduction Knitwear",
+              "line1": "70 C$ De Réduction Knitwear",
               "line2": "Offre à durée limitée",
               "line3": "",
-              "line1EndsTonight": "50 C$ De Réduction Knitwear",
+              "line1EndsTonight": "70 C$ De Réduction Knitwear",
               "line2EndsTonight": "Offre à durée limitée",
               "line3EndsTonight": "",
-              "line1Affiliate": "50 C$ De Réduction Knitwear",
+              "line1Affiliate": "70 C$ De Réduction Knitwear",
               "line2Affiliate": "Offre à durée limitée",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "50 C$ De Réduction Knitwear",
+              "line1AffiliateEndsTonight": "70 C$ De Réduction Knitwear",
               "line2AffiliateEndsTonight": "Jusqu’à ce soir",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
-              "endsTonight": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
-              "affiliate": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
-              "affiliateEndsTonight": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE"
+              "default": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "endsTonight": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "affiliate": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "affiliateEndsTonight": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE"
             },
             "promoCallout": {
-              "default": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
-              "affiliate": "-50 C$",
+              "affiliate": "-70 C$",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
-              "affiliate": "-50 C$",
+              "affiliate": "-70 C$",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "50 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "70 C$ DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
-              "affiliate": "-50 C$",
+              "affiliate": "-70 C$",
               "affiliateEndsTonight": ""
             }
           }
@@ -63797,13 +63797,13 @@
         "ca": {
           "en": {
             "bannerstrip": {
-              "line1": "C$50 Off Knitwear",
+              "line1": "C$70 Off Knitwear",
               "line2": "Ends Tonight",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "C$50 Off Knitwear",
+              "line1Affiliate": "C$70 Off Knitwear",
               "line2Affiliate": "Ends Tonight",
               "line3Affiliate": "",
               "line1AffiliateEndsTonight": "",
@@ -63811,39 +63811,39 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "C$50 OFF | ENDS TONIGHT",
+              "default": "C$70 OFF | ENDS TONIGHT",
               "endsTonight": "",
-              "affiliate": "C$50 OFF | ENDS TONIGHT",
+              "affiliate": "C$70 OFF | ENDS TONIGHT",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "C$50 OFF | ENDS TONIGHT",
+              "default": "C$70 OFF | ENDS TONIGHT",
               "endsTonight": "",
-              "affiliate": "C$50 OFF | ENDS TONIGHT",
+              "affiliate": "C$70 OFF | ENDS TONIGHT",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "C$50 OFF | ENDS TONIGHT",
+              "default": "C$70 OFF | ENDS TONIGHT",
               "endsTonight": "",
-              "affiliate": "C$50 OFF | ENDS TONIGHT",
+              "affiliate": "C$70 OFF | ENDS TONIGHT",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "C$50 OFF | ENDS TONIGHT",
+              "default": "C$70 OFF | ENDS TONIGHT",
               "endsTonight": "",
-              "affiliate": "C$50 OFF | ENDS TONIGHT",
+              "affiliate": "C$70 OFF | ENDS TONIGHT",
               "affiliateEndsTonight": ""
             }
           },
           "fr": {
             "bannerstrip": {
-              "line1": "50 C$ De Réduction Knitwear",
+              "line1": "70 C$ De Réduction Knitwear",
               "line2": "Jusqu’à ce soir",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "50 C$ De Réduction Knitwear",
+              "line1Affiliate": "70 C$ De Réduction Knitwear",
               "line2Affiliate": "Jusqu’à ce soir",
               "line3Affiliate": "",
               "line1AffiliateEndsTonight": "",
@@ -63851,27 +63851,27 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "50 C$ DE RÉDUCTION | JUSQU’À CE SOIR",
+              "default": "70 C$ DE RÉDUCTION | JUSQU’À CE SOIR",
               "endsTonight": "",
-              "affiliate": "50 C$ DE RÉDUCTION | JUSQU’À CE SOIR",
+              "affiliate": "70 C$ DE RÉDUCTION | JUSQU’À CE SOIR",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "50 C$ DE RÉDUCTION | JUSQU’À CE SOIR",
+              "default": "70 C$ DE RÉDUCTION | JUSQU’À CE SOIR",
               "endsTonight": "",
-              "affiliate": "-50 C$",
+              "affiliate": "-70 C$",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "50 C$ DE RÉDUCTION | JUSQU’À CE SOIR",
+              "default": "70 C$ DE RÉDUCTION | JUSQU’À CE SOIR",
               "endsTonight": "",
-              "affiliate": "-50 C$",
+              "affiliate": "-70 C$",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "50 C$ DE RÉDUCTION | JUSQU’À CE SOIR",
+              "default": "70 C$ DE RÉDUCTION | JUSQU’À CE SOIR",
               "endsTonight": "",
-              "affiliate": "-50 C$",
+              "affiliate": "-70 C$",
               "affiliateEndsTonight": ""
             }
           }
