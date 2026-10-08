@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-08T16:01:07.612Z",
+  "generatedAt": "2026-10-08T16:10:03.089Z",
   "total": 47,
   "rules": [
     {
@@ -10066,7 +10066,7 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "3 für 99 €",
+            "default": "3 für 99 € | Jetzt 155 € sparen",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
