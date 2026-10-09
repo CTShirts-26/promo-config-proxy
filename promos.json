@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-09T21:14:41.681Z",
+  "generatedAt": "2026-10-09T21:22:56.712Z",
   "total": 48,
   "rules": [
     {
@@ -67304,7 +67304,10 @@
           "JEP0467LCP",
           "JEP0469RYL",
           "JEP0471LGN",
-          "JEP0471LPK"
+          "JEP0471LPK",
+          "KNT0022PET",
+          "KNT0022NAV",
+          "KNT0022CHC"
         ],
         "excludedProductIds": []
       },
