@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-08T16:10:03.089Z",
-  "total": 47,
+  "generatedAt": "2026-10-09T21:14:41.681Z",
+  "total": 48,
   "rules": [
     {
       "ruleId": "UK_29.95_FD50",
@@ -67029,6 +67029,919 @@
         }
       },
       "rowNumber": 58
+    },
+    {
+      "ruleId": "US Polos Promo",
+      "category": "US Polos Promo",
+      "enabled": true,
+      "status": "SCHEDULED",
+      "startUtc": "2026-10-13",
+      "endUtc": "2026-10-18",
+      "scope": {
+        "bannerstrip": false,
+        "tibText": true,
+        "promoCallout": true,
+        "plpCallout": true,
+        "pdpCallout": true,
+        "multibuy": false
+      },
+      "countryEnabled": {
+        "us": true,
+        "ca": false,
+        "au": false,
+        "uk": false,
+        "de": false,
+        "fr": false,
+        "ch": false,
+        "nl": false,
+        "eu": false,
+        "xbr": false
+      },
+      "targeting": {
+        "defaultCampaignSites": [
+          "usepnew",
+          "usbrt1",
+          "permax",
+          "usepactive",
+          "usfbsale",
+          "usfbdef",
+          "uspint",
+          "fbdefault",
+          "usctbfsms",
+          "usgob",
+          "share",
+          "pinterest",
+          "usfbmm",
+          "usnbdef",
+          "usddefault",
+          "rtbdfb"
+        ],
+        "affiliateCampaignSites": [
+          "usancj",
+          "usafcj"
+        ],
+        "acquisitionCampaignSites": [],
+        "campaignSites": [
+          "usancj",
+          "usafcj"
+        ],
+        "mainCategories": [
+          "cotton-polo-shirts",
+          "shirts-polo-shirts",
+          "shirts-polos-new-season",
+          "pique-polo-shirts",
+          "smart-polo-shirts",
+          "knitted-polos",
+          "long-sleeve-polos",
+          "linen-polo-shirts",
+          "performance-polo-shirts"
+        ],
+        "excludedCategories": [],
+        "showOnPdp": true,
+        "showOnPlp": true,
+        "productIds": [
+          "JEP0317BLK",
+          "JEP0317DEN",
+          "JEP0317NAV",
+          "JEP0317WHT",
+          "JEP0317WNE",
+          "JEP0326BLK",
+          "JEP0326CFW",
+          "JEP0326DMA",
+          "JEP0326NAV",
+          "JEP0326WNE",
+          "JEP0398OLV",
+          "JEP0399OLV",
+          "JEP0409PET",
+          "JEP0409SKY",
+          "JEP0422DEN",
+          "JEP0422PET",
+          "JEP0422WHT",
+          "JEP0437DMA",
+          "JEP0437DPK",
+          "JEP0438DMA",
+          "JEP0442BLK",
+          "JEP0442CAM",
+          "JEP0442CEB",
+          "JEP0442CRM",
+          "JEP0442DGN",
+          "JEP0442NAV",
+          "JEP0442RYL",
+          "JEP0442WHT",
+          "JEP0442WNE",
+          "JEP0446GRP",
+          "JEP0446MCA",
+          "JEP0447GRP",
+          "JEP0448CHC",
+          "JEP0448NAV",
+          "JEP0448OAT",
+          "JEP0448OLV",
+          "JEP0448SKY",
+          "JEP0453BLK",
+          "JEP0453CAM",
+          "JEP0453CRM",
+          "JEP0453DGN",
+          "JEP0453NAV",
+          "JEP0453WHT",
+          "JEP0453WNE",
+          "JEP0455BGD",
+          "JEP0455BUN",
+          "JEP0455CHC",
+          "JEP0455LBU",
+          "JEP0455LGY",
+          "JEP0455MBU",
+          "JEP0455OLV",
+          "JEP0456CFW",
+          "JEP0456FRG",
+          "JEP0456LLC",
+          "JEP0456PTG",
+          "JEP0456TEL",
+          "JEP0457FRG",
+          "JEP0458DEN",
+          "JEP0458LGN",
+          "JEP0458SLV",
+          "JEP0459AQA",
+          "JEP0459BGN",
+          "JEP0459BLK",
+          "JEP0459COB",
+          "JEP0459COR",
+          "JEP0459DGY",
+          "JEP0459IDG",
+          "JEP0459LMN",
+          "JEP0459NAV",
+          "JEP0459OLV",
+          "JEP0459ORG",
+          "JEP0459RED",
+          "JEP0459SKY",
+          "JEP0459VLT",
+          "JEP0459WHT",
+          "JEP0460BUN",
+          "JEP0460CHC",
+          "JEP0467BLK",
+          "JEP0467DEN",
+          "JEP0467LLC",
+          "JEP0467MCA",
+          "JEP0467NAV",
+          "JEP0467OLV",
+          "JEP0467PET",
+          "JEP0467SKY",
+          "JEP0467WHT",
+          "JEP0467WNE",
+          "JEP0468BLK",
+          "JEP0468DEN",
+          "JEP0468NAV",
+          "JEP0468OLV",
+          "JEP0468PET",
+          "JEP0468SKY",
+          "JEP0468WHT",
+          "JEP0468WNE",
+          "JEP0469BLK",
+          "JEP0469CHC",
+          "JEP0469CRM",
+          "JEP0469DGN",
+          "JEP0469NAV",
+          "JEP0469WHT",
+          "JEP0469WNE",
+          "JEP0470BLK",
+          "JEP0470CAM",
+          "JEP0470CEB",
+          "JEP0470DGN",
+          "JEP0470RYL",
+          "JEP0470WHT",
+          "JEP0470WNE",
+          "JEP0471AQA",
+          "JEP0471BLK",
+          "JEP0471GRN",
+          "JEP0471LMN",
+          "JEP0471NAV",
+          "JEP0471OCE",
+          "JEP0471ORG",
+          "JEP0471PUR",
+          "JEP0471RED",
+          "JEP0471VLT",
+          "JEP0471WHT",
+          "JEP0473BLK",
+          "JEP0473TPK",
+          "JEP0474CFW",
+          "JEP0474DMA",
+          "JEP0475BRN",
+          "JEP0476MRN",
+          "JEP0476PET",
+          "JEP0477TEL",
+          "JEP0478CEB",
+          "JEP0478PET",
+          "JEP0479DPK",
+          "JEP0479LGN",
+          "JEP0481LBU",
+          "JEP0483CHA",
+          "JEP0483IDG",
+          "JEP0483OLV",
+          "JEP0483SKY",
+          "JEP0484DPK",
+          "JEP0484OCE",
+          "JEP0340BLK",
+          "JEP0340IDG",
+          "JEP0340NAV",
+          "JEP0340SKY",
+          "JEP0340WHT",
+          "JEP0342BLK",
+          "JEP0342NAV",
+          "JEP0360RED",
+          "JEP0373DGY",
+          "JEP0377NWT",
+          "JEP0378BLK",
+          "JEP0378NAV",
+          "JEP0378WHT",
+          "JEP0384CAM",
+          "JEP0385LPK",
+          "JEP0387WHT",
+          "JEP0394CAM",
+          "JEP0398SLV",
+          "JEP0407CFW",
+          "JEP0422SLV",
+          "JEP0426AQA",
+          "JEP0426BPK",
+          "JEP0426TQB",
+          "JEP0434COB",
+          "JEP0434ORG",
+          "JEP0434YLW",
+          "JEP0435CHA",
+          "JEP0435DEN",
+          "JEP0435STN",
+          "JEP0435TEL",
+          "JEP0437ATG",
+          "JEP0437LLC",
+          "JEP0437SLV",
+          "JEP0438FRE",
+          "JEP0438GRN",
+          "JEP0440BGN",
+          "JEP0440BPK",
+          "JEP0440GRN",
+          "JEP0440LBU",
+          "JEP0440LLC",
+          "JEP0440LMN",
+          "JEP0440ORG",
+          "JEP0440TAN",
+          "JEP0440TQB",
+          "JEP0442AQA",
+          "JEP0442CFW",
+          "JEP0442GRN",
+          "JEP0446CRM",
+          "JEP0446GRN",
+          "JEP0446OCE",
+          "JEP0447MCA",
+          "JEP0448AQA",
+          "JEP0452OLV",
+          "JEP0452PUR",
+          "JEP0452TEL",
+          "JEP0453RYL",
+          "JEP0456NWT",
+          "JEP0456PCH",
+          "JEP0457MCA",
+          "JEP0457TEL",
+          "JEP0459LGN",
+          "JEP0459LPK",
+          "JEP0467LCP",
+          "JEP0469RYL",
+          "JEP0471LGN",
+          "JEP0471LPK"
+        ],
+        "excludedProductIds": []
+      },
+      "hideMultibuy": false,
+      "hidePromoBox": {
+        "us": false,
+        "ca": false,
+        "au": false,
+        "uk": false,
+        "de": false,
+        "fr": false,
+        "ch": false,
+        "nl": false,
+        "eu": false,
+        "xbr": false
+      },
+      "content": {
+        "us": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "15% OFF | CODE: POLO15",
+            "endsTonight": "15% OFF | CODE: POLO15",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "15% OFF | CODE: POLO15",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "15% OFF | CODE: POLO15",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "15% OFF | CODE: POLO15",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "ca": {
+          "en": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "fr": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          }
+        },
+        "au": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "uk": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "de": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "fr": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "ch": {
+          "en": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "fr": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "de": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          }
+        },
+        "nl": {
+          "en": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          },
+          "nl": {
+            "bannerstrip": {
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line1EndsTonight": "",
+              "line2EndsTonight": "",
+              "line3EndsTonight": "",
+              "line1Affiliate": "",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "",
+              "line2AffiliateEndsTonight": "",
+              "line3AffiliateEndsTonight": ""
+            },
+            "tibText": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "promoCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "plpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            },
+            "pdpCallout": {
+              "default": "",
+              "endsTonight": "",
+              "affiliate": "",
+              "affiliateEndsTonight": ""
+            }
+          }
+        },
+        "eu": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        },
+        "xbr": {
+          "bannerstrip": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line1EndsTonight": "",
+            "line2EndsTonight": "",
+            "line3EndsTonight": "",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
+            "line3AffiliateEndsTonight": ""
+          },
+          "tibText": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "promoCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "plpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          },
+          "pdpCallout": {
+            "default": "",
+            "endsTonight": "",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
+          }
+        }
+      },
+      "multibuy": {
+        "us": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "ca": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "au": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "uk": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "de": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "fr": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "ch": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "nl": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "eu": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        },
+        "xbr": {
+          "message": "",
+          "enabled": false,
+          "excludedCategories": []
+        }
+      },
+      "rowNumber": 59
     }
   ]
 }
