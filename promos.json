@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-12T19:27:07.039Z",
+  "generatedAt": "2026-10-12T19:30:16.388Z",
   "total": 48,
   "rules": [
     {
@@ -62131,12 +62131,12 @@
             "line3": "Limited Time Only",
             "line1EndsTonight": "$60 Off Knitwear",
             "line2EndsTonight": "15% Off Polos | Code: Polo15",
-            "line3EndsTonight": "Ends Tonight",
+            "line3EndsTonight": "Limited Time Only",
             "line1Affiliate": "$60 Off Knitwear",
             "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "$60 Off Knitwear",
-            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line2AffiliateEndsTonight": "Limited Time Only",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -62958,12 +62958,12 @@
             "line3": "Limited Time Only",
             "line1EndsTonight": "$60 Off Knitwear",
             "line2EndsTonight": "15% Off Polos | Code: Polo15",
-            "line3EndsTonight": "Ends Tonight",
+            "line3EndsTonight": "Limited Time Only",
             "line1Affiliate": "$60 Off Knitwear",
             "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "$60 Off Knitwear",
-            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line2AffiliateEndsTonight": "Limited Time Only",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
