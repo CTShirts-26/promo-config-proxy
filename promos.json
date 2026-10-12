@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-12T19:30:16.388Z",
+  "generatedAt": "2026-10-12T19:33:40.575Z",
   "total": 48,
   "rules": [
     {
@@ -63781,14 +63781,14 @@
         "us": {
           "bannerstrip": {
             "line1": "$60 Off Knitwear",
-            "line2": "Ends Tonight",
-            "line3": "",
+            "line2": "15% Off Polos | Code: Polo15",
+            "line3": "Ends Tonight",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "$60 Off Knitwear",
-            "line2Affiliate": "Ends Tonight",
-            "line3Affiliate": "",
+            "line2Affiliate": "15% Off Polos | Code: Polo15",
+            "line3Affiliate": "Ends Tonight",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
