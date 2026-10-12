@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-09T21:24:04.404Z",
+  "generatedAt": "2026-10-12T19:27:07.039Z",
   "total": 48,
   "rules": [
     {
@@ -50935,7 +50935,7 @@
       "ruleId": "W10 5 for Shirts Promo",
       "category": "W10 5 for Shirts Promo",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-10-04",
       "endUtc": "2026-10-11",
       "scope": {
@@ -52725,7 +52725,7 @@
       "ruleId": "US CA Long Weekend Shirts LTO",
       "category": "US CA Long Weekend Shirts",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-10-07",
       "endUtc": "2026-10-11",
       "scope": {
@@ -54470,7 +54470,7 @@
       "ruleId": "US CA Long Weekend Non Shirts LTO",
       "category": "US CA Long Weekend Non Shirts",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-10-07",
       "endUtc": "2026-10-11",
       "scope": {
@@ -56029,7 +56029,7 @@
       "ruleId": "US CA Long Weekend Non Shirts EN",
       "category": "US CA Long Weekend Non Shirts",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-10-12",
       "endUtc": "2026-10-12",
       "scope": {
@@ -57588,7 +57588,7 @@
       "ruleId": "US CA Long Weekend Shirts EN",
       "category": "US CA Long Weekend Shirts EN",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-10-12",
       "endUtc": "2026-10-12",
       "scope": {
@@ -62127,16 +62127,16 @@
         "us": {
           "bannerstrip": {
             "line1": "$60 Off Knitwear",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "15% Off Polos | Code: Polo15",
+            "line3": "Limited Time Only",
             "line1EndsTonight": "$60 Off Knitwear",
-            "line2EndsTonight": "Limited Time Only",
-            "line3EndsTonight": "",
+            "line2EndsTonight": "15% Off Polos | Code: Polo15",
+            "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "$60 Off Knitwear",
             "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "$60 Off Knitwear",
-            "line2AffiliateEndsTonight": "Limited Time Only",
+            "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -62954,16 +62954,16 @@
         "us": {
           "bannerstrip": {
             "line1": "$60 Off Knitwear",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "15% Off Polos | Code: Polo15",
+            "line3": "Limited Time Only",
             "line1EndsTonight": "$60 Off Knitwear",
-            "line2EndsTonight": "Limited Time Only",
-            "line3EndsTonight": "",
+            "line2EndsTonight": "15% Off Polos | Code: Polo15",
+            "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "$60 Off Knitwear",
             "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "$60 Off Knitwear",
-            "line2AffiliateEndsTonight": "Limited Time Only",
+            "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
