@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-13T16:28:29.250Z",
+  "generatedAt": "2026-10-13T16:36:54.078Z",
   "total": 50,
   "rules": [
     {
@@ -66856,11 +66856,11 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "Shirts Of Polo's Voor €39,95",
-              "line2": "Bespaar Tot 50% | Code: NL50",
+              "line1": "Shirts Or Polos For €39,95",
+              "line2": "Save Up To 50% | Code: NL50",
               "line3": "Limited Time Only",
-              "line1EndsTonight": "Shirts Of Polo's Voor €39,95",
-              "line2EndsTonight": "Bespaar Tot 50% | Code: NL50",
+              "line1EndsTonight": "Shirts Or Polos For €39,95",
+              "line2EndsTonight": "Save Up To 50% | Code: NL50",
               "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
               "line2Affiliate": "",
@@ -66870,25 +66870,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
+              "default": "FOR €39,95 | CODE: NL50",
+              "endsTonight": "FOR €39,95 | CODE: NL50",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "VOOR €39,95 | CODE: NL50",
+              "default": "FOR €39,95 | CODE: NL50",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "VOOR €39,95 | CODE: NL50",
+              "default": "FOR €39,95 | CODE: NL50",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "VOOR €39,95 | CODE: NL50",
+              "default": "FOR €39,95 | CODE: NL50",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
