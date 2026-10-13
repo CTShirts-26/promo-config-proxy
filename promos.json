@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-13T09:26:54.172Z",
+  "generatedAt": "2026-10-13T16:28:29.250Z",
   "total": 50,
   "rules": [
     {
@@ -66870,8 +66870,8 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "VOOR €39,95 | CODE: NL50",
-              "endsTonight": "VOOR €39,95 | CODE: NL50",
+              "default": "",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
