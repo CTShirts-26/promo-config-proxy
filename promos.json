@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-13T16:36:54.078Z",
+  "generatedAt": "2026-10-14T11:58:33.673Z",
   "total": 50,
   "rules": [
     {
@@ -66816,10 +66816,10 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "Shirts Or Polos For €39,95",
+              "line1": "Shirts Or Polos For €39.95",
               "line2": "Save Up To 50% | Code: NL50",
               "line3": "Limited Time Only",
-              "line1EndsTonight": "Shirts Or Polos For €39,95",
+              "line1EndsTonight": "Shirts Or Polos For €39.95",
               "line2EndsTonight": "Save Up To 50% | Code: NL50",
               "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
@@ -66830,25 +66830,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "FOR €39,95 | CODE: NL50",
-              "endsTonight": "FOR €39,95 | CODE: NL50",
+              "default": "FOR €39.95 | CODE: NL50",
+              "endsTonight": "FOR €39.95 | CODE: NL50",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "FOR €39,95 | CODE: NL50",
+              "default": "FOR €39.95 | CODE: NL50",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "FOR €39,95 | CODE: NL50",
+              "default": "FOR €39.95 | CODE: NL50",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "FOR €39,95 | CODE: NL50",
+              "default": "FOR €39.95 | CODE: NL50",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -66856,10 +66856,10 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "Shirts Or Polos For €39,95",
+              "line1": "Shirts Or Polos For €39.95",
               "line2": "Save Up To 50% | Code: NL50",
               "line3": "Limited Time Only",
-              "line1EndsTonight": "Shirts Or Polos For €39,95",
+              "line1EndsTonight": "Shirts Or Polos For €39.95",
               "line2EndsTonight": "Save Up To 50% | Code: NL50",
               "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
@@ -66870,25 +66870,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "FOR €39,95 | CODE: NL50",
-              "endsTonight": "FOR €39,95 | CODE: NL50",
+              "default": "FOR €39.95 | CODE: NL50",
+              "endsTonight": "FOR €39.95 | CODE: NL50",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "FOR €39,95 | CODE: NL50",
+              "default": "FOR €39.95 | CODE: NL50",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "FOR €39,95 | CODE: NL50",
+              "default": "FOR €39.95 | CODE: NL50",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "FOR €39,95 | CODE: NL50",
+              "default": "FOR €39.95 | CODE: NL50",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
