@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-14T11:58:33.673Z",
+  "generatedAt": "2026-10-14T13:44:40.548Z",
   "total": 50,
   "rules": [
     {
@@ -64424,7 +64424,7 @@
         "ch": true,
         "nl": true,
         "eu": false,
-        "xbr": true
+        "xbr": false
       },
       "targeting": {
         "defaultCampaignSites": [
