@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-15T11:49:27.443Z",
+  "generatedAt": "2026-10-15T15:18:04.850Z",
   "total": 50,
   "rules": [
     {
@@ -61511,13 +61511,13 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "20% Off  | Code: TREATS",
+            "line1": "20% Off Everything | Code: TREATS",
             "line2": "Today Only",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "20% Off  | Code: COSY",
+            "line1Affiliate": "20% Off Everything | Code: COSY",
             "line2Affiliate": "Today Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
@@ -61551,13 +61551,13 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "",
+            "line1": "20 % Rabatt Auf Alles | Code: HERBST",
             "line2": "Nur Heute",
-            "line3": "Nur Heute",
+            "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
+            "line1Affiliate": "20 % Rabatt Auf Alles | Code: BLATT",
             "line2Affiliate": "Nur Heute",
             "line3Affiliate": "Nur Heute",
             "line1AffiliateEndsTonight": "",
@@ -61565,39 +61565,39 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "| NUR HEUTE",
+            "default": "20 % RABATT | CODE: HERBST",
             "endsTonight": "",
-            "affiliate": "| NUR HEUTE",
+            "affiliate": "20 % RABATT | CODE: BLATT",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "20 % RABATT | CODE: HERBST",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "20 % RABATT | CODE: BLATT",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "20 % RABATT | CODE: HERBST",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "20 % RABATT | CODE: BLATT",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "20 % RABATT | CODE: HERBST",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "20 % RABATT | CODE: BLATT",
             "affiliateEndsTonight": ""
           }
         },
         "fr": {
           "bannerstrip": {
-            "line1": "",
+            "line1": "20 % De Réduction Sur Tout | Code : AUTOMNE",
             "line2": "Aujourd'hui Seulement",
-            "line3": "Aujourd'hui Seulement",
+            "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
+            "line1Affiliate": "20 % De Réduction Réduction Sur Tout | Code : AMBRE",
             "line2Affiliate": "Aujourd'hui Seulement",
             "line3Affiliate": "Aujourd'hui Seulement",
             "line1AffiliateEndsTonight": "",
@@ -61605,34 +61605,34 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "| AUJOURD'HUI SEULEMENT",
+            "default": "20 % DE RÉDUCTION | CODE : AUTOMNE",
             "endsTonight": "",
-            "affiliate": "| AUJOURD'HUI SEULEMENT",
+            "affiliate": "20 % DE RÉDUCTION | CODE : AMBRE",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "-20 % | Code : AUTOMNE",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-20 % | Code : AMBRE",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "-20 % | Code : AUTOMNE",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-20 % | Code : AMBRE",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "-20 % | Code : AUTOMNE",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-20 % | Code : AMBRE",
             "affiliateEndsTonight": ""
           }
         },
         "ch": {
           "en": {
             "bannerstrip": {
-              "line1": "20% Off  | Code: CH20",
+              "line1": "20% Off Everything | Code: CH20",
               "line2": "Today Only",
               "line3": "",
               "line1EndsTonight": "",
@@ -61672,9 +61672,9 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "20 % De Réduction  | Code: CH20",
+              "line1": "20 % De Réduction Sur Tout | Code: CH20",
               "line2": "Aujourd'hui Seulement",
-              "line3": "Aujourd'hui Seulement",
+              "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
@@ -61712,9 +61712,9 @@
           },
           "de": {
             "bannerstrip": {
-              "line1": "20 % Rabatt  | Code: CH20",
+              "line1": "20 % Rabatt Auf Alles | Code: CH20",
               "line2": "Nur Heute",
-              "line3": "Nur Heute",
+              "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
@@ -61754,7 +61754,7 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "",
+              "line1": "20% Off Everything  | Code: NL20",
               "line2": "Today Only",
               "line3": "",
               "line1EndsTonight": "",
@@ -61768,25 +61768,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "| TODAY ONLY",
+              "default": "20% OFF | CODE: NL20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: NL20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: NL20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: NL20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -61794,7 +61794,7 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "",
+              "line1": "20% Off Everything  | Code: NL20",
               "line2": "Today Only",
               "line3": "",
               "line1EndsTonight": "",
@@ -61808,25 +61808,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "| TODAY ONLY",
+              "default": "20% OFF | CODE: NL20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: NL20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: NL20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: NL20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -61835,7 +61835,7 @@
         },
         "eu": {
           "bannerstrip": {
-            "line1": "",
+            "line1": "20% Off Everything | Code: EU20",
             "line2": "Today Only",
             "line3": "",
             "line1EndsTonight": "",
@@ -61849,25 +61849,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "| TODAY ONLY",
+            "default": "20% OFF | CODE: EU20",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "20% OFF | CODE: EU20",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "20% OFF | CODE: EU20",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "20% OFF | CODE: EU20",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -61875,7 +61875,7 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "",
+            "line1": "20% Off Everything | Code: 20XBR",
             "line2": "Today Only",
             "line3": "",
             "line1EndsTonight": "",
@@ -61889,25 +61889,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "| TODAY ONLY",
+            "default": "20% OFF | CODE: 20XBR",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "20% OFF | CODE: 20XBR",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "20% OFF | CODE: 20XBR",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "20% OFF | CODE: 20XBR",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
