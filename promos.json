@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-14T13:44:40.548Z",
+  "generatedAt": "2026-10-15T11:41:12.362Z",
   "total": 50,
   "rules": [
     {
@@ -59349,12 +59349,12 @@
         "ca": false,
         "au": false,
         "uk": true,
-        "de": false,
-        "fr": false,
-        "ch": false,
-        "nl": false,
+        "de": true,
+        "fr": true,
+        "ch": true,
+        "nl": true,
         "eu": false,
-        "xbr": false
+        "xbr": true
       },
       "targeting": {
         "defaultCampaignSites": [
@@ -59373,14 +59373,64 @@
           "ukdgfli",
           "lifter",
           "ukfbdf",
-          "ukpint"
+          "ukpint",
+          "devip",
+          "defbsale",
+          "debng",
+          "gegob",
+          "deac1",
+          "dmdefault",
+          "deon1",
+          "critdede",
+          "fbdede",
+          "frvip",
+          "frac1",
+          "frdefault",
+          "fron1",
+          "frbrbg",
+          "frbr99",
+          "chbren",
+          "chbrde",
+          "chbrfr",
+          "chdefault",
+          "nlbrdu",
+          "nldefault",
+          "nlvip",
+          "nlbren",
+          "netbr",
+          "eurdefault",
+          "eugob",
+          "eufbsale",
+          "euvip",
+          "irebr",
+          "deeubr",
+          "xbrfb25",
+          "xbrbr25",
+          "xbrnb25",
+          "xbpxb25",
+          "xbrdefault",
+          "xbrgb",
+          "xbnbai",
+          "xbnbam",
+          "xbrfb30",
+          "xbrbr30",
+          "drtxbr",
+          "xbr50",
+          "xbnbon",
+          "xbrnp",
+          "xbrnb30",
+          "xbpxb30"
         ],
         "affiliateCampaignSites": [
-          "shareuk1"
+          "shareuk1",
+          "affide1",
+          "sharefr1"
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
-          "shareuk1"
+          "shareuk1",
+          "affide1",
+          "sharefr1"
         ],
         "mainCategories": [
           "shirts",
@@ -61502,22 +61552,22 @@
         "de": {
           "bannerstrip": {
             "line1": "",
-            "line2": "",
-            "line3": "",
+            "line2": "Nur Heute",
+            "line3": "Nur Heute",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
+            "line2Affiliate": "Nur Heute",
+            "line3Affiliate": "Nur Heute",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "| NUR HEUTE",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "| NUR HEUTE",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
@@ -61542,22 +61592,22 @@
         "fr": {
           "bannerstrip": {
             "line1": "",
-            "line2": "",
-            "line3": "",
+            "line2": "Aujourd'hui Seulement",
+            "line3": "Aujourd'hui Seulement",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
+            "line2Affiliate": "Aujourd'hui Seulement",
+            "line3Affiliate": "Aujourd'hui Seulement",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "| AUJOURD'HUI SEULEMENT",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "| AUJOURD'HUI SEULEMENT",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
@@ -61582,8 +61632,8 @@
         "ch": {
           "en": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
+              "line1": "20% Off  | Code: CH20",
+              "line2": "Today Only",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -61596,25 +61646,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "20% OFF | CODE: CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "20% OFF | CODE: CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -61622,9 +61672,9 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
+              "line1": "20 % De Réduction  | Code: CH20",
+              "line2": "Aujourd'hui Seulement",
+              "line3": "Aujourd'hui Seulement",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
@@ -61636,25 +61686,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "20 % DE RÉDUCTION | CODE : CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "20 % DE RÉDUCTION | CODE: CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "20 % DE RÉDUCTION | CODE: CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "20 % DE RÉDUCTION | CODE: CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -61662,9 +61712,9 @@
           },
           "de": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
+              "line1": "20 % Rabatt  | Code: CH20",
+              "line2": "Nur Heute",
+              "line3": "Nur Heute",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
@@ -61676,25 +61726,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "20 % RABATT | CODE: CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "20 % RABATT | CODE: CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "20 % RABATT | CODE: CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "20 % RABATT | CODE: CH20",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -61705,7 +61755,7 @@
           "en": {
             "bannerstrip": {
               "line1": "",
-              "line2": "",
+              "line2": "Today Only",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -61718,7 +61768,7 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "| TODAY ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -61745,7 +61795,7 @@
           "nl": {
             "bannerstrip": {
               "line1": "",
-              "line2": "",
+              "line2": "Today Only",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -61758,7 +61808,7 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "| TODAY ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -61786,7 +61836,7 @@
         "eu": {
           "bannerstrip": {
             "line1": "",
-            "line2": "",
+            "line2": "Today Only",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
@@ -61799,7 +61849,7 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "| TODAY ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -61826,7 +61876,7 @@
         "xbr": {
           "bannerstrip": {
             "line1": "",
-            "line2": "",
+            "line2": "Today Only",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
@@ -61839,7 +61889,7 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "| TODAY ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -64403,7 +64453,7 @@
       "ruleId": "Global Knitwear Promo LTO",
       "category": "Global Knitwear Promo LTO",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-10-15",
       "endUtc": "2026-10-18",
       "scope": {
@@ -64423,7 +64473,7 @@
         "fr": true,
         "ch": true,
         "nl": true,
-        "eu": false,
+        "eu": true,
         "xbr": false
       },
       "targeting": {
@@ -65275,7 +65325,7 @@
       "ruleId": "W12 Half Price Shirts Promo",
       "category": "W12 Half Price Shirts Promo",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-10-15",
       "endUtc": "2026-10-18",
       "scope": {
