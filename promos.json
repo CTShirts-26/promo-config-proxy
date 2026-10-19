@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-18T20:45:32.080Z",
+  "generatedAt": "2026-10-19T10:33:38.361Z",
   "total": 52,
   "rules": [
     {
@@ -63626,7 +63626,7 @@
       "ruleId": "US CA Knitwear Promo ET",
       "category": "US CA Knitwear Promo ET",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-10-18",
       "endUtc": "2026-10-18",
       "scope": {
@@ -64453,7 +64453,7 @@
       "ruleId": "Global Knitwear Promo LTO",
       "category": "Global Knitwear Promo LTO",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-10-15",
       "endUtc": "2026-10-18",
       "scope": {
@@ -65325,7 +65325,7 @@
       "ruleId": "W12 Half Price Shirts Promo",
       "category": "W12 Half Price Shirts Promo",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-10-15",
       "endUtc": "2026-10-18",
       "scope": {
@@ -67084,7 +67084,7 @@
       "ruleId": "US Polos Promo",
       "category": "US Polos Promo",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-10-13",
       "endUtc": "2026-10-18",
       "scope": {
@@ -68001,8 +68001,8 @@
       "category": "AU Sumer Promo 1",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2026-10-21",
-      "endUtc": "2026-10-21",
+      "startUtc": "2026-10-20",
+      "endUtc": "2026-10-20",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
@@ -68690,7 +68690,7 @@
       "category": "AUS Summer Event 2",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2026-10-22",
+      "startUtc": "2026-10-21",
       "endUtc": "2026-10-25",
       "scope": {
         "bannerstrip": true,
