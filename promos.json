@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-21T05:45:50.957Z",
+  "generatedAt": "2026-10-21T05:50:04.231Z",
   "total": 53,
   "rules": [
     {
@@ -73720,7 +73720,7 @@
         "fr": true,
         "ch": false,
         "nl": false,
-        "eu": true,
+        "eu": false,
         "xbr": false
       },
       "targeting": {
@@ -73799,7 +73799,7 @@
         ],
         "excludedCategories": [],
         "showOnPdp": true,
-        "showOnPlp": false,
+        "showOnPlp": true,
         "productIds": [
           "__ALL__"
         ],
@@ -73827,35 +73827,35 @@
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "22% Off  | Code: TAKE22",
+            "line2Affiliate": "Today Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "22% OFF | TODAY ONLY",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: TAKE22",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: TAKE22",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: TAKE22",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: TAKE22",
             "affiliateEndsTonight": ""
           }
         },
@@ -73949,35 +73949,35 @@
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "22% Off  | Code: CHOOSE22",
+            "line2Affiliate": "Today Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "22% OFF | TODAY ONLY",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | USE CODE: CHOOSE22",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: CHOOSE22",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: CHOOSE22",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: CHOOSE22",
             "affiliateEndsTonight": ""
           }
         },
@@ -73989,35 +73989,35 @@
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "22% Off  | Code: TREAT22",
+            "line2Affiliate": "Today Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "22% OFF | TODAY ONLY",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: TREAT22",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: TREAT22",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: TREAT22",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: TREAT22",
             "affiliateEndsTonight": ""
           }
         },
@@ -74069,8 +74069,8 @@
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "22 % De Réduction  | Code : MOI22",
+            "line2Affiliate": "Aujourd'hui Seulement",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
@@ -74079,25 +74079,25 @@
           "tibText": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22 % DE RÉDUCTION | CODE : MOI22",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-22 % | Code : MOI22",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-22 % | Code : MOI22",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "-22 % | Code : MOI22",
             "affiliateEndsTonight": ""
           }
         },
@@ -74313,8 +74313,8 @@
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "22% Off  | Code: MINE22",
+            "line2Affiliate": "Today Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
@@ -74323,25 +74323,25 @@
           "tibText": {
             "default": "",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: MINE22",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "22% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: MINE22",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "22% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: MINE22",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "22% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "22% OFF | CODE: MINE22",
             "affiliateEndsTonight": ""
           }
         },
