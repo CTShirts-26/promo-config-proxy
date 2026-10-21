@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-20T05:51:54.091Z",
+  "generatedAt": "2026-10-21T05:45:50.957Z",
   "total": 53,
   "rules": [
     {
@@ -68000,7 +68000,7 @@
       "ruleId": "AU Sumer Promo 1",
       "category": "AU Sumer Promo 1",
       "enabled": true,
-      "status": "LIVE",
+      "status": "EXPIRED",
       "startUtc": "2026-10-20",
       "endUtc": "2026-10-20",
       "scope": {
@@ -68689,7 +68689,7 @@
       "ruleId": "AUS Summer Event 2",
       "category": "AUS Summer Event 2",
       "enabled": true,
-      "status": "SCHEDULED",
+      "status": "LIVE",
       "startUtc": "2026-10-21",
       "endUtc": "2026-10-25",
       "scope": {
