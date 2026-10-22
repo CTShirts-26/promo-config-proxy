@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-22T09:01:00.405Z",
+  "generatedAt": "2026-10-22T09:51:13.931Z",
   "total": 53,
   "rules": [
     {
@@ -41960,9 +41960,9 @@
       "ruleId": "W7 Weekend Promo Non Shirts",
       "category": "W7 Weekend Promo Non Shirts",
       "enabled": true,
-      "status": "EXPIRED",
-      "startUtc": "2026-09-17",
-      "endUtc": "2026-09-20",
+      "status": "SCHEDULED",
+      "startUtc": "2027-11-04",
+      "endUtc": "2027-11-04",
       "scope": {
         "bannerstrip": false,
         "tibText": true,
@@ -41972,12 +41972,12 @@
         "multibuy": false
       },
       "countryEnabled": {
-        "us": false,
+        "us": true,
         "ca": false,
         "au": false,
-        "uk": false,
-        "de": false,
-        "fr": false,
+        "uk": true,
+        "de": true,
+        "fr": true,
         "ch": true,
         "nl": true,
         "eu": true,
@@ -41985,6 +41985,58 @@
       },
       "targeting": {
         "defaultCampaignSites": [
+          "usepnew",
+          "usbrt1",
+          "permax",
+          "usepactive",
+          "usfbsale",
+          "usfbdef",
+          "uspint",
+          "fbdefault",
+          "usctbfsms",
+          "usgob",
+          "share",
+          "pinterest",
+          "usfbmm",
+          "usnbdef",
+          "usddefault",
+          "rtbdfb",
+          "cabrbg",
+          "cabren",
+          "caddefault",
+          "cabrfr",
+          "cartbd",
+          "liferw",
+          "uktok",
+          "ukfbdf",
+          "ukgob",
+          "gbpdefault",
+          "uksgpm",
+          "ukcv39",
+          "ukept1",
+          "uksrbr",
+          "ukdgli",
+          "ukinap",
+          "ukbng",
+          "ukdgfli",
+          "lifter",
+          "ukfbdf",
+          "ukpint",
+          "devip",
+          "defbsale",
+          "debng",
+          "gegob",
+          "deac1",
+          "dmdefault",
+          "deon1",
+          "critdede",
+          "fbdede",
+          "frvip",
+          "frac1",
+          "frdefault",
+          "fron1",
+          "frbrbg",
+          "frbr99",
           "chbren",
           "chbrde",
           "chbrfr",
@@ -42018,10 +42070,22 @@
           "xbpxb30"
         ],
         "affiliateCampaignSites": [
+          "usancj",
+          "usafcj",
+          "calsa",
+          "shareuk1",
+          "affide1",
+          "sharefr1",
           "eushare1"
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
+          "usancj",
+          "usafcj",
+          "calsa",
+          "shareuk1",
+          "affide1",
+          "sharefr1",
           "eushare1"
         ],
         "mainCategories": [
@@ -42891,8 +42955,8 @@
         "us": false,
         "ca": false,
         "au": false,
-        "uk": false,
-        "de": false,
+        "uk": true,
+        "de": true,
         "fr": false,
         "ch": false,
         "nl": false,
@@ -42916,27 +42980,27 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "15% OFF | TODAY ONLY",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF | TODAY ONLY",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "15% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "15% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "15% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF",
             "affiliateEndsTonight": ""
           }
         },
@@ -42957,27 +43021,27 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "15% OFF | TODAY ONLY",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "15% OFF | TODAY ONLY",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "15% OFF",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "15% OFF",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "15% OFF",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "15% OFF",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "15% OFF",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "15% OFF",
               "affiliateEndsTonight": ""
             }
           },
@@ -42997,9 +43061,9 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "| AUJOURD'HUI SEULEMENT",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "| AUJOURD'HUI SEULEMENT",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
@@ -43038,27 +43102,27 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "15% OFF | CODE: SHIRTS129",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF | CODE: 4YOU",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "15% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "15% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "15% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF",
             "affiliateEndsTonight": ""
           }
         },
@@ -43078,27 +43142,27 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "15% OFF | CODE: SHIRTS129",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF | CODE: 4YOU",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "15% OFF | CODE: SHIRTS129",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF | CODE: 4YOU",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
             "default": "15% OFF | CODE: SHIRTS129",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF | CODE: 4YOU",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
             "default": "15% OFF | CODE: SHIRTS129",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF | CODE: 4YOU",
             "affiliateEndsTonight": ""
           }
         },
@@ -43118,27 +43182,27 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "15 % RABATT | CODE: HEMDEN159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15 % RABATT | CODE: 4MEHR",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "15 % RABATT | CODE: HEMDEN159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15 % RABATT | CODE: 4MEHR",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
             "default": "15 % RABATT | CODE: HEMDEN159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15 % RABATT | CODE: 4MEHR",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
             "default": "15 % RABATT | CODE: HEMDEN159",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15 % RABATT | CODE: 4MEHR",
             "affiliateEndsTonight": ""
           }
         },
@@ -43158,27 +43222,27 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "15% OFF | TODAY ONLY",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF | TODAY ONLY",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "15% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "15% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "15% OFF",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "15% OFF",
             "affiliateEndsTonight": ""
           }
         },
@@ -43200,26 +43264,26 @@
             },
             "tibText": {
               "default": "15% OFF | CODE: CH199",
-              "endsTonight": "15% OFF | CODE: CH199",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "15% OFF | CODE: CH199",
+              "default": "15% OFF",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "15% OFF",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "15% OFF | CODE: CH199",
+              "default": "15% OFF",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "15% OFF",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "15% OFF | CODE: CH199",
+              "default": "15% OFF",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "15% OFF",
               "affiliateEndsTonight": ""
             }
           },
@@ -43240,7 +43304,7 @@
             },
             "tibText": {
               "default": "15 % DE RÉDUCTION | CODE : CH199",
-              "endsTonight": "15 % DE RÉDUCTION | CODE : CH199",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
@@ -43280,7 +43344,7 @@
             },
             "tibText": {
               "default": "15 % RABATT | CODE: CH199",
-              "endsTonight": "15 % RABATT | CODE: CH199",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
@@ -43322,7 +43386,7 @@
             },
             "tibText": {
               "default": "15% OFF | CODE: 4NL159",
-              "endsTonight": "15% OFF | CODE: 4NL159",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
@@ -43362,7 +43426,7 @@
             },
             "tibText": {
               "default": "15% OFF | CODE: 4NL159",
-              "endsTonight": "15% OFF | CODE: 4NL159",
+              "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
@@ -43403,9 +43467,9 @@
           },
           "tibText": {
             "default": "15% OFF | CODE: EUR159",
-            "endsTonight": "15% OFF | CODE: EUR159",
+            "endsTonight": "",
             "affiliate": "15% OFF | CODE: 4FAVES",
-            "affiliateEndsTonight": "15% OFF | CODE: 4FAVES"
+            "affiliateEndsTonight": ""
           },
           "promoCallout": {
             "default": "15% OFF | CODE: EUR159",
@@ -43443,7 +43507,7 @@
           },
           "tibText": {
             "default": "15% OFF | CODE: SAVE15",
-            "endsTonight": "15% OFF | CODE: SAVE15",
+            "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
