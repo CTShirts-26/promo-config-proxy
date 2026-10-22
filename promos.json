@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-21T05:50:04.231Z",
+  "generatedAt": "2026-10-22T09:01:00.405Z",
   "total": 53,
   "rules": [
     {
@@ -50935,9 +50935,9 @@
       "ruleId": "W10 5 for Shirts Promo",
       "category": "W10 5 for Shirts Promo",
       "enabled": true,
-      "status": "EXPIRED",
-      "startUtc": "2026-10-04",
-      "endUtc": "2026-10-11",
+      "status": "SCHEDULED",
+      "startUtc": "2027-11-04",
+      "endUtc": "2027-11-09",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
@@ -50947,7 +50947,7 @@
         "multibuy": false
       },
       "countryEnabled": {
-        "us": false,
+        "us": true,
         "ca": false,
         "au": false,
         "uk": true,
@@ -50960,6 +50960,22 @@
       },
       "targeting": {
         "defaultCampaignSites": [
+          "usepnew",
+          "usbrt1",
+          "permax",
+          "usepactive",
+          "usfbsale",
+          "usfbdef",
+          "uspint",
+          "fbdefault",
+          "usctbfsms",
+          "usgob",
+          "share",
+          "pinterest",
+          "usfbmm",
+          "usnbdef",
+          "usddefault",
+          "rtbdfb",
           "liferw",
           "uktok",
           "ukfbdf",
@@ -51024,6 +51040,8 @@
           "xbpxb30"
         ],
         "affiliateCampaignSites": [
+          "usancj",
+          "usafcj",
           "shareuk1",
           "affide1",
           "sharefr1",
@@ -51032,6 +51050,8 @@
         ],
         "acquisitionCampaignSites": [],
         "campaignSites": [
+          "usancj",
+          "usafcj",
           "shareuk1",
           "affide1",
           "sharefr1",
@@ -52102,41 +52122,41 @@
       "content": {
         "us": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
+            "line1": "5 For £165 Shirts Or Polos | Code: SHIRT165",
+            "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
+            "line1EndsTonight": "5 For £165 Shirts Or Polos | Code: SHIRT165",
+            "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
+            "line1Affiliate": "5 For £165 Shirts Or Polos | Code: STYLE5",
+            "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
+            "line1AffiliateEndsTonight": "5 For £165 Shirts Or Polos | Code: STYLE5",
+            "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "5 FOR £165 | CODE: SHIRT165",
+            "endsTonight": "5 FOR £165 | CODE: SHIRT165",
+            "affiliate": "5 FOR £165 | CODE: STYLE5",
+            "affiliateEndsTonight": "5 FOR £165 | CODE: STYLE5"
           },
           "promoCallout": {
-            "default": "",
+            "default": "5 FOR $165 | CODE: SHIRT165",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "5 FOR $165 | CODE: STYLE5",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "5 FOR $165 | CODE: SHIRT165",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "5 FOR $165 | CODE: STYLE5",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "5 FOR $165 | CODE: SHIRT165",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "5 FOR $165 | CODE: STYLE5",
             "affiliateEndsTonight": ""
           }
         },
