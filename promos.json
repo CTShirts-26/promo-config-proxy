@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-23T20:59:06.413Z",
+  "generatedAt": "2026-10-23T21:26:55.699Z",
   "total": 55,
   "rules": [
     {
@@ -61635,13 +61635,13 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "20 % Rabatt Auf Alles | Code: HERBST",
+            "line1": "25 % Rabatt Auf Alles | Code: HERBST",
             "line2": "Nur Heute",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "20 % Rabatt Auf Alles | Code: BLATT",
+            "line1Affiliate": "25 % Rabatt Auf Alles | Code: BLATT",
             "line2Affiliate": "Nur Heute",
             "line3Affiliate": "Nur Heute",
             "line1AffiliateEndsTonight": "",
@@ -61649,27 +61649,27 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20 % RABATT | CODE: HERBST",
+            "default": "25 % RABATT | CODE: HERBST",
             "endsTonight": "",
-            "affiliate": "20 % RABATT | CODE: BLATT",
+            "affiliate": "25 % RABATT | CODE: BLATT",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "20 % RABATT | CODE: HERBST",
+            "default": "25 % RABATT | CODE: HERBST",
             "endsTonight": "",
-            "affiliate": "20 % RABATT | CODE: BLATT",
+            "affiliate": "25 % RABATT | CODE: BLATT",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "20 % RABATT | CODE: HERBST",
+            "default": "25 % RABATT | CODE: HERBST",
             "endsTonight": "",
-            "affiliate": "20 % RABATT | CODE: BLATT",
+            "affiliate": "25 % RABATT | CODE: BLATT",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "20 % RABATT | CODE: HERBST",
+            "default": "25 % RABATT | CODE: HERBST",
             "endsTonight": "",
-            "affiliate": "20 % RABATT | CODE: BLATT",
+            "affiliate": "25 % RABATT | CODE: BLATT",
             "affiliateEndsTonight": ""
           }
         },
