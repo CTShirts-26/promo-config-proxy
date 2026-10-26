@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-26T14:11:10.669Z",
+  "generatedAt": "2026-10-26T14:35:51.643Z",
   "total": 56,
   "rules": [
     {
@@ -77993,7 +77993,7 @@
       "category": "Preview Black Friday Shirts LTO",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2026-11-20",
+      "startUtc": "2026-11-16",
       "endUtc": "2026-11-28",
       "scope": {
         "bannerstrip": true,
