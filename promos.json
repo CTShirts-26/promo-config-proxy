@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-26T17:20:04.007Z",
+  "generatedAt": "2026-10-26T17:27:50.936Z",
   "total": 57,
   "rules": [
     {
@@ -77532,17 +77532,17 @@
         "uk": {
           "bannerstrip": {
             "line1": "4 For £119 Shirts Or Polos",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "Up to 50% Off",
+            "line3": "Limited Time Only",
             "line1EndsTonight": "4 For £119 Shirts Or Polos",
             "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "",
+            "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "4 For £119 Shirts Or Polos",
-            "line2Affiliate": "Limited Time Only",
-            "line3Affiliate": "",
+            "line2Affiliate": "Up to 50% Off",
+            "line3Affiliate": "Limited Time Only",
             "line1AffiliateEndsTonight": "4 For £119 Shirts Or Polos",
             "line2AffiliateEndsTonight": "Ends Tonight",
-            "line3AffiliateEndsTonight": ""
+            "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
             "default": "4 FOR £119 | BLACK FRIDAY",
@@ -77572,17 +77572,17 @@
         "de": {
           "bannerstrip": {
             "line1": "4 Für 149 € Hemden Oder Polos",
-            "line2": "Nur Für Kurze Zeit",
-            "line3": "",
+            "line2": "Bis zu 50 % Rabatt",
+            "line3": "Nur Für Kurze Zeit",
             "line1EndsTonight": "4 Für 149 € Hemden Oder Polos",
             "line2EndsTonight": "Endet Heute Abend",
-            "line3EndsTonight": "",
+            "line3EndsTonight": "Endet Heute Abend",
             "line1Affiliate": "4 Für 149 € Hemden Oder Polos",
-            "line2Affiliate": "Nur Für Kurze Zeit",
-            "line3Affiliate": "",
+            "line2Affiliate": "Bis zu 50 % Rabatt",
+            "line3Affiliate": "Nur Für Kurze Zeit",
             "line1AffiliateEndsTonight": "4 Für 149 € Hemden Oder Polos",
             "line2AffiliateEndsTonight": "Endet Heute Abend",
-            "line3AffiliateEndsTonight": ""
+            "line3AffiliateEndsTonight": "Endet Heute Abend"
           },
           "tibText": {
             "default": "4 FÜR 149 € | BLACK FRIDAY",
@@ -77612,17 +77612,17 @@
         "fr": {
           "bannerstrip": {
             "line1": "4 Pour 149 € Chemises Ou Polos",
-            "line2": "Offre à durée limitée",
-            "line3": "",
+            "line2": "Jusqu'à -50 %",
+            "line3": "Offre à durée limitée",
             "line1EndsTonight": "4 Pour 149 € Chemises Ou Polos",
             "line2EndsTonight": "Jusqu’à ce soir",
-            "line3EndsTonight": "",
+            "line3EndsTonight": "Jusqu’à ce soir",
             "line1Affiliate": "4 Pour 149 € Chemises Ou Polos",
-            "line2Affiliate": "Offre à durée limitée",
-            "line3Affiliate": "",
+            "line2Affiliate": "Jusqu'à -50 %",
+            "line3Affiliate": "Offre à durée limitée",
             "line1AffiliateEndsTonight": "4 Pour 149 € Chemises Ou Polos",
             "line2AffiliateEndsTonight": "Jusqu’à ce soir",
-            "line3AffiliateEndsTonight": ""
+            "line3AffiliateEndsTonight": "Jusqu’à ce soir"
           },
           "tibText": {
             "default": "4 POUR 149 € | BLACK FRIDAY",
@@ -77653,11 +77653,11 @@
           "en": {
             "bannerstrip": {
               "line1": "4 For CHF 159 Shirts Or Polos",
-              "line2": "Limited Time Only",
-              "line3": "",
+              "line2": "Up to 50% Off",
+              "line3": "Limited Time Only",
               "line1EndsTonight": "4 For CHF 159 Shirts Or Polos",
               "line2EndsTonight": "Ends Tonight",
-              "line3EndsTonight": "",
+              "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -77693,11 +77693,11 @@
           "fr": {
             "bannerstrip": {
               "line1": "4 Pour CHF 159 Chemises Ou Polos",
-              "line2": "Offre à durée limitée",
-              "line3": "",
+              "line2": "Jusqu'à -50 %",
+              "line3": "Offre à durée limitée",
               "line1EndsTonight": "4 Pour CHF 159 Chemises Ou Polos",
               "line2EndsTonight": "Jusqu’à ce soir",
-              "line3EndsTonight": "",
+              "line3EndsTonight": "Jusqu’à ce soir",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -77733,11 +77733,11 @@
           "de": {
             "bannerstrip": {
               "line1": "4 Für CHF 159 Hemden Oder Polos",
-              "line2": "Nur Für Kurze Zeit",
-              "line3": "",
+              "line2": "Bis zu 50 % Rabatt",
+              "line3": "Nur Für Kurze Zeit",
               "line1EndsTonight": "4 Für CHF 159 Hemden Oder Polos",
               "line2EndsTonight": "Endet Heute Abend",
-              "line3EndsTonight": "",
+              "line3EndsTonight": "Endet Heute Abend",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -77775,11 +77775,11 @@
           "en": {
             "bannerstrip": {
               "line1": "4 For €149 Shirts Or Polos",
-              "line2": "Limited Time Only",
-              "line3": "",
+              "line2": "Up to 50% Off",
+              "line3": "Limited Time Only",
               "line1EndsTonight": "4 For €149 Shirts Or Polos",
               "line2EndsTonight": "Ends Tonight",
-              "line3EndsTonight": "",
+              "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -77815,11 +77815,11 @@
           "nl": {
             "bannerstrip": {
               "line1": "4 For €149 Shirts Or Polos",
-              "line2": "Limited Time Only",
-              "line3": "",
+              "line2": "Up to 50% Off",
+              "line3": "Limited Time Only",
               "line1EndsTonight": "4 For €149 Shirts Or Polos",
               "line2EndsTonight": "Ends Tonight",
-              "line3EndsTonight": "",
+              "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -77856,17 +77856,17 @@
         "eu": {
           "bannerstrip": {
             "line1": "4 For €149 Shirts Or Polos",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "Up to 50% Off",
+            "line3": "Limited Time Only",
             "line1EndsTonight": "4 For €149 Shirts Or Polos",
             "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "",
+            "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "4 For €149 Shirts Or Polos",
-            "line2Affiliate": "Limited Time Only",
-            "line3Affiliate": "",
+            "line2Affiliate": "Up to 50% Off",
+            "line3Affiliate": "Limited Time Only",
             "line1AffiliateEndsTonight": "4 For €149 Shirts Or Polos",
             "line2AffiliateEndsTonight": "Ends Tonight",
-            "line3AffiliateEndsTonight": ""
+            "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
             "default": "4 FOR €149 | BLACK FRIDAY",
@@ -77993,7 +77993,7 @@
       "category": "Preview Black Friday Shirts LTO",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2026-11-16",
+      "startUtc": "2026-11-20",
       "endUtc": "2026-11-28",
       "scope": {
         "bannerstrip": true,
@@ -79258,17 +79258,17 @@
         "uk": {
           "bannerstrip": {
             "line1": "4 For £119 Shirts Or Polos",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "Up to 50% Off",
+            "line3": "Limited Time Only",
             "line1EndsTonight": "4 For £119 Shirts Or Polos",
             "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "",
+            "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "4 For £119 Shirts Or Polos",
-            "line2Affiliate": "Limited Time Only",
-            "line3Affiliate": "",
+            "line2Affiliate": "Up to 50% Off",
+            "line3Affiliate": "Limited Time Only",
             "line1AffiliateEndsTonight": "4 For £119 Shirts Or Polos",
             "line2AffiliateEndsTonight": "Ends Tonight",
-            "line3AffiliateEndsTonight": ""
+            "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
             "default": "4 FOR £119 | BLACK FRIDAY",
@@ -79298,17 +79298,17 @@
         "de": {
           "bannerstrip": {
             "line1": "4 Für 149 € Hemden Oder Polos",
-            "line2": "Nur Für Kurze Zeit",
-            "line3": "",
+            "line2": "Bis zu 50 % Rabatt",
+            "line3": "Nur Für Kurze Zeit",
             "line1EndsTonight": "4 Für 149 € Hemden Oder Polos",
             "line2EndsTonight": "Endet Heute Abend",
-            "line3EndsTonight": "",
+            "line3EndsTonight": "Endet Heute Abend",
             "line1Affiliate": "4 Für 149 € Hemden Oder Polos",
-            "line2Affiliate": "Nur Für Kurze Zeit",
-            "line3Affiliate": "",
+            "line2Affiliate": "Bis zu 50 % Rabatt",
+            "line3Affiliate": "Nur Für Kurze Zeit",
             "line1AffiliateEndsTonight": "4 Für 149 € Hemden Oder Polos",
             "line2AffiliateEndsTonight": "Endet Heute Abend",
-            "line3AffiliateEndsTonight": ""
+            "line3AffiliateEndsTonight": "Endet Heute Abend"
           },
           "tibText": {
             "default": "4 FÜR 149 € | BLACK FRIDAY",
@@ -79338,17 +79338,17 @@
         "fr": {
           "bannerstrip": {
             "line1": "4 Pour 149 € Chemises Ou Polos",
-            "line2": "Offre à durée limitée",
-            "line3": "",
+            "line2": "Jusqu'à -50 %",
+            "line3": "Offre à durée limitée",
             "line1EndsTonight": "4 Pour 149 € Chemises Ou Polos",
             "line2EndsTonight": "Jusqu’à ce soir",
-            "line3EndsTonight": "",
+            "line3EndsTonight": "Jusqu’à ce soir",
             "line1Affiliate": "4 Pour 149 € Chemises Ou Polos",
-            "line2Affiliate": "Offre à durée limitée",
-            "line3Affiliate": "",
+            "line2Affiliate": "Jusqu'à -50 %",
+            "line3Affiliate": "Offre à durée limitée",
             "line1AffiliateEndsTonight": "4 Pour 149 € Chemises Ou Polos",
             "line2AffiliateEndsTonight": "Jusqu’à ce soir",
-            "line3AffiliateEndsTonight": ""
+            "line3AffiliateEndsTonight": "Jusqu’à ce soir"
           },
           "tibText": {
             "default": "4 POUR 149 € | BLACK FRIDAY",
@@ -79379,11 +79379,11 @@
           "en": {
             "bannerstrip": {
               "line1": "4 For CHF 159 Shirts Or Polos",
-              "line2": "Limited Time Only",
-              "line3": "",
+              "line2": "Up to 50% Off",
+              "line3": "Limited Time Only",
               "line1EndsTonight": "4 For CHF 159 Shirts Or Polos",
               "line2EndsTonight": "Ends Tonight",
-              "line3EndsTonight": "",
+              "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -79419,11 +79419,11 @@
           "fr": {
             "bannerstrip": {
               "line1": "4 Pour CHF 159 Chemises Ou Polos",
-              "line2": "Offre à durée limitée",
-              "line3": "",
+              "line2": "Jusqu'à -50 %",
+              "line3": "Offre à durée limitée",
               "line1EndsTonight": "4 Pour CHF 159 Chemises Ou Polos",
               "line2EndsTonight": "Jusqu’à ce soir",
-              "line3EndsTonight": "",
+              "line3EndsTonight": "Jusqu’à ce soir",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -79459,11 +79459,11 @@
           "de": {
             "bannerstrip": {
               "line1": "4 Für CHF 159 Hemden Oder Polos",
-              "line2": "Nur Für Kurze Zeit",
-              "line3": "",
+              "line2": "Bis zu 50 % Rabatt",
+              "line3": "Nur Für Kurze Zeit",
               "line1EndsTonight": "4 Für CHF 159 Hemden Oder Polos",
               "line2EndsTonight": "Endet Heute Abend",
-              "line3EndsTonight": "",
+              "line3EndsTonight": "Endet Heute Abend",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -79501,11 +79501,11 @@
           "en": {
             "bannerstrip": {
               "line1": "4 For €149 Shirts Or Polos",
-              "line2": "Limited Time Only",
-              "line3": "",
+              "line2": "Up to 50% Off",
+              "line3": "Limited Time Only",
               "line1EndsTonight": "4 For €149 Shirts Or Polos",
               "line2EndsTonight": "Ends Tonight",
-              "line3EndsTonight": "",
+              "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -79541,11 +79541,11 @@
           "nl": {
             "bannerstrip": {
               "line1": "4 For €149 Shirts Or Polos",
-              "line2": "Limited Time Only",
-              "line3": "",
+              "line2": "Up to 50% Off",
+              "line3": "Limited Time Only",
               "line1EndsTonight": "4 For €149 Shirts Or Polos",
               "line2EndsTonight": "Ends Tonight",
-              "line3EndsTonight": "",
+              "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -79582,17 +79582,17 @@
         "eu": {
           "bannerstrip": {
             "line1": "4 For €149 Shirts Or Polos",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "Up to 50% Off",
+            "line3": "Limited Time Only",
             "line1EndsTonight": "4 For €149 Shirts Or Polos",
             "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "",
+            "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "4 For €149 Shirts Or Polos",
-            "line2Affiliate": "Limited Time Only",
-            "line3Affiliate": "",
+            "line2Affiliate": "Up to 50% Off",
+            "line3Affiliate": "Limited Time Only",
             "line1AffiliateEndsTonight": "4 For €149 Shirts Or Polos",
             "line2AffiliateEndsTonight": "Ends Tonight",
-            "line3AffiliateEndsTonight": ""
+            "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
             "default": "4 FOR €149 | BLACK FRIDAY",
