@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-26T16:25:58.134Z",
+  "generatedAt": "2026-10-26T17:06:03.018Z",
   "total": 57,
   "rules": [
     {
@@ -77370,17 +77370,17 @@
         "us": {
           "bannerstrip": {
             "line1": "4 For $179 Shirts Or Polos",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "+ 30% Off Everything Else",
+            "line3": "Black Friday Event",
             "line1EndsTonight": "4 For $179 Shirts Or Polos",
-            "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "",
+            "line2EndsTonight": "+ 30% Off Everything Else",
+            "line3EndsTonight": "Black Friday - Ends Tonight",
             "line1Affiliate": "4 For $179 Shirts Or Polos",
-            "line2Affiliate": "Limited Time Only",
-            "line3Affiliate": "",
+            "line2Affiliate": "+ 30% Off Everything Else",
+            "line3Affiliate": "Black Friday Event",
             "line1AffiliateEndsTonight": "4 For $179 Shirts Or Polos",
-            "line2AffiliateEndsTonight": "Ends Tonight",
-            "line3AffiliateEndsTonight": ""
+            "line2AffiliateEndsTonight": "+ 30% Off Everything Else",
+            "line3AffiliateEndsTonight": "Black Friday - Ends Tonight"
           },
           "tibText": {
             "default": "4 FOR $179 | BLACK FRIDAY",
@@ -77411,17 +77411,17 @@
           "en": {
             "bannerstrip": {
               "line1": "4 For C$279 Shirts Or Polos",
-              "line2": "Limited Time Only",
-              "line3": "",
+              "line2": "+ 25% Off Everything Else",
+              "line3": "Limited Time Only",
               "line1EndsTonight": "4 For C$279 Shirts Or Polos",
-              "line2EndsTonight": "Ends Tonight",
-              "line3EndsTonight": "",
+              "line2EndsTonight": "+ 25% Off Everything Else",
+              "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "4 For C$279 Shirts Or Polos",
-              "line2Affiliate": "Limited Time Only",
-              "line3Affiliate": "",
+              "line2Affiliate": "+ 25% Off Everything Else",
+              "line3Affiliate": "Limited Time Only",
               "line1AffiliateEndsTonight": "4 For C$279 Shirts Or Polos",
-              "line2AffiliateEndsTonight": "Ends Tonight",
-              "line3AffiliateEndsTonight": ""
+              "line2AffiliateEndsTonight": "+ 25% Off Everything Else",
+              "line3AffiliateEndsTonight": "Ends Tonight"
             },
             "tibText": {
               "default": "4 FOR C$279 | BLACK FRIDAY",
@@ -77451,17 +77451,17 @@
           "fr": {
             "bannerstrip": {
               "line1": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2": "Offre à durée limitée",
+              "line2": "- 25 % Sur Tout Le Reste",
               "line3": "Offre à durée limitée",
               "line1EndsTonight": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2EndsTonight": "Jusqu’à ce soir",
-              "line3EndsTonight": "",
+              "line2EndsTonight": "- 25 % Sur Tout Le Reste",
+              "line3EndsTonight": "Jusqu’à ce soir",
               "line1Affiliate": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2Affiliate": "Offre à durée limitée",
-              "line3Affiliate": "",
+              "line2Affiliate": "- 25 % Sur Tout Le Reste",
+              "line3Affiliate": "Offre à durée limitée",
               "line1AffiliateEndsTonight": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2AffiliateEndsTonight": "Jusqu’à ce soir",
-              "line3AffiliateEndsTonight": ""
+              "line2AffiliateEndsTonight": "- 25 % Sur Tout Le Reste",
+              "line3AffiliateEndsTonight": "Jusqu’à ce soir"
             },
             "tibText": {
               "default": "4 POUR 279 C$ | BLACK FRIDAY",
@@ -77492,17 +77492,17 @@
         "au": {
           "bannerstrip": {
             "line1": "4 For $199 Shirts Or Polos",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "+ 25% Off Everything Else",
+            "line3": "Limited Time Only",
             "line1EndsTonight": "4 For $199 Shirts Or Polos",
-            "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "",
+            "line2EndsTonight": "+ 25% Off Everything Else",
+            "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "4 For $199 Shirts Or Polos",
-            "line2Affiliate": "Limited Time Only",
-            "line3Affiliate": "",
+            "line2Affiliate": "+ 25% Off Everything Else",
+            "line3Affiliate": "Limited Time Only",
             "line1AffiliateEndsTonight": "4 For $199 Shirts Or Polos",
-            "line2AffiliateEndsTonight": "Ends Tonight",
-            "line3AffiliateEndsTonight": ""
+            "line2AffiliateEndsTonight": "+ 25% Off Everything Else",
+            "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
             "default": "4 FOR $199 | BLACK FRIDAY",
@@ -78019,16 +78019,16 @@
         "defaultCampaignSites": [],
         "affiliateCampaignSites": [],
         "acquisitionCampaignSites": [
-          "ukvip",
-          "chvip",
-          "nlvip",
+          "usbf",
           "cabf",
           "aubf",
-          "usbf",
-          "xbrvip",
-          "euvip",
+          "ukvip",
           "devip",
-          "frvip"
+          "frvip",
+          "chvip",
+          "nlvip",
+          "euvip",
+          "xbrvip"
         ],
         "campaignSites": [],
         "mainCategories": [
@@ -79081,32 +79081,32 @@
       },
       "hideMultibuy": false,
       "hidePromoBox": {
-        "us": true,
-        "ca": true,
-        "au": true,
-        "uk": true,
-        "de": true,
-        "fr": true,
-        "ch": true,
-        "nl": true,
-        "eu": true,
-        "xbr": true
+        "us": false,
+        "ca": false,
+        "au": false,
+        "uk": false,
+        "de": false,
+        "fr": false,
+        "ch": false,
+        "nl": false,
+        "eu": false,
+        "xbr": false
       },
       "content": {
         "us": {
           "bannerstrip": {
             "line1": "4 For $179 Shirts Or Polos",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "+ 30% Off Everything Else",
+            "line3": "Black Friday Event",
             "line1EndsTonight": "4 For $179 Shirts Or Polos",
-            "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "",
+            "line2EndsTonight": "+ 30% Off Everything Else",
+            "line3EndsTonight": "Black Friday - Ends Tonight",
             "line1Affiliate": "4 For $179 Shirts Or Polos",
-            "line2Affiliate": "Limited Time Only",
-            "line3Affiliate": "",
+            "line2Affiliate": "+ 30% Off Everything Else",
+            "line3Affiliate": "Black Friday Event",
             "line1AffiliateEndsTonight": "4 For $179 Shirts Or Polos",
-            "line2AffiliateEndsTonight": "Ends Tonight",
-            "line3AffiliateEndsTonight": ""
+            "line2AffiliateEndsTonight": "+ 30% Off Everything Else",
+            "line3AffiliateEndsTonight": "Black Friday - Ends Tonight"
           },
           "tibText": {
             "default": "4 FOR $179 | BLACK FRIDAY",
@@ -79137,17 +79137,17 @@
           "en": {
             "bannerstrip": {
               "line1": "4 For C$279 Shirts Or Polos",
-              "line2": "Limited Time Only",
-              "line3": "",
+              "line2": "+ 25% Off Everything Else",
+              "line3": "Limited Time Only",
               "line1EndsTonight": "4 For C$279 Shirts Or Polos",
-              "line2EndsTonight": "Ends Tonight",
-              "line3EndsTonight": "",
+              "line2EndsTonight": "+ 25% Off Everything Else",
+              "line3EndsTonight": "Ends Tonight",
               "line1Affiliate": "4 For C$279 Shirts Or Polos",
-              "line2Affiliate": "Limited Time Only",
-              "line3Affiliate": "",
+              "line2Affiliate": "+ 25% Off Everything Else",
+              "line3Affiliate": "Limited Time Only",
               "line1AffiliateEndsTonight": "4 For C$279 Shirts Or Polos",
-              "line2AffiliateEndsTonight": "Ends Tonight",
-              "line3AffiliateEndsTonight": ""
+              "line2AffiliateEndsTonight": "+ 25% Off Everything Else",
+              "line3AffiliateEndsTonight": "Ends Tonight"
             },
             "tibText": {
               "default": "4 FOR C$279 | BLACK FRIDAY",
@@ -79177,17 +79177,17 @@
           "fr": {
             "bannerstrip": {
               "line1": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2": "Offre à durée limitée",
+              "line2": "- 25 % Sur Tout Le Reste",
               "line3": "Offre à durée limitée",
               "line1EndsTonight": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2EndsTonight": "Jusqu’à ce soir",
-              "line3EndsTonight": "",
+              "line2EndsTonight": "- 25 % Sur Tout Le Reste",
+              "line3EndsTonight": "Jusqu’à ce soir",
               "line1Affiliate": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2Affiliate": "Offre à durée limitée",
-              "line3Affiliate": "",
+              "line2Affiliate": "- 25 % Sur Tout Le Reste",
+              "line3Affiliate": "Offre à durée limitée",
               "line1AffiliateEndsTonight": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2AffiliateEndsTonight": "Jusqu’à ce soir",
-              "line3AffiliateEndsTonight": ""
+              "line2AffiliateEndsTonight": "- 25 % Sur Tout Le Reste",
+              "line3AffiliateEndsTonight": "Jusqu’à ce soir"
             },
             "tibText": {
               "default": "4 POUR 279 C$ | BLACK FRIDAY",
@@ -79218,17 +79218,17 @@
         "au": {
           "bannerstrip": {
             "line1": "4 For $199 Shirts Or Polos",
-            "line2": "Limited Time Only",
-            "line3": "",
+            "line2": "+ 25% Off Everything Else",
+            "line3": "Limited Time Only",
             "line1EndsTonight": "4 For $199 Shirts Or Polos",
-            "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "",
+            "line2EndsTonight": "+ 25% Off Everything Else",
+            "line3EndsTonight": "Ends Tonight",
             "line1Affiliate": "4 For $199 Shirts Or Polos",
-            "line2Affiliate": "Limited Time Only",
-            "line3Affiliate": "",
+            "line2Affiliate": "+ 25% Off Everything Else",
+            "line3Affiliate": "Limited Time Only",
             "line1AffiliateEndsTonight": "4 For $199 Shirts Or Polos",
-            "line2AffiliateEndsTonight": "Ends Tonight",
-            "line3AffiliateEndsTonight": ""
+            "line2AffiliateEndsTonight": "+ 25% Off Everything Else",
+            "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
             "default": "4 FOR $199 | BLACK FRIDAY",
@@ -79716,13 +79716,13 @@
     },
     {
       "ruleId": "Preview Black Friday Non Shirts LTO",
-      "category": "V2 Black Friday Non Shirts LTO",
+      "category": "Preview Black Friday Non Shirts LTO",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-11-16",
       "endUtc": "2026-11-28",
       "scope": {
-        "bannerstrip": true,
+        "bannerstrip": false,
         "tibText": true,
         "promoCallout": true,
         "plpCallout": true,
@@ -79745,16 +79745,16 @@
         "defaultCampaignSites": [],
         "affiliateCampaignSites": [],
         "acquisitionCampaignSites": [
-          "ukvip",
-          "chvip",
-          "nlvip",
+          "usbf",
           "cabf",
           "aubf",
-          "usbf",
-          "xbrvip",
-          "euvip",
+          "ukvip",
           "devip",
-          "frvip"
+          "frvip",
+          "chvip",
+          "nlvip",
+          "euvip",
+          "xbrvip"
         ],
         "campaignSites": [],
         "mainCategories": [
@@ -80621,31 +80621,31 @@
       },
       "hideMultibuy": false,
       "hidePromoBox": {
-        "us": true,
-        "ca": true,
-        "au": true,
-        "uk": true,
-        "de": true,
-        "fr": true,
-        "ch": true,
-        "nl": true,
-        "eu": true,
-        "xbr": true
+        "us": false,
+        "ca": false,
+        "au": false,
+        "uk": false,
+        "de": false,
+        "fr": false,
+        "ch": false,
+        "nl": false,
+        "eu": false,
+        "xbr": false
       },
       "content": {
         "us": {
           "bannerstrip": {
             "line1": "30% Off Everything Else",
-            "line2": "Limited Time Only",
+            "line2": "",
             "line3": "",
             "line1EndsTonight": "30% Off Everything Else",
-            "line2EndsTonight": "Ends Tonight",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "30% Off Everything Else",
-            "line2Affiliate": "Limited Time Only",
+            "line2Affiliate": "",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "30% Off Everything Else",
-            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -80677,16 +80677,16 @@
           "en": {
             "bannerstrip": {
               "line1": "25% Off Everything Else",
-              "line2": "Limited Time Only",
+              "line2": "",
               "line3": "",
               "line1EndsTonight": "25% Off Everything Else",
-              "line2EndsTonight": "Ends Tonight",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "25% Off Everything Else",
-              "line2Affiliate": "Limited Time Only",
+              "line2Affiliate": "",
               "line3Affiliate": "",
               "line1AffiliateEndsTonight": "25% Off Everything Else",
-              "line2AffiliateEndsTonight": "Ends Tonight",
+              "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
@@ -80717,16 +80717,16 @@
           "fr": {
             "bannerstrip": {
               "line1": "25 % sur tout le reste",
-              "line2": "Offre à durée limitée",
-              "line3": "Offre à durée limitée",
+              "line2": "",
+              "line3": "",
               "line1EndsTonight": "25 % sur tout le reste",
-              "line2EndsTonight": "Jusqu’à ce soir",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "25 % sur tout le reste",
-              "line2Affiliate": "Offre à durée limitée",
-              "line3Affiliate": "Offre à durée limitée",
+              "line2Affiliate": "",
+              "line3Affiliate": "",
               "line1AffiliateEndsTonight": "25 % sur tout le reste",
-              "line2AffiliateEndsTonight": "Jusqu’à ce soir",
+              "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
@@ -80758,16 +80758,16 @@
         "au": {
           "bannerstrip": {
             "line1": "25% Off Everything Else",
-            "line2": "Limited Time Only",
+            "line2": "",
             "line3": "",
             "line1EndsTonight": "25% Off Everything Else",
-            "line2EndsTonight": "Ends Tonight",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "25% Off Everything Else",
-            "line2Affiliate": "Limited Time Only",
+            "line2Affiliate": "",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "25% Off Everything Else",
-            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -80798,16 +80798,16 @@
         "uk": {
           "bannerstrip": {
             "line1": "20% Off Everything Else",
-            "line2": "Limited Time Only",
+            "line2": "",
             "line3": "",
             "line1EndsTonight": "20% Off Everything Else",
-            "line2EndsTonight": "Ends Tonight",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "20% Off Everything Else",
-            "line2Affiliate": "Limited Time Only",
+            "line2Affiliate": "",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "20% Off Everything Else",
-            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -80838,16 +80838,16 @@
         "de": {
           "bannerstrip": {
             "line1": "25% Rabatt auf alles andere",
-            "line2": "Nur Für Kurze Zeit",
+            "line2": "",
             "line3": "",
             "line1EndsTonight": "25% Rabatt auf alles andere",
-            "line2EndsTonight": "Endet Heute Abend",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "25% Rabatt auf alles andere",
-            "line2Affiliate": "Nur Für Kurze Zeit",
+            "line2Affiliate": "",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "25% Rabatt auf alles andere",
-            "line2AffiliateEndsTonight": "Endet Heute Abend",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -80878,16 +80878,16 @@
         "fr": {
           "bannerstrip": {
             "line1": "20 % sur tout le reste",
-            "line2": "Offre à durée limitée",
+            "line2": "",
             "line3": "",
             "line1EndsTonight": "20 % sur tout le reste",
-            "line2EndsTonight": "Jusqu’à ce soir",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "20 % sur tout le reste",
-            "line2Affiliate": "Offre à durée limitée",
+            "line2Affiliate": "",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "20 % sur tout le reste",
-            "line2AffiliateEndsTonight": "Jusqu’à ce soir",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -80919,16 +80919,16 @@
           "en": {
             "bannerstrip": {
               "line1": "20% Off Everything Else",
-              "line2": "Limited Time Only",
+              "line2": "",
               "line3": "",
               "line1EndsTonight": "20% Off Everything Else",
-              "line2EndsTonight": "Ends Tonight",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "20% Off Everything Else",
-              "line2Affiliate": "Limited Time Only",
+              "line2Affiliate": "",
               "line3Affiliate": "",
               "line1AffiliateEndsTonight": "20% Off Everything Else",
-              "line2AffiliateEndsTonight": "Ends Tonight",
+              "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
@@ -80959,16 +80959,16 @@
           "fr": {
             "bannerstrip": {
               "line1": "20 % sur tout le reste",
-              "line2": "Offre à durée limitée",
+              "line2": "",
               "line3": "",
               "line1EndsTonight": "20 % sur tout le reste",
-              "line2EndsTonight": "Jusqu’à ce soir",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "20 % sur tout le reste",
-              "line2Affiliate": "Offre à durée limitée",
+              "line2Affiliate": "",
               "line3Affiliate": "",
               "line1AffiliateEndsTonight": "20 % sur tout le reste",
-              "line2AffiliateEndsTonight": "Jusqu’à ce soir",
+              "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
@@ -80999,16 +80999,16 @@
           "de": {
             "bannerstrip": {
               "line1": "20% Rabatt auf alles andere",
-              "line2": "Nur Für Kurze Zeit",
+              "line2": "",
               "line3": "",
               "line1EndsTonight": "20% Rabatt auf alles andere",
-              "line2EndsTonight": "Endet Heute Abend",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "20% Rabatt auf alles andere",
-              "line2Affiliate": "Nur Für Kurze Zeit",
+              "line2Affiliate": "",
               "line3Affiliate": "",
               "line1AffiliateEndsTonight": "20% Rabatt auf alles andere",
-              "line2AffiliateEndsTonight": "Endet Heute Abend",
+              "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
@@ -81041,16 +81041,16 @@
           "en": {
             "bannerstrip": {
               "line1": "20% Off Everything Else",
-              "line2": "Limited Time Only",
+              "line2": "",
               "line3": "",
               "line1EndsTonight": "20% Off Everything Else",
-              "line2EndsTonight": "Ends Tonight",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "20% Off Everything Else",
-              "line2Affiliate": "Limited Time Only",
+              "line2Affiliate": "",
               "line3Affiliate": "",
               "line1AffiliateEndsTonight": "20% Off Everything Else",
-              "line2AffiliateEndsTonight": "Ends Tonight",
+              "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
@@ -81081,16 +81081,16 @@
           "nl": {
             "bannerstrip": {
               "line1": "20% Off Everything Else",
-              "line2": "Limited Time Only",
+              "line2": "",
               "line3": "",
               "line1EndsTonight": "20% Off Everything Else",
-              "line2EndsTonight": "Ends Tonight",
+              "line2EndsTonight": "",
               "line3EndsTonight": "",
               "line1Affiliate": "20% Off Everything Else",
-              "line2Affiliate": "Limited Time Only",
+              "line2Affiliate": "",
               "line3Affiliate": "",
               "line1AffiliateEndsTonight": "20% Off Everything Else",
-              "line2AffiliateEndsTonight": "Ends Tonight",
+              "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
@@ -81122,16 +81122,16 @@
         "eu": {
           "bannerstrip": {
             "line1": "20% Off Everything Else",
-            "line2": "Limited Time Only",
+            "line2": "",
             "line3": "",
             "line1EndsTonight": "20% Off Everything Else",
-            "line2EndsTonight": "Ends Tonight",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "20% Off Everything Else",
-            "line2Affiliate": "Limited Time Only",
+            "line2Affiliate": "",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "20% Off Everything Else",
-            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
@@ -81162,16 +81162,16 @@
         "xbr": {
           "bannerstrip": {
             "line1": "25% Off Everything | Code: TBC",
-            "line2": "Limited Time Only",
+            "line2": "",
             "line3": "",
             "line1EndsTonight": "25% Off Everything | Code: TBC",
-            "line2EndsTonight": "Ends Tonight",
+            "line2EndsTonight": "",
             "line3EndsTonight": "",
             "line1Affiliate": "25% Off Everything | Code: TBC",
-            "line2Affiliate": "Limited Time Only",
+            "line2Affiliate": "",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "25% Off Everything | Code: TBC",
-            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
