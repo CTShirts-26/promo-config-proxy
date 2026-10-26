@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-26T17:06:03.018Z",
+  "generatedAt": "2026-10-26T17:20:04.007Z",
   "total": 57,
   "rules": [
     {
@@ -79081,16 +79081,16 @@
       },
       "hideMultibuy": false,
       "hidePromoBox": {
-        "us": false,
-        "ca": false,
-        "au": false,
-        "uk": false,
-        "de": false,
-        "fr": false,
-        "ch": false,
-        "nl": false,
-        "eu": false,
-        "xbr": false
+        "us": true,
+        "ca": true,
+        "au": true,
+        "uk": true,
+        "de": true,
+        "fr": true,
+        "ch": true,
+        "nl": true,
+        "eu": true,
+        "xbr": true
       },
       "content": {
         "us": {
@@ -80621,16 +80621,16 @@
       },
       "hideMultibuy": false,
       "hidePromoBox": {
-        "us": false,
-        "ca": false,
-        "au": false,
-        "uk": false,
-        "de": false,
-        "fr": false,
-        "ch": false,
-        "nl": false,
-        "eu": false,
-        "xbr": false
+        "us": true,
+        "ca": true,
+        "au": true,
+        "uk": true,
+        "de": true,
+        "fr": true,
+        "ch": true,
+        "nl": true,
+        "eu": true,
+        "xbr": true
       },
       "content": {
         "us": {
