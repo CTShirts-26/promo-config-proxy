@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-27T16:15:14.726Z",
+  "generatedAt": "2026-10-27T16:33:36.442Z",
   "total": 58,
   "rules": [
     {
@@ -74667,9 +74667,6 @@
           "xbraff1"
         ],
         "mainCategories": [
-          "suits",
-          "suits-double-breasted",
-          "suits-italian-suits",
           "trousers",
           "trousers-chinos",
           "trousers-casual-trousers",
@@ -75558,10 +75555,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "30% OFF | BLACK FRIDAY",
-            "endsTonight": "30% OFF | ENDS TONIGHT",
-            "affiliate": "30% OFF | BLACK FRIDAY",
-            "affiliateEndsTonight": "30% OFF | ENDS TONIGHT"
+            "default": "30% off | Black Friday Event",
+            "endsTonight": "30% off | Black Friday Event",
+            "affiliate": "30% off | Black Friday Event",
+            "affiliateEndsTonight": "30% off | Black Friday Event"
           },
           "promoCallout": {
             "default": "30% OFF | BLACK FRIDAY",
@@ -75599,10 +75596,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25% OFF | BLACK FRIDAY",
-              "endsTonight": "25% OFF | ENDS TONIGHT",
-              "affiliate": "25% OFF | BLACK FRIDAY",
-              "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
+              "default": "25% off | Black Friday Event",
+              "endsTonight": "25% off | Black Friday Event",
+              "affiliate": "25% off | Black Friday Event",
+              "affiliateEndsTonight": "25% off | Black Friday Event"
             },
             "promoCallout": {
               "default": "25% OFF | BLACK FRIDAY",
@@ -75639,10 +75636,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
-              "endsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR",
-              "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
-              "affiliateEndsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR"
+              "default": "Économisez jusqu'à 25 % | Black Friday",
+              "endsTonight": "Économisez jusqu'à 25 % | Black Friday",
+              "affiliate": "Économisez jusqu'à 25 % | Black Friday",
+              "affiliateEndsTonight": "Économisez jusqu'à 25 % | Black Friday"
             },
             "promoCallout": {
               "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
@@ -75680,10 +75677,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | BLACK FRIDAY",
-            "endsTonight": "25% OFF | ENDS TONIGHT",
-            "affiliate": "25% OFF | BLACK FRIDAY",
-            "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
+            "default": "25% off | Black Friday Event",
+            "endsTonight": "25% off | Black Friday Event",
+            "affiliate": "25% off | Black Friday Event",
+            "affiliateEndsTonight": "25% off | Black Friday Event"
           },
           "promoCallout": {
             "default": "25% OFF | BLACK FRIDAY",
@@ -75720,10 +75717,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20% OFF | BLACK FRIDAY",
-            "endsTonight": "20% OFF | ENDS TONIGHT",
-            "affiliate": "20% OFF | BLACK FRIDAY",
-            "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+            "default": "20% off | Black Friday Event",
+            "endsTonight": "20% off | Black Friday Event",
+            "affiliate": "20% off | Black Friday Event",
+            "affiliateEndsTonight": "20% off | Black Friday Event"
           },
           "promoCallout": {
             "default": "20% OFF | BLACK FRIDAY",
@@ -75760,10 +75757,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25 % RABATT | BLACK FRIDAY",
-            "endsTonight": "25 % RABATT | ENDET HEUTE ABEND",
-            "affiliate": "25 % RABATT | BLACK FRIDAY",
-            "affiliateEndsTonight": "25 % RABATT | ENDET HEUTE ABEND"
+            "default": "Sparen Sie bis zu 25 % | Black Friday",
+            "endsTonight": "Sparen Sie bis zu 25 % | Black Friday",
+            "affiliate": "Sparen Sie bis zu 25 % | Black Friday",
+            "affiliateEndsTonight": "Sparen Sie bis zu 25 % | Black Friday"
           },
           "promoCallout": {
             "default": "25 % RABATT | BLACK FRIDAY",
@@ -75800,10 +75797,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20 % DE RÉDUCTION | BLACK FRIDAY",
-            "endsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR",
-            "affiliate": "20 % DE RÉDUCTION | BLACK FRIDAY",
-            "affiliateEndsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR"
+            "default": "Jusqu'à -20 % | Black Friday",
+            "endsTonight": "Jusqu'à -20 % | Black Friday",
+            "affiliate": "Jusqu'à -20 % | Black Friday",
+            "affiliateEndsTonight": "Jusqu'à -20 % | Black Friday"
           },
           "promoCallout": {
             "default": "-20 % | BLACK FRIDAY",
@@ -75841,10 +75838,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20% OFF | BLACK FRIDAY",
-              "endsTonight": "20% OFF | ENDS TONIGHT",
-              "affiliate": "20% OFF | BLACK FRIDAY",
-              "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+              "default": "20% off | Black Friday Event",
+              "endsTonight": "20% off | Black Friday Event",
+              "affiliate": "20% off | Black Friday Event",
+              "affiliateEndsTonight": "20% off | Black Friday Event"
             },
             "promoCallout": {
               "default": "20% OFF | BLACK FRIDAY",
@@ -75881,10 +75878,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20 % DE RÉDUCTION | BLACK FRIDAY",
-              "endsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR",
-              "affiliate": "20 % DE RÉDUCTION | BLACK FRIDAY",
-              "affiliateEndsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR"
+              "default": "Économisez jusqu'à 20 % | Black Friday",
+              "endsTonight": "Économisez jusqu'à 20 % | Black Friday",
+              "affiliate": "Économisez jusqu'à 20 % | Black Friday",
+              "affiliateEndsTonight": "Économisez jusqu'à 20 % | Black Friday"
             },
             "promoCallout": {
               "default": "20 % DE RÉDUCTION | BLACK FRIDAY",
@@ -75921,10 +75918,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20 % RABATT | BLACK FRIDAY",
-              "endsTonight": "20 % RABATT | ENDET HEUTE ABEND",
-              "affiliate": "20 % RABATT | BLACK FRIDAY",
-              "affiliateEndsTonight": "20 % RABATT | ENDET HEUTE ABEND"
+              "default": "Sparen Sie bis zu 20 % | Black Friday",
+              "endsTonight": "Sparen Sie bis zu 20 % | Black Friday",
+              "affiliate": "Sparen Sie bis zu 20 % | Black Friday",
+              "affiliateEndsTonight": "Sparen Sie bis zu 20 % | Black Friday"
             },
             "promoCallout": {
               "default": "20 % RABATT | BLACK FRIDAY",
@@ -75963,10 +75960,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20% OFF | BLACK FRIDAY",
-              "endsTonight": "20% OFF | ENDS TONIGHT",
-              "affiliate": "20% OFF | BLACK FRIDAY",
-              "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+              "default": "20% off | Black Friday Event",
+              "endsTonight": "20% off | Black Friday Event",
+              "affiliate": "20% off | Black Friday Event",
+              "affiliateEndsTonight": "20% off | Black Friday Event"
             },
             "promoCallout": {
               "default": "20% OFF | BLACK FRIDAY",
@@ -76003,10 +76000,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20% OFF | BLACK FRIDAY",
-              "endsTonight": "20% OFF | ENDS TONIGHT",
-              "affiliate": "20% OFF | BLACK FRIDAY",
-              "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+              "default": "20% off | Black Friday Event",
+              "endsTonight": "20% off | Black Friday Event",
+              "affiliate": "20% off | Black Friday Event",
+              "affiliateEndsTonight": "20% off | Black Friday Event"
             },
             "promoCallout": {
               "default": "20% OFF | BLACK FRIDAY",
@@ -76044,10 +76041,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20% OFF | BLACK FRIDAY",
-            "endsTonight": "20% OFF | ENDS TONIGHT",
-            "affiliate": "20% OFF | BLACK FRIDAY",
-            "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+            "default": "20% off | Black Friday Event",
+            "endsTonight": "20% off | Black Friday Event",
+            "affiliate": "20% off | Black Friday Event",
+            "affiliateEndsTonight": "20% off | Black Friday Event"
           },
           "promoCallout": {
             "default": "20% OFF | BLACK FRIDAY",
@@ -76084,10 +76081,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | CODE: TBC",
-            "endsTonight": "25% OFF | CODE: TBC",
-            "affiliate": "25% OFF | CODE: TBC",
-            "affiliateEndsTonight": "25% OFF | CODE: TBC"
+            "default": "25% off | Use code: TBC",
+            "endsTonight": "25% off | Use code: TBC",
+            "affiliate": "25% off | Use code: TBC",
+            "affiliateEndsTonight": "25% off | Use code: TBC"
           },
           "promoCallout": {
             "default": "25% OFF | CODE: TBC | BLACK FRIDAY",
