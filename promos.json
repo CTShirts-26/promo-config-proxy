@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-27T16:39:57.068Z",
+  "generatedAt": "2026-10-27T16:54:42.918Z",
   "total": 58,
   "rules": [
     {
@@ -77586,17 +77586,17 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "4 For £119 Shirts Or Polos",
-            "line2": "Up to 50% Off",
+            "line1": "Up to 50% Off",
+            "line2": "4 For £119 Shirts Or Polos",
             "line3": "Black Friday Event",
-            "line1EndsTonight": "4 For £119 Shirts Or Polos",
-            "line2EndsTonight": "Up to 50% Off",
+            "line1EndsTonight": "Up to 50% Off",
+            "line2EndsTonight": "4 For £119 Shirts Or Polos",
             "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "4 For £119 Shirts Or Polos",
-            "line2Affiliate": "Up to 50% Off",
+            "line1Affiliate": "Up to 50% Off",
+            "line2Affiliate": "4 For £119 Shirts Or Polos",
             "line3Affiliate": "Black Friday Event",
-            "line1AffiliateEndsTonight": "4 For £119 Shirts Or Polos",
-            "line2AffiliateEndsTonight": "Up to 50% Off",
+            "line1AffiliateEndsTonight": "Up to 50% Off",
+            "line2AffiliateEndsTonight": "4 For £119 Shirts Or Polos",
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
@@ -77626,17 +77626,17 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "4 Für 149 € Hemden Oder Polos",
-            "line2": "Bis zu 50 % Rabatt",
+            "line1": "Bis zu 50 % Rabatt",
+            "line2": "4 Für 149 € Hemden Oder Polos",
             "line3": "Nur Für Kurze Zeit",
-            "line1EndsTonight": "4 Für 149 € Hemden Oder Polos",
-            "line2EndsTonight": "Bis zu 50 % Rabatt",
+            "line1EndsTonight": "Bis zu 50 % Rabatt",
+            "line2EndsTonight": "4 Für 149 € Hemden Oder Polos",
             "line3EndsTonight": "Endet Heute Abend",
-            "line1Affiliate": "4 Für 149 € Hemden Oder Polos",
-            "line2Affiliate": "Bis zu 50 % Rabatt",
+            "line1Affiliate": "Bis zu 50 % Rabatt",
+            "line2Affiliate": "4 Für 149 € Hemden Oder Polos",
             "line3Affiliate": "Nur Für Kurze Zeit",
-            "line1AffiliateEndsTonight": "4 Für 149 € Hemden Oder Polos",
-            "line2AffiliateEndsTonight": "Bis zu 50 % Rabatt",
+            "line1AffiliateEndsTonight": "Bis zu 50 % Rabatt",
+            "line2AffiliateEndsTonight": "4 Für 149 € Hemden Oder Polos",
             "line3AffiliateEndsTonight": "Endet Heute Abend"
           },
           "tibText": {
