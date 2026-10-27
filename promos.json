@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-27T09:47:03.909Z",
+  "generatedAt": "2026-10-27T16:15:14.726Z",
   "total": 58,
   "rules": [
     {
@@ -77383,10 +77383,10 @@
             "line3AffiliateEndsTonight": "Black Friday - Ends Tonight"
           },
           "tibText": {
-            "default": "4 FOR $179 | BLACK FRIDAY",
-            "endsTonight": "4 FOR $179 | ENDS TONIGHT",
-            "affiliate": "4 FOR $179 | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 FOR $179 | ENDS TONIGHT"
+            "default": "4 for $179 | Save up to $375",
+            "endsTonight": "4 for $179 | Save up to $375",
+            "affiliate": "4 for $179 | Save up to $375",
+            "affiliateEndsTonight": "4 for $179 | Save up to $375"
           },
           "promoCallout": {
             "default": "4 FOR $179 | BLACK FRIDAY",
@@ -77424,10 +77424,10 @@
               "line3AffiliateEndsTonight": "Ends Tonight"
             },
             "tibText": {
-              "default": "4 FOR C$279 | BLACK FRIDAY",
-              "endsTonight": "4 FOR C$279 | ENDS TONIGHT",
-              "affiliate": "4 FOR C$279 | BLACK FRIDAY",
-              "affiliateEndsTonight": "4 FOR C$279 | ENDS TONIGHT"
+              "default": "4 for C$279 | Save up to C$435",
+              "endsTonight": "4 for C$279 | Save up to C$435",
+              "affiliate": "4 for C$279 | Save up to C$435",
+              "affiliateEndsTonight": "4 for C$279 | Save up to C$435"
             },
             "promoCallout": {
               "default": "4 FOR C$279 | BLACK FRIDAY",
@@ -77464,10 +77464,10 @@
               "line3AffiliateEndsTonight": "Jusqu’à ce soir"
             },
             "tibText": {
-              "default": "4 POUR 279 C$ | BLACK FRIDAY",
-              "endsTonight": "4 POUR 279 C$ | JUSQU’À CE SOIR",
-              "affiliate": "4 POUR 279 C$ | BLACK FRIDAY",
-              "affiliateEndsTonight": "4 POUR 279 C$ | JUSQU’À CE SOIR"
+              "default": "4 pour 279 C$ | Économisez jusqu'à 435 C$",
+              "endsTonight": "4 pour 279 C$ | Économisez jusqu'à 435 C$",
+              "affiliate": "4 pour 279 C$ | Économisez jusqu'à 435 C$",
+              "affiliateEndsTonight": "4 pour 279 C$ | Économisez jusqu'à 435 C$"
             },
             "promoCallout": {
               "default": "4 POUR 279 C$ | BLACK FRIDAY",
@@ -77505,10 +77505,10 @@
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
-            "default": "4 FOR $199 | BLACK FRIDAY",
-            "endsTonight": "4 FOR $199 | ENDS TONIGHT",
-            "affiliate": "4 FOR $199 | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 FOR $199 | ENDS TONIGHT"
+            "default": "4 for $199 | Save up to $355",
+            "endsTonight": "4 for $199 | Save up to $355",
+            "affiliate": "4 for $199 | Save up to $355",
+            "affiliateEndsTonight": "4 for $199 | Save up to $355"
           },
           "promoCallout": {
             "default": "4 FOR $199 | BLACK FRIDAY",
@@ -77545,10 +77545,10 @@
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
-            "default": "4 FOR £119 | BLACK FRIDAY",
-            "endsTonight": "4 FOR £119 | ENDS TONIGHT",
-            "affiliate": "4 FOR £119 | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 FOR £119 | ENDS TONIGHT"
+            "default": "Up to 50% off | 4 for £119",
+            "endsTonight": "Up to 50% off | 4 for £119",
+            "affiliate": "Up to 50% off | 4 for £119",
+            "affiliateEndsTonight": "Up to 50% off | 4 for £119"
           },
           "promoCallout": {
             "default": "4 FOR £119 | BLACK FRIDAY",
@@ -77585,10 +77585,10 @@
             "line3AffiliateEndsTonight": "Endet Heute Abend"
           },
           "tibText": {
-            "default": "4 FÜR 149 € | BLACK FRIDAY",
-            "endsTonight": "4 FÜR 149 € | ENDET HEUTE ABEND",
-            "affiliate": "4 FÜR 149 € | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 FÜR 149 € | ENDET HEUTE ABEND"
+            "default": "Sparen Sie bis zu 50 % | 4 für 149 €",
+            "endsTonight": "Sparen Sie bis zu 50 % | 4 für 149 €",
+            "affiliate": "Sparen Sie bis zu 50 % | 4 für 149 €",
+            "affiliateEndsTonight": "Sparen Sie bis zu 50 % | 4 für 149 €"
           },
           "promoCallout": {
             "default": "4 FÜR 149 € | BLACK FRIDAY",
@@ -77625,10 +77625,10 @@
             "line3AffiliateEndsTonight": "Jusqu’à ce soir"
           },
           "tibText": {
-            "default": "4 POUR 149 € | BLACK FRIDAY",
-            "endsTonight": "4 POUR 149 € | JUSQU’À CE SOIR",
-            "affiliate": "4 POUR 149 € | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 POUR 149 € | JUSQU’À CE SOIR"
+            "default": "Économisez jusqu'à 50 % | 4 pour 149 €",
+            "endsTonight": "Économisez jusqu'à 50 % | 4 pour 149 €",
+            "affiliate": "Économisez jusqu'à 50 % | 4 pour 149 €",
+            "affiliateEndsTonight": "Économisez jusqu'à 50 % | 4 pour 149 €"
           },
           "promoCallout": {
             "default": "4 POUR 149 € | BLACK FRIDAY",
@@ -77666,10 +77666,10 @@
               "line3AffiliateEndsTonight": "Ends Tonight"
             },
             "tibText": {
-              "default": "4 FOR CHF 159 | BLACK FRIDAY",
-              "endsTonight": "4 FOR CHF 159 | ENDS TONIGHT",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "4 for CHF 159 | Save up to CHF 355",
+              "endsTonight": "4 for CHF 159 | Save up to CHF 355",
+              "affiliate": "4 for CHF 159 | Save up to CHF 355",
+              "affiliateEndsTonight": "4 for CHF 159 | Save up to CHF 355"
             },
             "promoCallout": {
               "default": "4 FOR CHF 159 | BLACK FRIDAY",
@@ -77706,10 +77706,10 @@
               "line3AffiliateEndsTonight": "Jusqu’à ce soir"
             },
             "tibText": {
-              "default": "4 POUR CHF 159 | BLACK FRIDAY",
-              "endsTonight": "4 POUR CHF 159 | JUSQU’À CE SOIR",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "4 pour CHF 159 | Économisez jusqu'à CHF 355",
+              "endsTonight": "4 pour CHF 159 | Économisez jusqu'à CHF 355",
+              "affiliate": "4 pour CHF 159 | Économisez jusqu'à CHF 355",
+              "affiliateEndsTonight": "4 pour CHF 159 | Économisez jusqu'à CHF 355"
             },
             "promoCallout": {
               "default": "4 POUR CHF 159 | BLACK FRIDAY",
@@ -77746,10 +77746,10 @@
               "line3AffiliateEndsTonight": "Endet Heute Abend"
             },
             "tibText": {
-              "default": "4 FÜR CHF 159 | BLACK FRIDAY",
-              "endsTonight": "4 FÜR CHF 159 | ENDET HEUTE ABEND",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "4 für CHF 159 | Sparen Sie bis zu CHF 355",
+              "endsTonight": "4 für CHF 159 | Sparen Sie bis zu CHF 355",
+              "affiliate": "4 für CHF 159 | Sparen Sie bis zu CHF 355",
+              "affiliateEndsTonight": "4 für CHF 159 | Sparen Sie bis zu CHF 355"
             },
             "promoCallout": {
               "default": "4 FÜR CHF 159 | BLACK FRIDAY",
@@ -77788,10 +77788,10 @@
               "line3AffiliateEndsTonight": "Ends Tonight"
             },
             "tibText": {
-              "default": "4 FOR €149 | BLACK FRIDAY",
-              "endsTonight": "4 FOR €149 | ENDS TONIGHT",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "Up to 50% off | 4 for €149",
+              "endsTonight": "Up to 50% off | 4 for €149",
+              "affiliate": "Up to 50% off | 4 for €149",
+              "affiliateEndsTonight": "Up to 50% off | 4 for €149"
             },
             "promoCallout": {
               "default": "4 FOR €149 | BLACK FRIDAY",
@@ -77828,10 +77828,10 @@
               "line3AffiliateEndsTonight": "Ends Tonight"
             },
             "tibText": {
-              "default": "4 FOR €149 | BLACK FRIDAY",
-              "endsTonight": "4 FOR €149 | ENDS TONIGHT",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "Up to 50% off | 4 for €149",
+              "endsTonight": "Up to 50% off | 4 for €149",
+              "affiliate": "Up to 50% off | 4 for €149",
+              "affiliateEndsTonight": "Up to 50% off | 4 for €149"
             },
             "promoCallout": {
               "default": "4 FOR €149 | BLACK FRIDAY",
@@ -77869,10 +77869,10 @@
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
-            "default": "4 FOR €149 | BLACK FRIDAY",
-            "endsTonight": "4 FOR €149 | ENDS TONIGHT",
-            "affiliate": "4 FOR €149 | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 FOR €149 | ENDS TONIGHT"
+            "default": "Up to 50% off | 4 for €149",
+            "endsTonight": "Up to 50% off | 4 for €149",
+            "affiliate": "Up to 50% off | 4 for €149",
+            "affiliateEndsTonight": "Up to 50% off | 4 for €149"
           },
           "promoCallout": {
             "default": "4 FOR €149 | BLACK FRIDAY",
@@ -77909,10 +77909,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | CODE: TBC",
-            "endsTonight": "25% OFF | CODE: TBC",
-            "affiliate": "25% OFF | CODE: TBC",
-            "affiliateEndsTonight": "25% OFF | CODE: TBC"
+            "default": "25% off | Use code: TBC",
+            "endsTonight": "25% off | Use code: TBC",
+            "affiliate": "25% off | Use code: TBC",
+            "affiliateEndsTonight": "25% off | Use code: TBC"
           },
           "promoCallout": {
             "default": "25% OFF | CODE: TBC | BLACK FRIDAY",
