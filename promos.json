@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-28T17:29:05.464Z",
+  "generatedAt": "2026-10-30T15:52:01.123Z",
   "total": 58,
   "rules": [
     {
@@ -76125,41 +76125,41 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "25% Off Everything | Code: TBC",
+            "line1": "25% Off Everything | Code: FRIDAY",
             "line2": "",
             "line3": "",
-            "line1EndsTonight": "25% Off Everything | Code: TBC",
+            "line1EndsTonight": "25% Off Everything | Code: FRIDAY",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "25% Off Everything | Code: TBC",
+            "line1Affiliate": "25% Off Everything | Code: FRIDAY",
             "line2Affiliate": "",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "25% Off Everything | Code: TBC",
+            "line1AffiliateEndsTonight": "25% Off Everything | Code: FRIDAY",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% off | Use code: TBC",
-            "endsTonight": "25% off | Use code: TBC",
-            "affiliate": "25% off | Use code: TBC",
-            "affiliateEndsTonight": "25% off | Use code: TBC"
+            "default": "25% off | Use code: FRIDAY",
+            "endsTonight": "25% off | Use code: FRIDAY",
+            "affiliate": "",
+            "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "25% OFF | CODE: TBC | BLACK FRIDAY",
+            "default": "25% OFF | CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF | CODE: TBC | BLACK FRIDAY",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25% OFF | CODE: TBC | BLACK FRIDAY",
+            "default": "25% OFF | CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF | CODE: TBC | BLACK FRIDAY",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25% OFF | CODE: TBC | BLACK FRIDAY",
+            "default": "25% OFF | CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF | CODE: TBC | BLACK FRIDAY",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           }
         }
