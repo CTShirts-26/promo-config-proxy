@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-02T11:24:42.944Z",
+  "generatedAt": "2026-11-02T11:44:19.051Z",
   "total": 59,
   "rules": [
     {
@@ -3044,8 +3044,8 @@
         "uk": {
           "bannerstrip": {
             "line1": "Introductory Offer - Shirts Or Polos £29.95",
-            "line2": "Free Delivery",
-            "line3": "",
+            "line2": "",
+            "line3": "Free Delivery",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
@@ -83311,7 +83311,7 @@
         ],
         "excludedCategories": [],
         "showOnPdp": true,
-        "showOnPlp": false,
+        "showOnPlp": true,
         "productIds": [
           "ACB0222BLK",
           "ACB0223BLK",
@@ -84331,8 +84331,8 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "20% Off Everything Else",
-            "line2": "",
+            "line1": "",
+            "line2": "20% Off Everything Else",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
@@ -84357,7 +84357,7 @@
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "20% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
