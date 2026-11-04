@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-02T11:54:53.413Z",
+  "generatedAt": "2026-11-04T10:01:50.698Z",
   "total": 59,
   "rules": [
     {
@@ -75587,12 +75587,12 @@
       "hidePromoBox": {
         "us": false,
         "ca": false,
-        "au": false,
-        "uk": false,
-        "de": false,
-        "fr": false,
-        "ch": false,
-        "nl": false,
+        "au": true,
+        "uk": true,
+        "de": true,
+        "fr": true,
+        "ch": true,
+        "nl": true,
         "eu": false,
         "xbr": false
       },
@@ -77412,12 +77412,12 @@
       "hidePromoBox": {
         "us": false,
         "ca": false,
-        "au": false,
-        "uk": false,
-        "de": false,
-        "fr": false,
-        "ch": false,
-        "nl": false,
+        "au": true,
+        "uk": true,
+        "de": true,
+        "fr": true,
+        "ch": true,
+        "nl": true,
         "eu": false,
         "xbr": false
       },
