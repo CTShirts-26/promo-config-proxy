@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-04T10:01:50.698Z",
+  "generatedAt": "2026-11-05T22:13:47.352Z",
   "total": 59,
   "rules": [
     {
@@ -75841,162 +75841,162 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "20 % sur tout le reste",
+            "line1": "25 % sur tout le reste",
             "line2": "",
             "line3": "",
-            "line1EndsTonight": "20 % sur tout le reste",
+            "line1EndsTonight": "25 % sur tout le reste",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "20 % sur tout le reste",
+            "line1Affiliate": "25 % sur tout le reste",
             "line2Affiliate": "",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "20 % sur tout le reste",
+            "line1AffiliateEndsTonight": "25 % sur tout le reste",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Jusqu'à -20 % | Black Friday",
-            "endsTonight": "Jusqu'à -20 % | Black Friday",
-            "affiliate": "Jusqu'à -20 % | Black Friday",
-            "affiliateEndsTonight": "Jusqu'à -20 % | Black Friday"
+            "default": "Jusqu'à -25 % | Black Friday",
+            "endsTonight": "Jusqu'à -25 % | Black Friday",
+            "affiliate": "Jusqu'à -25 % | Black Friday",
+            "affiliateEndsTonight": "Jusqu'à -25 % | Black Friday"
           },
           "promoCallout": {
-            "default": "-20 % | BLACK FRIDAY",
+            "default": "-25 % | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "-20 % | BLACK FRIDAY",
+            "affiliate": "-25 % | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "-20 % | BLACK FRIDAY",
+            "default": "-25 % | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "-20 % | BLACK FRIDAY",
+            "affiliate": "-25 % | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "-20 % | BLACK FRIDAY",
+            "default": "-25 % | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "-20 % | BLACK FRIDAY",
+            "affiliate": "-25 % | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
         "ch": {
           "en": {
             "bannerstrip": {
-              "line1": "20% Off Everything Else",
+              "line1": "25% Off Everything Else",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "20% Off Everything Else",
+              "line1EndsTonight": "25% Off Everything Else",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "20% Off Everything Else",
+              "line1Affiliate": "25% Off Everything Else",
               "line2Affiliate": "",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "20% Off Everything Else",
+              "line1AffiliateEndsTonight": "25% Off Everything Else",
               "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20% off | Black Friday Event",
-              "endsTonight": "20% off | Black Friday Event",
-              "affiliate": "20% off | Black Friday Event",
-              "affiliateEndsTonight": "20% off | Black Friday Event"
+              "default": "25% off | Black Friday Event",
+              "endsTonight": "25% off | Black Friday Event",
+              "affiliate": "25% off | Black Friday Event",
+              "affiliateEndsTonight": "25% off | Black Friday Event"
             },
             "promoCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           },
           "fr": {
             "bannerstrip": {
-              "line1": "20 % sur tout le reste",
+              "line1": "25 % sur tout le reste",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "20 % sur tout le reste",
+              "line1EndsTonight": "25 % sur tout le reste",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "20 % sur tout le reste",
+              "line1Affiliate": "25 % sur tout le reste",
               "line2Affiliate": "",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "20 % sur tout le reste",
+              "line1AffiliateEndsTonight": "25 % sur tout le reste",
               "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Économisez jusqu'à 20 % | Black Friday",
-              "endsTonight": "Économisez jusqu'à 20 % | Black Friday",
-              "affiliate": "Économisez jusqu'à 20 % | Black Friday",
-              "affiliateEndsTonight": "Économisez jusqu'à 20 % | Black Friday"
+              "default": "Économisez jusqu'à 25 % | Black Friday",
+              "endsTonight": "Économisez jusqu'à 25 % | Black Friday",
+              "affiliate": "Économisez jusqu'à 25 % | Black Friday",
+              "affiliateEndsTonight": "Économisez jusqu'à 25 % | Black Friday"
             },
             "promoCallout": {
-              "default": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           },
           "de": {
             "bannerstrip": {
-              "line1": "20% Rabatt auf alles andere",
+              "line1": "25% Rabatt auf alles andere",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "20% Rabatt auf alles andere",
+              "line1EndsTonight": "25% Rabatt auf alles andere",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "20% Rabatt auf alles andere",
+              "line1Affiliate": "25% Rabatt auf alles andere",
               "line2Affiliate": "",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "20% Rabatt auf alles andere",
+              "line1AffiliateEndsTonight": "25% Rabatt auf alles andere",
               "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Sparen Sie bis zu 20 % | Black Friday",
-              "endsTonight": "Sparen Sie bis zu 20 % | Black Friday",
-              "affiliate": "Sparen Sie bis zu 20 % | Black Friday",
-              "affiliateEndsTonight": "Sparen Sie bis zu 20 % | Black Friday"
+              "default": "Sparen Sie bis zu 25 % | Black Friday",
+              "endsTonight": "Sparen Sie bis zu 25 % | Black Friday",
+              "affiliate": "Sparen Sie bis zu 25 % | Black Friday",
+              "affiliateEndsTonight": "Sparen Sie bis zu 25 % | Black Friday"
             },
             "promoCallout": {
-              "default": "20 % RABATT | BLACK FRIDAY",
+              "default": "25 % RABATT | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % RABATT | BLACK FRIDAY",
+              "affiliate": "25 % RABATT | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20 % RABATT | BLACK FRIDAY",
+              "default": "25 % RABATT | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % RABATT | BLACK FRIDAY",
+              "affiliate": "25 % RABATT | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20 % RABATT | BLACK FRIDAY",
+              "default": "25 % RABATT | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % RABATT | BLACK FRIDAY",
+              "affiliate": "25 % RABATT | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           }
@@ -76004,122 +76004,122 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "20% Off Everything Else",
+              "line1": "25% Off Everything Else",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "20% Off Everything Else",
+              "line1EndsTonight": "25% Off Everything Else",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "20% Off Everything Else",
+              "line1Affiliate": "25% Off Everything Else",
               "line2Affiliate": "",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "20% Off Everything Else",
+              "line1AffiliateEndsTonight": "25% Off Everything Else",
               "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20% off | Black Friday Event",
-              "endsTonight": "20% off | Black Friday Event",
-              "affiliate": "20% off | Black Friday Event",
-              "affiliateEndsTonight": "20% off | Black Friday Event"
+              "default": "25% off | Black Friday Event",
+              "endsTonight": "25% off | Black Friday Event",
+              "affiliate": "25% off | Black Friday Event",
+              "affiliateEndsTonight": "25% off | Black Friday Event"
             },
             "promoCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           },
           "nl": {
             "bannerstrip": {
-              "line1": "20% Off Everything Else",
+              "line1": "25% Off Everything Else",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "20% Off Everything Else",
+              "line1EndsTonight": "25% Off Everything Else",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "20% Off Everything Else",
+              "line1Affiliate": "25% Off Everything Else",
               "line2Affiliate": "",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "20% Off Everything Else",
+              "line1AffiliateEndsTonight": "25% Off Everything Else",
               "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20% off | Black Friday Event",
-              "endsTonight": "20% off | Black Friday Event",
-              "affiliate": "20% off | Black Friday Event",
-              "affiliateEndsTonight": "20% off | Black Friday Event"
+              "default": "25% off | Black Friday Event",
+              "endsTonight": "25% off | Black Friday Event",
+              "affiliate": "25% off | Black Friday Event",
+              "affiliateEndsTonight": "25% off | Black Friday Event"
             },
             "promoCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           }
         },
         "eu": {
           "bannerstrip": {
-            "line1": "20% Off Everything Else",
+            "line1": "25% Off Everything Else",
             "line2": "",
             "line3": "",
-            "line1EndsTonight": "20% Off Everything Else",
+            "line1EndsTonight": "25% Off Everything Else",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "20% Off Everything Else",
+            "line1Affiliate": "25% Off Everything Else",
             "line2Affiliate": "",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "20% Off Everything Else",
+            "line1AffiliateEndsTonight": "25% Off Everything Else",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20% off | Black Friday Event",
-            "endsTonight": "20% off | Black Friday Event",
-            "affiliate": "20% off | Black Friday Event",
-            "affiliateEndsTonight": "20% off | Black Friday Event"
+            "default": "25% off | Black Friday Event",
+            "endsTonight": "25% off | Black Friday Event",
+            "affiliate": "25% off | Black Friday Event",
+            "affiliateEndsTonight": "25% off | Black Friday Event"
           },
           "promoCallout": {
-            "default": "20% OFF | BLACK FRIDAY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "20% OFF | BLACK FRIDAY",
+            "affiliate": "25% OFF | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "20% OFF | BLACK FRIDAY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "20% OFF | BLACK FRIDAY",
+            "affiliate": "25% OFF | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "20% OFF | BLACK FRIDAY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "20% OFF | BLACK FRIDAY",
+            "affiliate": "25% OFF | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
@@ -80932,162 +80932,162 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "20 % sur tout le reste",
+            "line1": "25 % sur tout le reste",
             "line2": "",
             "line3": "",
-            "line1EndsTonight": "20 % sur tout le reste",
+            "line1EndsTonight": "25 % sur tout le reste",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "20 % sur tout le reste",
+            "line1Affiliate": "25 % sur tout le reste",
             "line2Affiliate": "",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "20 % sur tout le reste",
+            "line1AffiliateEndsTonight": "25 % sur tout le reste",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20 % DE RÉDUCTION | BLACK FRIDAY",
-            "endsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR",
-            "affiliate": "20 % DE RÉDUCTION | BLACK FRIDAY",
-            "affiliateEndsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR"
+            "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
+            "endsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR",
+            "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
+            "affiliateEndsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR"
           },
           "promoCallout": {
-            "default": "-20 % | BLACK FRIDAY",
+            "default": "-25 % | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "-20 % | BLACK FRIDAY",
+            "affiliate": "-25 % | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "-20 % | BLACK FRIDAY",
+            "default": "-25 % | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "-20 % | BLACK FRIDAY",
+            "affiliate": "-25 % | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "-20 % | BLACK FRIDAY",
+            "default": "-25 % | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "-20 % | BLACK FRIDAY",
+            "affiliate": "-25 % | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
         "ch": {
           "en": {
             "bannerstrip": {
-              "line1": "20% Off Everything Else",
+              "line1": "25% Off Everything Else",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "20% Off Everything Else",
+              "line1EndsTonight": "25% Off Everything Else",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "20% Off Everything Else",
+              "line1Affiliate": "25% Off Everything Else",
               "line2Affiliate": "",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "20% Off Everything Else",
+              "line1AffiliateEndsTonight": "25% Off Everything Else",
               "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20% OFF | BLACK FRIDAY",
-              "endsTonight": "20% OFF | ENDS TONIGHT",
-              "affiliate": "20% OFF | BLACK FRIDAY",
-              "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+              "default": "25% OFF | BLACK FRIDAY",
+              "endsTonight": "25% OFF | ENDS TONIGHT",
+              "affiliate": "25% OFF | BLACK FRIDAY",
+              "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
             },
             "promoCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           },
           "fr": {
             "bannerstrip": {
-              "line1": "20 % sur tout le reste",
+              "line1": "25 % sur tout le reste",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "20 % sur tout le reste",
+              "line1EndsTonight": "25 % sur tout le reste",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "20 % sur tout le reste",
+              "line1Affiliate": "25 % sur tout le reste",
               "line2Affiliate": "",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "20 % sur tout le reste",
+              "line1AffiliateEndsTonight": "25 % sur tout le reste",
               "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20 % DE RÉDUCTION | BLACK FRIDAY",
-              "endsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR",
-              "affiliate": "20 % DE RÉDUCTION | BLACK FRIDAY",
-              "affiliateEndsTonight": "20 % DE RÉDUCTION | JUSQU’À CE SOIR"
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
+              "endsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR",
+              "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
+              "affiliateEndsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR"
             },
             "promoCallout": {
-              "default": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % DE RÉDUCTION | BLACK FRIDAY",
+              "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           },
           "de": {
             "bannerstrip": {
-              "line1": "20% Rabatt auf alles andere",
+              "line1": "25% Rabatt auf alles andere",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "20% Rabatt auf alles andere",
+              "line1EndsTonight": "25% Rabatt auf alles andere",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "20% Rabatt auf alles andere",
+              "line1Affiliate": "25% Rabatt auf alles andere",
               "line2Affiliate": "",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "20% Rabatt auf alles andere",
+              "line1AffiliateEndsTonight": "25% Rabatt auf alles andere",
               "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20 % RABATT | BLACK FRIDAY",
-              "endsTonight": "20 % RABATT | ENDET HEUTE ABEND",
-              "affiliate": "20 % RABATT | BLACK FRIDAY",
-              "affiliateEndsTonight": "20 % RABATT | ENDET HEUTE ABEND"
+              "default": "25 % RABATT | BLACK FRIDAY",
+              "endsTonight": "25 % RABATT | ENDET HEUTE ABEND",
+              "affiliate": "25 % RABATT | BLACK FRIDAY",
+              "affiliateEndsTonight": "25 % RABATT | ENDET HEUTE ABEND"
             },
             "promoCallout": {
-              "default": "20 % RABATT | BLACK FRIDAY",
+              "default": "25 % RABATT | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % RABATT | BLACK FRIDAY",
+              "affiliate": "25 % RABATT | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20 % RABATT | BLACK FRIDAY",
+              "default": "25 % RABATT | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % RABATT | BLACK FRIDAY",
+              "affiliate": "25 % RABATT | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20 % RABATT | BLACK FRIDAY",
+              "default": "25 % RABATT | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20 % RABATT | BLACK FRIDAY",
+              "affiliate": "25 % RABATT | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           }
@@ -81095,122 +81095,122 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "20% Off Everything Else",
+              "line1": "25% Off Everything Else",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "20% Off Everything Else",
+              "line1EndsTonight": "25% Off Everything Else",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "20% Off Everything Else",
+              "line1Affiliate": "25% Off Everything Else",
               "line2Affiliate": "",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "20% Off Everything Else",
+              "line1AffiliateEndsTonight": "25% Off Everything Else",
               "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20% OFF | BLACK FRIDAY",
-              "endsTonight": "20% OFF | ENDS TONIGHT",
-              "affiliate": "20% OFF | BLACK FRIDAY",
-              "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+              "default": "25% OFF | BLACK FRIDAY",
+              "endsTonight": "25% OFF | ENDS TONIGHT",
+              "affiliate": "25% OFF | BLACK FRIDAY",
+              "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
             },
             "promoCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           },
           "nl": {
             "bannerstrip": {
-              "line1": "20% Off Everything Else",
+              "line1": "25% Off Everything Else",
               "line2": "",
               "line3": "",
-              "line1EndsTonight": "20% Off Everything Else",
+              "line1EndsTonight": "25% Off Everything Else",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
-              "line1Affiliate": "20% Off Everything Else",
+              "line1Affiliate": "25% Off Everything Else",
               "line2Affiliate": "",
               "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "20% Off Everything Else",
+              "line1AffiliateEndsTonight": "25% Off Everything Else",
               "line2AffiliateEndsTonight": "",
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "20% OFF | BLACK FRIDAY",
-              "endsTonight": "20% OFF | ENDS TONIGHT",
-              "affiliate": "20% OFF | BLACK FRIDAY",
-              "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+              "default": "25% OFF | BLACK FRIDAY",
+              "endsTonight": "25% OFF | ENDS TONIGHT",
+              "affiliate": "25% OFF | BLACK FRIDAY",
+              "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
             },
             "promoCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "20% OFF | BLACK FRIDAY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "20% OFF | BLACK FRIDAY",
+              "affiliate": "25% OFF | BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           }
         },
         "eu": {
           "bannerstrip": {
-            "line1": "20% Off Everything Else",
+            "line1": "25% Off Everything Else",
             "line2": "",
             "line3": "",
-            "line1EndsTonight": "20% Off Everything Else",
+            "line1EndsTonight": "25% Off Everything Else",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "20% Off Everything Else",
+            "line1Affiliate": "25% Off Everything Else",
             "line2Affiliate": "",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "20% Off Everything Else",
+            "line1AffiliateEndsTonight": "25% Off Everything Else",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20% OFF | BLACK FRIDAY",
-            "endsTonight": "20% OFF | ENDS TONIGHT",
-            "affiliate": "20% OFF | BLACK FRIDAY",
-            "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+            "default": "25% OFF | BLACK FRIDAY",
+            "endsTonight": "25% OFF | ENDS TONIGHT",
+            "affiliate": "25% OFF | BLACK FRIDAY",
+            "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
           },
           "promoCallout": {
-            "default": "20% OFF | BLACK FRIDAY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "20% OFF | BLACK FRIDAY",
+            "affiliate": "25% OFF | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "20% OFF | BLACK FRIDAY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "20% OFF | BLACK FRIDAY",
+            "affiliate": "25% OFF | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "20% OFF | BLACK FRIDAY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "20% OFF | BLACK FRIDAY",
+            "affiliate": "25% OFF | BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
