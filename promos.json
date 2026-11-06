@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-06T13:19:35.999Z",
+  "generatedAt": "2026-11-06T13:28:04.880Z",
   "total": 59,
   "rules": [
     {
@@ -83151,14 +83151,14 @@
       },
       "countryEnabled": {
         "us": true,
-        "ca": false,
+        "ca": true,
         "au": true,
         "uk": true,
         "de": true,
         "fr": true,
         "ch": true,
         "nl": true,
-        "eu": false,
+        "eu": true,
         "xbr": false
       },
       "targeting": {
