@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-05T22:13:47.352Z",
+  "generatedAt": "2026-11-06T13:19:35.999Z",
   "total": 59,
   "rules": [
     {
@@ -83135,8 +83135,8 @@
       "rowNumber": 72
     },
     {
-      "ruleId": "UK_FB_29.95_FD50_BF_Non_shirts",
-      "category": "UK_FB_29.95_FD50_BF_Non_shirts",
+      "ruleId": "Acquisition_Black_Friday_Non_Shirts",
+      "category": "Acquisition_Black_Friday_Non_Shirts",
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-11-16",
@@ -83150,14 +83150,14 @@
         "multibuy": false
       },
       "countryEnabled": {
-        "us": false,
+        "us": true,
         "ca": false,
-        "au": false,
+        "au": true,
         "uk": true,
-        "de": false,
-        "fr": false,
-        "ch": false,
-        "nl": false,
+        "de": true,
+        "fr": true,
+        "ch": true,
+        "nl": true,
         "eu": false,
         "xbr": false
       },
@@ -83165,21 +83165,24 @@
         "defaultCampaignSites": [],
         "affiliateCampaignSites": [],
         "acquisitionCampaignSites": [
-          "uknbai",
-          "uknbab",
-          "ukbamar1",
-          "uknbam",
-          "ukfb2c",
           "ukdgsh",
+          "ukdgfsh",
+          "uknbai",
+          "uknbam",
+          "ukbgpmt",
+          "ukytaw",
+          "ukdgaw",
+          "ukdgfa",
+          "uknban",
+          "ukbamar1",
+          "uknbac",
+          "uknbab",
+          "ukfb2c",
           "ukknow1",
           "uk29fb",
           "ukfbrb",
           "uknbts",
-          "ukdgaw",
-          "ukdgfa",
-          "uknban",
           "ukfbr1",
-          "ukdgfsh",
           "uk50fb",
           "ukdgcss",
           "ukgnbt",
@@ -83187,7 +83190,6 @@
           "uknbcr",
           "ukss34",
           "ukgnbtc",
-          "ukbgpmt",
           "uk50fd",
           "ukfb1c",
           "ukpmch",
@@ -83195,14 +83197,12 @@
           "ukdg99",
           "uknbch",
           "uknbkn",
-          "ukytaw",
           "ukfb2r",
           "uknbfd",
           "ukdgme",
           "ukdgfm",
           "uk24bs",
           "ukytfa",
-          "uknbac",
           "ukytfm",
           "ukbgta",
           "ukyt99",
@@ -83233,7 +83233,198 @@
           "ukpm99",
           "fbreact",
           "reacts99",
-          "ukreact"
+          "ukreact",
+          "us39t3",
+          "fb39t1",
+          "usgonb",
+          "usbgsh",
+          "usg399",
+          "usbi99",
+          "usgd99",
+          "rtb39a",
+          "usfbre",
+          "usb399",
+          "usyt99",
+          "li99fs",
+          "jetsban24",
+          "fbroa2",
+          "uspnf",
+          "usdgre",
+          "usdgfe",
+          "usgnbtc",
+          "usot99",
+          "fbroa1",
+          "espn",
+          "usytts",
+          "usdgrf",
+          "bl39t1",
+          "usdv99",
+          "ushent",
+          "ctvtex1",
+          "squash25",
+          "nyjusban",
+          "usdgfl",
+          "usdgbo",
+          "usytfl",
+          "usgnbt",
+          "dstex",
+          "usytbo",
+          "usytcr",
+          "usflor",
+          "usnbco",
+          "usnbte",
+          "usds99",
+          "fb99ta",
+          "usnews",
+          "uscaler",
+          "usnbch",
+          "uspmch",
+          "uspmkn",
+          "usytbf",
+          "usbgau",
+          "usbgfd",
+          "fbroa3",
+          "fbroa4",
+          "usdgsh",
+          "usdgfsh",
+          "usnbai",
+          "uspxtr",
+          "mybb",
+          "de34bs",
+          "defbta",
+          "fbfdcr",
+          "bgfdcr",
+          "gofdcr",
+          "defbnw",
+          "decr01",
+          "defbre",
+          "depm99",
+          "defb99",
+          "degd99",
+          "desc99",
+          "degnbt",
+          "debi99",
+          "destyle21",
+          "degnbtc",
+          "nbfdcr",
+          "denb99",
+          "mybb21",
+          "deyt99",
+          "dedc99",
+          "nbfdte",
+          "bgfdte",
+          "gofdte",
+          "decss",
+          "depnf",
+          "dedgfe",
+          "ausfbm",
+          "autscr",
+          "aupmbg",
+          "augs39",
+          "ausfb1",
+          "auytaw",
+          "augnbtc",
+          "augnbt",
+          "aunbbg",
+          "audgbl",
+          "audgfa",
+          "aunbam",
+          "audgaw",
+          "aunb17",
+          "aunbai",
+          "aubscr",
+          "audgfe",
+          "aubsts",
+          "aunbmb",
+          "ausfbn",
+          "aufbm2",
+          "autsdc",
+          "aupmxt",
+          "ausfbs",
+          "aufb1",
+          "aucrit",
+          "aufbs2",
+          "audisp",
+          "auyoutube",
+          "canben",
+          "canbfr",
+          "cafben",
+          "cafbfr",
+          "capmen",
+          "capmfr",
+          "caggen",
+          "cadgfr",
+          "cadfee",
+          "caencs",
+          "capmbg",
+          "canbbg",
+          "cartba",
+          "canbon",
+          "canbai",
+          "canbam",
+          "caytaw",
+          "cadgaw",
+          "cadgfa",
+          "chnben",
+          "chnbde",
+          "chnbfr",
+          "chfben",
+          "chfbde",
+          "chfbfr",
+          "chpmen",
+          "chpmde",
+          "chpmfr",
+          "chdgen",
+          "chdgde",
+          "chdgfr",
+          "chdfde",
+          "chdecs",
+          "nlnbdu",
+          "nlfbdu",
+          "nlpmdu",
+          "nldgdu",
+          "nlnben",
+          "nlfben",
+          "nlpmen",
+          "nldgen",
+          "nldfed",
+          "nlducs",
+          "nlnbai",
+          "nlnbam",
+          "iecss",
+          "iedgfe",
+          "eugnbt",
+          "eugnbtc",
+          "iegnbt",
+          "iegnbtc",
+          "irefb2",
+          "eupm99",
+          "eudg99",
+          "irebr",
+          "netbr",
+          "eunbai",
+          "eunbam",
+          "ienbai",
+          "ienbam",
+          "frfb99",
+          "frpx99",
+          "frnb99",
+          "frdc99",
+          "frfbnw",
+          "frnbbg",
+          "frabs",
+          "frfbta",
+          "frgnbt",
+          "frgnbtc",
+          "frnbon",
+          "frnbai",
+          "frnbam",
+          "frytaw",
+          "frdgaw",
+          "frdgfa",
+          "frfbtb",
+          "frcss",
+          "frdgfe"
         ],
         "campaignSites": [],
         "mainCategories": [
@@ -84170,7 +84361,7 @@
         "us": {
           "bannerstrip": {
             "line1": "",
-            "line2": "",
+            "line2": "+ 25% Off Everything Else",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
@@ -84183,25 +84374,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -84211,7 +84402,7 @@
           "en": {
             "bannerstrip": {
               "line1": "",
-              "line2": "",
+              "line2": "+ 25% Off Everything Else",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -84224,25 +84415,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -84251,7 +84442,7 @@
           "fr": {
             "bannerstrip": {
               "line1": "",
-              "line2": "",
+              "line2": "+ 25 % sur tout le reste",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -84264,25 +84455,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -84292,7 +84483,7 @@
         "au": {
           "bannerstrip": {
             "line1": "",
-            "line2": "",
+            "line2": "+ 25% Off Everything Else",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
@@ -84305,25 +84496,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -84372,7 +84563,7 @@
         "de": {
           "bannerstrip": {
             "line1": "",
-            "line2": "",
+            "line2": "+ 25% Rabatt auf alles andere",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
@@ -84385,25 +84576,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -84412,7 +84603,7 @@
         "fr": {
           "bannerstrip": {
             "line1": "",
-            "line2": "",
+            "line2": "+ 25 % sur tout le reste",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
@@ -84425,25 +84616,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -84453,7 +84644,7 @@
           "en": {
             "bannerstrip": {
               "line1": "",
-              "line2": "",
+              "line2": "+ 25% Off Everything Else",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -84466,25 +84657,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -84493,7 +84684,7 @@
           "fr": {
             "bannerstrip": {
               "line1": "",
-              "line2": "",
+              "line2": "+ 25 % sur tout le reste",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -84506,25 +84697,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -84533,7 +84724,7 @@
           "de": {
             "bannerstrip": {
               "line1": "",
-              "line2": "",
+              "line2": "+ 25% Rabatt auf alles andere",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -84546,25 +84737,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -84575,7 +84766,7 @@
           "en": {
             "bannerstrip": {
               "line1": "",
-              "line2": "",
+              "line2": "+ 25% Off Everything Else",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -84588,25 +84779,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -84615,7 +84806,7 @@
           "nl": {
             "bannerstrip": {
               "line1": "",
-              "line2": "",
+              "line2": "+ 25% Off Everything Else",
               "line3": "",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
@@ -84628,25 +84819,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "",
+              "default": "25% OFF | LIMITED TIME ONLY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -84656,7 +84847,7 @@
         "eu": {
           "bannerstrip": {
             "line1": "",
-            "line2": "",
+            "line2": "+ 25% Off Everything Else",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
@@ -84669,25 +84860,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "",
+            "default": "25% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
