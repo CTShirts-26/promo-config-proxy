@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-08T06:49:46.695Z",
+  "generatedAt": "2026-11-08T20:30:57.618Z",
   "total": 60,
   "rules": [
     {
@@ -86734,7 +86734,10 @@
           "TIS0007DGN",
           "TIS0007PET",
           "TIS0007PNV",
-          "TIV0009BLK"
+          "TIV0009BLK",
+          "CSC0073KHA",
+          "CSC0073NAV",
+          "CSC0073TPE"
         ],
         "excludedProductIds": []
       },
