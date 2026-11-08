@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-08T06:43:26.897Z",
+  "generatedAt": "2026-11-08T06:49:46.695Z",
   "total": 60,
   "rules": [
     {
@@ -86755,7 +86755,7 @@
         "us": {
           "bannerstrip": {
             "line1": "",
-            "line2": "+ 25% Off Everything Else",
+            "line2": "+ 30% Off Everything Else",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
@@ -86768,25 +86768,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "30% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "30% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "30% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "30% OFF | LIMITED TIME ONLY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
