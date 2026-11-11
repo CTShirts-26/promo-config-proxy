@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-11T17:32:44.338Z",
+  "generatedAt": "2026-11-11T17:45:33.380Z",
   "total": 20,
   "rules": [
     {
@@ -5314,7 +5314,7 @@
       "endUtc": "2029-01-01",
       "scope": {
         "bannerstrip": true,
-        "tibText": false,
+        "tibText": true,
         "promoCallout": false,
         "plpCallout": false,
         "pdpCallout": false,
@@ -5341,7 +5341,8 @@
           "gofdte",
           "decss",
           "depnf",
-          "dedgfe"
+          "dedgfe",
+          "depm99"
         ],
         "campaignSites": [],
         "mainCategories": [
@@ -6617,7 +6618,7 @@
         "de": {
           "bannerstrip": {
             "line1": "Hemden oder Polos ab 39,95 €",
-            "line2": "Kostenloser Versand bei Bestellungen über 75 €",
+            "line2": "Kostenloser Versand",
             "line3": "",
             "line1EndsTonight": "",
             "line2EndsTonight": "",
@@ -6630,7 +6631,7 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "",
+            "default": "Hemden Oder Polos ab 39,95 €",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
