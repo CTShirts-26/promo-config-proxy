@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-11T21:33:09.601Z",
+  "generatedAt": "2026-11-11T22:20:01.672Z",
   "total": 20,
   "rules": [
     {
@@ -15692,7 +15692,8 @@
           "TRT0458FRE",
           "TRT0458GRY",
           "TRT0458MCA",
-          "TRT0458TPE"
+          "TRT0458TPE",
+          "SUT0326STL"
         ],
         "excludedProductIds": []
       },
@@ -16993,7 +16994,8 @@
           "TIV0009BLK",
           "CSC0073KHA",
           "CSC0073NAV",
-          "CSC0073TPE"
+          "CSC0073TPE",
+          "SUT0326STL"
         ],
         "excludedProductIds": []
       },
