@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-11T17:28:04.967Z",
+  "generatedAt": "2026-11-11T17:32:44.338Z",
   "total": 20,
   "rules": [
     {
@@ -3605,28 +3605,15 @@
         "defaultCampaignSites": [],
         "affiliateCampaignSites": [],
         "acquisitionCampaignSites": [
-          "mybb",
-          "de34bs",
-          "defbta",
-          "fbfdcr",
-          "bgfdcr",
-          "gofdcr",
-          "defbnw",
-          "decr01",
-          "defbre",
-          "depm99",
           "defb99",
-          "degd99",
-          "desc99",
-          "degnbt",
-          "debi99",
-          "destyle21",
-          "degnbtc",
-          "nbfdcr",
           "denb99",
-          "mybb21",
-          "deyt99",
-          "dedc99"
+          "nbfdcr",
+          "denbac",
+          "denbam",
+          "denbai",
+          "desc99",
+          "degd99",
+          "dedgfe"
         ],
         "campaignSites": [],
         "mainCategories": [
