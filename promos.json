@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-12T13:36:15.036Z",
+  "generatedAt": "2026-11-12T13:42:34.198Z",
   "total": 23,
   "rules": [
     {
@@ -15380,7 +15380,7 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "Offre de lancement - 3 pour 99 €",
+            "line1": "3 Chemises ou polos pour 99 €",
             "line2": "",
             "line3": "Livraison gratuite",
             "line1EndsTonight": "",
@@ -15394,7 +15394,7 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "3 pour 99 €",
+            "default": "Offre de lancement - 3 pour 99 €",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -17109,7 +17109,7 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "Offre de lancement - Chemises ou polos à 39,95 €",
+            "line1": "Chemises ou polos à 39,95 €",
             "line2": "",
             "line3": "Livraison gratuite",
             "line1EndsTonight": "",
@@ -17123,7 +17123,7 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "Chemises ou polos à 39,95 €",
+            "default": "Offre de lancement - Chemises ou polos à 39,95 €",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
