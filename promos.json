@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-12T09:13:32.721Z",
+  "generatedAt": "2026-11-12T09:16:44.010Z",
   "total": 22,
   "rules": [
     {
@@ -16781,7 +16781,19 @@
           "usnbac",
           "usnbam",
           "usnbax",
-          "usdgfa"
+          "usdgfa",
+          "nldfed",
+          "nlnbdu",
+          "nlducs",
+          "nlnbon",
+          "nldgbl",
+          "nlnbai",
+          "nlnbam",
+          "nlfbdu",
+          "nldgdu",
+          "nlfben",
+          "nlnben",
+          "nldgen"
         ],
         "campaignSites": [],
         "mainCategories": [
