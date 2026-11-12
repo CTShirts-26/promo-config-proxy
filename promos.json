@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-12T00:36:15.613Z",
+  "generatedAt": "2026-11-12T00:42:47.108Z",
   "total": 22,
   "rules": [
     {
@@ -20066,7 +20066,10 @@
           "usdgfsh",
           "usnbai",
           "uspxtr",
-          "mybb"
+          "mybb",
+          "usbrt1",
+          "usgob",
+          "usepactive"
         ],
         "campaignSites": [],
         "mainCategories": [
