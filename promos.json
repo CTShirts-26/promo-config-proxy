@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-12T10:26:54.666Z",
+  "generatedAt": "2026-11-12T10:35:16.074Z",
   "total": 22,
   "rules": [
     {
@@ -18117,7 +18117,7 @@
         "ch": {
           "en": {
             "bannerstrip": {
-              "line1": "",
+              "line1": "Shirts Or Polos From CHF 39",
               "line2": "+ 25% Off Everything Else",
               "line3": "",
               "line1EndsTonight": "",
@@ -18157,7 +18157,7 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "",
+              "line1": "Chemises Ou Polos Pour CHF 39",
               "line2": "+ 25 % sur tout le reste",
               "line3": "",
               "line1EndsTonight": "",
@@ -18197,7 +18197,7 @@
           },
           "de": {
             "bannerstrip": {
-              "line1": "",
+              "line1": "Hemden oder Poloshirts für CHF 39",
               "line2": "+ 25% Rabatt auf alles andere",
               "line3": "",
               "line1EndsTonight": "",
@@ -18239,7 +18239,7 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "",
+              "line1": "Shirts Or Polos For €39.95",
               "line2": "+ 25% Off Everything Else",
               "line3": "",
               "line1EndsTonight": "",
@@ -18279,7 +18279,7 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "",
+              "line1": "Shirts Or Polos For €39.95",
               "line2": "+ 25% Off Everything Else",
               "line3": "",
               "line1EndsTonight": "",
