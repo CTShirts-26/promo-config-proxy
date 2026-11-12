@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-12T00:34:24.368Z",
+  "generatedAt": "2026-11-12T00:36:15.613Z",
   "total": 22,
   "rules": [
     {
@@ -12284,7 +12284,19 @@
           "iedgbl",
           "iedgfe",
           "irenb",
-          "irefb2"
+          "irefb2",
+          "esfb39",
+          "esdg39",
+          "esdgfe",
+          "esnbai",
+          "esnb39",
+          "itfb39",
+          "itmsnb",
+          "itmspx",
+          "itdg39",
+          "itdgfe",
+          "itnbai",
+          "itnb39"
         ],
         "campaignSites": [],
         "mainCategories": [
