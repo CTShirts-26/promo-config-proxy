@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-12T00:45:18.507Z",
+  "generatedAt": "2026-11-12T00:54:32.875Z",
   "total": 22,
   "rules": [
     {
@@ -16807,7 +16807,8 @@
           "trousers",
           "trousers-chinos",
           "trousers-casual-trousers",
-          "trousers-smart-trousers"
+          "trousers-smart-trousers",
+          "black-friday-offres-costumes"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
