@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-12T08:27:53.458Z",
+  "generatedAt": "2026-11-12T08:38:05.389Z",
   "total": 22,
   "rules": [
     {
@@ -121,7 +121,8 @@
           "smart-polo-shirts",
           "knitted-polos",
           "long-sleeve-polos",
-          "linen-polo-shirts"
+          "linen-polo-shirts",
+          "black-friday-shirts-deals"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
@@ -1902,7 +1903,8 @@
           "shirts-new-season",
           "pique-polo-shirts",
           "smart-polo-shirts",
-          "knitted-polos"
+          "knitted-polos",
+          "black-friday-shirts-deals"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
@@ -7109,7 +7111,8 @@
           "smart-polo-shirts",
           "knitted-polos",
           "long-sleeve-polos",
-          "linen-polo-shirts"
+          "linen-polo-shirts",
+          "black-friday-shirts-deals"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
@@ -8841,7 +8844,8 @@
           "smart-polo-shirts",
           "knitted-polos",
           "long-sleeve-polos",
-          "linen-polo-shirts"
+          "linen-polo-shirts",
+          "black-friday-shirts-deals"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
@@ -10568,7 +10572,8 @@
           "smart-polo-shirts",
           "knitted-polos",
           "long-sleeve-polos",
-          "linen-polo-shirts"
+          "linen-polo-shirts",
+          "black-friday-shirts-deals"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
@@ -12315,7 +12320,8 @@
           "smart-polo-shirts",
           "knitted-polos",
           "long-sleeve-polos",
-          "linen-polo-shirts"
+          "linen-polo-shirts",
+          "black-friday-shirts-deals"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
@@ -14046,7 +14052,8 @@
           "smart-polo-shirts",
           "knitted-polos",
           "long-sleeve-polos",
-          "linen-polo-shirts"
+          "linen-polo-shirts",
+          "black-friday-shirts-deals"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
