@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-12T00:42:47.108Z",
+  "generatedAt": "2026-11-12T00:45:18.507Z",
   "total": 22,
   "rules": [
     {
@@ -27444,6 +27444,9 @@
           "usnbdef",
           "usddefault",
           "rtbdfb",
+          "usbrt1",
+          "usgob",
+          "usepactive",
           "cabrbg",
           "cabren",
           "caddefault",
