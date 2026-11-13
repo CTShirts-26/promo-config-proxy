@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T11:45:17.354Z",
+  "generatedAt": "2026-11-13T11:54:10.272Z",
   "total": 24,
   "rules": [
     {
@@ -98,8 +98,7 @@
           "ukbgtb",
           "ukpis",
           "uksc99",
-          "ukfbra",
-          "ukpm99"
+          "ukfbra"
         ],
         "campaignSites": [],
         "mainCategories": [
@@ -1796,7 +1795,7 @@
       "rowNumber": 6
     },
     {
-      "ruleId": "UK_FB_29.95_FD50_Reacts",
+      "ruleId": "UK_FB_29.95_FD_Reacts_Pmax",
       "category": "ACQ - UK",
       "enabled": true,
       "status": "LIVE",
@@ -1828,7 +1827,8 @@
         "acquisitionCampaignSites": [
           "fbreact",
           "reacts99",
-          "ukreact"
+          "ukreact",
+          "ukpm99"
         ],
         "campaignSites": [],
         "mainCategories": [
