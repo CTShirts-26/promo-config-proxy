@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T12:53:44.054Z",
+  "generatedAt": "2026-11-13T12:59:29.943Z",
   "total": 24,
   "rules": [
     {
@@ -5390,7 +5390,9 @@
           "shirts-new-season",
           "pique-polo-shirts",
           "smart-polo-shirts",
-          "knitted-polos"
+          "knitted-polos",
+          "black-friday-shirts-deals",
+          "black-friday-hemden-angebote"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
@@ -7119,7 +7121,8 @@
           "shirts-new-season",
           "pique-polo-shirts",
           "smart-polo-shirts",
-          "knitted-polos"
+          "knitted-polos",
+          "black-friday-shirts-deals"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
