@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T13:01:53.742Z",
+  "generatedAt": "2026-11-13T13:03:49.933Z",
   "total": 24,
   "rules": [
     {
@@ -12311,7 +12311,11 @@
         "affiliateCampaignSites": [],
         "acquisitionCampaignSites": [
           "eupm99",
-          "irepx"
+          "irepx",
+          "espm39",
+          "itpm39",
+          "irepx",
+          "eupm99"
         ],
         "campaignSites": [],
         "mainCategories": [
