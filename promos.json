@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T18:05:22.920Z",
+  "generatedAt": "2026-11-13T18:11:09.861Z",
   "total": 29,
   "rules": [
     {
@@ -18988,7 +18988,7 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "Introductory Offer - 3 Shirts or Polos for €99",
+              "line1": "Introductory Offer - 3 Shirts or Polos €99",
               "line2": "",
               "line3": "Free delivery",
               "line1EndsTonight": "",
@@ -20716,7 +20716,7 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "Introductory Offer - 3 Shirts or Polos for €99",
+              "line1": "Introductory Offer - 3 Shirts or Polos €99",
               "line2": "",
               "line3": "Free delivery",
               "line1EndsTonight": "",
@@ -30379,7 +30379,7 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "Shirts Or Polos For €39.95",
+              "line1": "",
               "line2": "+ 25% Off Everything Else",
               "line3": "",
               "line1EndsTonight": "",
@@ -30419,7 +30419,7 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "Shirts Or Polos For €39.95",
+              "line1": "",
               "line2": "+ 25% Off Everything Else",
               "line3": "",
               "line1EndsTonight": "",
