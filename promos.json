@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T14:04:13.532Z",
+  "generatedAt": "2026-11-13T14:18:12.698Z",
   "total": 26,
   "rules": [
     {
@@ -23720,7 +23720,21 @@
           "nldgdu",
           "nlfben",
           "nlnben",
-          "nldgen"
+          "nldgen",
+          "depm99",
+          "denbai",
+          "defb99",
+          "defb99a",
+          "defb99b",
+          "denbai",
+          "denbam",
+          "denbac",
+          "denb99",
+          "nbfdcr",
+          "degd99",
+          "degd99",
+          "dedgfe",
+          "desc99"
         ],
         "campaignSites": [],
         "mainCategories": [
@@ -24776,25 +24790,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "30% OFF | LIMITED TIME ONLY",
+            "default": "30% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "30% OFF | LIMITED TIME ONLY",
+            "default": "30% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "30% OFF | LIMITED TIME ONLY",
+            "default": "30% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "30% OFF | LIMITED TIME ONLY",
+            "default": "30% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -24817,25 +24831,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -24857,25 +24871,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -24898,25 +24912,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -24938,25 +24952,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20% OFF | LIMITED TIME ONLY",
+            "default": "20% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "20% OFF | LIMITED TIME ONLY",
+            "default": "20% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "20% OFF | LIMITED TIME ONLY",
+            "default": "20% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "20% OFF | LIMITED TIME ONLY",
+            "default": "20% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -24978,25 +24992,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
+            "default": "25 % RABATT | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
+            "default": "25 % RABATT | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
+            "default": "25 % RABATT | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
+            "default": "25 % RABATT | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -25018,25 +25032,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+            "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+            "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+            "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+            "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
@@ -25059,25 +25073,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -25099,25 +25113,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "25 % DE RÉDUCTION | OFFRE À DURÉE LIMITÉE",
+              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -25139,25 +25153,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
+              "default": "25 % RABATT | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
+              "default": "25 % RABATT | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
+              "default": "25 % RABATT | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "25 % RABATT | NUR FÜR KURZE ZEIT",
+              "default": "25 % RABATT | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -25181,25 +25195,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -25221,25 +25235,25 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "promoCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "25% OFF | LIMITED TIME ONLY",
+              "default": "25% OFF | BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -25262,25 +25276,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25% OFF | LIMITED TIME ONLY",
+            "default": "25% OFF | BLACK FRIDAY",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
