@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T14:18:12.698Z",
+  "generatedAt": "2026-11-13T14:25:06.866Z",
   "total": 26,
   "rules": [
     {
@@ -24756,7 +24756,16 @@
           "SES0006CEB",
           "SES0006PCH",
           "SES0010SGE",
-          "SES0011SGE"
+          "SES0011SGE",
+          "ACU0209BLK",
+          "ACU0209WHT",
+          "ACU0220WHT",
+          "JET0006WHT",
+          "JET0025BLK",
+          "JET0025GRP",
+          "JET0025NAV",
+          "JET0025WHT",
+          "JET0027LGY"
         ],
         "excludedProductIds": []
       },
@@ -34070,7 +34079,16 @@
           "SES0006CEB",
           "SES0006PCH",
           "SES0010SGE",
-          "SES0011SGE"
+          "SES0011SGE",
+          "ACU0209BLK",
+          "ACU0209WHT",
+          "ACU0220WHT",
+          "JET0006WHT",
+          "JET0025BLK",
+          "JET0025GRP",
+          "JET0025NAV",
+          "JET0025WHT",
+          "JET0027LGY"
         ],
         "excludedProductIds": []
       },
@@ -42731,7 +42749,16 @@
           "SES0006CEB",
           "SES0006PCH",
           "SES0010SGE",
-          "SES0011SGE"
+          "SES0011SGE",
+          "ACU0209BLK",
+          "ACU0209WHT",
+          "ACU0220WHT",
+          "JET0006WHT",
+          "JET0025BLK",
+          "JET0025GRP",
+          "JET0025NAV",
+          "JET0025WHT",
+          "JET0027LGY"
         ],
         "excludedProductIds": []
       },
