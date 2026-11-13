@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T13:15:10.893Z",
+  "generatedAt": "2026-11-13T13:22:57.537Z",
   "total": 24,
   "rules": [
     {
@@ -19906,7 +19906,7 @@
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-11-16",
-      "endUtc": "2026-12-01",
+      "endUtc": "2026-11-30",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
@@ -21922,7 +21922,7 @@
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-11-16",
-      "endUtc": "2026-12-01",
+      "endUtc": "2026-11-30",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
@@ -23545,7 +23545,7 @@
       "enabled": true,
       "status": "SCHEDULED",
       "startUtc": "2026-11-16",
-      "endUtc": "2026-12-01",
+      "endUtc": "2026-11-30",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
