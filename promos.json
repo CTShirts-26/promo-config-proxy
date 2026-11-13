@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T13:32:43.376Z",
+  "generatedAt": "2026-11-13T13:35:41.583Z",
   "total": 24,
   "rules": [
     {
@@ -15815,7 +15815,8 @@
           "knitted-polos",
           "long-sleeve-polos",
           "linen-polo-shirts",
-          "black-friday-shirts-deals"
+          "black-friday-shirts-deals",
+          "black-friday-offres-chemises"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
@@ -17544,7 +17545,8 @@
           "knitted-polos",
           "long-sleeve-polos",
           "linen-polo-shirts",
-          "black-friday-shirts-deals"
+          "black-friday-shirts-deals",
+          "black-friday-offres-chemises"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
@@ -20304,6 +20306,8 @@
           "suits-green",
           "suits-tuxedos",
           "black-friday-suits-deals",
+          "black-friday-anzuge-angebote",
+          "black-friday-offres-costumes",
           "suits-new-season",
           "suits-business",
           "suits-dinner-jackets",
@@ -20317,8 +20321,7 @@
           "trousers",
           "trousers-chinos",
           "trousers-casual-trousers",
-          "trousers-smart-trousers",
-          "black-friday-offres-costumes"
+          "trousers-smart-trousers"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
