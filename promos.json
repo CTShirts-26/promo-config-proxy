@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T10:25:46.680Z",
+  "generatedAt": "2026-11-13T10:57:48.821Z",
   "total": 23,
   "rules": [
     {
@@ -29656,7 +29656,8 @@
           "smart-polo-shirts",
           "knitted-polos",
           "long-sleeve-polos",
-          "linen-polo-shirts"
+          "linen-polo-shirts",
+          "black-friday-shirts-deals"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
