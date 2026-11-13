@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T13:03:49.933Z",
+  "generatedAt": "2026-11-13T13:06:42.799Z",
   "total": 24,
   "rules": [
     {
@@ -38073,41 +38073,41 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "25% Off Everything | Code: TBC",
+            "line1": "25% Off Everything | Code: FRIDAY",
             "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "25% Off Everything | Code: TBC",
+            "line1EndsTonight": "25% Off Everything | Code: FRIDAY",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "25% Off Everything | Code: TBC",
+            "line1Affiliate": "",
             "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "25% Off Everything | Code: TBC",
+            "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "Ends Tonight",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | CODE: TBC",
-            "endsTonight": "25% OFF | CODE: TBC",
-            "affiliate": "25% OFF | CODE: TBC",
-            "affiliateEndsTonight": "25% OFF | CODE: TBC"
+            "default": "25% OFF | CODE: FRIDAY",
+            "endsTonight": "25% OFF | CODE: FRIDAY",
+            "affiliate": "25% OFF | CYBER MONDAY",
+            "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
           },
           "promoCallout": {
-            "default": "25% OFF | CODE: TBC | CYBER MONDAY",
+            "default": "25% OFF CYBER MONDAY | CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF | CODE: TBC | CYBER MONDAY",
+            "affiliate": "25% OFF CYBER MONDAY | CODE: FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25% OFF | CODE: TBC | CYBER MONDAY",
+            "default": "25% OFF CYBER MONDAY | CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF | CODE: TBC | CYBER MONDAY",
+            "affiliate": "25% OFF CYBER MONDAY | CODE: FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25% OFF | CODE: TBC | CYBER MONDAY",
+            "default": "25% OFF CYBER MONDAY | CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF | CODE: TBC | CYBER MONDAY",
+            "affiliate": "25% OFF CYBER MONDAY | CODE: FRIDAY",
             "affiliateEndsTonight": ""
           }
         }
