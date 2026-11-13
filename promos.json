@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T17:29:38.735Z",
+  "generatedAt": "2026-11-13T18:05:22.920Z",
   "total": 29,
   "rules": [
     {
@@ -17472,7 +17472,7 @@
       "startUtc": "2026-05-01",
       "endUtc": "2029-04-30",
       "scope": {
-        "bannerstrip": false,
+        "bannerstrip": true,
         "tibText": true,
         "promoCallout": true,
         "plpCallout": true,
@@ -18989,8 +18989,8 @@
           "en": {
             "bannerstrip": {
               "line1": "Introductory Offer - 3 Shirts or Polos for €99",
-              "line2": "Free delivery",
-              "line3": "",
+              "line2": "",
+              "line3": "Free delivery",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
@@ -19028,9 +19028,9 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "Introductory Offer - 3 Shirts or Polos for €99",
-              "line2": "Free delivery",
-              "line3": "",
+              "line1": "Introductory Offer - 3 Shirts or Polos €99",
+              "line2": "",
+              "line3": "Free delivery",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
@@ -19210,7 +19210,7 @@
       "startUtc": "2026-05-01",
       "endUtc": "2029-04-30",
       "scope": {
-        "bannerstrip": false,
+        "bannerstrip": true,
         "tibText": true,
         "promoCallout": true,
         "plpCallout": true,
@@ -20717,8 +20717,8 @@
           "en": {
             "bannerstrip": {
               "line1": "Introductory Offer - 3 Shirts or Polos for €99",
-              "line2": "Free delivery",
-              "line3": "",
+              "line2": "",
+              "line3": "Free delivery",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
@@ -20756,9 +20756,9 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "Introductory Offer - 3 Shirts or Polos for €99",
-              "line2": "Free delivery",
-              "line3": "",
+              "line1": "Introductory Offer - 3 Shirts or Polos €99",
+              "line2": "",
+              "line3": "Free delivery",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
@@ -43389,13 +43389,13 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "25% Off Everything | Code: TBC",
+            "line1": "25% Off Everything | Code: BF2026",
             "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "25% Off Everything | Code: TBC",
+            "line1EndsTonight": "25% Off Everything | Code: BF2026",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "25% Off Everything | Code: TBC",
+            "line1Affiliate": "25% Off Everything | Code: BF2026",
             "line2Affiliate": "Limited Time Only",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "25% Off Everything | Code: BF2026",
