@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-14T05:04:52.148Z",
+  "generatedAt": "2026-11-14T05:05:14.125Z",
   "total": 29,
   "rules": [
     {
@@ -20730,7 +20730,7 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "Introductory Offer - For €39.95",
+              "default": "Introductory Offer - From €39.95",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
