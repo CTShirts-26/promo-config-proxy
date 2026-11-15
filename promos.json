@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-15T01:07:12.116Z",
+  "generatedAt": "2026-11-15T01:46:52.458Z",
   "total": 29,
   "rules": [
     {
@@ -43392,10 +43392,10 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "25% Off Everything | Code: FRIDAY",
+            "line1": "25% Off Everything | Code: BF2026",
             "line2": "Black Friday",
             "line3": "",
-            "line1EndsTonight": "25% Off Everything | Code: FRIDAY",
+            "line1EndsTonight": "25% Off Everything | Code: BF2026",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
             "line1Affiliate": "",
@@ -43406,25 +43406,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% off | Use code: FRIDAY",
-            "endsTonight": "25% off | Use code: FRIDAY",
+            "default": "25% off | Use code: BF2026",
+            "endsTonight": "25% off | Use code: BF2026",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "25% OFF | CODE: FRIDAY",
+            "default": "25% OFF | CODE: BF2026",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25% OFF | CODE: FRIDAY",
+            "default": "25% OFF | CODE: BF2026",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25% OFF | CODE: FRIDAY",
+            "default": "25% OFF | CODE: BF2026",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
