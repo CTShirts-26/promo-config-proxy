@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-15T21:57:53.877Z",
+  "generatedAt": "2026-11-15T22:19:18.330Z",
   "total": 29,
   "rules": [
     {
@@ -39292,7 +39292,7 @@
         "fr": true,
         "ch": true,
         "nl": true,
-        "eu": false,
+        "eu": true,
         "xbr": false
       },
       "content": {
@@ -41132,7 +41132,7 @@
         "fr": true,
         "ch": true,
         "nl": true,
-        "eu": false,
+        "eu": true,
         "xbr": false
       },
       "content": {
@@ -42862,7 +42862,7 @@
         "ch": true,
         "nl": true,
         "eu": true,
-        "xbr": true
+        "xbr": false
       },
       "content": {
         "us": {
@@ -44460,7 +44460,7 @@
         "ch": true,
         "nl": true,
         "eu": true,
-        "xbr": true
+        "xbr": false
       },
       "content": {
         "us": {
