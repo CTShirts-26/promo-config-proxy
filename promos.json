@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-15T01:46:52.458Z",
+  "generatedAt": "2026-11-15T21:50:59.666Z",
   "total": 29,
   "rules": [
     {
@@ -39277,7 +39277,8 @@
           "JET0025GRP",
           "JET0025NAV",
           "JET0025WHT",
-          "JET0027LGY"
+          "JET0027LGY",
+          "SUT83STL"
         ],
         "excludedProductIds": []
       },
@@ -44443,7 +44444,8 @@
           "SUW41CHC",
           "CSC0073NAV",
           "CSC0073TPE",
-          "CSC0073KHA"
+          "CSC0073KHA",
+          "SUT83STL"
         ],
         "excludedProductIds": []
       },
@@ -48007,7 +48009,8 @@
           "JET0025GRP",
           "JET0025NAV",
           "JET0025WHT",
-          "JET0027LGY"
+          "JET0027LGY",
+          "SUT83STL"
         ],
         "excludedProductIds": []
       },
