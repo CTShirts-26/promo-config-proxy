@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-15T00:00:07.362Z",
+  "generatedAt": "2026-11-15T00:09:30.613Z",
   "total": 29,
   "rules": [
     {
@@ -42880,10 +42880,10 @@
             "line3AffiliateEndsTonight": "Black Friday - Ends Tonight"
           },
           "tibText": {
-            "default": "4 FOR $179 | BLACK FRIDAY",
-            "endsTonight": "4 FOR $179 | ENDS TONIGHT",
-            "affiliate": "4 FOR $179 | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 FOR $179 | ENDS TONIGHT"
+            "default": "4 for $179 | Save up to $375",
+            "endsTonight": "4 for $179 | Save up to $375",
+            "affiliate": "4 for $179 | Save up to $375",
+            "affiliateEndsTonight": "4 for $179 | Save up to $375"
           },
           "promoCallout": {
             "default": "4 FOR $179 BLACK FRIDAY",
@@ -42909,7 +42909,7 @@
             "bannerstrip": {
               "line1": "4 For C$279 Shirts Or Polos",
               "line2": "+ 25% Off Everything Else",
-              "line3": "Limited Time Only",
+              "line3": "Black Friday Event",
               "line1EndsTonight": "4 For C$279 Shirts Or Polos",
               "line2EndsTonight": "+ 25% Off Everything Else",
               "line3EndsTonight": "Ends Tonight",
@@ -42921,10 +42921,10 @@
               "line3AffiliateEndsTonight": "Ends Tonight"
             },
             "tibText": {
-              "default": "4 FOR C$279 | BLACK FRIDAY",
-              "endsTonight": "4 FOR C$279 | ENDS TONIGHT",
-              "affiliate": "4 FOR C$279 | BLACK FRIDAY",
-              "affiliateEndsTonight": "4 FOR C$279 | ENDS TONIGHT"
+              "default": "4 for C$279 | Save up to C$435",
+              "endsTonight": "4 for C$279 | Save up to C$435",
+              "affiliate": "4 for C$279 | Save up to C$435",
+              "affiliateEndsTonight": "4 for C$279 | Save up to C$435"
             },
             "promoCallout": {
               "default": "4 FOR C$279 BLACK FRIDAY",
@@ -42961,10 +42961,10 @@
               "line3AffiliateEndsTonight": "Jusqu’à ce soir"
             },
             "tibText": {
-              "default": "4 POUR 279 C$ | BLACK FRIDAY",
-              "endsTonight": "4 POUR 279 C$ | JUSQU’À CE SOIR",
-              "affiliate": "4 POUR 279 C$ | BLACK FRIDAY",
-              "affiliateEndsTonight": "4 POUR 279 C$ | JUSQU’À CE SOIR"
+              "default": "4 pour 279 C$ | Économisez jusqu'à 435 C$",
+              "endsTonight": "4 pour 279 C$ | Économisez jusqu'à 435 C$",
+              "affiliate": "4 pour 279 C$ | Économisez jusqu'à 435 C$",
+              "affiliateEndsTonight": "4 pour 279 C$ | Économisez jusqu'à 435 C$"
             },
             "promoCallout": {
               "default": "4 POUR 279 C$ BLACK FRIDAY",
@@ -43002,10 +43002,10 @@
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
-            "default": "4 FOR $199 | BLACK FRIDAY",
-            "endsTonight": "4 FOR $199 | ENDS TONIGHT",
-            "affiliate": "4 FOR $199 | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 FOR $199 | ENDS TONIGHT"
+            "default": "4 for $199 | Save up to $355",
+            "endsTonight": "4 for $199 | Save up to $355",
+            "affiliate": "4 for $199 | Save up to $355",
+            "affiliateEndsTonight": "4 for $199 | Save up to $355"
           },
           "promoCallout": {
             "default": "4 FOR $199 BLACK FRIDAY",
@@ -43028,24 +43028,24 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "4 For £119 Shirts Or Polos",
-            "line2": "Up to 50% Off",
-            "line3": "Limited Time Only",
-            "line1EndsTonight": "4 For £119 Shirts Or Polos",
-            "line2EndsTonight": "Up to 50% Off",
+            "line1": "Up to 50% Off",
+            "line2": "4 For £119 Shirts Or Polos",
+            "line3": "Black Friday Event",
+            "line1EndsTonight": "Up to 50% Off",
+            "line2EndsTonight": "4 For £119 Shirts Or Polos",
             "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "4 For £119 Shirts Or Polos",
-            "line2Affiliate": "Up to 50% Off",
-            "line3Affiliate": "Limited Time Only",
-            "line1AffiliateEndsTonight": "4 For £119 Shirts Or Polos",
-            "line2AffiliateEndsTonight": "Up to 50% Off",
+            "line1Affiliate": "Up to 50% Off",
+            "line2Affiliate": "4 For £119 Shirts Or Polos",
+            "line3Affiliate": "Black Friday Event",
+            "line1AffiliateEndsTonight": "Up to 50% Off",
+            "line2AffiliateEndsTonight": "4 For £119 Shirts Or Polos",
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
-            "default": "4 FOR £119 | BLACK FRIDAY",
-            "endsTonight": "4 FOR £119 | ENDS TONIGHT",
-            "affiliate": "4 FOR £119 | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 FOR £119 | ENDS TONIGHT"
+            "default": "Up to 50% off | 4 for £119",
+            "endsTonight": "Up to 50% off | 4 for £119",
+            "affiliate": "Up to 50% off | 4 for £119",
+            "affiliateEndsTonight": "Up to 50% off | 4 for £119"
           },
           "promoCallout": {
             "default": "4 FOR £119 BLACK FRIDAY",
@@ -43068,24 +43068,24 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "4 Für 149 € Hemden Oder Polos",
-            "line2": "Bis zu 50 % Rabatt",
+            "line1": "Bis zu 50 % Rabatt",
+            "line2": "4 Für 149 € Hemden Oder Polos",
             "line3": "Nur Für Kurze Zeit",
-            "line1EndsTonight": "4 Für 149 € Hemden Oder Polos",
-            "line2EndsTonight": "Bis zu 50 % Rabatt",
+            "line1EndsTonight": "Bis zu 50 % Rabatt",
+            "line2EndsTonight": "4 Für 149 € Hemden Oder Polos",
             "line3EndsTonight": "Endet Heute Abend",
-            "line1Affiliate": "4 Für 149 € Hemden Oder Polos",
-            "line2Affiliate": "Bis zu 50 % Rabatt",
+            "line1Affiliate": "Bis zu 50 % Rabatt",
+            "line2Affiliate": "4 Für 149 € Hemden Oder Polos",
             "line3Affiliate": "Nur Für Kurze Zeit",
-            "line1AffiliateEndsTonight": "4 Für 149 € Hemden Oder Polos",
-            "line2AffiliateEndsTonight": "Bis zu 50 % Rabatt",
+            "line1AffiliateEndsTonight": "Bis zu 50 % Rabatt",
+            "line2AffiliateEndsTonight": "4 Für 149 € Hemden Oder Polos",
             "line3AffiliateEndsTonight": "Endet Heute Abend"
           },
           "tibText": {
-            "default": "4 FÜR 149 € | BLACK FRIDAY",
-            "endsTonight": "4 FÜR 149 € | ENDET HEUTE ABEND",
-            "affiliate": "4 FÜR 149 € | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 FÜR 149 € | ENDET HEUTE ABEND"
+            "default": "Sparen Sie bis zu 50 % | 4 für 149 €",
+            "endsTonight": "Sparen Sie bis zu 50 % | 4 für 149 €",
+            "affiliate": "Sparen Sie bis zu 50 % | 4 für 149 €",
+            "affiliateEndsTonight": "Sparen Sie bis zu 50 % | 4 für 149 €"
           },
           "promoCallout": {
             "default": "4 FÜR 149 € BLACK FRIDAY",
@@ -43122,10 +43122,10 @@
             "line3AffiliateEndsTonight": "Jusqu’à ce soir"
           },
           "tibText": {
-            "default": "4 POUR 149 € | BLACK FRIDAY",
-            "endsTonight": "4 POUR 149 € | JUSQU’À CE SOIR",
-            "affiliate": "4 POUR 149 € | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 POUR 149 € | JUSQU’À CE SOIR"
+            "default": "Économisez jusqu'à 50 % | 4 pour 149 €",
+            "endsTonight": "Économisez jusqu'à 50 % | 4 pour 149 €",
+            "affiliate": "Économisez jusqu'à 50 % | 4 pour 149 €",
+            "affiliateEndsTonight": "Économisez jusqu'à 50 % | 4 pour 149 €"
           },
           "promoCallout": {
             "default": "4 POUR 149 € BLACK FRIDAY",
@@ -43163,10 +43163,10 @@
               "line3AffiliateEndsTonight": "Ends Tonight"
             },
             "tibText": {
-              "default": "4 FOR CHF 159 | BLACK FRIDAY",
-              "endsTonight": "4 FOR CHF 159 | ENDS TONIGHT",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "4 for CHF 159 | Save up to CHF 355",
+              "endsTonight": "4 for CHF 159 | Save up to CHF 355",
+              "affiliate": "4 for CHF 159 | Save up to CHF 355",
+              "affiliateEndsTonight": "4 for CHF 159 | Save up to CHF 355"
             },
             "promoCallout": {
               "default": "4 FOR CHF 159 BLACK FRIDAY",
@@ -43203,10 +43203,10 @@
               "line3AffiliateEndsTonight": "Jusqu’à ce soir"
             },
             "tibText": {
-              "default": "4 POUR CHF 159 | BLACK FRIDAY",
-              "endsTonight": "4 POUR CHF 159 | JUSQU’À CE SOIR",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "4 pour CHF 159 | Économisez jusqu'à CHF 355",
+              "endsTonight": "4 pour CHF 159 | Économisez jusqu'à CHF 355",
+              "affiliate": "4 pour CHF 159 | Économisez jusqu'à CHF 355",
+              "affiliateEndsTonight": "4 pour CHF 159 | Économisez jusqu'à CHF 355"
             },
             "promoCallout": {
               "default": "4 POUR CHF 159 BLACK FRIDAY",
@@ -43243,10 +43243,10 @@
               "line3AffiliateEndsTonight": "Endet Heute Abend"
             },
             "tibText": {
-              "default": "4 FÜR CHF 159 | BLACK FRIDAY",
-              "endsTonight": "4 FÜR CHF 159 | ENDET HEUTE ABEND",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "4 für CHF 159 | Sparen Sie bis zu CHF 355",
+              "endsTonight": "4 für CHF 159 | Sparen Sie bis zu CHF 355",
+              "affiliate": "4 für CHF 159 | Sparen Sie bis zu CHF 355",
+              "affiliateEndsTonight": "4 für CHF 159 | Sparen Sie bis zu CHF 355"
             },
             "promoCallout": {
               "default": "4 FÜR CHF 159 BLACK FRIDAY",
@@ -43285,10 +43285,10 @@
               "line3AffiliateEndsTonight": "Ends Tonight"
             },
             "tibText": {
-              "default": "4 FOR €149 | BLACK FRIDAY",
-              "endsTonight": "4 FOR €149 | ENDS TONIGHT",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "Up to 50% off | 4 for €149",
+              "endsTonight": "Up to 50% off | 4 for €149",
+              "affiliate": "Up to 50% off | 4 for €149",
+              "affiliateEndsTonight": "Up to 50% off | 4 for €149"
             },
             "promoCallout": {
               "default": "4 FOR €149 BLACK FRIDAY",
@@ -43325,10 +43325,10 @@
               "line3AffiliateEndsTonight": "Ends Tonight"
             },
             "tibText": {
-              "default": "4 FOR €149 | BLACK FRIDAY",
-              "endsTonight": "4 FOR €149 | ENDS TONIGHT",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "Up to 50% off | 4 for €149",
+              "endsTonight": "Up to 50% off | 4 for €149",
+              "affiliate": "Up to 50% off | 4 for €149",
+              "affiliateEndsTonight": "Up to 50% off | 4 for €149"
             },
             "promoCallout": {
               "default": "4 FOR €149 BLACK FRIDAY",
@@ -43366,10 +43366,10 @@
             "line3AffiliateEndsTonight": "Ends Tonight"
           },
           "tibText": {
-            "default": "4 FOR €149 | BLACK FRIDAY",
-            "endsTonight": "4 FOR €149 | ENDS TONIGHT",
-            "affiliate": "4 FOR €149 | BLACK FRIDAY",
-            "affiliateEndsTonight": "4 FOR €149 | ENDS TONIGHT"
+            "default": "Up to 50% off | 4 for €149",
+            "endsTonight": "Up to 50% off | 4 for €149",
+            "affiliate": "Up to 50% off | 4 for €149",
+            "affiliateEndsTonight": "Up to 50% off | 4 for €149"
           },
           "promoCallout": {
             "default": "4 FOR €149 BLACK FRIDAY",
@@ -43392,41 +43392,41 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "25% Off Everything | Code: BF2026",
+            "line1": "25% Off Everything | Code: FRIDAY",
             "line2": "Limited Time Only",
             "line3": "",
-            "line1EndsTonight": "25% Off Everything | Code: BF2026",
+            "line1EndsTonight": "25% Off Everything | Code: FRIDAY",
             "line2EndsTonight": "Ends Tonight",
             "line3EndsTonight": "",
-            "line1Affiliate": "25% Off Everything | Code: BF2026",
-            "line2Affiliate": "Limited Time Only",
+            "line1Affiliate": "",
+            "line2Affiliate": "",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "25% Off Everything | Code: BF2026",
-            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line1AffiliateEndsTonight": "",
+            "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | CODE: BF2026",
-            "endsTonight": "25% OFF | CODE: BF2026",
+            "default": "25% off | Use code: FRIDAY",
+            "endsTonight": "25% off | Use code: FRIDAY",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "25% OFF CODE: BF2026",
+            "default": "25% OFF CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF CODE: BF2026",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25% OFF CODE: BF2026",
+            "default": "25% OFF CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF CODE: BF2026",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25% OFF CODE: BF2026",
+            "default": "25% OFF CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF CODE: BF2026",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           }
         }
@@ -44477,10 +44477,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "30% OFF | BLACK FRIDAY",
-            "endsTonight": "30% OFF | ENDS TONIGHT",
-            "affiliate": "30% OFF | BLACK FRIDAY",
-            "affiliateEndsTonight": "30% OFF | ENDS TONIGHT"
+            "default": "30% off | Black Friday Event",
+            "endsTonight": "30% off | Black Friday Event",
+            "affiliate": "30% off | Black Friday Event",
+            "affiliateEndsTonight": "30% off | Black Friday Event"
           },
           "promoCallout": {
             "default": "30% OFF BLACK FRIDAY",
@@ -44518,10 +44518,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25% OFF | BLACK FRIDAY",
-              "endsTonight": "25% OFF | ENDS TONIGHT",
-              "affiliate": "25% OFF | BLACK FRIDAY",
-              "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
+              "default": "25% off | Black Friday Event",
+              "endsTonight": "25% off | Black Friday Event",
+              "affiliate": "25% off | Black Friday Event",
+              "affiliateEndsTonight": "25% off | Black Friday Event"
             },
             "promoCallout": {
               "default": "25% OFF BLACK FRIDAY",
@@ -44558,10 +44558,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
-              "endsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR",
-              "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
-              "affiliateEndsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR"
+              "default": "Économisez jusqu'à 25 % | Black Friday",
+              "endsTonight": "Économisez jusqu'à 25 % | Black Friday",
+              "affiliate": "Économisez jusqu'à 25 % | Black Friday",
+              "affiliateEndsTonight": "Économisez jusqu'à 25 % | Black Friday"
             },
             "promoCallout": {
               "default": "25 % DE RÉDUCTION BLACK FRIDAY",
@@ -44599,10 +44599,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | BLACK FRIDAY",
-            "endsTonight": "25% OFF | ENDS TONIGHT",
-            "affiliate": "25% OFF | BLACK FRIDAY",
-            "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
+            "default": "25% off | Black Friday Event",
+            "endsTonight": "25% off | Black Friday Event",
+            "affiliate": "25% off | Black Friday Event",
+            "affiliateEndsTonight": "25% off | Black Friday Event"
           },
           "promoCallout": {
             "default": "25% OFF BLACK FRIDAY",
@@ -44639,10 +44639,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20% OFF | BLACK FRIDAY",
-            "endsTonight": "20% OFF | ENDS TONIGHT",
-            "affiliate": "20% OFF | BLACK FRIDAY",
-            "affiliateEndsTonight": "20% OFF | ENDS TONIGHT"
+            "default": "20% off | Black Friday Event",
+            "endsTonight": "20% off | Black Friday Event",
+            "affiliate": "20% off | Black Friday Event",
+            "affiliateEndsTonight": "20% off | Black Friday Event"
           },
           "promoCallout": {
             "default": "20% OFF BLACK FRIDAY",
@@ -44679,10 +44679,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25 % RABATT | BLACK FRIDAY",
-            "endsTonight": "25 % RABATT | ENDET HEUTE ABEND",
-            "affiliate": "25 % RABATT | BLACK FRIDAY",
-            "affiliateEndsTonight": "25 % RABATT | ENDET HEUTE ABEND"
+            "default": "Sparen Sie bis zu 25 % | Black Friday",
+            "endsTonight": "Sparen Sie bis zu 25 % | Black Friday",
+            "affiliate": "Sparen Sie bis zu 25 % | Black Friday",
+            "affiliateEndsTonight": "Sparen Sie bis zu 25 % | Black Friday"
           },
           "promoCallout": {
             "default": "25 % RABATT BLACK FRIDAY",
@@ -44719,10 +44719,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
-            "endsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR",
-            "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
-            "affiliateEndsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR"
+            "default": "Jusqu'à -25 % | Black Friday",
+            "endsTonight": "Jusqu'à -25 % | Black Friday",
+            "affiliate": "Jusqu'à -25 % | Black Friday",
+            "affiliateEndsTonight": "Jusqu'à -25 % | Black Friday"
           },
           "promoCallout": {
             "default": "-25 % BLACK FRIDAY",
@@ -44760,10 +44760,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25% OFF | BLACK FRIDAY",
-              "endsTonight": "25% OFF | ENDS TONIGHT",
-              "affiliate": "25% OFF | BLACK FRIDAY",
-              "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
+              "default": "25% off | Black Friday Event",
+              "endsTonight": "25% off | Black Friday Event",
+              "affiliate": "25% off | Black Friday Event",
+              "affiliateEndsTonight": "25% off | Black Friday Event"
             },
             "promoCallout": {
               "default": "25% OFF BLACK FRIDAY",
@@ -44800,10 +44800,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25 % DE RÉDUCTION | BLACK FRIDAY",
-              "endsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR",
-              "affiliate": "25 % DE RÉDUCTION | BLACK FRIDAY",
-              "affiliateEndsTonight": "25 % DE RÉDUCTION | JUSQU’À CE SOIR"
+              "default": "Économisez jusqu'à 25 % | Black Friday",
+              "endsTonight": "Économisez jusqu'à 25 % | Black Friday",
+              "affiliate": "Économisez jusqu'à 25 % | Black Friday",
+              "affiliateEndsTonight": "Économisez jusqu'à 25 % | Black Friday"
             },
             "promoCallout": {
               "default": "25 % DE RÉDUCTION BLACK FRIDAY",
@@ -44840,10 +44840,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25 % RABATT | BLACK FRIDAY",
-              "endsTonight": "25 % RABATT | ENDET HEUTE ABEND",
-              "affiliate": "25 % RABATT | BLACK FRIDAY",
-              "affiliateEndsTonight": "25 % RABATT | ENDET HEUTE ABEND"
+              "default": "Sparen Sie bis zu 25 % | Black Friday",
+              "endsTonight": "Sparen Sie bis zu 25 % | Black Friday",
+              "affiliate": "Sparen Sie bis zu 25 % | Black Friday",
+              "affiliateEndsTonight": "Sparen Sie bis zu 25 % | Black Friday"
             },
             "promoCallout": {
               "default": "25 % RABATT BLACK FRIDAY",
@@ -44882,10 +44882,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25% OFF | BLACK FRIDAY",
-              "endsTonight": "25% OFF | ENDS TONIGHT",
-              "affiliate": "25% OFF | BLACK FRIDAY",
-              "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
+              "default": "25% off | Black Friday Event",
+              "endsTonight": "25% off | Black Friday Event",
+              "affiliate": "25% off | Black Friday Event",
+              "affiliateEndsTonight": "25% off | Black Friday Event"
             },
             "promoCallout": {
               "default": "25% OFF BLACK FRIDAY",
@@ -44922,10 +44922,10 @@
               "line3AffiliateEndsTonight": ""
             },
             "tibText": {
-              "default": "25% OFF | BLACK FRIDAY",
-              "endsTonight": "25% OFF | ENDS TONIGHT",
-              "affiliate": "25% OFF | BLACK FRIDAY",
-              "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
+              "default": "25% off | Black Friday Event",
+              "endsTonight": "25% off | Black Friday Event",
+              "affiliate": "25% off | Black Friday Event",
+              "affiliateEndsTonight": "25% off | Black Friday Event"
             },
             "promoCallout": {
               "default": "25% OFF BLACK FRIDAY",
@@ -44963,10 +44963,10 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | BLACK FRIDAY",
-            "endsTonight": "25% OFF | ENDS TONIGHT",
-            "affiliate": "25% OFF | BLACK FRIDAY",
-            "affiliateEndsTonight": "25% OFF | ENDS TONIGHT"
+            "default": "25% off | Black Friday Event",
+            "endsTonight": "25% off | Black Friday Event",
+            "affiliate": "25% off | Black Friday Event",
+            "affiliateEndsTonight": "25% off | Black Friday Event"
           },
           "promoCallout": {
             "default": "25% OFF BLACK FRIDAY",
@@ -44989,41 +44989,41 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "25% Off Everything | Code: TBC",
+            "line1": "25% Off Everything | Code: FRIDAY",
             "line2": "",
             "line3": "",
-            "line1EndsTonight": "25% Off Everything | Code: TBC",
+            "line1EndsTonight": "25% Off Everything | Code: FRIDAY",
             "line2EndsTonight": "",
             "line3EndsTonight": "",
-            "line1Affiliate": "25% Off Everything | Code: TBC",
+            "line1Affiliate": "25% Off Everything | Code: FRIDAY",
             "line2Affiliate": "",
             "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "25% Off Everything | Code: BF2026",
+            "line1AffiliateEndsTonight": "25% Off Everything | Code: FRIDAY",
             "line2AffiliateEndsTonight": "",
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "25% OFF | CODE: BF2026",
-            "endsTonight": "25% OFF | CODE: BF2026",
+            "default": "25% off | Use code: FRIDAY",
+            "endsTonight": "25% off | Use code: FRIDAY",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "25% OFF CODE: BF2026",
+            "default": "25% OFF CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF CODE: BF2026",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "25% OFF CODE: BF2026",
+            "default": "25% OFF CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF CODE: BF2026",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "25% OFF CODE: BF2026",
+            "default": "25% OFF CODE: FRIDAY",
             "endsTonight": "",
-            "affiliate": "25% OFF CODE: BF2026",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           }
         }
