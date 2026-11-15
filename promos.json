@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-15T21:50:59.666Z",
+  "generatedAt": "2026-11-15T21:57:53.877Z",
   "total": 29,
   "rules": [
     {
@@ -46289,13 +46289,13 @@
       "hideMultibuy": false,
       "hidePromoBox": {
         "us": false,
-        "ca": false,
-        "au": false,
-        "uk": false,
-        "de": false,
-        "fr": false,
-        "ch": false,
-        "nl": false,
+        "ca": true,
+        "au": true,
+        "uk": true,
+        "de": true,
+        "fr": true,
+        "ch": true,
+        "nl": true,
         "eu": false,
         "xbr": false
       },
