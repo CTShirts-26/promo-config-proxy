@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-16T10:10:17.217Z",
+  "generatedAt": "2026-11-16T10:13:40.937Z",
   "total": 29,
   "rules": [
     {
@@ -39281,7 +39281,7 @@
       },
       "hideMultibuy": false,
       "hidePromoBox": {
-        "us": false,
+        "us": true,
         "ca": false,
         "au": true,
         "uk": true,
@@ -46285,7 +46285,7 @@
       },
       "hideMultibuy": false,
       "hidePromoBox": {
-        "us": false,
+        "us": true,
         "ca": true,
         "au": true,
         "uk": true,
@@ -48013,7 +48013,7 @@
       },
       "hideMultibuy": false,
       "hidePromoBox": {
-        "us": false,
+        "us": true,
         "ca": false,
         "au": true,
         "uk": true,
