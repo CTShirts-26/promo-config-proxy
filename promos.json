@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-16T10:13:40.937Z",
+  "generatedAt": "2026-11-16T13:01:11.137Z",
   "total": 29,
   "rules": [
     {
@@ -19212,9 +19212,9 @@
       "scope": {
         "bannerstrip": true,
         "tibText": true,
-        "promoCallout": true,
-        "plpCallout": true,
-        "pdpCallout": true,
+        "promoCallout": false,
+        "plpCallout": false,
+        "pdpCallout": false,
         "multibuy": false
       },
       "countryEnabled": {
@@ -22660,7 +22660,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 23
+      "rowNumber": 24
     },
     {
       "ruleId": "EU_3for99_FD",
@@ -24408,7 +24408,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 24
+      "rowNumber": 25
     },
     {
       "ruleId": "FR_3for99",
@@ -26141,7 +26141,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 25
+      "rowNumber": 26
     },
     {
       "ruleId": "FR_39.95_shirts",
@@ -27871,7 +27871,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 26
+      "rowNumber": 27
     },
     {
       "ruleId": "AUFS Bannerstrip",
@@ -28551,7 +28551,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 27
+      "rowNumber": 28
     },
     {
       "ruleId": "Acquisition_Black_Friday_Non_Shirts",
@@ -30015,9 +30015,9 @@
         "ca": {
           "en": {
             "bannerstrip": {
-              "line1": "",
+              "line1": "Introductory Offer - Shirts or Polos C$69.95",
               "line2": "+ 25% Off Everything Else",
-              "line3": "",
+              "line3": "+ Free Shipping",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
@@ -30055,9 +30055,9 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "",
+              "line1": "Offre De Lancement - Chemises Pour 69,95 C$",
               "line2": "+ 25 % sur tout le reste",
-              "line3": "",
+              "line3": "+ Livraison Gratuite",
               "line1EndsTonight": "",
               "line2EndsTonight": "",
               "line3EndsTonight": "",
@@ -30591,7 +30591,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 28
+      "rowNumber": 29
     },
     {
       "ruleId": "UK_Acquisition_Black_Friday_Non_Shirts",
@@ -32214,7 +32214,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 29
+      "rowNumber": 30
     },
     {
       "ruleId": "US_Acquisition_Black_Friday_Non_Shirts",
@@ -34053,7 +34053,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 30
+      "rowNumber": 31
     },
     {
       "ruleId": "W7 Weekend Promo Non Shirts",
@@ -35682,7 +35682,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 32
+      "rowNumber": 33
     },
     {
       "ruleId": "W10 5 for Shirts Promo",
@@ -37492,7 +37492,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 33
+      "rowNumber": 34
     },
     {
       "ruleId": "Singles Day",
@@ -38184,7 +38184,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 34
+      "rowNumber": 35
     },
     {
       "ruleId": "V2 Black Friday Non Shirts LTO",
@@ -39912,7 +39912,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 37
+      "rowNumber": 38
     },
     {
       "ruleId": "V2 Black Friday Shirts LTO",
@@ -41752,7 +41752,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 38
+      "rowNumber": 39
     },
     {
       "ruleId": "Preview Black Friday Shirts LTO",
@@ -43481,7 +43481,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 39
+      "rowNumber": 40
     },
     {
       "ruleId": "Preview Black Friday Non Shirts LTO",
@@ -45079,7 +45079,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 40
+      "rowNumber": 41
     },
     {
       "ruleId": "V2 Cyber Monday Shirts LTO",
@@ -46916,7 +46916,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 41
+      "rowNumber": 42
     },
     {
       "ruleId": "V2 Cyber Monday Non Shirts LTO",
@@ -48644,7 +48644,7 @@
           "excludedCategories": []
         }
       },
-      "rowNumber": 42
+      "rowNumber": 43
     }
   ]
 }
