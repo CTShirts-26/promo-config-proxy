@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-18T10:20:10.061Z",
+  "generatedAt": "2026-11-18T18:05:49.796Z",
   "total": 29,
   "rules": [
     {
@@ -42209,21 +42209,21 @@
             "affiliateEndsTonight": "4 for $179 | Save up to $375"
           },
           "promoCallout": {
-            "default": "4 FOR $179 BLACK FRIDAY",
+            "default": "ANY 4 FOR $179 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $179 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $179 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 FOR $179 BLACK FRIDAY",
+            "default": "ANY 4 FOR $179 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $179 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $179 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 FOR $179 BLACK FRIDAY",
+            "default": "ANY 4 FOR $179 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $179 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $179 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
@@ -42250,21 +42250,21 @@
               "affiliateEndsTonight": "4 for C$279 | Save up to C$435"
             },
             "promoCallout": {
-              "default": "4 FOR C$279 BLACK FRIDAY",
+              "default": "ANY 4 FOR C$279 BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "4 FOR C$279 BLACK FRIDAY",
+              "affiliate": "ANY 4 FOR C$279 BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "4 FOR C$279 BLACK FRIDAY",
+              "default": "ANY 4 FOR C$279 BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "4 FOR C$279 BLACK FRIDAY",
+              "affiliate": "ANY 4 FOR C$279 BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "4 FOR C$279 BLACK FRIDAY",
+              "default": "ANY 4 FOR C$279 BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "4 FOR C$279 BLACK FRIDAY",
+              "affiliate": "ANY 4 FOR C$279 BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           },
@@ -42331,21 +42331,21 @@
             "affiliateEndsTonight": "4 for $199 | Save up to $355"
           },
           "promoCallout": {
-            "default": "4 FOR $199 BLACK FRIDAY",
+            "default": "ANY 4 FOR $199 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $199 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $199 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 FOR $199 BLACK FRIDAY",
+            "default": "ANY 4 FOR $199 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $199 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $199 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 FOR $199 BLACK FRIDAY",
+            "default": "ANY 4 FOR $199 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $199 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $199 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
@@ -42371,21 +42371,21 @@
             "affiliateEndsTonight": "Up to 50% off | 4 for £119"
           },
           "promoCallout": {
-            "default": "4 FOR £119 BLACK FRIDAY",
+            "default": "ANY 4 FOR £119 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR £119 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR £119 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 FOR £119 BLACK FRIDAY",
+            "default": "ANY 4 FOR £119 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR £119 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR £119 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 FOR £119 BLACK FRIDAY",
+            "default": "ANY 4 FOR £119 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR £119 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR £119 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
@@ -42492,19 +42492,19 @@
               "affiliateEndsTonight": "4 for CHF 159 | Save up to CHF 355"
             },
             "promoCallout": {
-              "default": "4 FOR CHF 159 BLACK FRIDAY",
+              "default": "ANY 4 FOR CHF 159 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "4 FOR CHF 159 BLACK FRIDAY",
+              "default": "ANY 4 FOR CHF 159 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "4 FOR CHF 159 BLACK FRIDAY",
+              "default": "ANY 4 FOR CHF 159 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -42614,19 +42614,19 @@
               "affiliateEndsTonight": "Up to 50% off | 4 for €149"
             },
             "promoCallout": {
-              "default": "4 FOR €149 BLACK FRIDAY",
+              "default": "ANY 4 FOR €149 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "4 FOR €149 BLACK FRIDAY",
+              "default": "ANY 4 FOR €149 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "4 FOR €149 BLACK FRIDAY",
+              "default": "ANY 4 FOR €149 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -42695,21 +42695,21 @@
             "affiliateEndsTonight": "Up to 50% off | 4 for €149"
           },
           "promoCallout": {
-            "default": "4 FOR €149 BLACK FRIDAY",
+            "default": "ANY 4 FOR €149 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR €149 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR €149 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 FOR €149 BLACK FRIDAY",
+            "default": "ANY 4 FOR €149 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR €149 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR €149 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 FOR €149 BLACK FRIDAY",
+            "default": "ANY 4 FOR €149 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR €149 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR €149 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
@@ -43950,21 +43950,21 @@
             "affiliateEndsTonight": "4 for $179 | Save up to $375"
           },
           "promoCallout": {
-            "default": "4 FOR $179 BLACK FRIDAY",
+            "default": "ANY 4 FOR $179 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $179 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $179 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 FOR $179 BLACK FRIDAY",
+            "default": "ANY 4 FOR $179 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $179 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $179 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 FOR $179 BLACK FRIDAY",
+            "default": "ANY 4 FOR $179 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $179 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $179 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
@@ -43991,21 +43991,21 @@
               "affiliateEndsTonight": "4 for C$279 | Save up to C$435"
             },
             "promoCallout": {
-              "default": "4 FOR C$279 BLACK FRIDAY",
+              "default": "ANY 4 FOR C$279 BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "4 FOR C$279 BLACK FRIDAY",
+              "affiliate": "ANY 4 FOR C$279 BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "4 FOR C$279 BLACK FRIDAY",
+              "default": "ANY 4 FOR C$279 BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "4 FOR C$279 BLACK FRIDAY",
+              "affiliate": "ANY 4 FOR C$279 BLACK FRIDAY",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "4 FOR C$279 BLACK FRIDAY",
+              "default": "ANY 4 FOR C$279 BLACK FRIDAY",
               "endsTonight": "",
-              "affiliate": "4 FOR C$279 BLACK FRIDAY",
+              "affiliate": "ANY 4 FOR C$279 BLACK FRIDAY",
               "affiliateEndsTonight": ""
             }
           },
@@ -44072,21 +44072,21 @@
             "affiliateEndsTonight": "4 for $199 | Save up to $355"
           },
           "promoCallout": {
-            "default": "4 FOR $199 BLACK FRIDAY",
+            "default": "ANY 4 FOR $199 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $199 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $199 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 FOR $199 BLACK FRIDAY",
+            "default": "ANY 4 FOR $199 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $199 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $199 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 FOR $199 BLACK FRIDAY",
+            "default": "ANY 4 FOR $199 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR $199 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR $199 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
@@ -44112,21 +44112,21 @@
             "affiliateEndsTonight": "Up to 50% off | 4 for £119"
           },
           "promoCallout": {
-            "default": "4 FOR £119 BLACK FRIDAY",
+            "default": "ANY 4 FOR £119 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR £119 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR £119 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 FOR £119 BLACK FRIDAY",
+            "default": "ANY 4 FOR £119 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR £119 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR £119 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 FOR £119 BLACK FRIDAY",
+            "default": "ANY 4 FOR £119 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR £119 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR £119 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
@@ -44233,19 +44233,19 @@
               "affiliateEndsTonight": "4 for CHF 159 | Save up to CHF 355"
             },
             "promoCallout": {
-              "default": "4 FOR CHF 159 BLACK FRIDAY",
+              "default": "ANY 4 FOR CHF 159 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "4 FOR CHF 159 BLACK FRIDAY",
+              "default": "ANY 4 FOR CHF 159 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "4 FOR CHF 159 BLACK FRIDAY",
+              "default": "ANY 4 FOR CHF 159 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -44355,19 +44355,19 @@
               "affiliateEndsTonight": "Up to 50% off | 4 for €149"
             },
             "promoCallout": {
-              "default": "4 FOR €149 BLACK FRIDAY",
+              "default": "ANY 4 FOR €149 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "4 FOR €149 BLACK FRIDAY",
+              "default": "ANY 4 FOR €149 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "4 FOR €149 BLACK FRIDAY",
+              "default": "ANY 4 FOR €149 BLACK FRIDAY",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -44436,21 +44436,21 @@
             "affiliateEndsTonight": "Up to 50% off | 4 for €149"
           },
           "promoCallout": {
-            "default": "4 FOR €149 BLACK FRIDAY",
+            "default": "ANY 4 FOR €149 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR €149 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR €149 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "4 FOR €149 BLACK FRIDAY",
+            "default": "ANY 4 FOR €149 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR €149 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR €149 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "4 FOR €149 BLACK FRIDAY",
+            "default": "ANY 4 FOR €149 BLACK FRIDAY",
             "endsTonight": "",
-            "affiliate": "4 FOR €149 BLACK FRIDAY",
+            "affiliate": "ANY 4 FOR €149 BLACK FRIDAY",
             "affiliateEndsTonight": ""
           }
         },
