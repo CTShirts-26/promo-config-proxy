@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-18T09:31:39.340Z",
+  "generatedAt": "2026-11-18T10:20:10.061Z",
   "total": 29,
   "rules": [
     {
@@ -42167,7 +42167,9 @@
           "JEA0012NAV",
           "JEA0011NAV",
           "JEA0011SWT",
-          "JEA0011WHT"
+          "JEA0011WHT",
+          "KNT0024BGD",
+          "KNT0025NAV"
         ],
         "excludedProductIds": []
       },
@@ -43906,7 +43908,9 @@
           "JEA0011NAV",
           "JEA0011SWT",
           "JEA0011WHT",
-          "KNT0024OLV"
+          "KNT0024OLV",
+          "KNT0024BGD",
+          "KNT0025NAV"
         ],
         "excludedProductIds": []
       },
