@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-19T09:08:36.106Z",
+  "generatedAt": "2026-11-19T13:30:39.676Z",
   "total": 29,
   "rules": [
     {
@@ -40960,7 +40960,7 @@
       "rowNumber": 38
     },
     {
-      "ruleId": "V2 Black Friday Shirts LTO",
+      "ruleId": "V3 Black Friday Shirts LTO",
       "category": "V2 Black Friday Shirts LTO",
       "enabled": true,
       "status": "SCHEDULED",
@@ -42192,18 +42192,18 @@
       "content": {
         "us": {
           "bannerstrip": {
-            "line1": "4 For $179 Shirts Or Polos",
-            "line2": "+ 30% Off Everything Else",
-            "line3": "Black Friday Event",
-            "line1EndsTonight": "4 For $179 Shirts Or Polos",
-            "line2EndsTonight": "+ 30% Off Everything Else",
-            "line3EndsTonight": "Black Friday - Ends Tonight",
-            "line1Affiliate": "4 For $179 Shirts Or Polos",
-            "line2Affiliate": "+ 30% Off Everything Else",
-            "line3Affiliate": "Black Friday Event",
-            "line1AffiliateEndsTonight": "4 For $179 Shirts Or Polos",
-            "line2AffiliateEndsTonight": "+ 30% Off Everything Else",
-            "line3AffiliateEndsTonight": "Black Friday - Ends Tonight"
+            "line1": "4 Shirts $179 + 30% off Everything Else",
+            "line2": "Black Friday Event",
+            "line3": "",
+            "line1EndsTonight": "4 Shirts $179 + 30% off Everything Else",
+            "line2EndsTonight": "Black Friday Event - Ends Tonight",
+            "line3EndsTonight": "",
+            "line1Affiliate": "4 Shirts $179 + 30% off Everything Else",
+            "line2Affiliate": "Black Friday Event",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "4 Shirts $179 + 30% off Everything Else",
+            "line2AffiliateEndsTonight": "Black Friday Event - Ends Tonight",
+            "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "4 for $179 | Save up to $375",
@@ -42233,18 +42233,18 @@
         "ca": {
           "en": {
             "bannerstrip": {
-              "line1": "4 For C$279 Shirts Or Polos",
-              "line2": "+ 25% Off Everything Else",
-              "line3": "Black Friday Event",
-              "line1EndsTonight": "4 For C$279 Shirts Or Polos",
-              "line2EndsTonight": "+ 25% Off Everything Else",
-              "line3EndsTonight": "Ends Tonight",
-              "line1Affiliate": "4 For C$279 Shirts Or Polos",
-              "line2Affiliate": "+ 25% Off Everything Else",
-              "line3Affiliate": "Black Friday Event",
-              "line1AffiliateEndsTonight": "4 For C$279 Shirts Or Polos",
-              "line2AffiliateEndsTonight": "+ 25% Off Everything Else",
-              "line3AffiliateEndsTonight": "Ends Tonight"
+              "line1": "4 Shirts C$279 + 25 % off Everything Else",
+              "line2": "Black Friday Event",
+              "line3": "",
+              "line1EndsTonight": "4 Shirts C$279 + 25 % off Everything Else",
+              "line2EndsTonight": "Black Friday Event - Ends Tonight",
+              "line3EndsTonight": "",
+              "line1Affiliate": "4 Shirts C$279 + 25 % off Everything Else",
+              "line2Affiliate": "Black Friday Event",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "4 Shirts C$279 + 25 % off Everything Else",
+              "line2AffiliateEndsTonight": "Black Friday Event - Ends Tonight",
+              "line3AffiliateEndsTonight": ""
             },
             "tibText": {
               "default": "4 for C$279 | Save up to C$435",
@@ -42273,18 +42273,18 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2": "- 25 % Sur Tout Le Reste",
-              "line3": "Offre à durée limitée",
-              "line1EndsTonight": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2EndsTonight": "- 25 % Sur Tout Le Reste",
-              "line3EndsTonight": "Jusqu’à ce soir",
-              "line1Affiliate": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2Affiliate": "- 25 % Sur Tout Le Reste",
-              "line3Affiliate": "Black Friday",
-              "line1AffiliateEndsTonight": "4 Pour 279 C$ Chemises Ou Polos",
-              "line2AffiliateEndsTonight": "- 25 % Sur Tout Le Reste",
-              "line3AffiliateEndsTonight": "Jusqu’à ce soir"
+              "line1": "4 Chemises 279C$ + 25% sur tout le reste",
+              "line2": "Black Friday",
+              "line3": "",
+              "line1EndsTonight": "4 Chemises 279C$ + 25% sur tout le reste",
+              "line2EndsTonight": "Black Friday - Jusqu’à ce soir",
+              "line3EndsTonight": "",
+              "line1Affiliate": "4 Chemises 279C$ + 25% sur tout le reste",
+              "line2Affiliate": "Black Friday",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "4 Chemises 279C$ + 25% sur tout le reste",
+              "line2AffiliateEndsTonight": "Black Friday - Jusqu’à ce soir",
+              "line3AffiliateEndsTonight": ""
             },
             "tibText": {
               "default": "4 pour 279 C$ | Économisez jusqu'à 435 C$",
@@ -42314,18 +42314,18 @@
         },
         "au": {
           "bannerstrip": {
-            "line1": "4 For $199 Shirts Or Polos",
-            "line2": "+ 25% Off Everything Else",
-            "line3": "Black Friday",
-            "line1EndsTonight": "4 For $199 Shirts Or Polos",
-            "line2EndsTonight": "+ 25% Off Everything Else",
-            "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "4 For $199 Shirts Or Polos",
-            "line2Affiliate": "+ 25% Off Everything Else",
-            "line3Affiliate": "Black Friday",
-            "line1AffiliateEndsTonight": "4 For $199 Shirts Or Polos",
-            "line2AffiliateEndsTonight": "+ 25% Off Everything Else",
-            "line3AffiliateEndsTonight": "Ends Tonight"
+            "line1": "4 Shirts $199 + 25% off Everything Else",
+            "line2": "Black Friday Event",
+            "line3": "",
+            "line1EndsTonight": "4 Shirts $199 + 25% off Everything Else",
+            "line2EndsTonight": "Black Friday Event - Ends Tonight",
+            "line3EndsTonight": "",
+            "line1Affiliate": "4 Shirts $199 + 25% off Everything Else",
+            "line2Affiliate": "Black Friday Event",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "4 Shirts $199 + 25% off Everything Else",
+            "line2AffiliateEndsTonight": "Black Friday Event - Ends Tonight",
+            "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "4 for $199 | Save up to $355",
@@ -42354,18 +42354,18 @@
         },
         "uk": {
           "bannerstrip": {
-            "line1": "Up to 50% Off",
-            "line2": "4 For £119 Shirts Or Polos",
-            "line3": "Black Friday Event",
-            "line1EndsTonight": "Up to 50% Off",
-            "line2EndsTonight": "4 For £119 Shirts Or Polos",
-            "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "Up to 50% Off",
-            "line2Affiliate": "4 For £119 Shirts Or Polos",
-            "line3Affiliate": "Black Friday Event",
-            "line1AffiliateEndsTonight": "Up to 50% Off",
-            "line2AffiliateEndsTonight": "4 For £119 Shirts Or Polos",
-            "line3AffiliateEndsTonight": "Ends Tonight"
+            "line1": "4 Shirts £119 + 20% Off Everything Else",
+            "line2": "Black Friday Event - Up to 50% Off",
+            "line3": "",
+            "line1EndsTonight": "4 Shirts £119 + 20% Off Everything Else",
+            "line2EndsTonight": "Black Friday Event - Ends Tonight",
+            "line3EndsTonight": "",
+            "line1Affiliate": "4 Shirts £119 + 20% Off Everything Else",
+            "line2Affiliate": "Black Friday Event - Up to 50% Off",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "4 Shirts £119 + 20% Off Everything Else",
+            "line2AffiliateEndsTonight": "Black Friday Event - Ends Tonight",
+            "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "Up to 50% off | 4 for £119",
@@ -42398,14 +42398,14 @@
             "line2": "Black Friday - Sparen Sie Bis Zu 50 %",
             "line3": "",
             "line1EndsTonight": "4 Hemden 149 € + 25% rabatt auf alles andere",
-            "line2EndsTonight": "Black Friday - Sparen Sie Bis Zu 50 %",
-            "line3EndsTonight": "Endet Heute Abend",
+            "line2EndsTonight": "Black Friday - Endet Heute Abend",
+            "line3EndsTonight": "",
             "line1Affiliate": "4 Hemden 149 € + 25% rabatt auf alles andere",
             "line2Affiliate": "Black Friday - Sparen Sie Bis Zu 50 %",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "4 Hemden 149 € + 25% rabatt auf alles andere",
-            "line2AffiliateEndsTonight": "Black Friday - Sparen Sie Bis Zu 50 %",
-            "line3AffiliateEndsTonight": "Endet Heute Abend"
+            "line2AffiliateEndsTonight": "Black Friday - Endet Heute Abend",
+            "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "Sparen Sie bis zu 50 % | 4 für 149 €",
@@ -42438,14 +42438,14 @@
             "line2": "Black Friday - Économisez jusqu'à 50 %",
             "line3": "",
             "line1EndsTonight": "4 Chemises 149 € + 25 % sur tout le reste",
-            "line2EndsTonight": "Black Friday - Économisez jusqu'à 50 %",
-            "line3EndsTonight": "Jusqu’à ce soir",
+            "line2EndsTonight": "Black Friday - Jusqu’à ce soir",
+            "line3EndsTonight": "",
             "line1Affiliate": "4 Chemises 149 € + 25 % sur tout le reste",
             "line2Affiliate": "Black Friday - Économisez jusqu'à 50 %",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "4 Chemises 149 € + 25 % sur tout le reste",
-            "line2AffiliateEndsTonight": "Black Friday - Économisez jusqu'à 50 %",
-            "line3AffiliateEndsTonight": "Jusqu’à ce soir"
+            "line2AffiliateEndsTonight": "Black Friday - Jusqu’à ce soir",
+            "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "Économisez jusqu'à 50 % | 4 pour 149 €",
@@ -42479,14 +42479,14 @@
               "line2": "Black Friday Event - Up to 50% Off",
               "line3": "",
               "line1EndsTonight": "4 Shirts CHF 159 + 25% off Everything Else",
-              "line2EndsTonight": "Black Friday Event - Up to 50% Off",
-              "line3EndsTonight": "Ends Tonight",
+              "line2EndsTonight": "Black Friday Event - Ends Tonight",
+              "line3EndsTonight": "",
               "line1Affiliate": "4 Shirts CHF 159 + 25% off Everything Else",
               "line2Affiliate": "Black Friday Event - Up to 50% Off",
               "line3Affiliate": "",
               "line1AffiliateEndsTonight": "4 Shirts CHF 159 + 25% off Everything Else",
-              "line2AffiliateEndsTonight": "Black Friday Event - Up to 50% Off",
-              "line3AffiliateEndsTonight": "Ends Tonight"
+              "line2AffiliateEndsTonight": "Black Friday Event - Ends Tonight",
+              "line3AffiliateEndsTonight": ""
             },
             "tibText": {
               "default": "4 for CHF 159 | Save up to CHF 355",
@@ -42515,18 +42515,18 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "4 Pour CHF 159 Chemises Ou Polos",
-              "line2": "Jusqu'à -50 %",
-              "line3": "Offre à durée limitée",
-              "line1EndsTonight": "4 Pour CHF 159 Chemises Ou Polos",
-              "line2EndsTonight": "Jusqu'à -50 %",
-              "line3EndsTonight": "Jusqu’à ce soir",
-              "line1Affiliate": "4 Pour CHF 159 Chemises Ou Polos",
-              "line2Affiliate": "Jusqu'à -50 %",
-              "line3Affiliate": "Black Friday",
-              "line1AffiliateEndsTonight": "4 Pour CHF 159 Chemises Ou Polos",
-              "line2AffiliateEndsTonight": "Jusqu'à -50 %",
-              "line3AffiliateEndsTonight": "Jusqu’à ce soir"
+              "line1": "4 Chemises CHF 159 + 25 % sur tout le reste",
+              "line2": "Black Friday - Économisez jusqu'à 50 %",
+              "line3": "",
+              "line1EndsTonight": "4 Chemises CHF 159 + 25 % sur tout le reste",
+              "line2EndsTonight": "Black Friday - Jusqu’à ce soir",
+              "line3EndsTonight": "",
+              "line1Affiliate": "4 Chemises CHF 159 + 25 % sur tout le reste",
+              "line2Affiliate": "Black Friday - Économisez jusqu'à 50 %",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "4 Chemises CHF 159 + 25 % sur tout le reste",
+              "line2AffiliateEndsTonight": "Black Friday - Jusqu’à ce soir",
+              "line3AffiliateEndsTonight": ""
             },
             "tibText": {
               "default": "4 pour CHF 159 | Économisez jusqu'à CHF 355",
@@ -42555,18 +42555,18 @@
           },
           "de": {
             "bannerstrip": {
-              "line1": "4 Für CHF 159 Hemden Oder Polos",
-              "line2": "Bis zu 50 % Rabatt",
-              "line3": "Nur Für Kurze Zeit",
-              "line1EndsTonight": "4 Für CHF 159 Hemden Oder Polos",
-              "line2EndsTonight": "Bis zu 50 % Rabatt",
-              "line3EndsTonight": "Endet Heute Abend",
-              "line1Affiliate": "4 Für CHF 159 Hemden Oder Polos",
-              "line2Affiliate": "Bis zu 50 % Rabatt",
-              "line3Affiliate": "Black Friday",
-              "line1AffiliateEndsTonight": "4 Für CHF 159 Hemden Oder Polos",
-              "line2AffiliateEndsTonight": "Bis zu 50 % Rabatt",
-              "line3AffiliateEndsTonight": "Endet Heute Abend"
+              "line1": "4 Hemden CHF 159 + 25% rabatt auf alles andere",
+              "line2": "Black Friday - Sparen Sie Bis Zu 50 %",
+              "line3": "",
+              "line1EndsTonight": "4 Hemden CHF 159 + 25% rabatt auf alles andere",
+              "line2EndsTonight": "Black Friday - Endet Heute Abend",
+              "line3EndsTonight": "",
+              "line1Affiliate": "4 Hemden CHF 159 + 25% rabatt auf alles andere",
+              "line2Affiliate": "Black Friday - Sparen Sie Bis Zu 50 %",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "4 Hemden CHF 159 + 25% rabatt auf alles andere",
+              "line2AffiliateEndsTonight": "Black Friday - Endet Heute Abend",
+              "line3AffiliateEndsTonight": ""
             },
             "tibText": {
               "default": "4 für CHF 159 | Sparen Sie bis zu CHF 355",
@@ -42597,18 +42597,18 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "4 For €149 Shirts Or Polos",
-              "line2": "Up to 50% Off",
-              "line3": "Black Friday",
-              "line1EndsTonight": "4 For €149 Shirts Or Polos",
-              "line2EndsTonight": "Up to 50% Off",
-              "line3EndsTonight": "Ends Tonight",
-              "line1Affiliate": "4 For €149 Shirts Or Polos",
-              "line2Affiliate": "Up to 50% Off",
-              "line3Affiliate": "Black Friday",
-              "line1AffiliateEndsTonight": "4 For €149 Shirts Or Polos",
-              "line2AffiliateEndsTonight": "Up to 50% Off",
-              "line3AffiliateEndsTonight": "Ends Tonight"
+              "line1": "4 Shirts €149 + 25% Off Everything Else",
+              "line2": "Black Friday Event - Up to 50% Off",
+              "line3": "",
+              "line1EndsTonight": "4 Shirts €149 + 25% Off Everything Else",
+              "line2EndsTonight": "Black Friday - Ends Tonight",
+              "line3EndsTonight": "",
+              "line1Affiliate": "4 Shirts €149 + 25% Off Everything Else",
+              "line2Affiliate": "Black Friday Event - Up to 50% Off",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "4 Shirts €149 + 25% Off Everything Else",
+              "line2AffiliateEndsTonight": "Black Friday - Ends Tonight",
+              "line3AffiliateEndsTonight": ""
             },
             "tibText": {
               "default": "Up to 50% off | 4 for €149",
@@ -42637,18 +42637,18 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "4 For €149 Shirts Or Polos",
-              "line2": "Up to 50% Off",
-              "line3": "Black Friday",
-              "line1EndsTonight": "4 For €149 Shirts Or Polos",
-              "line2EndsTonight": "Up to 50% Off",
-              "line3EndsTonight": "Ends Tonight",
-              "line1Affiliate": "4 For €149 Shirts Or Polos",
-              "line2Affiliate": "Up to 50% Off",
-              "line3Affiliate": "Black Friday",
-              "line1AffiliateEndsTonight": "4 For €149 Shirts Or Polos",
-              "line2AffiliateEndsTonight": "Up to 50% Off",
-              "line3AffiliateEndsTonight": "Ends Tonight"
+              "line1": "4 Shirts €149 + 25% Off Everything Else",
+              "line2": "Black Friday Event - Up to 50% Off",
+              "line3": "",
+              "line1EndsTonight": "4 Shirts €149 + 25% Off Everything Else",
+              "line2EndsTonight": "Black Friday - Ends Tonight",
+              "line3EndsTonight": "",
+              "line1Affiliate": "4 Shirts €149 + 25% Off Everything Else",
+              "line2Affiliate": "Black Friday Event - Up to 50% Off",
+              "line3Affiliate": "",
+              "line1AffiliateEndsTonight": "4 Shirts €149 + 25% Off Everything Else",
+              "line2AffiliateEndsTonight": "Black Friday - Ends Tonight",
+              "line3AffiliateEndsTonight": ""
             },
             "tibText": {
               "default": "Up to 50% off | 4 for €149",
@@ -42678,18 +42678,18 @@
         },
         "eu": {
           "bannerstrip": {
-            "line1": "4 For €149 Shirts Or Polos",
-            "line2": "Up to 50% Off",
-            "line3": "Black Friday",
-            "line1EndsTonight": "4 For €149 Shirts Or Polos",
-            "line2EndsTonight": "Up to 50% Off",
-            "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "4 For €149 Shirts Or Polos",
-            "line2Affiliate": "Up to 50% Off",
-            "line3Affiliate": "Black Friday",
-            "line1AffiliateEndsTonight": "4 For €149 Shirts Or Polos",
-            "line2AffiliateEndsTonight": "Up to 50% Off",
-            "line3AffiliateEndsTonight": "Ends Tonight"
+            "line1": "4 Shirts €149 + 25% Off Everything Else",
+            "line2": "Black Friday Event - Up to 50% Off",
+            "line3": "",
+            "line1EndsTonight": "4 Shirts €149 + 25% Off Everything Else",
+            "line2EndsTonight": "Black Friday Event - Ends Tonight",
+            "line3EndsTonight": "",
+            "line1Affiliate": "4 Shirts €149 + 25% Off Everything Else",
+            "line2Affiliate": "Black Friday Event - Up to 50% Off",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "4 Shirts €149 + 25% Off Everything Else",
+            "line2AffiliateEndsTonight": "Black Friday Event - Ends Tonight",
+            "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "Up to 50% off | 4 for €149",
@@ -42718,18 +42718,18 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "25% Off Everything | Code: FRIDAY",
-            "line2": "Black Friday",
+            "line1": "Black Friday Event - 25% off Everything",
+            "line2": "Use code: FRIDAY",
             "line3": "",
-            "line1EndsTonight": "25% Off Everything | Code: FRIDAY",
-            "line2EndsTonight": "Ends Tonight",
-            "line3EndsTonight": "Ends Tonight",
+            "line1EndsTonight": "25% Off Everything - Use Code: FRIDAY",
+            "line2EndsTonight": "Black Friday Event - Ends Tonight",
+            "line3EndsTonight": "",
             "line1Affiliate": "",
             "line2Affiliate": "",
             "line3Affiliate": "",
             "line1AffiliateEndsTonight": "",
             "line2AffiliateEndsTonight": "",
-            "line3AffiliateEndsTonight": "Ends Tonight"
+            "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "25% off | Use code: FRIDAY",
