@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-24T15:43:03.380Z",
+  "generatedAt": "2026-11-24T15:45:14.411Z",
   "total": 32,
   "rules": [
     {
@@ -52120,7 +52120,7 @@
           "affide1"
         ],
         "mainCategories": [
-          "\"shirts",
+          "shirts",
           "shirts-formal-shirts",
           "shirts-business-casual-shirts",
           "shirts-casual-shirts",
@@ -52138,7 +52138,7 @@
           "linen-polo-shirts",
           "black-friday-offres-chemises",
           "black-friday-hemden-angebote",
-          "black-friday-shirts-deals\""
+          "black-friday-shirts-deals"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
