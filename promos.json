@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-24T15:45:14.411Z",
+  "generatedAt": "2026-11-24T15:45:43.024Z",
   "total": 32,
   "rules": [
     {
@@ -52078,8 +52078,8 @@
       "category": "Test Shirts",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2028-12-09",
-      "endUtc": "2029-12-09",
+      "startUtc": "2026-12-30",
+      "endUtc": "2027-01-03",
       "scope": {
         "bannerstrip": true,
         "tibText": true,
