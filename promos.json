@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-24T15:37:17.306Z",
+  "generatedAt": "2026-11-24T15:43:03.380Z",
   "total": 32,
   "rules": [
     {
@@ -50478,8 +50478,8 @@
       "category": "Test Non Shirts",
       "enabled": true,
       "status": "SCHEDULED",
-      "startUtc": "2028-12-09",
-      "endUtc": "2029-12-09",
+      "startUtc": "2026-12-30",
+      "endUtc": "2027-01-03",
       "scope": {
         "bannerstrip": false,
         "tibText": true,
