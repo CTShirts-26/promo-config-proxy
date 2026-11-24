@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-24T15:11:59.946Z",
+  "generatedAt": "2026-11-24T15:35:00.119Z",
   "total": 30,
   "rules": [
     {
@@ -49834,8 +49834,7 @@
           "SHD0005BLK",
           "SHD0007BLK",
           "SHF0002TPE",
-          "SHF0004BRN",
-          "SH"
+          "SHF0004BRN"
         ],
         "excludedProductIds": []
       },
