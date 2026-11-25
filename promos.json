@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-25T14:39:31.967Z",
+  "generatedAt": "2026-11-25T17:54:44.410Z",
   "total": 33,
   "rules": [
     {
@@ -51826,25 +51826,25 @@
             "line3AffiliateEndsTonight": ""
           },
           "tibText": {
-            "default": "20% OFF | CODE: 46376",
-            "endsTonight": "20% OFF | CODE: 46376",
+            "default": "20% OFF | CODE: DEC20",
+            "endsTonight": "20% OFF | CODE: DEC20",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "promoCallout": {
-            "default": "20% OFF | CODE: 46376",
+            "default": "20% OFF | CODE: DEC20",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "20% OFF | CODE: 46376",
+            "default": "20% OFF | CODE: DEC20",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "20% OFF | CODE: 46376",
+            "default": "20% OFF | CODE: DEC20",
             "endsTonight": "",
             "affiliate": "",
             "affiliateEndsTonight": ""
