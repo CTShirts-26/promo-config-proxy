@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-25T12:25:29.270Z",
+  "generatedAt": "2026-11-25T14:39:31.967Z",
   "total": 33,
   "rules": [
     {
@@ -51974,21 +51974,21 @@
           "shareau1"
         ],
         "mainCategories": [
-          "all'"
+          "__ALL__"
         ],
         "excludedCategories": [],
         "showOnPdp": true,
         "showOnPlp": true,
         "productIds": [
-          "ALL'"
+          "__ALL__"
         ],
         "excludedProductIds": []
       },
       "hideMultibuy": false,
       "hidePromoBox": {
-        "us": true,
+        "us": false,
         "ca": false,
-        "au": true,
+        "au": false,
         "uk": false,
         "de": false,
         "fr": false,
@@ -52000,18 +52000,18 @@
       "content": {
         "us": {
           "bannerstrip": {
-            "line1": "25% Off Everything",
-            "line2": "+  Use Code: | Code: GIFT",
-            "line3": "Limited Time Only",
-            "line1EndsTonight": "25% Off Everything",
-            "line2EndsTonight": "+  Use Code: | Code: GIFT",
-            "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "25% Off Everything",
-            "line2Affiliate": "+  Use Code: | Code: REWARD",
-            "line3Affiliate": "Limited Time Only",
-            "line1AffiliateEndsTonight": "25% Off Everything",
-            "line2AffiliateEndsTonight": "+  Use Code: | Code: REWARD",
-            "line3AffiliateEndsTonight": "Ends Tonight"
+            "line1": "25% Off Everything | Code: GIFT",
+            "line2": "Limited Time Only",
+            "line3": "",
+            "line1EndsTonight": "25% Off Everything | Code: GIFT",
+            "line2EndsTonight": "Ends Tonight",
+            "line3EndsTonight": "",
+            "line1Affiliate": "25% Off Everything | Code: REWARD",
+            "line2Affiliate": "Limited Time Only",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "25% Off Everything | Code: REWARD",
+            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "25% OFF | CODE: GIFT",
@@ -52041,12 +52041,12 @@
         "ca": {
           "en": {
             "bannerstrip": {
-              "line1": "25% Off Everything",
-              "line2": "+  Use Code: | Code: GIFTCT",
-              "line3": "Limited Time Only",
-              "line1EndsTonight": "25% Off Everything",
-              "line2EndsTonight": "+  Use Code: | Code: GIFTCT",
-              "line3EndsTonight": "Ends Tonight",
+              "line1": "25% Off Everything | Code: GIFTCT",
+              "line2": "Limited Time Only",
+              "line3": "",
+              "line1EndsTonight": "25% Off Everything | Code: GIFTCT",
+              "line2EndsTonight": "Ends Tonight",
+              "line3EndsTonight": "",
               "line1Affiliate": "",
               "line2Affiliate": "",
               "line3Affiliate": "",
@@ -52083,7 +52083,7 @@
             "bannerstrip": {
               "line1": "25 % De Réduction Sur Tout | Code : GIFTCT",
               "line2": "Offre à durée limitée",
-              "line3": "Offre à durée limitée",
+              "line3": "",
               "line1EndsTonight": "25 % De Réduction Sur Tout | Code : GIFTCT",
               "line2EndsTonight": "Jusqu’à ce soir",
               "line3EndsTonight": "",
@@ -52122,18 +52122,18 @@
         },
         "au": {
           "bannerstrip": {
-            "line1": "20% Off Everything",
-            "line2": "+  Use Code: | Code: GIFTCT",
-            "line3": "Limited Time Only",
-            "line1EndsTonight": "20% Off Everything",
-            "line2EndsTonight": "+  Use Code: | Code: GIFTCT",
-            "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "20% Off Everything",
-            "line2Affiliate": "+  Use Code: | Code: FESTIVE",
-            "line3Affiliate": "Limited Time Only",
-            "line1AffiliateEndsTonight": "20% Off Everything",
-            "line2AffiliateEndsTonight": "+  Use Code: | Code: FESTIVE",
-            "line3AffiliateEndsTonight": "Ends Tonight"
+            "line1": "20% Off Everything | Use Code: GIFTCT",
+            "line2": "Limited Time Only",
+            "line3": "",
+            "line1EndsTonight": "20% Off Everything | Use Code: GIFTCT",
+            "line2EndsTonight": "Ends Tonight",
+            "line3EndsTonight": "",
+            "line1Affiliate": "20% Off Everything | Use Code: FESTIVE",
+            "line2Affiliate": "Limited Time Only",
+            "line3Affiliate": "",
+            "line1AffiliateEndsTonight": "20% Off Everything | Use Code: FESTIVE",
+            "line2AffiliateEndsTonight": "Ends Tonight",
+            "line3AffiliateEndsTonight": ""
           },
           "tibText": {
             "default": "20% OFF | USE CODE: GIFTCT",
