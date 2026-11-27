@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-27T11:19:11.023Z",
+  "generatedAt": "2026-11-27T13:08:50.838Z",
   "total": 34,
   "rules": [
     {
@@ -52645,21 +52645,21 @@
       "ruleId": "US/CA/AU Gifting 2",
       "category": "US/CA/AU Gifting 2",
       "enabled": true,
-      "status": "SCHEDULED",
-      "startUtc": "2026-12-07",
-      "endUtc": "2026-12-11",
+      "status": "#REF!",
+      "startUtc": "#REF!",
+      "endUtc": "#REF!",
       "scope": {
-        "bannerstrip": true,
-        "tibText": true,
-        "promoCallout": true,
-        "plpCallout": true,
-        "pdpCallout": true,
+        "bannerstrip": false,
+        "tibText": false,
+        "promoCallout": false,
+        "plpCallout": false,
+        "pdpCallout": false,
         "multibuy": false
       },
       "countryEnabled": {
-        "us": true,
+        "us": false,
         "ca": true,
-        "au": true,
+        "au": false,
         "uk": false,
         "de": false,
         "fr": false,
@@ -52670,55 +52670,29 @@
       },
       "targeting": {
         "defaultCampaignSites": [
-          "usepnew",
-          "usbrt1",
-          "permax",
-          "usepactive",
-          "usfbsale",
-          "usfbdef",
-          "uspint",
-          "fbdefault",
-          "usctbfsms",
-          "usgob",
-          "share",
-          "pinterest",
-          "usfbmm",
-          "usnbdef",
-          "usddefault",
-          "rtbdfb",
-          "cabrbg",
-          "cabren",
-          "caddefault",
-          "cabrfr",
-          "cartbd",
-          "auddefault",
-          "augb",
-          "velocity",
-          "qantas",
-          "aubrbg",
-          "aufbsale"
+          "#ref!"
         ],
         "affiliateCampaignSites": [
-          "usancj",
-          "usafcj",
-          "shareau1"
+          "#ref!"
         ],
-        "acquisitionCampaignSites": [],
+        "acquisitionCampaignSites": [
+          "#ref!"
+        ],
         "campaignSites": [
-          "usancj",
-          "usafcj",
-          "shareau1"
+          "#ref!"
         ],
         "mainCategories": [
-          "__ALL__"
+          "#ref!"
         ],
         "excludedCategories": [],
-        "showOnPdp": true,
-        "showOnPlp": true,
+        "showOnPdp": false,
+        "showOnPlp": false,
         "productIds": [
-          "__ALL__"
+          "#REF!"
         ],
-        "excludedProductIds": []
+        "excludedProductIds": [
+          "#REF!"
+        ]
       },
       "hideMultibuy": false,
       "hidePromoBox": {
@@ -52736,80 +52710,80 @@
       "content": {
         "us": {
           "bannerstrip": {
-            "line1": "50% Off Shirts & Polos | Code: GIFT",
-            "line2": "+ 20% Off Everything Else",
-            "line3": "Limited Time Only",
-            "line1EndsTonight": "50% Off Shirts & Polos | Code: GIFT",
-            "line2EndsTonight": "+ 20% Off Everything Else",
-            "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "50% Off Shirts & Polos | Code: REWARD",
-            "line2Affiliate": "+ 20% Off Everything Else",
-            "line3Affiliate": "Limited Time Only",
-            "line1AffiliateEndsTonight": "50% Off Shirts & Polos | Code: REWARD",
-            "line2AffiliateEndsTonight": "+ 20% Off Everything Else",
-            "line3AffiliateEndsTonight": "Ends Tonight"
+            "line1": "#REF!",
+            "line2": "#REF!",
+            "line3": "#REF!",
+            "line1EndsTonight": "#REF!",
+            "line2EndsTonight": "#REF!",
+            "line3EndsTonight": "#REF!",
+            "line1Affiliate": "#REF!",
+            "line2Affiliate": "#REF!",
+            "line3Affiliate": "#REF!",
+            "line1AffiliateEndsTonight": "#REF!",
+            "line2AffiliateEndsTonight": "#REF!",
+            "line3AffiliateEndsTonight": "#REF!"
           },
           "tibText": {
-            "default": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFT",
-            "endsTonight": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFT",
-            "affiliate": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: REWARD",
-            "affiliateEndsTonight": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: REWARD"
+            "default": "#REF!",
+            "endsTonight": "#REF!",
+            "affiliate": "#REF!",
+            "affiliateEndsTonight": "#REF!"
           },
           "promoCallout": {
-            "default": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFT",
+            "default": "#REF!",
             "endsTonight": "",
-            "affiliate": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: REWARD",
+            "affiliate": "#REF!",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFT",
+            "default": "",
             "endsTonight": "",
-            "affiliate": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: REWARD",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFT",
+            "default": "",
             "endsTonight": "",
-            "affiliate": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: REWARD",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           }
         },
         "ca": {
           "en": {
             "bannerstrip": {
-              "line1": "50% Off Shirts & Polos | Code: GIFTCT",
-              "line2": "+ 20% Off Everything Else",
-              "line3": "Limited Time Only",
-              "line1EndsTonight": "50% Off Shirts & Polos | Code: GIFTCT",
-              "line2EndsTonight": "+ 20% Off Everything Else",
-              "line3EndsTonight": "Ends Tonight",
-              "line1Affiliate": "",
-              "line2Affiliate": "",
-              "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "",
-              "line2AffiliateEndsTonight": "",
-              "line3AffiliateEndsTonight": ""
+              "line1": "#REF!",
+              "line2": "#REF!",
+              "line3": "#REF!",
+              "line1EndsTonight": "#REF!",
+              "line2EndsTonight": "#REF!",
+              "line3EndsTonight": "#REF!",
+              "line1Affiliate": "#REF!",
+              "line2Affiliate": "#REF!",
+              "line3Affiliate": "#REF!",
+              "line1AffiliateEndsTonight": "#REF!",
+              "line2AffiliateEndsTonight": "#REF!",
+              "line3AffiliateEndsTonight": "#REF!"
             },
             "tibText": {
-              "default": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFTCT",
-              "endsTonight": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFTCT",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "#REF!",
+              "endsTonight": "#REF!",
+              "affiliate": "#REF!",
+              "affiliateEndsTonight": "#REF!"
             },
             "promoCallout": {
-              "default": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFTCT",
+              "default": "#REF!",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "#REF!",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFTCT",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFTCT",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -52817,39 +52791,39 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "-50 % Sur Chemises Et Polos | Code : GIFTCT",
-              "line2": "+ 20 % De Réduction Sur Tout Le Reste",
-              "line3": "Offre à durée limitée",
-              "line1EndsTonight": "-50 % Sur Chemises Et Polos | Code : GIFTCT",
-              "line2EndsTonight": "+ 20 % De Réduction Sur Tout Le Reste",
-              "line3EndsTonight": "Jusqu’à ce soir",
-              "line1Affiliate": "",
-              "line2Affiliate": "",
-              "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "",
-              "line2AffiliateEndsTonight": "",
-              "line3AffiliateEndsTonight": ""
+              "line1": "#REF!",
+              "line2": "#REF!",
+              "line3": "#REF!",
+              "line1EndsTonight": "#REF!",
+              "line2EndsTonight": "#REF!",
+              "line3EndsTonight": "#REF!",
+              "line1Affiliate": "#REF!",
+              "line2Affiliate": "#REF!",
+              "line3Affiliate": "#REF!",
+              "line1AffiliateEndsTonight": "#REF!",
+              "line2AffiliateEndsTonight": "#REF!",
+              "line3AffiliateEndsTonight": "#REF!"
             },
             "tibText": {
-              "default": "-50 % CHEMISES ET POLOS + 20 % | CODE : GIFTCT",
-              "endsTonight": "-50 % CHEMISES ET POLOS + 20 % | CODE : GIFTCT",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "#REF!",
+              "endsTonight": "#REF!",
+              "affiliate": "#REF!",
+              "affiliateEndsTonight": "#REF!"
             },
             "promoCallout": {
-              "default": "-50 % CHEMISES ET POLOS + 20 % | CODE : GIFTCT",
+              "default": "#REF!",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "#REF!",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
-              "default": "-50 % CHEMISES ET POLOS + 20 % | CODE : GIFTCT",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
             },
             "pdpCallout": {
-              "default": "-50 % CHEMISES ET POLOS + 20 % | CODE : GIFTCT",
+              "default": "",
               "endsTonight": "",
               "affiliate": "",
               "affiliateEndsTonight": ""
@@ -52858,69 +52832,69 @@
         },
         "au": {
           "bannerstrip": {
-            "line1": "50% Off Shirts & Polos | Use Code: GIFTS",
-            "line2": "+ 20% Off Everything Else",
-            "line3": "Limited Time Only",
-            "line1EndsTonight": "50% Off Shirts & Polos | Use Code: GIFTS",
-            "line2EndsTonight": "+ 20% Off Everything Else",
-            "line3EndsTonight": "Ends Tonight",
-            "line1Affiliate": "50% Off Shirts & Polos | Use Code: FESTIVE",
-            "line2Affiliate": "+ 20% Off Everything Else",
-            "line3Affiliate": "Limited Time Only",
-            "line1AffiliateEndsTonight": "50% Off Shirts & Polos | Use Code: FESTIVE",
-            "line2AffiliateEndsTonight": "+ 20% Off Everything Else",
-            "line3AffiliateEndsTonight": "Ends Tonight"
+            "line1": "#REF!",
+            "line2": "#REF!",
+            "line3": "#REF!",
+            "line1EndsTonight": "#REF!",
+            "line2EndsTonight": "#REF!",
+            "line3EndsTonight": "#REF!",
+            "line1Affiliate": "#REF!",
+            "line2Affiliate": "#REF!",
+            "line3Affiliate": "#REF!",
+            "line1AffiliateEndsTonight": "#REF!",
+            "line2AffiliateEndsTonight": "#REF!",
+            "line3AffiliateEndsTonight": "#REF!"
           },
           "tibText": {
-            "default": "50% OFF SHIRTS & POLOS + 20% OFF | USE CODE: GIFTS",
-            "endsTonight": "50% OFF SHIRTS & POLOS + 20% OFF | USE CODE: GIFTS",
-            "affiliate": "50% OFF SHIRTS & POLOS + 20% OFF | USE CODE: FESTIVE",
-            "affiliateEndsTonight": "50% OFF SHIRTS & POLOS + 20% OFF | USE CODE: FESTIVE"
+            "default": "#REF!",
+            "endsTonight": "#REF!",
+            "affiliate": "#REF!",
+            "affiliateEndsTonight": "#REF!"
           },
           "promoCallout": {
-            "default": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFTS",
+            "default": "#REF!",
             "endsTonight": "",
-            "affiliate": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: FESTIVE",
+            "affiliate": "#REF!",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
-            "default": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFTS",
+            "default": "",
             "endsTonight": "",
-            "affiliate": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: FESTIVE",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           },
           "pdpCallout": {
-            "default": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: GIFTS",
+            "default": "",
             "endsTonight": "",
-            "affiliate": "50% OFF SHIRTS & POLOS + 20% OFF | CODE: FESTIVE",
+            "affiliate": "",
             "affiliateEndsTonight": ""
           }
         },
         "uk": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
-            "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
-            "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
-            "line3AffiliateEndsTonight": ""
+            "line1": "#REF!",
+            "line2": "#REF!",
+            "line3": "#REF!",
+            "line1EndsTonight": "#REF!",
+            "line2EndsTonight": "#REF!",
+            "line3EndsTonight": "#REF!",
+            "line1Affiliate": "#REF!",
+            "line2Affiliate": "#REF!",
+            "line3Affiliate": "#REF!",
+            "line1AffiliateEndsTonight": "#REF!",
+            "line2AffiliateEndsTonight": "#REF!",
+            "line3AffiliateEndsTonight": "#REF!"
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "#REF!",
+            "endsTonight": "#REF!",
+            "affiliate": "#REF!",
+            "affiliateEndsTonight": "#REF!"
           },
           "promoCallout": {
-            "default": "",
+            "default": "#REF!",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "#REF!",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
@@ -52938,29 +52912,29 @@
         },
         "de": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
-            "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
-            "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
-            "line3AffiliateEndsTonight": ""
+            "line1": "#REF!",
+            "line2": "#REF!",
+            "line3": "#REF!",
+            "line1EndsTonight": "#REF!",
+            "line2EndsTonight": "#REF!",
+            "line3EndsTonight": "#REF!",
+            "line1Affiliate": "#REF!",
+            "line2Affiliate": "#REF!",
+            "line3Affiliate": "#REF!",
+            "line1AffiliateEndsTonight": "#REF!",
+            "line2AffiliateEndsTonight": "#REF!",
+            "line3AffiliateEndsTonight": "#REF!"
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "#REF!",
+            "endsTonight": "#REF!",
+            "affiliate": "#REF!",
+            "affiliateEndsTonight": "#REF!"
           },
           "promoCallout": {
-            "default": "",
+            "default": "#REF!",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "#REF!",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
@@ -52978,29 +52952,29 @@
         },
         "fr": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
-            "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
-            "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
-            "line3AffiliateEndsTonight": ""
+            "line1": "#REF!",
+            "line2": "#REF!",
+            "line3": "#REF!",
+            "line1EndsTonight": "#REF!",
+            "line2EndsTonight": "#REF!",
+            "line3EndsTonight": "#REF!",
+            "line1Affiliate": "#REF!",
+            "line2Affiliate": "#REF!",
+            "line3Affiliate": "#REF!",
+            "line1AffiliateEndsTonight": "#REF!",
+            "line2AffiliateEndsTonight": "#REF!",
+            "line3AffiliateEndsTonight": "#REF!"
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "#REF!",
+            "endsTonight": "#REF!",
+            "affiliate": "#REF!",
+            "affiliateEndsTonight": "#REF!"
           },
           "promoCallout": {
-            "default": "",
+            "default": "#REF!",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "#REF!",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
@@ -53019,29 +52993,29 @@
         "ch": {
           "en": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
-              "line3EndsTonight": "",
-              "line1Affiliate": "",
-              "line2Affiliate": "",
-              "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "",
-              "line2AffiliateEndsTonight": "",
-              "line3AffiliateEndsTonight": ""
+              "line1": "#REF!",
+              "line2": "#REF!",
+              "line3": "#REF!",
+              "line1EndsTonight": "#REF!",
+              "line2EndsTonight": "#REF!",
+              "line3EndsTonight": "#REF!",
+              "line1Affiliate": "#REF!",
+              "line2Affiliate": "#REF!",
+              "line3Affiliate": "#REF!",
+              "line1AffiliateEndsTonight": "#REF!",
+              "line2AffiliateEndsTonight": "#REF!",
+              "line3AffiliateEndsTonight": "#REF!"
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "#REF!",
+              "endsTonight": "#REF!",
+              "affiliate": "#REF!",
+              "affiliateEndsTonight": "#REF!"
             },
             "promoCallout": {
-              "default": "",
+              "default": "#REF!",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "#REF!",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
@@ -53059,29 +53033,29 @@
           },
           "fr": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
-              "line3EndsTonight": "",
-              "line1Affiliate": "",
-              "line2Affiliate": "",
-              "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "",
-              "line2AffiliateEndsTonight": "",
-              "line3AffiliateEndsTonight": ""
+              "line1": "#REF!",
+              "line2": "#REF!",
+              "line3": "#REF!",
+              "line1EndsTonight": "#REF!",
+              "line2EndsTonight": "#REF!",
+              "line3EndsTonight": "#REF!",
+              "line1Affiliate": "#REF!",
+              "line2Affiliate": "#REF!",
+              "line3Affiliate": "#REF!",
+              "line1AffiliateEndsTonight": "#REF!",
+              "line2AffiliateEndsTonight": "#REF!",
+              "line3AffiliateEndsTonight": "#REF!"
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "#REF!",
+              "endsTonight": "#REF!",
+              "affiliate": "#REF!",
+              "affiliateEndsTonight": "#REF!"
             },
             "promoCallout": {
-              "default": "",
+              "default": "#REF!",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "#REF!",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
@@ -53099,29 +53073,29 @@
           },
           "de": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
-              "line3EndsTonight": "",
-              "line1Affiliate": "",
-              "line2Affiliate": "",
-              "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "",
-              "line2AffiliateEndsTonight": "",
-              "line3AffiliateEndsTonight": ""
+              "line1": "#REF!",
+              "line2": "#REF!",
+              "line3": "#REF!",
+              "line1EndsTonight": "#REF!",
+              "line2EndsTonight": "#REF!",
+              "line3EndsTonight": "#REF!",
+              "line1Affiliate": "#REF!",
+              "line2Affiliate": "#REF!",
+              "line3Affiliate": "#REF!",
+              "line1AffiliateEndsTonight": "#REF!",
+              "line2AffiliateEndsTonight": "#REF!",
+              "line3AffiliateEndsTonight": "#REF!"
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "#REF!",
+              "endsTonight": "#REF!",
+              "affiliate": "#REF!",
+              "affiliateEndsTonight": "#REF!"
             },
             "promoCallout": {
-              "default": "",
+              "default": "#REF!",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "#REF!",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
@@ -53141,29 +53115,29 @@
         "nl": {
           "en": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
-              "line3EndsTonight": "",
-              "line1Affiliate": "",
-              "line2Affiliate": "",
-              "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "",
-              "line2AffiliateEndsTonight": "",
-              "line3AffiliateEndsTonight": ""
+              "line1": "#REF!",
+              "line2": "#REF!",
+              "line3": "#REF!",
+              "line1EndsTonight": "#REF!",
+              "line2EndsTonight": "#REF!",
+              "line3EndsTonight": "#REF!",
+              "line1Affiliate": "#REF!",
+              "line2Affiliate": "#REF!",
+              "line3Affiliate": "#REF!",
+              "line1AffiliateEndsTonight": "#REF!",
+              "line2AffiliateEndsTonight": "#REF!",
+              "line3AffiliateEndsTonight": "#REF!"
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "#REF!",
+              "endsTonight": "#REF!",
+              "affiliate": "#REF!",
+              "affiliateEndsTonight": "#REF!"
             },
             "promoCallout": {
-              "default": "",
+              "default": "#REF!",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "#REF!",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
@@ -53181,29 +53155,29 @@
           },
           "nl": {
             "bannerstrip": {
-              "line1": "",
-              "line2": "",
-              "line3": "",
-              "line1EndsTonight": "",
-              "line2EndsTonight": "",
-              "line3EndsTonight": "",
-              "line1Affiliate": "",
-              "line2Affiliate": "",
-              "line3Affiliate": "",
-              "line1AffiliateEndsTonight": "",
-              "line2AffiliateEndsTonight": "",
-              "line3AffiliateEndsTonight": ""
+              "line1": "#REF!",
+              "line2": "#REF!",
+              "line3": "#REF!",
+              "line1EndsTonight": "#REF!",
+              "line2EndsTonight": "#REF!",
+              "line3EndsTonight": "#REF!",
+              "line1Affiliate": "#REF!",
+              "line2Affiliate": "#REF!",
+              "line3Affiliate": "#REF!",
+              "line1AffiliateEndsTonight": "#REF!",
+              "line2AffiliateEndsTonight": "#REF!",
+              "line3AffiliateEndsTonight": "#REF!"
             },
             "tibText": {
-              "default": "",
-              "endsTonight": "",
-              "affiliate": "",
-              "affiliateEndsTonight": ""
+              "default": "#REF!",
+              "endsTonight": "#REF!",
+              "affiliate": "#REF!",
+              "affiliateEndsTonight": "#REF!"
             },
             "promoCallout": {
-              "default": "",
+              "default": "#REF!",
               "endsTonight": "",
-              "affiliate": "",
+              "affiliate": "#REF!",
               "affiliateEndsTonight": ""
             },
             "plpCallout": {
@@ -53222,29 +53196,29 @@
         },
         "eu": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
-            "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
-            "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
-            "line3AffiliateEndsTonight": ""
+            "line1": "#REF!",
+            "line2": "#REF!",
+            "line3": "#REF!",
+            "line1EndsTonight": "#REF!",
+            "line2EndsTonight": "#REF!",
+            "line3EndsTonight": "#REF!",
+            "line1Affiliate": "#REF!",
+            "line2Affiliate": "#REF!",
+            "line3Affiliate": "#REF!",
+            "line1AffiliateEndsTonight": "#REF!",
+            "line2AffiliateEndsTonight": "#REF!",
+            "line3AffiliateEndsTonight": "#REF!"
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "#REF!",
+            "endsTonight": "#REF!",
+            "affiliate": "#REF!",
+            "affiliateEndsTonight": "#REF!"
           },
           "promoCallout": {
-            "default": "",
+            "default": "#REF!",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "#REF!",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
@@ -53262,29 +53236,29 @@
         },
         "xbr": {
           "bannerstrip": {
-            "line1": "",
-            "line2": "",
-            "line3": "",
-            "line1EndsTonight": "",
-            "line2EndsTonight": "",
-            "line3EndsTonight": "",
-            "line1Affiliate": "",
-            "line2Affiliate": "",
-            "line3Affiliate": "",
-            "line1AffiliateEndsTonight": "",
-            "line2AffiliateEndsTonight": "",
-            "line3AffiliateEndsTonight": ""
+            "line1": "#REF!",
+            "line2": "#REF!",
+            "line3": "#REF!",
+            "line1EndsTonight": "#REF!",
+            "line2EndsTonight": "#REF!",
+            "line3EndsTonight": "#REF!",
+            "line1Affiliate": "#REF!",
+            "line2Affiliate": "#REF!",
+            "line3Affiliate": "#REF!",
+            "line1AffiliateEndsTonight": "#REF!",
+            "line2AffiliateEndsTonight": "#REF!",
+            "line3AffiliateEndsTonight": "#REF!"
           },
           "tibText": {
-            "default": "",
-            "endsTonight": "",
-            "affiliate": "",
-            "affiliateEndsTonight": ""
+            "default": "#REF!",
+            "endsTonight": "#REF!",
+            "affiliate": "#REF!",
+            "affiliateEndsTonight": "#REF!"
           },
           "promoCallout": {
-            "default": "",
+            "default": "#REF!",
             "endsTonight": "",
-            "affiliate": "",
+            "affiliate": "#REF!",
             "affiliateEndsTonight": ""
           },
           "plpCallout": {
